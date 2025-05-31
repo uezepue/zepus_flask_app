@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zepus Clinics Chatbot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+  <header>Zepus Clinics – Talk to Dr. AI</header>
+
+  <div id="chat-container">
+    <div id="chat-box"></div>
+
+    <div id="input-container">
+      <input type="text" id="user-input" placeholder="Type your message..." />
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+
+  <script>
+  const chatBox = document.getElementById('chat-box');
+  const userInput = document.getElementById('user-input');
+  const sendBtn = document.getElementById('send-btn');
+
+  let session = {};  // Keeps track of the triage conversation
+
+  function scrollToBottom() {
+    chatBox.scrollTo({
+      top: chatBox.scrollHeight,
+      behavior: "smooth"
+    });
+  }
+
+  function addMessage(text, sender) {
+    const messageDiv = document.createElement('div');
+    messageDiv.classList.add('message', sender);
+
+    const avatar = document.createElement('div');
+    avatar.classList.add('avatar');
+
+    const bubble = document.createElement('div');
+    bubble.classList.add('bubble');
+    bubble.textContent = text;
+
+    messageDiv.appendChild(avatar);
+    messageDiv.appendChild(bubble);
+    chatBox.appendChild(messageDiv);
+    scrollToBottom();
+  }
+
+  function addTypingIndicator() {
+    const typingDiv = document.createElement('div');
+    typingDiv.classList.add('message', 'bot');
+    typingDiv.id = 'typing-indicator';
+
+    const avatar = document.createElement('div');
+    avatar.classList.add('avatar');
+
+    const bubble = document.createElement('div');
+    bubble.classList.add('bubble');
+    bubble.textContent = 'Dr. Zepus is thinking...';
+
+    typingDiv.appendChild(avatar);
+    typingDiv.appendChild(bubble);
+    chatBox.appendChild(typingDiv);
+    scrollToBottom();
+  }
+
+  function removeTypingIndicator() {
+    const typing = document.getElementById('typing-indicator');
+    if (typing) typing.remove();
+  }
+
+  async function sendMessageToBot(text) {
+    addMessage(text, 'user');
+    userInput.value = '';
+    userInput.disabled = true;
+    sendBtn.disabled = true;
+
+    addTypingIndicator();
+
+    try {
+      const response = await fetch('/triage', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          message: text,
+          session: session
+        })
+      });
+
+      const data = await response.json();
+      session = data.session || {}; // update session state
+      removeTypingIndicator();
+      addMessage(data.response, 'bot');
+    } catch (err) {
+      removeTypingIndicator();
+      addMessage("Oops! Something went wrong while connecting to Dr. Zepus.", 'bot');
+    }
+
+    userInput.disabled = false;
+    sendBtn.disabled = false;
+    userInput.focus();
+  }
+
+  sendBtn.addEventListener('click', () => {
+    const text = userInput.value.trim();
+    if (text) sendMessageToBot(text);
+  });
+
+  userInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') sendBtn.click();
+  });
+
+  // Start the triage flow immediately on page load
+  window.onload = () => {
+    sendMessageToBot('');
+  };
+</script>
+
+</body>
+</html>
