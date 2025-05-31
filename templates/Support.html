@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZepusClinics Support</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f8ff;
+      color: #023e8a;
+    }
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #0077b6;
+    }
+    textarea, input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #03045e;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Support - ZepusClinics</h1>
+    <nav>
+      <a href="zepusclinics.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="About zepusclinics.html">About Us</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Need Help?</h2>
+    <p>Please describe your issue or question and a member of our team will get back to you as soon as possible.</p>
+    <form onsubmit="submitSupport(event)">
+      <label for="email">Your Email</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  
+  </main>
+  <footer>
+    &copy; 2025 ZepusClinics. All rights reserved.
+  </footer>
+
+  <script>
+    function submitSupport(event) {
+      event.preventDefault();
+      const email = document.getElementById("email").value;
+      const name = document.getElementById("name").value;
+      const message = document.getElementById("message").value;
+      alert("Thanks " + name + ", we’ve received your message at " + email + ". We'll get back to you soon.");
+      document.querySelector("form").reset();
+    }
+  </script>
+<script>
+  // Floating Chatbot Bubble
+  const chatbot = document.createElement("iframe");
+  chatbot.src = "https://www.chatbase.co/chatbot-iframe/YOUR-CHATBOT-ID";
+  chatbot.style.position = "fixed";
+  chatbot.style.bottom = "20px";
+  chatbot.style.right = "20px";
+  chatbot.style.width = "350px";
+  chatbot.style.height = "500px";
+  chatbot.style.border = "none";
+  chatbot.style.zIndex = "1000";
+  chatbot.allow = "microphone;";
+  document.body.appendChild(chatbot);
+</script>
+<script>
+  window.chatbaseConfig = {
+    chatbotId: "b0D5BBM0zCt6eXD7VDpYm"
+  }
+</script>
+<script src="https://www.chatbase.co/embed.min.js" defer></script>
+</body>
+</html>
