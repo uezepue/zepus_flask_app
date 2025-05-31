@@ -1,7 +1,8 @@
-# ZepusClinics Triage Bot Logic (Phase 1)
-# Step-by-step conversational flow using Python (can be Flask-integrated later)
+from flask import Flask, request, jsonify, render_template
 
-# Define core logic and functions
+app = Flask(__name__)
+
+# === TRiAGE LOGIC === #
 
 def collect_patient_info():
     return {
@@ -33,7 +34,6 @@ def classify_specialty(complaint, location=None, country=None, race=None, occupa
     surgical = ["abdominal pain", "lump", "swelling", "hernia", "bleeding", "trauma"]
     medical = ["fever", "cough", "headache", "diarrhea", "chest pain"]
 
-    # Regional awareness
     if country and country.lower() == "nigeria":
         if "fever" in complaint.lower() or "headache" in complaint.lower():
             return "Medical (rule out malaria or typhoid)"
@@ -41,17 +41,14 @@ def classify_specialty(complaint, location=None, country=None, race=None, occupa
         if "cough" in complaint.lower() or "weight loss" in complaint.lower():
             return "Medical (consider tuberculosis)"
 
-    # Racial background
     if race and race.lower() == "african descent":
         if "pain" in complaint.lower() and "back" in complaint.lower():
             return "Medical (consider sickle cell crisis)"
 
-    # Occupational factors
     if occupation and occupation.lower() == "construction worker":
         if "pain" in complaint.lower() and "back" in complaint.lower():
             return "Medical (consider musculoskeletal strain)"
 
-    # General classification
     if any(word in complaint.lower() for word in surgical):
         return "Surgical"
     elif any(word in complaint.lower() for word in medical):
@@ -66,38 +63,11 @@ def recommend_specialist(specialty):
         "General Practitioner": "ZepusClinics General Practitioner"
     }.get(specialty, "Consult a ZepusClinics Doctor")
 
-def triage_bot_flow():
-    patient = collect_patient_info()
-    # patient["language"] = data.get("language", "en")
-# patient["country"] = data.get("country")
-# patient["race"] = data.get("race")
-# patient["occupation"] = data.get("occupation")
+# === ROUTES === #
 
-    # Simulate inputs for now
-    patient["name"] = "Jane Doe"
-    patient["age"] = 35
-    patient["sex"] = "Female"
-    patient["location"] = "Lagos"
-    patient["main_complaint"] = "abdominal pain and vomiting"
-    patient["symptom_duration"] = "2 days"
-    patient["associated_symptoms"] = ["nausea", "fever"]
-
-    # Analyze
-    patient["urgency"] = determine_urgency(patient["main_complaint"] + ' ' + ' '.join(patient["associated_symptoms"]))
-    patient["likely_specialty"] = classify_specialty(patient["main_complaint"])
-    specialist = recommend_specialist(patient["likely_specialty"])
-
-    # Ask preference
-    patient["consultation_mode"] = "online"
-
-    # Output summary
-    print(f"Hello {patient['name']}, based on your symptoms, you likely need a {specialist}.")
-    print(f"Urgency Level: {patient['urgency'].capitalize()}")
-    print(f"Preferred consultation mode: {patient['consultation_mode']}")
-
-from flask import Flask, request, jsonify
-
-app = Flask(__name__)
+@app.route("/")
+def home():
+    return render_template("chat.html")
 
 @app.route("/triage", methods=["POST"])
 def triage():
@@ -105,7 +75,6 @@ def triage():
     session = data.get("session", collect_patient_info())
     message = data.get("message", "").strip()
 
-    # Identify the step
     step = session.get("step", 0)
     response = ""
 
@@ -177,13 +146,13 @@ def triage():
             session["step"] = 11
             return jsonify({"response": summary, "session": session})
 
-        session["step"] = -1  # finished
+        session["step"] = -1
         return jsonify({"response": summary, "session": session})
 
     elif step == 11:
         session["consultation_mode"] = message.lower()
         summary = f"Great. A {session['consultation_mode']} consultation with a {session['likely_specialty']} is recommended."
-        session["step"] = -1  # done
+        session["step"] = -1
         return jsonify({"response": summary, "session": session})
 
     else:
