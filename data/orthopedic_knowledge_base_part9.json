@@ -1,0 +1,3109 @@
+[
+  {
+    "disease": "Osteoarthritis of the Knee",
+    "epidemiology": "Most common joint disorder, especially in elderly. Affects >10% of men and >13% of women above 60.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Knee pain worsened by activity",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Morning stiffness <30 minutes",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Crepitus",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Reduced range of motion",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Joint deformity",
+        "Loss of function"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Age",
+      "Obesity",
+      "Joint trauma",
+      "Genetics"
+    ],
+    "differentials": [
+      "Rheumatoid arthritis",
+      "Meniscal injury",
+      "Gout"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray (joint space narrowing, osteophytes)"
+      ],
+      "additional": [
+        "MRI (if soft tissue damage suspected)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Physiotherapy",
+        "Weight loss",
+        "NSAIDs"
+      ],
+      "definitive": [
+        "Intra-articular steroids",
+        "Total knee replacement"
+      ]
+    },
+    "treatment_protocol": "Start with conservative measures \u2192 escalate to surgery if severe"
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "epidemiology": "Autoimmune chronic inflammatory disorder. Affects 0.5\u20131% of population. Women > men (3:1).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Symmetrical joint swelling (small joints)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Morning stiffness >1 hour",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Joint deformities",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Joint destruction",
+        "Systemic vasculitis",
+        "Cervical instability"
+      ],
+      "emergency_markers": [
+        "Atlantoaxial subluxation"
+      ]
+    },
+    "risk_factors": [
+      "Genetic predisposition",
+      "Smoking",
+      "Female sex"
+    ],
+    "differentials": [
+      "Osteoarthritis",
+      "SLE",
+      "Psoriatic arthritis"
+    ],
+    "investigations": {
+      "important": [
+        "RF",
+        "Anti-CCP",
+        "X-rays"
+      ],
+      "additional": [
+        "CRP/ESR",
+        "Joint ultrasound"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Physiotherapy"
+      ],
+      "definitive": [
+        "DMARDs (methotrexate)",
+        "Biologics",
+        "Surgery if deformity"
+      ]
+    },
+    "treatment_protocol": "Early DMARDs \u2192 Biologics if needed \u2192 Joint replacement in advanced cases"
+  },
+  {
+    "disease": "Osteoporosis",
+    "epidemiology": "Systemic skeletal disorder affecting >200 million people globally. Common in postmenopausal women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymptomatic until fracture",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Back pain due to vertebral fracture",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Loss of height",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Kyphosis",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Fractures (hip, spine, wrist)",
+        "Immobility"
+      ],
+      "emergency_markers": [
+        "Pathologic fracture"
+      ]
+    },
+    "risk_factors": [
+      "Postmenopausal status",
+      "Low calcium/vitamin D",
+      "Steroid use",
+      "Smoking"
+    ],
+    "differentials": [
+      "Osteomalacia",
+      "Metastatic cancer",
+      "Multiple myeloma"
+    ],
+    "investigations": {
+      "important": [
+        "DEXA scan (T-score \u2264 -2.5)"
+      ],
+      "additional": [
+        "Serum calcium, phosphate, vitamin D"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Calcium/vitamin D supplementation",
+        "Fall prevention"
+      ],
+      "definitive": [
+        "Bisphosphonates",
+        "Denosumab",
+        "Teriparatide"
+      ]
+    },
+    "treatment_protocol": "Diagnose with DEXA \u2192 Treat with antiresorptives \u2192 Monitor BMD every 1\u20132 yrs"
+  },
+  {
+    "disease": "Slipped Capital Femoral Epiphysis (SCFE)",
+    "epidemiology": "Occurs in adolescents, often obese boys. Incidence ~10 per 100,000. Can be bilateral.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hip or knee pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Limp",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Limited internal rotation of hip",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Leg length discrepancy",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Avascular necrosis",
+        "Chondrolysis"
+      ],
+      "emergency_markers": [
+        "Sudden inability to walk"
+      ]
+    },
+    "risk_factors": [
+      "Obesity",
+      "Male sex",
+      "Endocrinopathies (e.g., hypothyroidism)"
+    ],
+    "differentials": [
+      "Legg-Calv\u00e9-Perthes disease",
+      "Juvenile arthritis",
+      "Fracture"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray pelvis (frog-leg lateral view)"
+      ],
+      "additional": [
+        "MRI if early or unclear"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Non-weight bearing"
+      ],
+      "definitive": [
+        "Surgical pinning in situ"
+      ]
+    },
+    "treatment_protocol": "Urgent surgical fixation \u2192 Monitor for contralateral involvement"
+  },
+  {
+    "disease": "Achilles Tendon Rupture",
+    "epidemiology": "Common sports injury in males aged 30\u201350. Often during sudden push-off.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden heel pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Popping sensation",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Inability to plantar flex",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Swelling and bruising",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Chronic weakness",
+        "Re-rupture"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Middle-aged males",
+      "Corticosteroid injection",
+      "Fluoroquinolones"
+    ],
+    "differentials": [
+      "Ankle sprain",
+      "Calf strain",
+      "Gastrocnemius tear"
+    ],
+    "investigations": {
+      "important": [
+        "Thompson test",
+        "Ultrasound"
+      ],
+      "additional": [
+        "MRI (for pre-op planning)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Immobilization in plantar flexion"
+      ],
+      "definitive": [
+        "Surgical repair"
+      ]
+    },
+    "treatment_protocol": "Clinical diagnosis \u2192 Confirm with US \u2192 Surgery or conservative depending on age/activity"
+  },
+  {
+    "disease": "Anterior Cruciate Ligament (ACL) Injury",
+    "epidemiology": "Common sports-related injury, especially in athletes in pivoting sports like football and basketball. Higher incidence in females.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Audible pop at injury",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Rapid knee swelling",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Instability (giving way)",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pain with weight bearing",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Chronic instability",
+        "Meniscal tears",
+        "Early osteoarthritis"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Female athletes",
+      "Poor neuromuscular control",
+      "Pivoting sports"
+    ],
+    "differentials": [
+      "Meniscal tear",
+      "PCL injury",
+      "Collateral ligament injury"
+    ],
+    "investigations": {
+      "important": [
+        "Lachman test",
+        "MRI knee"
+      ],
+      "additional": [
+        "Anterior drawer test"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Rest, Ice, Compression, Elevation (RICE)",
+        "Knee brace"
+      ],
+      "definitive": [
+        "ACL reconstruction surgery"
+      ]
+    },
+    "treatment_protocol": "Clinical diagnosis \u2192 MRI confirmation \u2192 Early rehab \u2192 Surgery for active patients"
+  },
+  {
+    "disease": "Rotator Cuff Tear",
+    "epidemiology": "Common cause of shoulder pain in older adults and overhead athletes. Incidence increases with age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Shoulder pain, especially at night",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Weakness with overhead activity",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Limited range of motion",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Difficulty sleeping on affected side",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Frozen shoulder",
+        "Chronic pain"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Age > 40",
+      "Repetitive overhead activity",
+      "Trauma"
+    ],
+    "differentials": [
+      "Frozen shoulder",
+      "Impingement syndrome",
+      "Biceps tendinopathy"
+    ],
+    "investigations": {
+      "important": [
+        "MRI shoulder",
+        "Drop arm test"
+      ],
+      "additional": [
+        "Ultrasound"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Physical therapy"
+      ],
+      "definitive": [
+        "Arthroscopic rotator cuff repair"
+      ]
+    },
+    "treatment_protocol": "MRI diagnosis \u2192 PT + NSAIDs \u2192 Surgery if no improvement"
+  },
+  {
+    "disease": "Developmental Dysplasia of the Hip (DDH)",
+    "epidemiology": "Abnormal development of the hip joint in infants. More common in females and breech births.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymmetrical thigh/gluteal folds",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Limited abduction of hip",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Leg length discrepancy",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hip instability (positive Ortolani/Barlow)",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Hip dislocation",
+        "Limp",
+        "Early osteoarthritis"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Breech position",
+      "Family history",
+      "Female sex"
+    ],
+    "differentials": [
+      "Cerebral palsy",
+      "Perthes disease"
+    ],
+    "investigations": {
+      "important": [
+        "Ultrasound hip (infants <6 months)"
+      ],
+      "additional": [
+        "X-ray pelvis (>6 months)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Observation if mild"
+      ],
+      "definitive": [
+        "Pavlik harness",
+        "Surgical reduction"
+      ]
+    },
+    "treatment_protocol": "Screen at birth \u2192 Harness if <6 months \u2192 Surgery if unresponsive"
+  },
+  {
+    "disease": "Legg-Calv\u00e9-Perthes Disease",
+    "epidemiology": "Idiopathic avascular necrosis of femoral head in children aged 4\u201310. Males more affected.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Limping",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hip or groin pain",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Reduced hip abduction and internal rotation",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Leg length discrepancy",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Femoral head deformity",
+        "Osteoarthritis"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Male sex",
+      "Low birth weight",
+      "Passive smoke exposure"
+    ],
+    "differentials": [
+      "SCFE",
+      "Transient synovitis",
+      "Septic arthritis"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray pelvis",
+        "MRI (early changes)"
+      ],
+      "additional": [
+        "Bone scan"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Activity restriction",
+        "Physical therapy"
+      ],
+      "definitive": [
+        "Surgical osteotomy in severe cases"
+      ]
+    },
+    "treatment_protocol": "Early detection \u2192 Conservative initially \u2192 Surgery if progressive deformity"
+  },
+  {
+    "disease": "Dupuytren's Contracture",
+    "epidemiology": "Fibromatosis of palmar fascia, most common in northern European men >40. Progressive hand deformity.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Painless palmar nodule",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Progressive flexion contracture",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Inability to extend fingers (esp. ring/little)",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palmar skin puckering",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Loss of hand function",
+        "Disfigurement"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Alcohol use",
+      "Diabetes",
+      "Family history",
+      "Epilepsy"
+    ],
+    "differentials": [
+      "Trigger finger",
+      "Flexor tendon contracture",
+      "Tenosynovitis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Hand ultrasound (if unclear)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Hand therapy",
+        "Splinting (early)"
+      ],
+      "definitive": [
+        "Collagenase injection",
+        "Surgical fasciectomy"
+      ]
+    },
+    "treatment_protocol": "Assess contracture severity \u2192 Try injections \u2192 Surgery for functional impairment"
+  },
+  {
+    "disease": "Femoral Shaft Fracture",
+    "epidemiology": "Common high-energy trauma injury in young adults, and low-energy falls in the elderly with osteoporosis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Severe thigh pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Swelling and deformity",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Inability to bear weight",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Shortened, externally rotated leg",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Fat embolism syndrome",
+        "Nonunion",
+        "Neurovascular injury"
+      ],
+      "emergency_markers": [
+        "Open fracture",
+        "Neurovascular compromise"
+      ]
+    },
+    "risk_factors": [
+      "High-impact trauma",
+      "Osteoporosis"
+    ],
+    "differentials": [
+      "Hip fracture",
+      "Pelvic fracture",
+      "Soft tissue injury"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray femur (AP/lateral)"
+      ],
+      "additional": [
+        "CT if intra-articular extension suspected"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Pain control",
+        "Traction if delayed surgery"
+      ],
+      "definitive": [
+        "Intramedullary nailing",
+        "ORIF"
+      ]
+    },
+    "treatment_protocol": "Stabilize \u2192 X-ray \u2192 Surgical fixation \u2192 Rehab"
+  },
+  {
+    "disease": "Patellar Dislocation",
+    "epidemiology": "Common in young athletes, especially females, often caused by twisting injury.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden knee pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Visible lateral displacement of patella",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Swelling and bruising",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Knee instability or buckling",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Recurrent dislocation",
+        "Chondral injury"
+      ],
+      "emergency_markers": [
+        "Locked knee"
+      ]
+    },
+    "risk_factors": [
+      "Ligament laxity",
+      "Shallow trochlear groove",
+      "Previous dislocation"
+    ],
+    "differentials": [
+      "Meniscal tear",
+      "ACL injury",
+      "Patellar fracture"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray knee",
+        "MRI to assess MPFL and cartilage"
+      ],
+      "additional": [
+        "Apprehension test"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Closed reduction",
+        "Brace",
+        "Physiotherapy"
+      ],
+      "definitive": [
+        "Surgical stabilization (if recurrent)"
+      ]
+    },
+    "treatment_protocol": "Reduce \u2192 Immobilize \u2192 PT \u2192 Surgery if unstable"
+  },
+  {
+    "disease": "Clavicle Fracture",
+    "epidemiology": "Common fracture, especially in children and athletes. Midshaft is the most frequent location.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Shoulder pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Visible deformity or bump",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Decreased shoulder motion",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Crepitus over clavicle",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Malunion",
+        "Neurovascular injury",
+        "Nonunion"
+      ],
+      "emergency_markers": [
+        "Open fracture",
+        "Neurovascular deficit"
+      ]
+    },
+    "risk_factors": [
+      "Falls",
+      "Direct trauma",
+      "Sports injuries"
+    ],
+    "differentials": [
+      "AC joint dislocation",
+      "Shoulder dislocation"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray clavicle (AP, 15\u00b0 cephalic tilt)"
+      ],
+      "additional": [
+        "CT if displaced or medial fracture"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Arm sling",
+        "Analgesia",
+        "Physiotherapy"
+      ],
+      "definitive": [
+        "ORIF if displaced or high-demand patient"
+      ]
+    },
+    "treatment_protocol": "X-ray \u2192 Conservative if non-displaced \u2192 ORIF if needed"
+  },
+  {
+    "disease": "Plantar Fasciitis",
+    "epidemiology": "Most common cause of heel pain. Seen in runners, overweight individuals, and those with flat feet.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Heel pain worse in morning",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pain after prolonged standing",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Tenderness at medial heel",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Improvement with walking",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Chronic heel pain",
+        "Altered gait"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Obesity",
+      "Flat feet",
+      "Prolonged standing",
+      "Improper footwear"
+    ],
+    "differentials": [
+      "Heel spur",
+      "Stress fracture",
+      "Tarsal tunnel syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "X-ray to rule out spur/fracture",
+        "Ultrasound"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Stretching exercises",
+        "Orthotic inserts",
+        "NSAIDs"
+      ],
+      "definitive": [
+        "Corticosteroid injection",
+        "Surgery (rare)"
+      ]
+    },
+    "treatment_protocol": "Conservative \u2192 Steroid injection \u2192 Surgery if refractory"
+  },
+  {
+    "disease": "Gout (Monoarticular Arthritis)",
+    "epidemiology": "Crystal-induced arthritis from monosodium urate. More common in middle-aged men. Incidence rising globally.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden joint pain (usually big toe)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Swelling and redness",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Tenderness to touch",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Tophi (in chronic gout)",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Joint destruction",
+        "Kidney stones"
+      ],
+      "emergency_markers": [
+        "Septic arthritis mimic"
+      ]
+    },
+    "risk_factors": [
+      "High purine diet",
+      "Alcohol",
+      "Obesity",
+      "Diuretics"
+    ],
+    "differentials": [
+      "Septic arthritis",
+      "Pseudogout",
+      "RA"
+    ],
+    "investigations": {
+      "important": [
+        "Joint aspiration (urate crystals)",
+        "Serum uric acid"
+      ],
+      "additional": [
+        "X-ray joint (punched-out erosions)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Colchicine"
+      ],
+      "definitive": [
+        "Allopurinol",
+        "Febuxostat",
+        "Lifestyle changes"
+      ]
+    },
+    "treatment_protocol": "Treat acute attack \u2192 Maintain uric acid <6 mg/dL chronically"
+  },
+  {
+    "disease": "Tibial Plateau Fracture",
+    "epidemiology": "Common intra-articular fracture from trauma, especially in elderly or motor vehicle accidents.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Knee pain and swelling",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Inability to bear weight",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Tenderness over tibial condyle",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Joint instability or locking",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Post-traumatic arthritis",
+        "Compartment syndrome",
+        "Malunion"
+      ],
+      "emergency_markers": [
+        "Neurovascular compromise",
+        "Compartment syndrome"
+      ]
+    },
+    "risk_factors": [
+      "High-energy trauma",
+      "Osteoporosis"
+    ],
+    "differentials": [
+      "Meniscal injury",
+      "Ligament injury",
+      "Distal femur fracture"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray knee",
+        "CT scan for surgical planning"
+      ],
+      "additional": [
+        "MRI if ligament injury suspected"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Immobilization",
+        "Elevation",
+        "Analgesia"
+      ],
+      "definitive": [
+        "ORIF",
+        "External fixation (severe cases)"
+      ]
+    },
+    "treatment_protocol": "Stabilize \u2192 Imaging \u2192 Surgical fixation \u2192 Rehab"
+  },
+  {
+    "disease": "Scoliosis",
+    "epidemiology": "Lateral curvature of the spine. Most cases are idiopathic, especially in adolescent females.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymmetry of shoulder or waist",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Visible spinal curve",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Back pain",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Difficulty breathing (severe cases)",
+          "order": 4,
+          "frequency": "rare",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Spinal deformity",
+        "Cardiopulmonary compromise",
+        "Psychosocial effects"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Female sex",
+      "Family history",
+      "Neuromuscular conditions"
+    ],
+    "differentials": [
+      "Kyphosis",
+      "Scheuermann disease",
+      "Spinal muscular atrophy"
+    ],
+    "investigations": {
+      "important": [
+        "Standing spinal X-ray (Cobb angle)"
+      ],
+      "additional": [
+        "MRI (if neurologic signs)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Observation (mild)",
+        "Bracing (moderate)"
+      ],
+      "definitive": [
+        "Spinal fusion surgery (severe)"
+      ]
+    },
+    "treatment_protocol": "Measure Cobb angle \u2192 Observe/Brace \u2192 Surgery if >40\u201350\u00b0"
+  },
+  {
+    "disease": "Baker's Cyst",
+    "epidemiology": "Popliteal cyst secondary to intra-articular knee pathology (e.g., OA, meniscal tear). Common in adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Swelling behind the knee",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Tightness or fullness in knee flexion",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pain (if large or ruptured)",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bruising of posterior leg (if rupture)",
+          "order": 4,
+          "frequency": "rare",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Rupture",
+        "Impaired mobility"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Osteoarthritis",
+      "Rheumatoid arthritis",
+      "Meniscal injuries"
+    ],
+    "differentials": [
+      "Popliteal aneurysm",
+      "DVT",
+      "Soft tissue tumor"
+    ],
+    "investigations": {
+      "important": [
+        "Ultrasound (to confirm cyst, rule out DVT)"
+      ],
+      "additional": [
+        "MRI knee (underlying pathology)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Activity modification",
+        "Aspiration"
+      ],
+      "definitive": [
+        "Treat underlying knee pathology",
+        "Surgical excision (rare)"
+      ]
+    },
+    "treatment_protocol": "Confirm with US \u2192 Conservative \u2192 Address underlying cause"
+  },
+  {
+    "disease": "Compartment Syndrome",
+    "epidemiology": "Orthopedic emergency due to raised pressure in muscle compartments. Common after fractures or crush injury.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Severe pain out of proportion",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Pain on passive stretch",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Tense, swollen compartment",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Paresthesia, pulselessness (late)",
+          "order": 4,
+          "frequency": "rare",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Muscle necrosis",
+        "Permanent disability",
+        "Rhabdomyolysis"
+      ],
+      "emergency_markers": [
+        "All symptoms\u2014true emergency"
+      ]
+    },
+    "risk_factors": [
+      "Fractures (esp. tibia)",
+      "Burns",
+      "Crush injuries",
+      "Reperfusion injury"
+    ],
+    "differentials": [
+      "DVT",
+      "Nerve injury",
+      "Soft tissue infection"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis",
+        "Intracompartmental pressure >30 mmHg"
+      ],
+      "additional": [
+        "Creatine kinase (if rhabdomyolysis suspected)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Remove constrictive dressings",
+        "Elevate limb to heart level"
+      ],
+      "definitive": [
+        "Emergency fasciotomy"
+      ]
+    },
+    "treatment_protocol": "Suspect clinically \u2192 Measure pressure \u2192 Immediate fasciotomy"
+  },
+  {
+    "disease": "Ankylosing Spondylitis",
+    "epidemiology": "Chronic inflammatory spondyloarthropathy. More common in males (20\u201340 yrs), HLA-B27 positive.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chronic back pain and stiffness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pain improves with activity",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Morning stiffness >30 minutes",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Limited spinal mobility",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Spinal fusion",
+        "Uveitis",
+        "Cardiac conduction abnormalities"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "HLA-B27",
+      "Male sex",
+      "Family history"
+    ],
+    "differentials": [
+      "Mechanical back pain",
+      "RA",
+      "Psoriatic arthritis"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray pelvis (sacroiliitis)",
+        "HLA-B27"
+      ],
+      "additional": [
+        "MRI spine",
+        "CRP/ESR"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Physiotherapy",
+        "Posture training"
+      ],
+      "definitive": [
+        "TNF inhibitors",
+        "Spinal surgery (rare)"
+      ]
+    },
+    "treatment_protocol": "X-ray/MRI \u2192 NSAIDs \u2192 Biologics if refractory"
+  },
+  {
+    "disease": "Osteochondritis Dissecans",
+    "epidemiology": "A joint condition where bone underneath the cartilage of a joint dies due to lack of blood flow. Most common in adolescents.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Joint pain, especially with activity",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Joint swelling",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Joint locking or catching",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Reduced range of motion",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Loose body formation",
+        "Early osteoarthritis"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Repetitive trauma",
+      "High-impact sports"
+    ],
+    "differentials": [
+      "Meniscal tear",
+      "Osteoarthritis",
+      "Juvenile idiopathic arthritis"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray joint",
+        "MRI (for early detection)"
+      ],
+      "additional": [
+        "CT (if surgical planning needed)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Rest",
+        "Activity modification",
+        "Bracing"
+      ],
+      "definitive": [
+        "Arthroscopic drilling",
+        "Fixation or removal of loose bodies"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Conservative \u2192 Surgery if detached fragment"
+  },
+  {
+    "disease": "Osteogenesis Imperfecta",
+    "epidemiology": "Genetic disorder of connective tissue causing brittle bones. Presents in infancy or early childhood.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Frequent fractures with minimal trauma",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Blue sclerae",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hearing loss",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Short stature",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Bone deformities",
+        "Scoliosis",
+        "Early arthritis"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history",
+      "COL1A1/COL1A2 gene mutations"
+    ],
+    "differentials": [
+      "Child abuse",
+      "Rickets",
+      "Hypophosphatasia"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical features",
+        "Genetic testing"
+      ],
+      "additional": [
+        "X-ray (osteopenia, fractures)",
+        "DEXA scan"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Bisphosphonates",
+        "Calcium and Vitamin D",
+        "Physical therapy"
+      ],
+      "definitive": [
+        "Surgical rodding of long bones"
+      ]
+    },
+    "treatment_protocol": "Diagnosis \u2192 Medical therapy \u2192 Surgery if needed"
+  },
+  {
+    "disease": "Tarsal Tunnel Syndrome",
+    "epidemiology": "Entrapment of posterior tibial nerve in the tarsal tunnel. Similar to carpal tunnel but in foot.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Burning or tingling in sole",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Foot numbness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Worsening with prolonged standing",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pain radiating to calf",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Permanent nerve damage",
+        "Gait changes"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Flat feet",
+      "Ankle sprain",
+      "Masses in tunnel"
+    ],
+    "differentials": [
+      "Plantar fasciitis",
+      "Peripheral neuropathy",
+      "Radiculopathy"
+    ],
+    "investigations": {
+      "important": [
+        "Tinel\u2019s sign",
+        "Nerve conduction study"
+      ],
+      "additional": [
+        "MRI foot (mass/tumor)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Rest",
+        "NSAIDs",
+        "Arch supports"
+      ],
+      "definitive": [
+        "Tarsal tunnel release surgery"
+      ]
+    },
+    "treatment_protocol": "NCS \u2192 Conservative \u2192 Surgery if persistent"
+  },
+  {
+    "disease": "Osteoid Osteoma",
+    "epidemiology": "Benign bone tumor most commonly seen in adolescents and young adults, especially males.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Localized bone pain worse at night",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pain relieved by NSAIDs",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Mild swelling",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Limp (if lower limb)",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Growth disturbance (if near growth plate)"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Male sex",
+      "Adolescents"
+    ],
+    "differentials": [
+      "Osteoblastoma",
+      "Stress fracture",
+      "Ewing\u2019s sarcoma"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray (lucent nidus)",
+        "CT (precise localization)"
+      ],
+      "additional": [
+        "MRI (less specific)",
+        "Bone scan"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "NSAIDs"
+      ],
+      "definitive": [
+        "CT-guided radiofrequency ablation",
+        "Surgical excision"
+      ]
+    },
+    "treatment_protocol": "X-ray/CT \u2192 RFA or excision"
+  },
+  {
+    "disease": "Hallux Valgus (Bunion)",
+    "epidemiology": "Lateral deviation of the great toe with bony prominence over 1st metatarsal head. More common in women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Pain over medial first metatarsophalangeal joint",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Visible bump or deformity",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Difficulty wearing shoes",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Redness or swelling",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Bursitis",
+        "Toe deformities"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Improper footwear",
+      "Genetics",
+      "Flat feet"
+    ],
+    "differentials": [
+      "Gout",
+      "Arthritis",
+      "Bunionette"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical exam",
+        "X-ray foot (to assess angle)"
+      ],
+      "additional": [
+        "Gait analysis"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Wider footwear",
+        "Orthotics",
+        "NSAIDs"
+      ],
+      "definitive": [
+        "Bunionectomy (osteotomy, realignment)"
+      ]
+    },
+    "treatment_protocol": "Conservative initially \u2192 Surgery if symptomatic deformity"
+  },
+  {
+    "disease": "Osteosarcoma",
+    "epidemiology": "Most common primary bone cancer in children and adolescents. Peak incidence in second decade of life.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Localized bone pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Swelling at the site",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Limp or decreased function",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pathological fracture",
+          "order": 4,
+          "frequency": "rare",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Metastasis to lungs",
+        "Pathological fracture"
+      ],
+      "emergency_markers": [
+        "Severe pain with swelling, fracture"
+      ]
+    },
+    "risk_factors": [
+      "Paget's disease",
+      "Radiation exposure",
+      "RB1 gene mutation"
+    ],
+    "differentials": [
+      "Ewing sarcoma",
+      "Osteomyelitis",
+      "Osteoid osteoma"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray (sunburst appearance)",
+        "MRI (local extent)",
+        "Biopsy"
+      ],
+      "additional": [
+        "CT chest",
+        "Bone scan"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Pain management",
+        "Immobilization"
+      ],
+      "definitive": [
+        "Neoadjuvant chemotherapy",
+        "Wide surgical resection"
+      ]
+    },
+    "treatment_protocol": "Biopsy \u2192 Neoadjuvant chemo \u2192 Resection \u2192 Adjuvant chemo"
+  },
+  {
+    "disease": "Slipped Capital Femoral Epiphysis (SCFE)",
+    "epidemiology": "Displacement of femoral head in adolescents (obese boys, ages 10\u201316).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hip/knee pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Limping",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Limited internal rotation",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Shortened leg with external rotation",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Avascular necrosis",
+        "Chondrolysis"
+      ],
+      "emergency_markers": [
+        "Severe pain with immobility"
+      ]
+    },
+    "risk_factors": [
+      "Obesity",
+      "Hypothyroidism",
+      "Male sex"
+    ],
+    "differentials": [
+      "Legg-Calv\u00e9-Perthes disease",
+      "Fracture",
+      "Septic arthritis"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray pelvis (frog-leg view)",
+        "MRI (early cases)"
+      ],
+      "additional": [
+        "Endocrine evaluation"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Non-weight bearing",
+        "Crutches"
+      ],
+      "definitive": [
+        "Urgent surgical pinning in situ"
+      ]
+    },
+    "treatment_protocol": "X-ray \u2192 Urgent pinning \u2192 Monitor contralateral hip"
+  },
+  {
+    "disease": "Metatarsal Stress Fracture",
+    "epidemiology": "Common in athletes and military recruits due to repetitive stress. 2nd and 3rd metatarsals most affected.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Forefoot pain worsens with activity",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Localized tenderness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Swelling over dorsum of foot",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pain relief with rest",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Nonunion",
+        "Complete fracture"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Overuse",
+      "Improper footwear",
+      "Low bone density"
+    ],
+    "differentials": [
+      "Plantar fasciitis",
+      "Morton neuroma",
+      "Tarsal fracture"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray (often normal early)",
+        "MRI or bone scan (sensitive)"
+      ],
+      "additional": [
+        "DEXA scan (if recurrent)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Rest",
+        "Activity modification",
+        "Supportive footwear"
+      ],
+      "definitive": [
+        "Casting (severe cases)",
+        "Surgery (rare)"
+      ]
+    },
+    "treatment_protocol": "Activity restriction \u2192 Reimaging \u2192 Immobilization if needed"
+  },
+  {
+    "disease": "Ganglion Cyst",
+    "epidemiology": "Benign cystic swelling near joints/tendons, most commonly wrist. Common in young adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Painless swelling near joint",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Intermittent pain with activity",
+          "order": 2,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Changes in size",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Transillumination",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Recurrence",
+        "Compression neuropathy"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Joint overuse",
+      "Repetitive strain"
+    ],
+    "differentials": [
+      "Lipoma",
+      "Synovial sarcoma",
+      "Tenosynovitis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis",
+        "Ultrasound"
+      ],
+      "additional": [
+        "MRI if diagnosis unclear"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Observation",
+        "Aspiration"
+      ],
+      "definitive": [
+        "Surgical excision (if symptomatic or recurrent)"
+      ]
+    },
+    "treatment_protocol": "Ultrasound \u2192 Conservative \u2192 Surgery if persistent"
+  },
+  {
+    "disease": "Flatfoot (Pes Planus)",
+    "epidemiology": "Common in children (physiologic), but may persist or be acquired in adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Flattened medial arch",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Foot fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pain in arch or heel",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Ankle instability",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Posterior tibial tendon dysfunction",
+        "Arthritis"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Obesity",
+      "Ligamentous laxity",
+      "Posterior tibial tendon dysfunction"
+    ],
+    "differentials": [
+      "Plantar fasciitis",
+      "Tarsal coalition",
+      "Neuromuscular disorder"
+    ],
+    "investigations": {
+      "important": [
+        "Foot exam",
+        "X-ray weight-bearing"
+      ],
+      "additional": [
+        "MRI (tendon assessment)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Arch supports",
+        "Footwear modification",
+        "Exercises"
+      ],
+      "definitive": [
+        "Surgery for structural deformity"
+      ]
+    },
+    "treatment_protocol": "Conservative initially \u2192 Surgical intervention if symptomatic"
+  },
+  {
+    "disease": "Achilles Tendinitis",
+    "epidemiology": "Common overuse injury in runners and jumpers, typically in middle-aged adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Pain and stiffness in Achilles tendon",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pain worsens with activity",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Swelling or thickening of tendon",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Tenderness on palpation",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Tendon rupture",
+        "Chronic tendinopathy"
+      ],
+      "emergency_markers": [
+        "Sudden severe pain with audible pop (rupture)"
+      ]
+    },
+    "risk_factors": [
+      "Sudden increase in activity",
+      "Improper footwear",
+      "Tight calf muscles"
+    ],
+    "differentials": [
+      "Achilles rupture",
+      "Retrocalcaneal bursitis",
+      "Posterior tibial tendinitis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical exam",
+        "Ultrasound or MRI (confirm tendinopathy)"
+      ],
+      "additional": [
+        "X-ray (rule out bony spur)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Rest",
+        "Ice",
+        "Eccentric exercises",
+        "Heel lifts"
+      ],
+      "definitive": [
+        "Surgical repair (if rupture)"
+      ]
+    },
+    "treatment_protocol": "Conservative first \u2192 Surgical if rupture or failed therapy"
+  },
+  {
+    "disease": "Calcaneal Fracture",
+    "epidemiology": "Most common tarsal bone fracture, usually from high-energy axial load (e.g., fall from height).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Heel pain and swelling",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Inability to bear weight",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Bruising of heel",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Shortened, widened heel",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Subtalar arthritis",
+        "Wound complications",
+        "Compartment syndrome"
+      ],
+      "emergency_markers": [
+        "Open fracture",
+        "Compartment syndrome"
+      ]
+    },
+    "risk_factors": [
+      "High-impact trauma",
+      "Osteoporosis"
+    ],
+    "differentials": [
+      "Ankle sprain",
+      "Plantar fasciitis",
+      "Posterior tibial tendon rupture"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray calcaneus (B\u00f6hler\u2019s angle)",
+        "CT scan for surgical planning"
+      ],
+      "additional": [
+        "MRI (if occult)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Immobilization",
+        "Elevation",
+        "Pain control"
+      ],
+      "definitive": [
+        "ORIF (displaced fracture)",
+        "Non-operative (if nondisplaced)"
+      ]
+    },
+    "treatment_protocol": "X-ray/CT \u2192 ORIF if displaced \u2192 Follow-up for arthritis"
+  },
+  {
+    "disease": "Septic Arthritis",
+    "epidemiology": "Joint infection usually due to hematogenous spread. Most common in children and elderly.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Severe joint pain and swelling",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Fever and malaise",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Limited range of motion",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Warmth and redness",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Joint destruction",
+        "Osteomyelitis",
+        "Sepsis"
+      ],
+      "emergency_markers": [
+        "Fever + painful joint \u2192 emergency"
+      ]
+    },
+    "risk_factors": [
+      "Immunosuppression",
+      "Recent joint surgery or injection",
+      "IV drug use"
+    ],
+    "differentials": [
+      "Reactive arthritis",
+      "Crystal arthropathy",
+      "Bursitis"
+    ],
+    "investigations": {
+      "important": [
+        "Joint aspiration (WBC >50,000, culture)",
+        "CRP, ESR",
+        "Blood culture"
+      ],
+      "additional": [
+        "X-ray (joint space)",
+        "MRI (if osteomyelitis suspected)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Analgesia"
+      ],
+      "definitive": [
+        "IV antibiotics",
+        "Joint drainage (aspiration or surgical)"
+      ]
+    },
+    "treatment_protocol": "Aspiration \u2192 IV antibiotics \u2192 Washout if no improvement"
+  },
+  {
+    "disease": "Cervical Spondylosis",
+    "epidemiology": "Degenerative changes of cervical spine. Common in individuals >40 years.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Neck pain and stiffness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Radicular arm pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Paresthesia or weakness",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Headache",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Myelopathy",
+        "Radiculopathy"
+      ],
+      "emergency_markers": [
+        "Signs of cord compression"
+      ]
+    },
+    "risk_factors": [
+      "Aging",
+      "Repetitive neck motion",
+      "Trauma"
+    ],
+    "differentials": [
+      "Disc herniation",
+      "Cervical myelopathy",
+      "Tumor"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray (degeneration)",
+        "MRI (disc and cord assessment)"
+      ],
+      "additional": [
+        "CT (if MRI contraindicated)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Physiotherapy",
+        "Postural correction"
+      ],
+      "definitive": [
+        "Surgical decompression if severe"
+      ]
+    },
+    "treatment_protocol": "Conservative \u2192 MRI \u2192 Decompression if myelopathy"
+  },
+  {
+    "disease": "Supracondylar Fracture (Pediatric)",
+    "epidemiology": "Most common elbow fracture in children aged 5\u201310. Caused by fall on outstretched hand.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Elbow pain and swelling",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Limited elbow motion",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "S-shaped deformity",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Absent radial pulse (severe)",
+          "order": 4,
+          "frequency": "rare",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Volkmann ischemic contracture",
+        "Nerve injury",
+        "Malunion"
+      ],
+      "emergency_markers": [
+        "Absent pulse",
+        "Compartment syndrome"
+      ]
+    },
+    "risk_factors": [
+      "Active children",
+      "Poor landing during fall"
+    ],
+    "differentials": [
+      "Elbow dislocation",
+      "Radial head fracture",
+      "Soft tissue injury"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray elbow (lateral and AP view)"
+      ],
+      "additional": [
+        "CT (complex fractures)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Analgesia",
+        "Immobilization"
+      ],
+      "definitive": [
+        "Closed reduction and percutaneous pinning"
+      ]
+    },
+    "treatment_protocol": "X-ray \u2192 Assess neurovascular \u2192 Pinning under GA"
+  },
+  {
+    "disease": "Patellar Tendinitis (Jumper's Knee)",
+    "epidemiology": "Overuse injury of patellar tendon, common in athletes involved in jumping sports.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Anterior knee pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pain with jumping or climbing stairs",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Tenderness over inferior pole of patella",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Swelling around patellar tendon",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Tendon rupture",
+        "Chronic pain"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Overuse",
+      "Tight quadriceps",
+      "Poor biomechanics"
+    ],
+    "differentials": [
+      "Osgood-Schlatter disease",
+      "Meniscal injury",
+      "PFPS"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical exam",
+        "Ultrasound",
+        "MRI"
+      ],
+      "additional": []
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Rest",
+        "NSAIDs",
+        "Physical therapy",
+        "Patellar straps"
+      ],
+      "definitive": [
+        "Surgical debridement (rare)"
+      ]
+    },
+    "treatment_protocol": "Conservative \u2192 Physical therapy \u2192 Surgery if refractory"
+  },
+  {
+    "disease": "Tibial Plateau Fracture",
+    "epidemiology": "Fracture of the upper part of the tibia, common in trauma (e.g. motor vehicle accident, fall).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Pain and swelling of the knee",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Inability to bear weight",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Deformity or bruising",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Instability or crepitus",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Post-traumatic arthritis",
+        "Compartment syndrome",
+        "Malunion"
+      ],
+      "emergency_markers": [
+        "Open fracture",
+        "Neurovascular compromise"
+      ]
+    },
+    "risk_factors": [
+      "Trauma",
+      "Osteoporosis"
+    ],
+    "differentials": [
+      "Meniscal tear",
+      "Knee dislocation",
+      "Ligamentous injury"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray",
+        "CT (for classification)",
+        "MRI (if soft tissue involvement suspected)"
+      ],
+      "additional": []
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Splinting",
+        "Analgesia",
+        "Elevation"
+      ],
+      "definitive": [
+        "ORIF",
+        "External fixation (if open or comminuted)"
+      ]
+    },
+    "treatment_protocol": "X-ray/CT \u2192 Classify \u2192 Surgical stabilization"
+  },
+  {
+    "disease": "Legg-Calv\u00e9-Perthes Disease",
+    "epidemiology": "Idiopathic avascular necrosis of the femoral head in children, typically boys aged 4\u201310.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Painless limp",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hip or knee pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Restricted hip abduction/internal rotation",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Leg length discrepancy (later)",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Femoral head deformity",
+        "Early osteoarthritis"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Male gender",
+      "Low birth weight",
+      "Passive smoking"
+    ],
+    "differentials": [
+      "SCFE",
+      "Transient synovitis",
+      "Infection"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray pelvis",
+        "MRI (early changes)"
+      ],
+      "additional": []
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Activity restriction",
+        "NSAIDs",
+        "Physiotherapy"
+      ],
+      "definitive": [
+        "Surgical osteotomy (severe cases)"
+      ]
+    },
+    "treatment_protocol": "X-ray \u2192 Conservative \u2192 Surgery if deformity or collapse"
+  },
+  {
+    "disease": "Plantar Fasciitis",
+    "epidemiology": "Most common cause of heel pain, especially in runners and overweight individuals.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Heel pain worse in morning",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pain after prolonged sitting",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Tenderness at medial calcaneal tubercle",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Tight Achilles tendon",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Chronic pain",
+        "Heel spur"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Obesity",
+      "Flat feet",
+      "Prolonged standing"
+    ],
+    "differentials": [
+      "Calcaneal stress fracture",
+      "Tarsal tunnel syndrome",
+      "Achilles tendinitis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "X-ray (to rule out fracture/spur)",
+        "Ultrasound"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Stretching exercises",
+        "Heel cushions",
+        "NSAIDs"
+      ],
+      "definitive": [
+        "Steroid injections",
+        "Surgery (rare)"
+      ]
+    },
+    "treatment_protocol": "Conservative \u2192 Injections \u2192 Surgery if refractory"
+  },
+  {
+    "disease": "Cubital Tunnel Syndrome",
+    "epidemiology": "Compression of ulnar nerve at the elbow. Second most common peripheral neuropathy after carpal tunnel.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Numbness in 4th and 5th fingers",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Weak grip strength",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pain at medial elbow",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Claw hand (late)",
+          "order": 4,
+          "frequency": "rare",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Permanent nerve damage",
+        "Muscle atrophy"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Prolonged elbow flexion",
+      "Repetitive activities",
+      "Trauma"
+    ],
+    "differentials": [
+      "Cervical radiculopathy",
+      "Guyon canal syndrome",
+      "Peripheral neuropathy"
+    ],
+    "investigations": {
+      "important": [
+        "Nerve conduction study",
+        "EMG"
+      ],
+      "additional": [
+        "Ultrasound",
+        "MRI"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Elbow splinting",
+        "Activity modification"
+      ],
+      "definitive": [
+        "Surgical ulnar nerve decompression"
+      ]
+    },
+    "treatment_protocol": "NCS/EMG \u2192 Conservative \u2192 Surgery if persistent"
+  },
+  {
+    "disease": "Osteomyelitis",
+    "epidemiology": "Bone infection commonly caused by Staphylococcus aureus. Affects children (hematogenous) and adults (post-traumatic or diabetic).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Localized bone pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever and chills",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Swelling and redness",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sinus tract formation (chronic)",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Sepsis",
+        "Chronic infection",
+        "Pathological fracture"
+      ],
+      "emergency_markers": [
+        "Systemic toxicity",
+        "Rapid bone destruction"
+      ]
+    },
+    "risk_factors": [
+      "Diabetes",
+      "Trauma",
+      "IV drug use",
+      "Sickle cell disease"
+    ],
+    "differentials": [
+      "Bone tumor",
+      "Septic arthritis",
+      "Cellulitis"
+    ],
+    "investigations": {
+      "important": [
+        "MRI (most sensitive)",
+        "Blood culture",
+        "Bone biopsy"
+      ],
+      "additional": [
+        "X-ray (late findings)",
+        "ESR, CRP"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Analgesics",
+        "Immobilization"
+      ],
+      "definitive": [
+        "IV antibiotics",
+        "Surgical debridement"
+      ]
+    },
+    "treatment_protocol": "Blood work + MRI \u2192 Antibiotics \u2192 Debridement if necessary"
+  },
+  {
+    "disease": "Osteoid Osteoma",
+    "epidemiology": "Benign bone tumor affecting children and young adults, commonly long bones like femur and tibia.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Localized pain worse at night",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pain relieved by NSAIDs",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Tenderness at lesion site",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Limb deformity (in children)",
+        "Growth disturbance"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Male sex",
+      "Adolescence"
+    ],
+    "differentials": [
+      "Osteoblastoma",
+      "Stress fracture",
+      "Osteomyelitis"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray (radiolucent nidus)",
+        "CT scan (nidus identification)"
+      ],
+      "additional": [
+        "Bone scan"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "NSAIDs"
+      ],
+      "definitive": [
+        "Radiofrequency ablation",
+        "Surgical excision"
+      ]
+    },
+    "treatment_protocol": "Imaging \u2192 NSAIDs \u2192 RFA or excision if refractory"
+  },
+  {
+    "disease": "Anterior Cruciate Ligament (ACL) Injury",
+    "epidemiology": "Common in athletes. More prevalent in females. Caused by sudden deceleration or twisting injuries.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Popping sensation at injury",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Rapid swelling (hemarthrosis)",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Knee instability",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Limited range of motion",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Chronic instability",
+        "Meniscal tear",
+        "Osteoarthritis"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Athletic activity",
+      "Female sex",
+      "Poor neuromuscular control"
+    ],
+    "differentials": [
+      "Meniscal injury",
+      "MCL tear",
+      "PCL injury"
+    ],
+    "investigations": {
+      "important": [
+        "Lachman test",
+        "MRI (gold standard)"
+      ],
+      "additional": [
+        "X-ray (rule out fracture)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "Rest",
+        "Ice",
+        "Bracing",
+        "Physiotherapy"
+      ],
+      "definitive": [
+        "Arthroscopic ACL reconstruction"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Conservative or reconstruction depending on activity level"
+  },
+  {
+    "disease": "Meniscal Tear",
+    "epidemiology": "Common sports-related injury or degenerative in older adults. Medial meniscus more often affected.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Joint line pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Locking or catching of knee",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Swelling",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pain on squatting",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Chronic pain",
+        "Joint instability",
+        "Osteoarthritis"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Twisting injury",
+      "Degeneration",
+      "Heavy lifting"
+    ],
+    "differentials": [
+      "ACL injury",
+      "Loose body",
+      "Osteoarthritis"
+    ],
+    "investigations": {
+      "important": [
+        "McMurray test",
+        "MRI (confirmatory)"
+      ],
+      "additional": [
+        "X-ray (rule out other pathology)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Physiotherapy",
+        "Activity modification"
+      ],
+      "definitive": [
+        "Arthroscopic repair or partial meniscectomy"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Conservative \u2192 Surgery if mechanical symptoms persist"
+  },
+  {
+    "disease": "Rotator Cuff Tear",
+    "epidemiology": "Common in older adults and athletes. Due to trauma or degeneration.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Shoulder pain, especially at night",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Weakness in abduction/external rotation",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Limited range of motion",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Crepitus with movement",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Chronic pain",
+        "Frozen shoulder",
+        "Muscle atrophy"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Overhead activity",
+      "Aging",
+      "Trauma"
+    ],
+    "differentials": [
+      "Adhesive capsulitis",
+      "Impingement syndrome",
+      "AC joint arthritis"
+    ],
+    "investigations": {
+      "important": [
+        "MRI shoulder",
+        "Ultrasound"
+      ],
+      "additional": [
+        "X-ray (high-riding humerus)"
+      ]
+    },
+    "specialty": "Orthopedic Surgery",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Physical therapy",
+        "Steroid injection"
+      ],
+      "definitive": [
+        "Arthroscopic repair"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Conservative \u2192 Surgery if large tear or failure to improve"
+  }
+]

@@ -1,0 +1,3537 @@
+[
+  {
+    "disease": "Epilepsy",
+    "epidemiology": "Affects approximately 1% of the global population. Most common neurological disorder after stroke. Peaks in childhood and elderly.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Unprovoked seizures",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Aura (in focal seizures)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Post-ictal confusion",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Loss of consciousness",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Status epilepticus",
+        "Injury during seizures",
+        "Cognitive impairment"
+      ],
+      "emergency_markers": [
+        "Status epilepticus",
+        "Prolonged seizure"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Head trauma",
+      "Stroke",
+      "CNS infection"
+    ],
+    "differentials": [
+      "Syncope",
+      "Psychogenic seizures",
+      "Transient ischemic attack"
+    ],
+    "investigations": {
+      "important": [
+        "EEG",
+        "Brain MRI"
+      ],
+      "additional": [
+        "CT scan",
+        "Metabolic panel",
+        "Toxicology screen"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Seizure precautions",
+        "Education"
+      ],
+      "definitive": [
+        "Antiepileptic drugs (AEDs)",
+        "Surgical resection",
+        "Vagus nerve stimulation"
+      ]
+    },
+    "treatment_protocol": "EEG + MRI \u2192 AEDs \u2192 Surgery for refractory cases"
+  },
+  {
+    "disease": "Ischemic Stroke",
+    "epidemiology": "Accounts for ~85% of all strokes. Leading cause of long-term disability globally. Incidence increases with age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden unilateral weakness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Aphasia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Facial droop",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Visual field defect",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Hemiplegia",
+        "Dysphagia",
+        "Cognitive deficits"
+      ],
+      "emergency_markers": [
+        "Acute onset neurological deficit",
+        "Loss of consciousness"
+      ]
+    },
+    "risk_factors": [
+      "Hypertension",
+      "Atrial fibrillation",
+      "Diabetes",
+      "Smoking"
+    ],
+    "differentials": [
+      "Migraine with aura",
+      "Hypoglycemia",
+      "Seizure"
+    ],
+    "investigations": {
+      "important": [
+        "Non-contrast CT head",
+        "MRI brain",
+        "Carotid Doppler"
+      ],
+      "additional": [
+        "ECG",
+        "Echocardiogram",
+        "Lipid panel"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Oxygen",
+        "DVT prophylaxis"
+      ],
+      "definitive": [
+        "IV tPA within 4.5 hrs",
+        "Mechanical thrombectomy",
+        "Antiplatelets"
+      ]
+    },
+    "treatment_protocol": "CT \u2192 tPA if eligible \u2192 Secondary prevention"
+  },
+  {
+    "disease": "Parkinson\u2019s Disease",
+    "epidemiology": "Second most common neurodegenerative disorder after Alzheimer\u2019s. Affects 1% of people over 60 years. M:F ratio is 3:2.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Bradykinesia",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Resting tremor",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Rigidity",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Postural instability",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Falls",
+        "Dementia",
+        "Dysphagia"
+      ],
+      "emergency_markers": [
+        "Neuroleptic malignant syndrome (with antipsychotics)"
+      ]
+    },
+    "risk_factors": [
+      "Age >60",
+      "Family history",
+      "Pesticide exposure"
+    ],
+    "differentials": [
+      "Essential tremor",
+      "Drug-induced parkinsonism",
+      "Multiple system atrophy"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis",
+        "DaTscan (if uncertain)"
+      ],
+      "additional": [
+        "MRI brain",
+        "Thyroid function tests"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Physiotherapy",
+        "Occupational therapy"
+      ],
+      "definitive": [
+        "Levodopa + carbidopa",
+        "Dopamine agonists",
+        "Deep brain stimulation"
+      ]
+    },
+    "treatment_protocol": "Clinical \u2192 Levodopa trial \u2192 Monitor response"
+  },
+  {
+    "disease": "Multiple Sclerosis (MS)",
+    "epidemiology": "Autoimmune demyelinating disease. Prevalence highest in young adult females. Common in temperate climates.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Optic neuritis",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Limb weakness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sensory disturbance",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Spasticity",
+        "Bladder dysfunction",
+        "Depression"
+      ],
+      "emergency_markers": [
+        "Acute MS flare with motor symptoms"
+      ]
+    },
+    "risk_factors": [
+      "Female sex",
+      "Vitamin D deficiency",
+      "Family history"
+    ],
+    "differentials": [
+      "Neuromyelitis optica",
+      "SLE",
+      "Sarcoidosis"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain + spine",
+        "CSF analysis (oligoclonal bands)"
+      ],
+      "additional": [
+        "Evoked potentials",
+        "Vitamin B12 levels"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Symptom-specific management"
+      ],
+      "definitive": [
+        "Steroids (acute)",
+        "Disease-modifying therapies (DMTs)"
+      ]
+    },
+    "treatment_protocol": "MRI + CSF \u2192 Steroids \u2192 Start DMT"
+  },
+  {
+    "disease": "Myasthenia Gravis",
+    "epidemiology": "Autoimmune disorder of neuromuscular junction. Bimodal distribution: young females and older males. Incidence ~20/100,000.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fluctuating muscle weakness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ptosis",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Diplopia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dysphagia",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Myasthenic crisis",
+        "Aspiration pneumonia"
+      ],
+      "emergency_markers": [
+        "Respiratory muscle weakness",
+        "Acute dysphagia"
+      ]
+    },
+    "risk_factors": [
+      "Thymoma",
+      "Other autoimmune diseases"
+    ],
+    "differentials": [
+      "Lambert-Eaton syndrome",
+      "Motor neuron disease",
+      "Stroke"
+    ],
+    "investigations": {
+      "important": [
+        "Anti-AChR antibodies",
+        "Repetitive nerve stimulation",
+        "CT chest (thymoma)"
+      ],
+      "additional": [
+        "Tensilon test",
+        "EMG"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Respiratory support",
+        "Nutritional support"
+      ],
+      "definitive": [
+        "Anticholinesterases",
+        "Steroids",
+        "Thymectomy"
+      ]
+    },
+    "treatment_protocol": "AChR Ab \u2192 Anticholinesterase \u2192 Thymectomy if indicated"
+  },
+  {
+    "disease": "Alzheimer\u2019s Disease",
+    "epidemiology": "Most common cause of dementia worldwide. Affects ~10% of people over age 65. Risk increases with age and family history.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Short-term memory loss",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Disorientation",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Word-finding difficulty",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Personality changes",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Wandering",
+        "Depression",
+        "Incontinence",
+        "Failure to thrive"
+      ],
+      "emergency_markers": [
+        "Sundowning agitation",
+        "Delirium"
+      ]
+    },
+    "risk_factors": [
+      "Advanced age",
+      "Family history",
+      "APOE-e4 gene",
+      "Low education"
+    ],
+    "differentials": [
+      "Vascular dementia",
+      "Lewy body dementia",
+      "Normal pressure hydrocephalus"
+    ],
+    "investigations": {
+      "important": [
+        "Cognitive assessment (MMSE/MoCA)",
+        "MRI brain"
+      ],
+      "additional": [
+        "Thyroid function",
+        "Vitamin B12",
+        "Depression screening"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Caregiver education",
+        "Routine structure",
+        "Environmental safety"
+      ],
+      "definitive": [
+        "Cholinesterase inhibitors",
+        "Memantine"
+      ]
+    },
+    "treatment_protocol": "Assess cognition \u2192 Start meds \u2192 Monitor decline"
+  },
+  {
+    "disease": "Amyotrophic Lateral Sclerosis (ALS)",
+    "epidemiology": "Progressive motor neuron disease affecting 2 per 100,000 people annually. Median survival 3\u20135 years from symptom onset.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Limb weakness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Muscle fasciculations",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dysarthria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Respiratory difficulty",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Aspiration",
+        "Paralysis"
+      ],
+      "emergency_markers": [
+        "Acute respiratory distress",
+        "Rapid progression"
+      ]
+    },
+    "risk_factors": [
+      "Male sex",
+      "Age > 50",
+      "Family history",
+      "Smoking"
+    ],
+    "differentials": [
+      "Myasthenia gravis",
+      "Multiple sclerosis",
+      "Cervical myelopathy"
+    ],
+    "investigations": {
+      "important": [
+        "EMG",
+        "Nerve conduction studies"
+      ],
+      "additional": [
+        "MRI spine",
+        "CK level",
+        "Genetic testing"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Non-invasive ventilation",
+        "Nutritional support",
+        "Palliative care"
+      ],
+      "definitive": [
+        "Riluzole",
+        "Edaravone"
+      ]
+    },
+    "treatment_protocol": "EMG \u2192 Start riluzole \u2192 Monitor respiratory status"
+  },
+  {
+    "disease": "Guillain-Barr\u00e9 Syndrome (GBS)",
+    "epidemiology": "Acute immune-mediated demyelinating polyneuropathy, often post-infection. Incidence ~1\u20132 per 100,000/year.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Ascending muscle weakness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Areflexia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Paresthesia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Respiratory compromise",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Autonomic instability",
+        "Paralysis"
+      ],
+      "emergency_markers": [
+        "Reduced vital capacity",
+        "Arrhythmias"
+      ]
+    },
+    "risk_factors": [
+      "Campylobacter infection",
+      "CMV",
+      "Zika virus",
+      "Vaccination (rare)"
+    ],
+    "differentials": [
+      "Myasthenia gravis",
+      "Transverse myelitis",
+      "Tick paralysis"
+    ],
+    "investigations": {
+      "important": [
+        "Nerve conduction studies",
+        "Lumbar puncture (albuminocytologic dissociation)"
+      ],
+      "additional": [
+        "Pulmonary function tests",
+        "ECG monitoring"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "ICU care",
+        "Mechanical ventilation",
+        "VTE prophylaxis"
+      ],
+      "definitive": [
+        "IVIG",
+        "Plasmapheresis"
+      ]
+    },
+    "treatment_protocol": "LP + EMG \u2192 IVIG or plasma exchange \u2192 Monitor"
+  },
+  {
+    "disease": "Trigeminal Neuralgia",
+    "epidemiology": "Affects ~12 per 100,000 annually. More common in women >50. Often idiopathic, or due to vascular compression or MS.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Severe facial pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Shock-like pain",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Pain triggered by chewing/touch",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Brief pain episodes",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Depression",
+        "Malnutrition"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Multiple sclerosis",
+      "Vascular compression",
+      "Elderly age"
+    ],
+    "differentials": [
+      "Dental pathology",
+      "Cluster headache",
+      "Glossopharyngeal neuralgia"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain"
+      ],
+      "additional": [
+        "Neurological examination",
+        "Vascular imaging"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Avoid triggers",
+        "Psychosocial support"
+      ],
+      "definitive": [
+        "Carbamazepine",
+        "Surgical decompression",
+        "Gamma knife radiosurgery"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Start carbamazepine \u2192 Refer if refractory"
+  },
+  {
+    "disease": "Huntington\u2019s Disease",
+    "epidemiology": "Autosomal dominant neurodegenerative disorder. Onset 30\u201350 years. Prevalence 5\u201310 per 100,000. Caused by CAG repeat expansion.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chorea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Behavioral changes",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cognitive decline",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Depression",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Dementia",
+        "Suicide",
+        "Falls"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history",
+      "Genetic predisposition (HTT gene)"
+    ],
+    "differentials": [
+      "Parkinson\u2019s disease",
+      "Wilson\u2019s disease",
+      "Tourette syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Genetic testing (CAG repeats)",
+        "Neuropsychological testing"
+      ],
+      "additional": [
+        "MRI brain",
+        "Psychiatric evaluation"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Multidisciplinary care",
+        "Psychological support"
+      ],
+      "definitive": [
+        "Tetrabenazine",
+        "Antidepressants",
+        "Antipsychotics"
+      ]
+    },
+    "treatment_protocol": "Genetic confirmation \u2192 Symptom-based management"
+  },
+  {
+    "disease": "Tension-Type Headache",
+    "epidemiology": "Most common primary headache disorder, affecting up to 70% of the population. More common in women. Peaks in the 30s.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Bilateral head pressure",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Tight band-like sensation",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Mild photophobia or phonophobia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "No nausea/vomiting",
+          "order": 4,
+          "frequency": "common",
+          "severity": "none"
+        }
+      ],
+      "complications": [
+        "Chronic daily headache",
+        "Medication overuse headache"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Stress",
+      "Sleep deprivation",
+      "Poor posture"
+    ],
+    "differentials": [
+      "Migraine",
+      "Cluster headache",
+      "Sinusitis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Neuroimaging if red flags present"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Reassurance",
+        "Relaxation techniques"
+      ],
+      "definitive": [
+        "NSAIDs",
+        "Amitriptyline (chronic cases)"
+      ]
+    },
+    "treatment_protocol": "Clinical dx \u2192 NSAIDs \u2192 Preventives for chronic"
+  },
+  {
+    "disease": "Migraine",
+    "epidemiology": "Affects ~12% of the global population. More common in females. Onset typically in adolescence or early adulthood.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Pulsatile headache",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Photophobia and phonophobia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nausea and vomiting",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Aura (in some)",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Status migrainosus",
+        "Medication overuse headache"
+      ],
+      "emergency_markers": [
+        "Severe prolonged aura",
+        "Neurological deficits"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Stress",
+      "Hormonal changes",
+      "Certain foods"
+    ],
+    "differentials": [
+      "Cluster headache",
+      "Tension-type headache",
+      "Brain tumor"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "MRI brain (atypical features)",
+        "Fundoscopy"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Trigger avoidance",
+        "Lifestyle modification"
+      ],
+      "definitive": [
+        "Triptans",
+        "NSAIDs",
+        "Beta-blockers (prophylaxis)"
+      ]
+    },
+    "treatment_protocol": "Clinical \u2192 Abortive meds \u2192 Preventive for frequent attacks"
+  },
+  {
+    "disease": "Cluster Headache",
+    "epidemiology": "Rare but extremely painful. Affects ~0.1% of population, mostly young to middle-aged men. Tends to occur in clusters (weeks to months).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Severe unilateral periorbital pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Lacrimation",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Nasal congestion",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Restlessness during attack",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Suicidal ideation",
+        "Medication overuse"
+      ],
+      "emergency_markers": [
+        "Frequent severe attacks"
+      ]
+    },
+    "risk_factors": [
+      "Male gender",
+      "Smoking",
+      "Family history"
+    ],
+    "differentials": [
+      "Migraine",
+      "Sinusitis",
+      "Trigeminal neuralgia"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "MRI brain to rule out secondary causes"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Oxygen therapy"
+      ],
+      "definitive": [
+        "Subcutaneous sumatriptan",
+        "Verapamil (prophylaxis)"
+      ]
+    },
+    "treatment_protocol": "Acute tx \u2192 Oxygen + triptan \u2192 Verapamil if chronic"
+  },
+  {
+    "disease": "Temporal Arteritis (Giant Cell Arteritis)",
+    "epidemiology": "Large vessel vasculitis in older adults, especially females >50. Associated with polymyalgia rheumatica.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "New headache",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Scalp tenderness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Jaw claudication",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Vision loss",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Irreversible blindness",
+        "Aortic aneurysm"
+      ],
+      "emergency_markers": [
+        "Vision loss",
+        "High ESR/CRP with symptoms"
+      ]
+    },
+    "risk_factors": [
+      "Age >50",
+      "Female",
+      "Northern European descent",
+      "Polymyalgia rheumatica"
+    ],
+    "differentials": [
+      "Migraine",
+      "Tension headache",
+      "Trigeminal neuralgia"
+    ],
+    "investigations": {
+      "important": [
+        "ESR and CRP",
+        "Temporal artery biopsy"
+      ],
+      "additional": [
+        "Temporal artery ultrasound"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Low-dose aspirin"
+      ],
+      "definitive": [
+        "High-dose corticosteroids immediately"
+      ]
+    },
+    "treatment_protocol": "Suspect \u2192 Start steroids \u2192 Biopsy within 2 weeks"
+  },
+  {
+    "disease": "Carpal Tunnel Syndrome",
+    "epidemiology": "Most common entrapment neuropathy. Prevalence ~3% of adults. More common in women and manual laborers.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Numbness in thumb, index, and middle fingers",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Nocturnal hand paresthesia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Weak grip",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Thenar muscle wasting",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Chronic pain",
+        "Functional limitation"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Repetitive wrist motion",
+      "Diabetes",
+      "Obesity",
+      "Pregnancy"
+    ],
+    "differentials": [
+      "Cervical radiculopathy",
+      "Ulnar neuropathy",
+      "Rheumatoid arthritis"
+    ],
+    "investigations": {
+      "important": [
+        "Nerve conduction studies",
+        "Tinel and Phalen tests"
+      ],
+      "additional": [
+        "Ultrasound of wrist",
+        "MRI if diagnosis unclear"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Wrist splinting",
+        "Activity modification"
+      ],
+      "definitive": [
+        "Corticosteroid injection",
+        "Surgical decompression"
+      ]
+    },
+    "treatment_protocol": "Splint + NCS \u2192 Inject or decompress surgically"
+  },
+  {
+    "disease": "Bell's Palsy",
+    "epidemiology": "Most common cause of acute unilateral facial paralysis. Annual incidence ~20\u201330 per 100,000. Peaks between ages 15\u201345.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden unilateral facial weakness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Inability to close eye",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Altered taste",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hyperacusis",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Corneal ulceration",
+        "Synkinesis",
+        "Facial muscle contracture"
+      ],
+      "emergency_markers": [
+        "Sudden onset facial paralysis"
+      ]
+    },
+    "risk_factors": [
+      "Herpes simplex virus",
+      "Diabetes",
+      "Pregnancy",
+      "Hypertension"
+    ],
+    "differentials": [
+      "Stroke",
+      "Ramsay Hunt syndrome",
+      "Guillain-Barr\u00e9 syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "MRI brain (if atypical)",
+        "Electromyography"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Eye care (lubrication, taping)",
+        "Facial exercises"
+      ],
+      "definitive": [
+        "Oral corticosteroids",
+        "Antivirals (in some cases)"
+      ]
+    },
+    "treatment_protocol": "Start steroids within 72 hrs \u2192 Add antivirals if needed"
+  },
+  {
+    "disease": "Normal Pressure Hydrocephalus (NPH)",
+    "epidemiology": "Rare cause of dementia. Triad: gait disturbance, urinary incontinence, and dementia. More common in elderly. Often idiopathic.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Gait disturbance",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Urinary incontinence",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Cognitive impairment",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Magnetic gait",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Falls",
+        "Functional decline"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Older age",
+      "History of meningitis or hemorrhage"
+    ],
+    "differentials": [
+      "Alzheimer\u2019s",
+      "Parkinson\u2019s",
+      "Vascular dementia"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain (ventriculomegaly)",
+        "High-volume lumbar puncture"
+      ],
+      "additional": [
+        "Gait assessment",
+        "Neuropsych testing"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Rehabilitation",
+        "Mobility aids"
+      ],
+      "definitive": [
+        "Ventriculoperitoneal (VP) shunt"
+      ]
+    },
+    "treatment_protocol": "MRI + LP \u2192 Shunt if responsive"
+  },
+  {
+    "disease": "Transverse Myelitis",
+    "epidemiology": "Rare inflammatory spinal cord condition. Incidence ~1\u20138 per million annually. Can be idiopathic or secondary to autoimmune disease.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Bilateral limb weakness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sensory level on trunk",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bowel/bladder dysfunction",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Back pain",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Paraplegia",
+        "Urinary retention",
+        "Chronic pain"
+      ],
+      "emergency_markers": [
+        "Rapidly progressing neurological symptoms"
+      ]
+    },
+    "risk_factors": [
+      "Infections",
+      "Multiple sclerosis",
+      "Autoimmune diseases"
+    ],
+    "differentials": [
+      "Multiple sclerosis",
+      "Spinal cord tumor",
+      "Guillain-Barr\u00e9"
+    ],
+    "investigations": {
+      "important": [
+        "MRI spine",
+        "CSF analysis"
+      ],
+      "additional": [
+        "Autoimmune panel",
+        "Infectious workup"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Bladder care",
+        "Physiotherapy"
+      ],
+      "definitive": [
+        "IV corticosteroids",
+        "Plasma exchange (refractory)"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Steroids \u2192 Plasma exchange if needed"
+  },
+  {
+    "disease": "Peripheral Neuropathy",
+    "epidemiology": "Affects ~2\u20137% of the population. Common in diabetics and elderly. Can be sensory, motor, or mixed.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Numbness and tingling",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Burning pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Foot drop",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Imbalance",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Foot ulcers",
+        "Falls",
+        "Functional limitation"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Diabetes",
+      "Alcoholism",
+      "Chemotherapy",
+      "Vitamin deficiencies"
+    ],
+    "differentials": [
+      "Radiculopathy",
+      "MS",
+      "CIDP"
+    ],
+    "investigations": {
+      "important": [
+        "Nerve conduction studies",
+        "Blood glucose",
+        "B12 levels"
+      ],
+      "additional": [
+        "Thyroid panel",
+        "Serum protein electrophoresis"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Foot care",
+        "Balance training"
+      ],
+      "definitive": [
+        "Gabapentin",
+        "Pregabalin",
+        "B12 replacement"
+      ]
+    },
+    "treatment_protocol": "Identify cause \u2192 Treat neuropathy \u2192 Prevent complications"
+  },
+  {
+    "disease": "Cervical Spondylotic Myelopathy",
+    "epidemiology": "Most common cause of spinal cord dysfunction in older adults. Degenerative changes compress spinal cord.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Neck pain",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Clumsy hands",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Gait disturbance",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Urinary urgency",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Permanent cord damage",
+        "Immobility"
+      ],
+      "emergency_markers": [
+        "Signs of cord compression"
+      ]
+    },
+    "risk_factors": [
+      "Age > 55",
+      "Degenerative spine disease",
+      "Trauma"
+    ],
+    "differentials": [
+      "ALS",
+      "MS",
+      "Spinal tumors"
+    ],
+    "investigations": {
+      "important": [
+        "MRI cervical spine"
+      ],
+      "additional": [
+        "X-ray spine",
+        "CT myelogram"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Neck support",
+        "Rehabilitation"
+      ],
+      "definitive": [
+        "Surgical decompression"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Surgical consult \u2192 Rehab post-op"
+  },
+  {
+    "disease": "Restless Legs Syndrome (RLS)",
+    "epidemiology": "Affects ~5\u201310% of adults. More common in women and with increasing age. Often idiopathic, but may be secondary.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Urge to move legs",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Worsening symptoms at night",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Relief with movement",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Sleep disturbance",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Insomnia",
+        "Depression",
+        "Daytime fatigue"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Iron deficiency",
+      "Pregnancy",
+      "Chronic kidney disease",
+      "Family history"
+    ],
+    "differentials": [
+      "Peripheral neuropathy",
+      "Nocturnal leg cramps",
+      "Akathisia"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Serum ferritin",
+        "Sleep study if unclear"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Iron supplementation (if deficient)",
+        "Sleep hygiene"
+      ],
+      "definitive": [
+        "Dopamine agonists",
+        "Alpha-2-delta ligands"
+      ]
+    },
+    "treatment_protocol": "Check ferritin \u2192 Start dopamine agonist if needed"
+  },
+  {
+    "disease": "Narcolepsy",
+    "epidemiology": "Chronic sleep disorder affecting ~1 in 2,000 people. Often begins in adolescence or early adulthood. Caused by hypocretin deficiency.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Excessive daytime sleepiness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cataplexy",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sleep paralysis",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypnagogic hallucinations",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Accidents",
+        "Social stigma",
+        "Depression"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history",
+      "Head trauma",
+      "Infections (e.g., H1N1)"
+    ],
+    "differentials": [
+      "Sleep apnea",
+      "Idiopathic hypersomnia",
+      "Depression"
+    ],
+    "investigations": {
+      "important": [
+        "Polysomnography",
+        "Multiple sleep latency test"
+      ],
+      "additional": [
+        "CSF hypocretin level (in select cases)"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Scheduled naps",
+        "Lifestyle modifications"
+      ],
+      "definitive": [
+        "Modafinil",
+        "Sodium oxybate",
+        "Antidepressants (for cataplexy)"
+      ]
+    },
+    "treatment_protocol": "Polysomnogram \u2192 Modafinil \u2192 Address cataplexy"
+  },
+  {
+    "disease": "Essential Tremor",
+    "epidemiology": "Most common movement disorder. Affects ~4% of adults >65 years. Often familial with autosomal dominant inheritance.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Action tremor of hands",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Head tremor",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Voice tremor",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Improvement with alcohol",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "none"
+        }
+      ],
+      "complications": [
+        "Disability with fine tasks",
+        "Social embarrassment"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history",
+      "Older age",
+      "Caffeine use"
+    ],
+    "differentials": [
+      "Parkinson\u2019s disease",
+      "Cerebellar tremor",
+      "Dystonia"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Neurologic exam",
+        "Exclude Parkinson\u2019s features"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Occupational therapy",
+        "Reduce caffeine"
+      ],
+      "definitive": [
+        "Propranolol",
+        "Primidone",
+        "Deep brain stimulation"
+      ]
+    },
+    "treatment_protocol": "Start propranolol or primidone \u2192 Consider DBS if severe"
+  },
+  {
+    "disease": "Idiopathic Intracranial Hypertension (IIH)",
+    "epidemiology": "Primarily affects obese women of childbearing age. Incidence ~1\u20132 per 100,000 annually.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Visual disturbances",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Transient visual obscurations",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pulsatile tinnitus",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Vision loss",
+        "Papilledema"
+      ],
+      "emergency_markers": [
+        "Progressive vision loss",
+        "Severe headache"
+      ]
+    },
+    "risk_factors": [
+      "Obesity",
+      "Female sex",
+      "Vitamin A toxicity",
+      "Certain medications"
+    ],
+    "differentials": [
+      "Brain tumor",
+      "Venous sinus thrombosis",
+      "Migraine"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain",
+        "Lumbar puncture (elevated opening pressure)"
+      ],
+      "additional": [
+        "Visual field testing",
+        "MR venography"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Weight loss",
+        "Repeat LPs"
+      ],
+      "definitive": [
+        "Acetazolamide",
+        "Optic nerve sheath fenestration (severe)"
+      ]
+    },
+    "treatment_protocol": "MRI + LP \u2192 Acetazolamide \u2192 Monitor vision"
+  },
+  {
+    "disease": "Multiple System Atrophy (MSA)",
+    "epidemiology": "Rare neurodegenerative disorder with parkinsonian or cerebellar features. Onset ~50\u201360 years. Poor prognosis, survival ~6\u201310 years.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Autonomic dysfunction",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Parkinsonism unresponsive to levodopa",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cerebellar signs",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pyramidal signs",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Sudden death",
+        "Immobility",
+        "Falls"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Age > 50",
+      "Sporadic (non-inherited)"
+    ],
+    "differentials": [
+      "Parkinson\u2019s",
+      "Progressive supranuclear palsy",
+      "Cerebellar ataxia"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain (hot cross bun sign)",
+        "Autonomic testing"
+      ],
+      "additional": [
+        "DaT scan",
+        "Neuro exam"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "PT/OT",
+        "Bladder management",
+        "Sleep support"
+      ],
+      "definitive": [
+        "Symptomatic management only"
+      ]
+    },
+    "treatment_protocol": "Supportive care \u2192 Manage symptoms \u2192 Monitor progression"
+  },
+  {
+    "disease": "Progressive Supranuclear Palsy (PSP)",
+    "epidemiology": "Atypical parkinsonian disorder. Onset typically after age 60. Prevalence ~5\u20136 per 100,000.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Postural instability",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Vertical gaze palsy",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Axial rigidity",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Speech and swallowing difficulties",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Falls",
+        "Aspiration pneumonia",
+        "Immobility"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Age > 60",
+      "Sporadic occurrence"
+    ],
+    "differentials": [
+      "Parkinson\u2019s disease",
+      "Multiple system atrophy",
+      "Corticobasal degeneration"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain (midbrain atrophy \u2013 'hummingbird sign')"
+      ],
+      "additional": [
+        "DaT scan",
+        "Neurological examination"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Physical therapy",
+        "Speech therapy",
+        "Nutritional support"
+      ],
+      "definitive": [
+        "No cure \u2013 symptomatic treatment only"
+      ]
+    },
+    "treatment_protocol": "Supportive care \u2192 Prevent complications \u2192 Monitor progression"
+  },
+  {
+    "disease": "Corticobasal Degeneration",
+    "epidemiology": "Rare progressive neurodegenerative disorder. Onset typically between 60\u201370 years.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymmetric motor dysfunction",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dystonia or rigidity",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Apraxia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Alien limb phenomenon",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Loss of functional independence",
+        "Falls",
+        "Aspiration"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Older age"
+    ],
+    "differentials": [
+      "Parkinson\u2019s",
+      "PSP",
+      "MSA"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain",
+        "Clinical assessment"
+      ],
+      "additional": [
+        "DaT scan",
+        "Neuropsychological testing"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Rehabilitation",
+        "Symptom-specific care"
+      ],
+      "definitive": [
+        "No disease-modifying treatment"
+      ]
+    },
+    "treatment_protocol": "Supportive therapies \u2192 Monitor progression"
+  },
+  {
+    "disease": "Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+    "epidemiology": "Chronic counterpart of Guillain-Barr\u00e9 syndrome. Prevalence ~1\u20139 per 100,000. Affects all age groups.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Progressive symmetric limb weakness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Areflexia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sensory loss",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Immobility",
+        "Functional disability"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Diabetes",
+      "Autoimmune disorders",
+      "Infections"
+    ],
+    "differentials": [
+      "Guillain-Barr\u00e9 syndrome",
+      "Peripheral neuropathy",
+      "MS"
+    ],
+    "investigations": {
+      "important": [
+        "Nerve conduction studies",
+        "CSF (elevated protein, normal cell count)"
+      ],
+      "additional": [
+        "MRI spine (nerve root enhancement)"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Physiotherapy",
+        "Monitoring respiratory function"
+      ],
+      "definitive": [
+        "IVIG",
+        "Plasmapheresis",
+        "Corticosteroids"
+      ]
+    },
+    "treatment_protocol": "NCS + CSF \u2192 Start IVIG or steroids \u2192 Monitor response"
+  },
+  {
+    "disease": "Hemifacial Spasm",
+    "epidemiology": "Involuntary contractions of facial muscles on one side. More common in middle-aged women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Intermittent facial twitching",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Worsening with stress/fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Progression to tonic spasm",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Involuntary eye closure",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Social anxiety",
+        "Functional disability"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Vascular loop compression",
+      "Facial nerve irritation",
+      "Hypertension"
+    ],
+    "differentials": [
+      "Facial tics",
+      "Focal seizures",
+      "Bell\u2019s palsy"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain (rule out structural lesion)"
+      ],
+      "additional": [
+        "EMG facial muscles"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Reassurance",
+        "Relaxation techniques"
+      ],
+      "definitive": [
+        "Botulinum toxin injections",
+        "Microvascular decompression"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Botulinum \u2192 Consider surgery if refractory"
+  },
+  {
+    "disease": "Trigeminal Neuralgia",
+    "epidemiology": "Facial pain syndrome affecting ~12 per 100,000 annually. More common in women and older adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden, stabbing facial pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Triggered by touch or movement",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Lasts seconds to minutes",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Unilateral distribution",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Weight loss",
+        "Depression",
+        "Functional disability"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Age > 50",
+      "Multiple sclerosis",
+      "Vascular compression"
+    ],
+    "differentials": [
+      "Postherpetic neuralgia",
+      "Temporomandibular disorder",
+      "Dental pain"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain to rule out causes"
+      ],
+      "additional": [
+        "Neurological exam"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Avoidance of triggers"
+      ],
+      "definitive": [
+        "Carbamazepine",
+        "Microvascular decompression"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Start carbamazepine \u2192 Surgery if refractory"
+  },
+  {
+    "disease": "Basilar Migraine",
+    "epidemiology": "Rare subtype of migraine with aura originating from brainstem or both hemispheres. Affects adolescents and young adults, more common in females.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Visual aura",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Vertigo",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ataxia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bilateral sensory symptoms",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Severe headache",
+        "Syncope",
+        "Impaired coordination"
+      ],
+      "emergency_markers": [
+        "Sudden loss of consciousness",
+        "Bilateral weakness"
+      ]
+    },
+    "risk_factors": [
+      "Family history of migraine",
+      "Hormonal fluctuations",
+      "Stress"
+    ],
+    "differentials": [
+      "TIA",
+      "Epilepsy",
+      "Multiple sclerosis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis",
+        "MRI brain (to exclude structural lesion)"
+      ],
+      "additional": [
+        "EEG (if atypical)",
+        "MRA brain"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Avoid triggers",
+        "Hydration"
+      ],
+      "definitive": [
+        "Beta-blockers",
+        "Topiramate",
+        "Calcium channel blockers"
+      ]
+    },
+    "treatment_protocol": "Rule out secondary causes \u2192 Preventive therapy \u2192 Acute migraine management"
+  },
+  {
+    "disease": "Amyotrophic Lateral Sclerosis (ALS)",
+    "epidemiology": "Progressive neurodegenerative disease affecting upper and lower motor neurons. Incidence: ~2 per 100,000/year. Onset typically in 50s\u201360s.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Muscle weakness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Muscle wasting",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fasciculations",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dysphagia",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Malnutrition",
+        "Immobility"
+      ],
+      "emergency_markers": [
+        "Respiratory distress",
+        "Sudden inability to swallow or speak"
+      ]
+    },
+    "risk_factors": [
+      "Family history (5\u201310%)",
+      "Male gender",
+      "Environmental exposures"
+    ],
+    "differentials": [
+      "Cervical myelopathy",
+      "Multifocal motor neuropathy",
+      "Myasthenia gravis"
+    ],
+    "investigations": {
+      "important": [
+        "EMG and nerve conduction studies",
+        "MRI brain/spine"
+      ],
+      "additional": [
+        "Genetic testing",
+        "Pulmonary function tests"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Respiratory support",
+        "Nutritional care",
+        "Physiotherapy"
+      ],
+      "definitive": [
+        "Riluzole",
+        "Edaravone"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Start Riluzole \u2192 Multidisciplinary care"
+  },
+  {
+    "disease": "Wernicke\u2019s Encephalopathy",
+    "epidemiology": "Acute neurological emergency due to thiamine deficiency, commonly in alcoholics or malnourished patients.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Confusion",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ataxia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ophthalmoplegia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nystagmus",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Coma",
+        "Korsakoff\u2019s syndrome",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Acute confusion",
+        "Ophthalmoplegia in alcoholics"
+      ]
+    },
+    "risk_factors": [
+      "Alcoholism",
+      "Malnutrition",
+      "Hyperemesis gravidarum",
+      "Bariatric surgery"
+    ],
+    "differentials": [
+      "Delirium",
+      "Stroke",
+      "Intoxication"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "MRI brain",
+        "Thiamine level (optional)"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Electrolyte correction"
+      ],
+      "definitive": [
+        "IV thiamine before glucose"
+      ]
+    },
+    "treatment_protocol": "Thiamine IV before glucose \u2192 Supportive care \u2192 Treat underlying cause"
+  },
+  {
+    "disease": "Huntington\u2019s Disease",
+    "epidemiology": "Autosomal dominant neurodegenerative disorder. Onset: 30\u201350 years. Prevalence: ~5 per 100,000.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chorea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Behavioral changes",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cognitive decline",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Depression",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Dementia",
+        "Falls",
+        "Suicide"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history",
+      "HTT gene mutation"
+    ],
+    "differentials": [
+      "Wilson\u2019s disease",
+      "Tourette syndrome",
+      "Drug-induced chorea"
+    ],
+    "investigations": {
+      "important": [
+        "Genetic testing (HTT mutation)",
+        "Clinical history"
+      ],
+      "additional": [
+        "MRI brain (caudate atrophy)",
+        "Neuropsychological testing"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Psychiatric support",
+        "Physiotherapy",
+        "Occupational therapy"
+      ],
+      "definitive": [
+        "Tetrabenazine",
+        "Antipsychotics"
+      ]
+    },
+    "treatment_protocol": "Genetic confirmation \u2192 Supportive + symptomatic management"
+  },
+  {
+    "disease": "Tension-Type Headache",
+    "epidemiology": "Most common type of primary headache. Lifetime prevalence up to 80%. More common in women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Bilateral pressure-like headache",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "No nausea or photophobia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Scalp tenderness",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Stress-induced",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Reduced quality of life",
+        "Medication overuse headache"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Stress",
+      "Poor posture",
+      "Sleep disturbances"
+    ],
+    "differentials": [
+      "Migraine",
+      "Cluster headache",
+      "Cervicogenic headache"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Imaging (if red flags)",
+        "Headache diary"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Stress management",
+        "Regular sleep"
+      ],
+      "definitive": [
+        "NSAIDs",
+        "Amitriptyline (chronic cases)"
+      ]
+    },
+    "treatment_protocol": "Exclude red flags \u2192 NSAIDs \u2192 Preventive meds if chronic"
+  },
+  {
+    "disease": "Temporal Arteritis (Giant Cell Arteritis)",
+    "epidemiology": "Inflammatory vasculitis affecting medium to large arteries. Incidence increases with age; more common in women >50 years.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Temporal headache",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Scalp tenderness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Jaw claudication",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Vision loss",
+          "order": 4,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Irreversible blindness",
+        "Stroke",
+        "Aortic aneurysm"
+      ],
+      "emergency_markers": [
+        "Sudden vision loss",
+        "Neurological symptoms"
+      ]
+    },
+    "risk_factors": [
+      "Age > 50",
+      "Female sex",
+      "Polymyalgia rheumatica"
+    ],
+    "differentials": [
+      "Migraine",
+      "Cluster headache",
+      "TMJ disorder"
+    ],
+    "investigations": {
+      "important": [
+        "ESR and CRP",
+        "Temporal artery biopsy"
+      ],
+      "additional": [
+        "Duplex ultrasonography",
+        "MRI/MRA (if needed)"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Low-dose aspirin"
+      ],
+      "definitive": [
+        "High-dose corticosteroids immediately"
+      ]
+    },
+    "treatment_protocol": "Start steroids \u2192 Confirm with biopsy \u2192 Taper based on ESR/CRP"
+  },
+  {
+    "disease": "Posterior Reversible Encephalopathy Syndrome (PRES)",
+    "epidemiology": "Neurotoxic state from acute hypertension or immunosuppressive therapy. Reversible with prompt treatment.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Altered mental status",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Seizures",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Visual disturbances",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Cerebral edema",
+        "Status epilepticus",
+        "Hemorrhage"
+      ],
+      "emergency_markers": [
+        "Seizures",
+        "Hypertensive crisis"
+      ]
+    },
+    "risk_factors": [
+      "Hypertension",
+      "Eclampsia",
+      "Immunosuppressants",
+      "Renal disease"
+    ],
+    "differentials": [
+      "Stroke",
+      "Encephalitis",
+      "Toxic leukoencephalopathy"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain (posterior white matter changes)"
+      ],
+      "additional": [
+        "BP monitoring",
+        "EEG"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Anticonvulsants",
+        "ICU monitoring"
+      ],
+      "definitive": [
+        "Control BP",
+        "Stop offending agent"
+      ]
+    },
+    "treatment_protocol": "Control BP \u2192 Manage seizures \u2192 Repeat imaging to confirm resolution"
+  },
+  {
+    "disease": "Central Pontine Myelinolysis (CPM)",
+    "epidemiology": "Rare demyelinating condition caused by rapid correction of hyponatremia. Often fatal or disabling.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Confusion",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Quadriplegia",
+          "order": 2,
+          "frequency": "moderate",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Dysarthria",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Locked-in syndrome",
+          "order": 4,
+          "frequency": "rare",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Locked-in state",
+        "Coma",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Rapid neuro deterioration post sodium correction"
+      ]
+    },
+    "risk_factors": [
+      "Chronic hyponatremia",
+      "Alcoholism",
+      "Liver transplant"
+    ],
+    "differentials": [
+      "Stroke",
+      "Encephalitis",
+      "Guillain-Barr\u00e9 syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain (central pons hyperintensity)"
+      ],
+      "additional": [
+        "Serum sodium monitoring"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "ICU care",
+        "Nutritional support",
+        "Rehabilitation"
+      ],
+      "definitive": [
+        "Prevention by correcting sodium slowly"
+      ]
+    },
+    "treatment_protocol": "Preventive \u2192 Slow sodium correction < 8 mEq/L/day"
+  },
+  {
+    "disease": "Pseudotumor Cerebri (Benign Intracranial Hypertension)",
+    "epidemiology": "Raised ICP without tumor. Common in obese women of reproductive age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Transient visual obscurations",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pulsatile tinnitus",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Diplopia (6th nerve palsy)",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Vision loss",
+        "Papilledema"
+      ],
+      "emergency_markers": [
+        "Progressive vision loss"
+      ]
+    },
+    "risk_factors": [
+      "Obesity",
+      "Female sex",
+      "Vitamin A toxicity",
+      "Tetracycline use"
+    ],
+    "differentials": [
+      "Brain tumor",
+      "Cerebral venous sinus thrombosis"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain",
+        "LP (elevated opening pressure)"
+      ],
+      "additional": [
+        "Visual fields",
+        "MRV"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Weight loss",
+        "Repeat LP"
+      ],
+      "definitive": [
+        "Acetazolamide",
+        "Surgical fenestration in refractory cases"
+      ]
+    },
+    "treatment_protocol": "MRI + LP \u2192 Start acetazolamide \u2192 Consider surgical options"
+  },
+  {
+    "disease": "Subacute Combined Degeneration of the Spinal Cord",
+    "epidemiology": "Neurological complication of vitamin B12 deficiency. Often seen in vegetarians or patients with pernicious anemia.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Paresthesias",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Unsteady gait",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Loss of vibration sense",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Spasticity",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Permanent spinal cord damage",
+        "Paralysis"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Vegan diet",
+      "Pernicious anemia",
+      "GI surgery (gastrectomy)"
+    ],
+    "differentials": [
+      "MS",
+      "Tabes dorsalis",
+      "Folate deficiency"
+    ],
+    "investigations": {
+      "important": [
+        "Serum B12 level",
+        "MRI spine (dorsal column hyperintensity)"
+      ],
+      "additional": [
+        "Methylmalonic acid",
+        "Homocysteine levels"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Rehabilitation",
+        "Dietary correction"
+      ],
+      "definitive": [
+        "IM vitamin B12"
+      ]
+    },
+    "treatment_protocol": "Confirm B12 deficiency \u2192 Start IM B12 \u2192 Monitor recovery"
+  },
+  {
+    "disease": "Multiple System Atrophy (MSA)",
+    "epidemiology": "Atypical Parkinsonism with autonomic failure and cerebellar/pyramidal features. Onset typically in 50s\u201360s, rare but progressive.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Parkinsonian symptoms (bradykinesia, rigidity)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Autonomic dysfunction (orthostatic hypotension)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ataxia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Urinary incontinence",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Falls",
+        "Immobility",
+        "Aspiration pneumonia"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Age > 50",
+      "No strong genetic link identified"
+    ],
+    "differentials": [
+      "Parkinson\u2019s disease",
+      "PSP",
+      "Corticobasal degeneration"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain (putaminal changes, hot cross bun sign)"
+      ],
+      "additional": [
+        "Autonomic testing",
+        "Neuropsychological tests"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Physical therapy",
+        "Compression stockings"
+      ],
+      "definitive": [
+        "Limited \u2013 Levodopa trial may be ineffective"
+      ]
+    },
+    "treatment_protocol": "Rule out mimics \u2192 Symptomatic treatment \u2192 Monitor progression"
+  },
+  {
+    "disease": "Narcolepsy",
+    "epidemiology": "Chronic sleep disorder affecting ~1 in 2,000 people. Usually begins in adolescence or early adulthood.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Excessive daytime sleepiness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cataplexy",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sleep paralysis",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypnagogic hallucinations",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Social impairment",
+        "Accidents"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "HLA-DQB1*0602",
+      "Family history",
+      "Previous H1N1 infection"
+    ],
+    "differentials": [
+      "Idiopathic hypersomnia",
+      "Obstructive sleep apnea",
+      "Depression"
+    ],
+    "investigations": {
+      "important": [
+        "Polysomnography",
+        "Multiple Sleep Latency Test (MSLT)"
+      ],
+      "additional": [
+        "CSF hypocretin-1 level"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Scheduled naps",
+        "Sleep hygiene"
+      ],
+      "definitive": [
+        "Modafinil",
+        "Sodium oxybate (cataplexy)"
+      ]
+    },
+    "treatment_protocol": "Confirm via PSG + MSLT \u2192 Modafinil \u2192 Add sodium oxybate if cataplexy"
+  },
+  {
+    "disease": "Restless Legs Syndrome (RLS)",
+    "epidemiology": "Affects ~5\u201310% of the population. More common in women and with increasing age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Urge to move legs",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Worsening at rest and night",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Relieved by movement",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Sleep disturbance",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Insomnia",
+        "Depression"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Iron deficiency",
+      "Pregnancy",
+      "Chronic kidney disease"
+    ],
+    "differentials": [
+      "Peripheral neuropathy",
+      "Nocturnal leg cramps",
+      "Akathisia"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis",
+        "Serum ferritin"
+      ],
+      "additional": [
+        "Polysomnography (if atypical)"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Iron supplementation",
+        "Sleep hygiene"
+      ],
+      "definitive": [
+        "Pramipexole",
+        "Gabapentin"
+      ]
+    },
+    "treatment_protocol": "Treat underlying cause \u2192 Dopaminergic agent \u2192 Monitor for augmentation"
+  },
+  {
+    "disease": "Normal Pressure Hydrocephalus (NPH)",
+    "epidemiology": "Affects elderly. Characterized by triad: gait disturbance, dementia, and urinary incontinence. Often misdiagnosed.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Gait disturbance",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Urinary incontinence",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Cognitive decline",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bradykinesia",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Progressive dementia",
+        "Immobility"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Age > 60",
+      "Subarachnoid hemorrhage",
+      "Head trauma"
+    ],
+    "differentials": [
+      "Alzheimer\u2019s",
+      "Parkinson\u2019s",
+      "Vascular dementia"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain (ventriculomegaly)",
+        "High-volume lumbar tap test"
+      ],
+      "additional": [
+        "Gait assessment",
+        "Neuropsychological testing"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Cognitive rehabilitation"
+      ],
+      "definitive": [
+        "Ventriculoperitoneal shunt"
+      ]
+    },
+    "treatment_protocol": "MRI + tap test \u2192 VP shunt \u2192 Monitor improvement"
+  },
+  {
+    "disease": "Neurofibromatosis Type 1 (NF1)",
+    "epidemiology": "Autosomal dominant condition with multisystem involvement. Incidence ~1 in 3,000 births.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Caf\u00e9-au-lait spots",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Neurofibromas",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Axillary/inguinal freckling",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Lisch nodules",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Learning disabilities",
+        "Scoliosis",
+        "Malignant transformation"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history",
+      "NF1 gene mutation"
+    ],
+    "differentials": [
+      "Tuberous sclerosis",
+      "Legius syndrome",
+      "Noonan syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical criteria",
+        "Genetic testing"
+      ],
+      "additional": [
+        "MRI brain/spine",
+        "Ophthalmological exam"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Multidisciplinary care",
+        "Monitoring"
+      ],
+      "definitive": [
+        "Surgical excision of symptomatic lesions"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Surveillance \u2192 Treat complications"
+  },
+  {
+    "disease": "Myasthenia Gravis",
+    "epidemiology": "Autoimmune disorder affecting neuromuscular junction. Bimodal age distribution: women <40, men >60.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigable muscle weakness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ptosis",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Diplopia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dysphagia",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Myasthenic crisis",
+        "Respiratory failure"
+      ],
+      "emergency_markers": [
+        "Sudden respiratory muscle weakness",
+        "Inability to swallow or speak"
+      ]
+    },
+    "risk_factors": [
+      "Thymoma",
+      "Autoimmune disorders",
+      "Genetic predisposition"
+    ],
+    "differentials": [
+      "Lambert-Eaton syndrome",
+      "Botulism",
+      "Stroke"
+    ],
+    "investigations": {
+      "important": [
+        "AChR antibodies",
+        "Edrophonium test",
+        "EMG"
+      ],
+      "additional": [
+        "CT/MRI chest (thymoma screening)"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Respiratory monitoring",
+        "Nutritional support"
+      ],
+      "definitive": [
+        "Pyridostigmine",
+        "Immunosuppressants",
+        "Thymectomy"
+      ]
+    },
+    "treatment_protocol": "Diagnosis confirmation \u2192 Anticholinesterase + steroids \u2192 Thymectomy if thymoma"
+  },
+  {
+    "disease": "Guillain-Barr\u00e9 Syndrome (GBS)",
+    "epidemiology": "Acute immune-mediated polyneuropathy. Incidence: ~1\u20132/100,000/year. Often post-infectious.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Ascending muscle weakness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Areflexia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Paresthesias",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Respiratory involvement",
+          "order": 4,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Autonomic instability",
+        "Residual weakness"
+      ],
+      "emergency_markers": [
+        "Rapid progression",
+        "Breathing difficulty"
+      ]
+    },
+    "risk_factors": [
+      "Recent infection (Campylobacter, EBV)",
+      "Vaccination",
+      "Autoimmune background"
+    ],
+    "differentials": [
+      "Myasthenia gravis",
+      "CIDP",
+      "Transverse myelitis"
+    ],
+    "investigations": {
+      "important": [
+        "Nerve conduction studies",
+        "CSF (albuminocytologic dissociation)"
+      ],
+      "additional": [
+        "Pulmonary function test",
+        "Antibody panels"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "ICU care",
+        "Ventilation if needed"
+      ],
+      "definitive": [
+        "IVIG",
+        "Plasmapheresis"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Start IVIG/plasmapheresis \u2192 Supportive monitoring"
+  },
+  {
+    "disease": "Spinocerebellar Ataxia",
+    "epidemiology": "Group of hereditary ataxias. Autosomal dominant inheritance. Onset varies by subtype.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Gait ataxia",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dysarthria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Tremors",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Visual disturbances",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Falls",
+        "Speech disability",
+        "Vision loss"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history",
+      "Genetic mutation"
+    ],
+    "differentials": [
+      "MS",
+      "Friedreich\u2019s ataxia",
+      "Cerebellar tumors"
+    ],
+    "investigations": {
+      "important": [
+        "Genetic testing"
+      ],
+      "additional": [
+        "MRI brain",
+        "Electrophysiology"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Physiotherapy",
+        "Speech therapy"
+      ],
+      "definitive": [
+        "No cure \u2013 symptomatic treatment"
+      ]
+    },
+    "treatment_protocol": "Genetic diagnosis \u2192 Supportive care \u2192 Rehabilitation focus"
+  },
+  {
+    "disease": "Peripheral Neuropathy (Diabetic)",
+    "epidemiology": "Common complication of diabetes. Affects up to 50% of long-term diabetics.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Burning foot pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Paresthesia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Loss of vibration sense",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Foot ulcers",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Infections",
+        "Amputations",
+        "Falls"
+      ],
+      "emergency_markers": [
+        "Infected ulcer",
+        "Foot gangrene"
+      ]
+    },
+    "risk_factors": [
+      "Long-standing diabetes",
+      "Poor glycemic control",
+      "Smoking"
+    ],
+    "differentials": [
+      "Vitamin B12 deficiency",
+      "Alcoholic neuropathy"
+    ],
+    "investigations": {
+      "important": [
+        "Monofilament test",
+        "Nerve conduction studies"
+      ],
+      "additional": [
+        "HbA1c",
+        "Foot inspection"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "Foot care",
+        "Glycemic control"
+      ],
+      "definitive": [
+        "Pregabalin",
+        "Duloxetine",
+        "TCAs"
+      ]
+    },
+    "treatment_protocol": "Diagnose \u2192 Control sugar \u2192 Add neuropathic pain treatment"
+  },
+  {
+    "disease": "Herpes Simplex Encephalitis",
+    "epidemiology": "Most common cause of sporadic fatal viral encephalitis in adults. Caused by HSV-1.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Confusion",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Seizures",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Focal neurological deficits",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Brain damage",
+        "Coma",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Sudden altered mental status",
+        "New onset seizures"
+      ]
+    },
+    "risk_factors": [
+      "Immunosuppression",
+      "HSV exposure",
+      "Age extremes"
+    ],
+    "differentials": [
+      "Bacterial meningitis",
+      "Autoimmune encephalitis",
+      "Cerebral abscess"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain (temporal lobe changes)",
+        "CSF PCR for HSV"
+      ],
+      "additional": [
+        "EEG",
+        "CSF analysis"
+      ]
+    },
+    "specialty": "Neurology",
+    "treatment": {
+      "supportive": [
+        "ICU care",
+        "Seizure control"
+      ],
+      "definitive": [
+        "IV Acyclovir"
+      ]
+    },
+    "treatment_protocol": "Start Acyclovir early \u2192 Confirm with CSF PCR \u2192 Continue IV therapy 14\u201321 days"
+  }
+]

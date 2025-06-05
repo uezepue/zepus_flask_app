@@ -1,0 +1,5352 @@
+[
+  {
+    "disease": "Hypertension",
+    "epidemiology": "Affects about 30% of adults globally; major risk factor for stroke, MI, heart failure, and CKD.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Often asymptomatic",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Headache (especially in morning)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dizziness",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Blurred vision",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Stroke",
+        "Myocardial infarction",
+        "Heart failure",
+        "Chronic kidney disease"
+      ],
+      "emergency_markers": [
+        "Hypertensive emergency (e.g., end-organ damage)"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Obesity",
+      "High salt intake",
+      "Smoking",
+      "Sedentary lifestyle",
+      "Black ethnicity"
+    ],
+    "differentials": [
+      "Anxiety",
+      "Pheochromocytoma",
+      "Hyperthyroidism"
+    ],
+    "investigations": {
+      "important": [
+        "BP monitoring",
+        "Serum electrolytes",
+        "Creatinine",
+        "ECG"
+      ],
+      "additional": [
+        "24-hour ambulatory BP",
+        "Echocardiogram",
+        "Urinalysis"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Lifestyle modification",
+        "Diet (DASH)",
+        "Weight loss"
+      ],
+      "definitive": [
+        "ACE inhibitors",
+        "Calcium channel blockers",
+        "Diuretics",
+        "ARBs"
+      ]
+    },
+    "treatment_protocol": "Assess risk \u2192 Lifestyle changes \u2192 Start monotherapy or dual therapy \u2192 Regular monitoring"
+  },
+  {
+    "disease": "Heart Failure",
+    "epidemiology": "Prevalence ~1\u20132% in general population; increases with age; major cause of hospitalization in elderly.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea on exertion",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Orthopnea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Paroxysmal nocturnal dyspnea",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Leg swelling",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Pulmonary edema",
+        "Arrhythmia",
+        "Renal failure"
+      ],
+      "emergency_markers": [
+        "Acute decompensated heart failure"
+      ]
+    },
+    "risk_factors": [
+      "Coronary artery disease",
+      "Hypertension",
+      "Diabetes mellitus",
+      "Valvular heart disease"
+    ],
+    "differentials": [
+      "COPD",
+      "Anemia",
+      "CKD"
+    ],
+    "investigations": {
+      "important": [
+        "BNP/NT-proBNP",
+        "Echocardiogram",
+        "ECG",
+        "Chest X-ray"
+      ],
+      "additional": [
+        "Cardiac MRI",
+        "Stress test",
+        "Coronary angiography"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Salt restriction",
+        "Fluid restriction",
+        "Daily weight monitoring"
+      ],
+      "definitive": [
+        "ACE inhibitors",
+        "Beta-blockers",
+        "Diuretics",
+        "MRAs",
+        "ARNIs"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Classify HF type \u2192 Initiate GDMT \u2192 Monitor and titrate"
+  },
+  {
+    "disease": "Myocardial Infarction",
+    "epidemiology": "Leading cause of death worldwide; highest incidence in men >45 and women >55 years.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chest pain (crushing/substernal)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Radiation to arm/jaw",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Sweating",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Shortness of breath",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Cardiogenic shock",
+        "Arrhythmia",
+        "Heart failure",
+        "Ventricular rupture"
+      ],
+      "emergency_markers": [
+        "ST-elevation or new LBBB with chest pain"
+      ]
+    },
+    "risk_factors": [
+      "Smoking",
+      "Hypertension",
+      "Hyperlipidemia",
+      "Diabetes",
+      "Family history"
+    ],
+    "differentials": [
+      "Angina",
+      "Pericarditis",
+      "Aortic dissection",
+      "PE"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Cardiac troponins",
+        "Echocardiogram"
+      ],
+      "additional": [
+        "Coronary angiography",
+        "Cardiac MRI"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Oxygen if hypoxic",
+        "Analgesia",
+        "Antiplatelets"
+      ],
+      "definitive": [
+        "PCI",
+        "Thrombolytics (if PCI not available)",
+        "Beta-blockers",
+        "Statins"
+      ]
+    },
+    "treatment_protocol": "STEMI \u2192 Immediate PCI or thrombolysis \u2192 DAPT + statins \u2192 Cardiac rehab"
+  },
+  {
+    "disease": "Atrial Fibrillation",
+    "epidemiology": "Most common sustained arrhythmia; prevalence increases with age; associated with stroke risk.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Palpitations",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Irregular pulse",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Stroke",
+        "Heart failure",
+        "Tachycardia-induced cardiomyopathy"
+      ],
+      "emergency_markers": [
+        "AF with hemodynamic instability"
+      ]
+    },
+    "risk_factors": [
+      "Hypertension",
+      "Valvular disease",
+      "Thyrotoxicosis",
+      "Alcohol",
+      "Heart failure"
+    ],
+    "differentials": [
+      "Atrial flutter",
+      "SVT",
+      "Anxiety"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Thyroid function",
+        "Echocardiogram"
+      ],
+      "additional": [
+        "Holter monitor",
+        "CHADS2-VASc scoring"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Rate control with beta-blockers",
+        "Anticoagulation"
+      ],
+      "definitive": [
+        "Rhythm control (e.g., amiodarone)",
+        "Cardioversion",
+        "Ablation"
+      ]
+    },
+    "treatment_protocol": "Assess stability \u2192 Rate or rhythm control \u2192 Anticoagulate per CHADS2-VASc"
+  },
+  {
+    "disease": "Pericarditis",
+    "epidemiology": "Often idiopathic or viral; affects males more commonly; can be recurrent.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sharp chest pain worsens with inspiration",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pain relieved by sitting forward",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pericardial friction rub",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fever",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Pericardial effusion",
+        "Tamponade",
+        "Constrictive pericarditis"
+      ],
+      "emergency_markers": [
+        "Tamponade signs: hypotension, muffled heart sounds, JVD"
+      ]
+    },
+    "risk_factors": [
+      "Viral infections",
+      "Autoimmune disease",
+      "Recent MI (Dressler's)",
+      "Cancer"
+    ],
+    "differentials": [
+      "MI",
+      "PE",
+      "Pleuritis"
+    ],
+    "investigations": {
+      "important": [
+        "ECG (diffuse ST elevation)",
+        "Echocardiogram",
+        "CRP/ESR"
+      ],
+      "additional": [
+        "Pericardial fluid analysis",
+        "Cardiac MRI"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Colchicine",
+        "Rest"
+      ],
+      "definitive": [
+        "Pericardiocentesis if effusion",
+        "Treat underlying cause"
+      ]
+    },
+    "treatment_protocol": "NSAIDs + Colchicine \u2192 Monitor \u2192 Drain if effusion \u2192 Address recurrence"
+  },
+  {
+    "disease": "Mitral Valve Prolapse",
+    "epidemiology": "Occurs in ~2% of population; more common in females; often benign but may cause complications.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Palpitations",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Atypical chest pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Mid-systolic click",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Mitral regurgitation",
+        "Arrhythmia",
+        "Endocarditis"
+      ],
+      "emergency_markers": [
+        "Severe mitral regurgitation"
+      ]
+    },
+    "risk_factors": [
+      "Connective tissue disorders",
+      "Female sex",
+      "Family history"
+    ],
+    "differentials": [
+      "Anxiety",
+      "Mitral regurgitation",
+      "Panic attack"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "ECG"
+      ],
+      "additional": [
+        "Holter monitor",
+        "Chest X-ray"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Reassurance",
+        "Beta-blockers for palpitations"
+      ],
+      "definitive": [
+        "Valve repair (if regurgitation is severe)"
+      ]
+    },
+    "treatment_protocol": "Echo \u2192 Monitor severity \u2192 Surgery if symptomatic or regurgitation severe"
+  },
+  {
+    "disease": "Aortic Stenosis",
+    "epidemiology": "Common in elderly; degenerative calcification most frequent cause; bicuspid aortic valve in younger patients.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Exertional dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Angina",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Systolic ejection murmur",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Arrhythmias",
+        "Sudden death"
+      ],
+      "emergency_markers": [
+        "Syncope with murmur",
+        "Cardiac arrest"
+      ]
+    },
+    "risk_factors": [
+      "Age > 65",
+      "Congenital bicuspid valve",
+      "Hyperlipidemia"
+    ],
+    "differentials": [
+      "Hypertrophic cardiomyopathy",
+      "Pulmonary hypertension"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "ECG",
+        "Chest X-ray"
+      ],
+      "additional": [
+        "Cardiac catheterization"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Monitor if mild",
+        "Treat comorbidities"
+      ],
+      "definitive": [
+        "Surgical valve replacement",
+        "TAVR"
+      ]
+    },
+    "treatment_protocol": "Echo \u2192 Assess severity \u2192 Surgery/TAVR if symptomatic or LV dysfunction"
+  },
+  {
+    "disease": "Supraventricular Tachycardia (SVT)",
+    "epidemiology": "Common arrhythmia, especially in young females; AVNRT most frequent form.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden onset palpitations",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Lightheadedness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Shortness of breath",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 4,
+          "frequency": "uncommon",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Cardiac arrest (rare)"
+      ],
+      "emergency_markers": [
+        "Unstable SVT (hypotension, chest pain)"
+      ]
+    },
+    "risk_factors": [
+      "WPW syndrome",
+      "Stimulants",
+      "Thyrotoxicosis"
+    ],
+    "differentials": [
+      "AFib",
+      "Ventricular tachycardia",
+      "Anxiety"
+    ],
+    "investigations": {
+      "important": [
+        "ECG during episode",
+        "Echocardiogram"
+      ],
+      "additional": [
+        "Electrophysiologic study",
+        "Holter monitor"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Vagal maneuvers",
+        "Beta-blockers"
+      ],
+      "definitive": [
+        "Adenosine (acute)",
+        "Catheter ablation (curative)"
+      ]
+    },
+    "treatment_protocol": "Assess stability \u2192 Vagal or adenosine \u2192 Prevent recurrence (ablation)"
+  },
+  {
+    "disease": "Endocarditis",
+    "epidemiology": "Rare but life-threatening; highest risk in IV drug users, prosthetic valves, and congenital heart defects.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "New murmur",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Petechiae",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Splinter hemorrhages",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Embolic stroke",
+        "Heart failure",
+        "Valvular destruction"
+      ],
+      "emergency_markers": [
+        "Sepsis",
+        "Acute valvular insufficiency"
+      ]
+    },
+    "risk_factors": [
+      "IV drug use",
+      "Prosthetic valves",
+      "Poor dental hygiene",
+      "Congenital heart defects"
+    ],
+    "differentials": [
+      "Sepsis",
+      "Autoimmune disease",
+      "Vasculitis"
+    ],
+    "investigations": {
+      "important": [
+        "Blood cultures",
+        "Echocardiogram (TEE)",
+        "CRP/ESR"
+      ],
+      "additional": [
+        "CBC",
+        "Urinalysis",
+        "ECG"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Hospitalization",
+        "Monitoring for embolic events"
+      ],
+      "definitive": [
+        "IV antibiotics",
+        "Surgery if valvular damage"
+      ]
+    },
+    "treatment_protocol": "Blood cultures \u2192 IV antibiotics \u2192 Echo \u2192 Surgery if indicated"
+  },
+  {
+    "disease": "Aortic Dissection",
+    "epidemiology": "Uncommon but fatal; incidence 2\u20133 per 100,000/year; more common in men aged 60\u201370.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden tearing chest pain radiating to back",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Pulse deficit or blood pressure difference",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Neurologic deficits",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Aortic rupture",
+        "Stroke",
+        "Pericardial tamponade"
+      ],
+      "emergency_markers": [
+        "Hemodynamic instability",
+        "Neurologic signs",
+        "Tamponade"
+      ]
+    },
+    "risk_factors": [
+      "Hypertension",
+      "Connective tissue disorders",
+      "Bicuspid aortic valve",
+      "Cocaine use"
+    ],
+    "differentials": [
+      "MI",
+      "PE",
+      "Pericarditis"
+    ],
+    "investigations": {
+      "important": [
+        "CT angiography",
+        "TEE",
+        "D-dimer"
+      ],
+      "additional": [
+        "ECG",
+        "Chest X-ray"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Blood pressure control (IV beta-blockers)"
+      ],
+      "definitive": [
+        "Surgery for type A",
+        "Medical for type B unless complicated"
+      ]
+    },
+    "treatment_protocol": "CT or TEE \u2192 Type A: surgery, Type B: control BP unless rupture"
+  },
+  {
+    "disease": "Dilated Cardiomyopathy",
+    "epidemiology": "Prevalence ~1 in 2,500; leading cause of heart transplant; idiopathic in most cases.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Progressive dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Peripheral edema",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Arrhythmias",
+        "Thromboembolism"
+      ],
+      "emergency_markers": [
+        "Decompensated heart failure",
+        "Cardiogenic shock"
+      ]
+    },
+    "risk_factors": [
+      "Alcohol abuse",
+      "Viral myocarditis",
+      "Family history",
+      "Chemotherapy"
+    ],
+    "differentials": [
+      "Restrictive cardiomyopathy",
+      "Ischemic heart disease",
+      "Valvular heart disease"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "BNP",
+        "ECG"
+      ],
+      "additional": [
+        "Cardiac MRI",
+        "Coronary angiography",
+        "Genetic testing"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Salt and fluid restriction",
+        "Lifestyle modification"
+      ],
+      "definitive": [
+        "ACE inhibitors",
+        "Beta-blockers",
+        "Diuretics",
+        "Device therapy (ICD/CRT)"
+      ]
+    },
+    "treatment_protocol": "Echo diagnosis \u2192 GDMT \u2192 ICD/CRT for EF <35% \u2192 Transplant if refractory"
+  },
+  {
+    "disease": "Restrictive Cardiomyopathy",
+    "epidemiology": "Less common than other cardiomyopathies; associated with infiltrative diseases like amyloidosis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Exercise intolerance",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Peripheral edema",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Arrhythmias",
+        "Thromboembolic events"
+      ],
+      "emergency_markers": [
+        "Syncope",
+        "Refractory heart failure"
+      ]
+    },
+    "risk_factors": [
+      "Amyloidosis",
+      "Hemochromatosis",
+      "Sarcoidosis",
+      "Radiation therapy"
+    ],
+    "differentials": [
+      "Constrictive pericarditis",
+      "Dilated cardiomyopathy",
+      "CHF"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "BNP",
+        "ECG"
+      ],
+      "additional": [
+        "Cardiac MRI",
+        "Endomyocardial biopsy",
+        "Serum electrophoresis"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Diuretics",
+        "Salt restriction"
+      ],
+      "definitive": [
+        "Treat underlying cause",
+        "Heart transplant (advanced cases)"
+      ]
+    },
+    "treatment_protocol": "Differentiate from constrictive \u2192 Manage fluid \u2192 Address cause \u2192 Refer if refractory"
+  },
+  {
+    "disease": "Ventricular Tachycardia",
+    "epidemiology": "Life-threatening arrhythmia; most common in patients with structural heart disease.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Palpitations",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dizziness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Sudden cardiac arrest",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Cardiac arrest",
+        "Heart failure",
+        "Thromboembolism"
+      ],
+      "emergency_markers": [
+        "Unstable VT",
+        "Loss of consciousness"
+      ]
+    },
+    "risk_factors": [
+      "MI scar",
+      "Dilated cardiomyopathy",
+      "Congenital heart disease",
+      "Electrolyte imbalance"
+    ],
+    "differentials": [
+      "SVT with aberrancy",
+      "AFib",
+      "Paced rhythm"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Echocardiogram",
+        "Electrolytes"
+      ],
+      "additional": [
+        "Holter monitor",
+        "Electrophysiology study",
+        "Cardiac MRI"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "IV antiarrhythmics",
+        "Correct electrolytes"
+      ],
+      "definitive": [
+        "ICD placement",
+        "Catheter ablation"
+      ]
+    },
+    "treatment_protocol": "Assess stability \u2192 ACLS if needed \u2192 Antiarrhythmic \u2192 ICD/ablation for recurrence"
+  },
+  {
+    "disease": "Wolff-Parkinson-White Syndrome",
+    "epidemiology": "Prevalence ~1 in 1,000; often presents in teens/young adults; associated with AVRT.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Palpitations",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Lightheadedness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sudden cardiac arrest",
+          "order": 4,
+          "frequency": "rare",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "AF with rapid conduction",
+        "Sudden death"
+      ],
+      "emergency_markers": [
+        "Pre-excited AF",
+        "Syncope with delta wave"
+      ]
+    },
+    "risk_factors": [
+      "Congenital accessory pathway",
+      "Family history"
+    ],
+    "differentials": [
+      "SVT",
+      "Ventricular tachycardia",
+      "AFib"
+    ],
+    "investigations": {
+      "important": [
+        "ECG (short PR, delta wave)",
+        "Holter monitor"
+      ],
+      "additional": [
+        "Echocardiogram",
+        "EP study"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Avoid AV blockers in AF",
+        "Acute vagal maneuvers"
+      ],
+      "definitive": [
+        "Catheter ablation"
+      ]
+    },
+    "treatment_protocol": "Diagnose via ECG \u2192 Ablation in symptomatic patients \u2192 Avoid AV nodal blockers"
+  },
+  {
+    "disease": "Long QT Syndrome",
+    "epidemiology": "Rare genetic or acquired disorder; risk of torsades de pointes and sudden cardiac death.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Syncope",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Seizure-like activity",
+          "order": 3,
+          "frequency": "uncommon",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Sudden cardiac arrest",
+          "order": 4,
+          "frequency": "rare",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Torsades de pointes",
+        "Sudden death"
+      ],
+      "emergency_markers": [
+        "QTc > 500 ms with syncope or family history of sudden death"
+      ]
+    },
+    "risk_factors": [
+      "Congenital mutations",
+      "Drugs (antiarrhythmics, antipsychotics)",
+      "Electrolyte disturbances"
+    ],
+    "differentials": [
+      "Seizure",
+      "Ventricular tachycardia",
+      "Syncope"
+    ],
+    "investigations": {
+      "important": [
+        "ECG (QTc interval)",
+        "Electrolytes",
+        "Medication review"
+      ],
+      "additional": [
+        "Genetic testing",
+        "Exercise ECG"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Avoid QT-prolonging drugs",
+        "Correct electrolytes"
+      ],
+      "definitive": [
+        "Beta-blockers",
+        "ICD for high-risk cases"
+      ]
+    },
+    "treatment_protocol": "Identify cause \u2192 Correct contributors \u2192 Beta-blockers \u2192 ICD if high-risk"
+  },
+  {
+    "disease": "Pulmonary Hypertension",
+    "epidemiology": "Prevalence is about 15\u201350 cases per million; higher in women and those with connective tissue diseases.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea on exertion",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Chest pain",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Right heart failure",
+        "Arrhythmia",
+        "Hemoptysis"
+      ],
+      "emergency_markers": [
+        "Syncope",
+        "Right heart failure symptoms"
+      ]
+    },
+    "risk_factors": [
+      "Connective tissue diseases",
+      "HIV",
+      "Portal hypertension",
+      "Congenital heart disease"
+    ],
+    "differentials": [
+      "Heart failure",
+      "COPD",
+      "Interstitial lung disease"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "Right heart catheterization",
+        "Chest X-ray"
+      ],
+      "additional": [
+        "V/Q scan",
+        "Pulmonary function tests",
+        "BNP"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Diuretics",
+        "Oxygen",
+        "Exercise"
+      ],
+      "definitive": [
+        "Endothelin receptor antagonists",
+        "PDE-5 inhibitors",
+        "Prostacyclins"
+      ]
+    },
+    "treatment_protocol": "Echo \u2192 Right heart cath \u2192 Classify group \u2192 Initiate targeted therapy"
+  },
+  {
+    "disease": "Myocarditis",
+    "epidemiology": "Often viral; incidence ~10\u201322 per 100,000/year; affects young adults disproportionately.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chest pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Shortness of breath",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Dilated cardiomyopathy",
+        "Arrhythmias",
+        "Heart failure"
+      ],
+      "emergency_markers": [
+        "Cardiogenic shock",
+        "Ventricular arrhythmias"
+      ]
+    },
+    "risk_factors": [
+      "Viral infections",
+      "Autoimmune diseases",
+      "Toxins",
+      "Drugs"
+    ],
+    "differentials": [
+      "MI",
+      "Pericarditis",
+      "Endocarditis"
+    ],
+    "investigations": {
+      "important": [
+        "Cardiac MRI",
+        "Troponins",
+        "CRP/ESR"
+      ],
+      "additional": [
+        "Endomyocardial biopsy",
+        "Echocardiogram",
+        "ECG"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Rest",
+        "Treat heart failure symptoms"
+      ],
+      "definitive": [
+        "Immunosuppressants (selected cases)",
+        "Antivirals (if specific infection identified)"
+      ]
+    },
+    "treatment_protocol": "Confirm by MRI \u2192 Supportive care \u2192 Monitor function \u2192 Immunotherapy selectively"
+  },
+  {
+    "disease": "Cor Pulmonale",
+    "epidemiology": "Prevalent in patients with chronic lung disease; chronic hypoxia is major driver.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Exertional dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Peripheral edema",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Jugular venous distension",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Right heart failure",
+        "Arrhythmias"
+      ],
+      "emergency_markers": [
+        "Decompensated RHF",
+        "Severe hypoxia"
+      ]
+    },
+    "risk_factors": [
+      "COPD",
+      "ILD",
+      "OSA",
+      "Pulmonary embolism"
+    ],
+    "differentials": [
+      "CHF",
+      "Pulmonary hypertension",
+      "Constrictive pericarditis"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "ECG",
+        "ABG"
+      ],
+      "additional": [
+        "Chest CT",
+        "Right heart cath",
+        "PFTs"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "Diuretics",
+        "Bronchodilators"
+      ],
+      "definitive": [
+        "Treat underlying lung disease"
+      ]
+    },
+    "treatment_protocol": "Diagnose underlying cause \u2192 Oxygen \u2192 RHF management"
+  },
+  {
+    "disease": "Sinus Node Dysfunction (Sick Sinus Syndrome)",
+    "epidemiology": "Affects ~1 in 600 elderly individuals; increasing prevalence with age and structural heart disease.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dizziness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Syncope",
+        "Falls",
+        "Heart failure"
+      ],
+      "emergency_markers": [
+        "Pause >3 sec",
+        "Bradycardia with symptoms"
+      ]
+    },
+    "risk_factors": [
+      "Age > 65",
+      "Ischemic heart disease",
+      "Infiltrative disease"
+    ],
+    "differentials": [
+      "AV block",
+      "AFib",
+      "Neurocardiogenic syncope"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Holter monitor"
+      ],
+      "additional": [
+        "Tilt table test",
+        "Echocardiogram"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Monitor in mild cases"
+      ],
+      "definitive": [
+        "Pacemaker implantation"
+      ]
+    },
+    "treatment_protocol": "Symptomatic with bradycardia \u2192 Consider pacemaker"
+  },
+  {
+    "disease": "Ventricular Septal Defect (Adult)",
+    "epidemiology": "Congenital lesion; may persist or be acquired post-MI; small defects often asymptomatic.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Holosystolic murmur",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Pulmonary hypertension",
+        "Endocarditis",
+        "Heart failure"
+      ],
+      "emergency_markers": [
+        "Acute VSD post-MI with hemodynamic collapse"
+      ]
+    },
+    "risk_factors": [
+      "Congenital anomaly",
+      "Post-MI",
+      "Trauma"
+    ],
+    "differentials": [
+      "ASD",
+      "Mitral regurgitation",
+      "Tricuspid regurgitation"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "ECG",
+        "Chest X-ray"
+      ],
+      "additional": [
+        "Cardiac catheterization",
+        "MRI"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Medical therapy for CHF"
+      ],
+      "definitive": [
+        "Surgical or percutaneous closure"
+      ]
+    },
+    "treatment_protocol": "Echo diagnosis \u2192 Monitor small VSD \u2192 Close if symptomatic or large"
+  },
+  {
+    "disease": "Patent Ductus Arteriosus (Adult)",
+    "epidemiology": "Persistent fetal circulation defect; more common in females and premature infants; often detected incidentally in adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Continuous machinery murmur",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Pulmonary hypertension",
+        "Heart failure",
+        "Endocarditis"
+      ],
+      "emergency_markers": [
+        "Large PDA with CHF symptoms",
+        "Eisenmenger syndrome"
+      ]
+    },
+    "risk_factors": [
+      "Prematurity",
+      "Congenital rubella",
+      "Female sex"
+    ],
+    "differentials": [
+      "ASD",
+      "VSD",
+      "Aortic regurgitation"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "Chest X-ray",
+        "ECG"
+      ],
+      "additional": [
+        "MRI",
+        "Cardiac catheterization"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Monitor if small and asymptomatic"
+      ],
+      "definitive": [
+        "Surgical or percutaneous closure"
+      ]
+    },
+    "treatment_protocol": "Echo to confirm \u2192 Closure if significant shunt or symptomatic"
+  },
+  {
+    "disease": "Coarctation of the Aorta",
+    "epidemiology": "Congenital narrowing of aorta; accounts for 5\u20138% of congenital heart defects; more common in males.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypertension",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Headaches",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Claudication in legs",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Epistaxis",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Aortic rupture",
+        "Stroke"
+      ],
+      "emergency_markers": [
+        "Hypertensive emergency",
+        "Aortic dissection"
+      ]
+    },
+    "risk_factors": [
+      "Turner syndrome",
+      "Bicuspid aortic valve",
+      "Congenital heart defects"
+    ],
+    "differentials": [
+      "Renal artery stenosis",
+      "Essential hypertension",
+      "Takayasu arteritis"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "CT angiogram",
+        "Blood pressure gradient"
+      ],
+      "additional": [
+        "Chest X-ray",
+        "ECG"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Antihypertensives"
+      ],
+      "definitive": [
+        "Surgical repair",
+        "Balloon angioplasty with/without stenting"
+      ]
+    },
+    "treatment_protocol": "Confirm with imaging \u2192 Repair if gradient >20 mmHg or symptomatic"
+  },
+  {
+    "disease": "Pericardial Effusion",
+    "epidemiology": "Often secondary to infection, malignancy, or post-surgical; can lead to tamponade.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chest pressure",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 2,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Muffled heart sounds",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dizziness",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Cardiac tamponade",
+        "Shock"
+      ],
+      "emergency_markers": [
+        "Hypotension",
+        "Pulsus paradoxus",
+        "Electrical alternans"
+      ]
+    },
+    "risk_factors": [
+      "Malignancy",
+      "Infection",
+      "Post-surgical",
+      "Autoimmune disease"
+    ],
+    "differentials": [
+      "Heart failure",
+      "Pleural effusion",
+      "Constrictive pericarditis"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "ECG",
+        "Chest X-ray"
+      ],
+      "additional": [
+        "Pericardiocentesis",
+        "Pericardial biopsy"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Monitor if small and asymptomatic"
+      ],
+      "definitive": [
+        "Pericardiocentesis",
+        "Pericardial window"
+      ]
+    },
+    "treatment_protocol": "Echo to assess size/effect \u2192 Drain if tamponade or symptomatic"
+  },
+  {
+    "disease": "Hypertrophic Cardiomyopathy",
+    "epidemiology": "Prevalence 1:500; autosomal dominant inheritance; most common cause of SCD in young athletes.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Chest pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "SCD",
+        "Heart failure",
+        "AFib"
+      ],
+      "emergency_markers": [
+        "Syncope on exertion",
+        "VT/VF episodes"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Genetic mutations",
+      "Athletic exertion"
+    ],
+    "differentials": [
+      "Aortic stenosis",
+      "Dilated cardiomyopathy",
+      "Hypertensive heart disease"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "ECG",
+        "Cardiac MRI"
+      ],
+      "additional": [
+        "Genetic testing",
+        "Exercise stress test"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Beta-blockers",
+        "Avoid dehydration/exertion"
+      ],
+      "definitive": [
+        "Septal myectomy",
+        "ICD placement"
+      ]
+    },
+    "treatment_protocol": "Echo + Risk stratification \u2192 Medical \u2192 Myectomy or ICD if indicated"
+  },
+  {
+    "disease": "Cardiac Amyloidosis",
+    "epidemiology": "Infiltrative cardiomyopathy; higher incidence in older adults, especially African descent; associated with AL or ATTR amyloidosis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Edema",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Arrhythmias",
+        "Conduction blocks"
+      ],
+      "emergency_markers": [
+        "Syncope",
+        "Rapid progression of CHF"
+      ]
+    },
+    "risk_factors": [
+      "Age > 60",
+      "Multiple myeloma",
+      "Transthyretin mutations"
+    ],
+    "differentials": [
+      "Restrictive cardiomyopathy",
+      "Hypertrophic cardiomyopathy",
+      "CHF"
+    ],
+    "investigations": {
+      "important": [
+        "Cardiac MRI",
+        "Echo (strain imaging)",
+        "Serum light chains"
+      ],
+      "additional": [
+        "Endomyocardial biopsy",
+        "Technetium scan",
+        "ECG"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Diuretics",
+        "Salt restriction"
+      ],
+      "definitive": [
+        "Chemotherapy (AL)",
+        "TTR stabilizers (ATTR)",
+        "Heart transplant"
+      ]
+    },
+    "treatment_protocol": "Suspect in thick LV + low volt ECG \u2192 Confirm subtype \u2192 Tailored therapy"
+  },
+  {
+    "disease": "Brugada Syndrome",
+    "epidemiology": "Rare inherited arrhythmia syndrome; more common in Southeast Asian males; causes sudden cardiac death.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Syncope",
+          "order": 1,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Nocturnal agonal respiration",
+          "order": 2,
+          "frequency": "less common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Sudden cardiac arrest",
+        "Ventricular arrhythmias"
+      ],
+      "emergency_markers": [
+        "ECG with Type I Brugada pattern and syncope or VF"
+      ]
+    },
+    "risk_factors": [
+      "Family history of sudden death",
+      "Male gender",
+      "Febrile illness"
+    ],
+    "differentials": [
+      "Long QT syndrome",
+      "Arrhythmogenic right ventricular cardiomyopathy",
+      "VT"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Flecainide challenge test",
+        "Genetic testing"
+      ],
+      "additional": [
+        "Electrophysiological study",
+        "Echocardiogram"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Avoid fever",
+        "Avoid QT-prolonging drugs"
+      ],
+      "definitive": [
+        "ICD placement"
+      ]
+    },
+    "treatment_protocol": "Confirm Brugada pattern \u2192 ICD for syncope/VF \u2192 Screen family"
+  },
+  {
+    "disease": "Takotsubo Cardiomyopathy",
+    "epidemiology": "Also called stress cardiomyopathy; predominantly affects postmenopausal women; triggered by emotional/physical stress.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chest pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Arrhythmias",
+        "LV thrombus"
+      ],
+      "emergency_markers": [
+        "Acute heart failure",
+        "Shock"
+      ]
+    },
+    "risk_factors": [
+      "Emotional/physical stress",
+      "Postmenopausal women"
+    ],
+    "differentials": [
+      "MI",
+      "Myocarditis",
+      "ACS"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "Troponin",
+        "Coronary angiography"
+      ],
+      "additional": [
+        "Cardiac MRI",
+        "BNP"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Beta-blockers",
+        "ACE inhibitors",
+        "Anticoagulation if thrombus"
+      ],
+      "definitive": [
+        "Usually self-limiting, treat underlying trigger"
+      ]
+    },
+    "treatment_protocol": "Rule out MI \u2192 Echo pattern \u2192 Supportive therapy"
+  },
+  {
+    "disease": "Pericarditis",
+    "epidemiology": "Common cause of chest pain; idiopathic or viral most often; occurs post-MI (Dressler syndrome).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Pleuritic chest pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Positional relief (sitting forward)",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fever",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pericardial rub",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Pericardial effusion",
+        "Cardiac tamponade",
+        "Constrictive pericarditis"
+      ],
+      "emergency_markers": [
+        "Tamponade signs",
+        "Large effusion with hemodynamic compromise"
+      ]
+    },
+    "risk_factors": [
+      "Recent viral illness",
+      "Post-MI",
+      "Autoimmune disease",
+      "Renal failure"
+    ],
+    "differentials": [
+      "MI",
+      "Pneumonia",
+      "GERD"
+    ],
+    "investigations": {
+      "important": [
+        "ECG (diffuse ST elevation)",
+        "Echocardiogram",
+        "CRP/ESR"
+      ],
+      "additional": [
+        "Troponin",
+        "Chest X-ray",
+        "Viral serologies"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Colchicine"
+      ],
+      "definitive": [
+        "Steroids (if refractory or autoimmune)"
+      ]
+    },
+    "treatment_protocol": "ECG + echo \u2192 NSAIDs + colchicine \u2192 Monitor effusion"
+  },
+  {
+    "disease": "Endocarditis",
+    "epidemiology": "Infective endocarditis affects ~3\u201310 per 100,000/year; IV drug users and valve disease patients are at risk.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Murmur",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Petechiae or Janeway lesions",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Valvular destruction",
+        "Embolic events",
+        "Heart failure"
+      ],
+      "emergency_markers": [
+        "Sepsis",
+        "Stroke",
+        "Acute valvular regurgitation"
+      ]
+    },
+    "risk_factors": [
+      "IV drug use",
+      "Prosthetic valves",
+      "Congenital heart disease"
+    ],
+    "differentials": [
+      "Sepsis",
+      "Autoimmune fever",
+      "Malignancy"
+    ],
+    "investigations": {
+      "important": [
+        "Blood cultures",
+        "Echocardiogram",
+        "CBC"
+      ],
+      "additional": [
+        "CRP/ESR",
+        "Urinalysis",
+        "ECG"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Empiric antibiotics",
+        "IV fluids"
+      ],
+      "definitive": [
+        "Tailored antibiotics",
+        "Valve surgery if indicated"
+      ]
+    },
+    "treatment_protocol": "Duke criteria \u2192 Blood cultures \u2192 Echo \u2192 Treat based on organism"
+  },
+  {
+    "disease": "Pulseless Electrical Activity (PEA)",
+    "epidemiology": "Form of cardiac arrest with electrical activity but no pulse; common in trauma, hypoxia, acidosis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Unresponsiveness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Apnea",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "No palpable pulse",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Sudden death",
+        "Organ ischemia"
+      ],
+      "emergency_markers": [
+        "Cardiac arrest with non-shockable rhythm"
+      ]
+    },
+    "risk_factors": [
+      "Hypovolemia",
+      "Hypoxia",
+      "Toxins",
+      "Cardiac tamponade"
+    ],
+    "differentials": [
+      "Asystole",
+      "Ventricular fibrillation",
+      "Pulmonary embolism"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "ABG",
+        "Bedside ultrasound"
+      ],
+      "additional": [
+        "Electrolytes",
+        "Toxicology screen"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "CPR",
+        "Identify and treat reversible causes"
+      ],
+      "definitive": [
+        "Epinephrine every 3\u20135 min"
+      ]
+    },
+    "treatment_protocol": "Start CPR \u2192 Epinephrine \u2192 Address reversible causes (Hs and Ts)"
+  },
+  {
+    "disease": "Constrictive Pericarditis",
+    "epidemiology": "Late complication of pericarditis or TB; common in developing countries; occurs after radiation, surgery.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Peripheral edema",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abdominal distension",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Elevated JVP",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Atrial fibrillation"
+      ],
+      "emergency_markers": [
+        "Signs of decompensated right heart failure"
+      ]
+    },
+    "risk_factors": [
+      "TB",
+      "Cardiac surgery",
+      "Radiation",
+      "Idiopathic pericarditis"
+    ],
+    "differentials": [
+      "Restrictive cardiomyopathy",
+      "Cirrhosis",
+      "CHF"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "CT/MRI of pericardium",
+        "Cardiac catheterization"
+      ],
+      "additional": [
+        "ECG",
+        "Chest X-ray"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Diuretics"
+      ],
+      "definitive": [
+        "Pericardiectomy"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis via imaging \u2192 Surgical pericardiectomy"
+  },
+  {
+    "disease": "Atrial Septal Defect (Adult)",
+    "epidemiology": "Most common congenital heart defect detected in adulthood; females affected more; secundum type is most prevalent.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspnea on exertion",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fixed split of S2",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "AFib",
+        "Paradoxical embolism",
+        "Pulmonary hypertension"
+      ],
+      "emergency_markers": [
+        "Right heart failure",
+        "Paradoxical embolus causing stroke"
+      ]
+    },
+    "risk_factors": [
+      "Congenital",
+      "Down syndrome (AVSD)"
+    ],
+    "differentials": [
+      "VSD",
+      "PFO",
+      "Pulmonary hypertension"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram with bubble study",
+        "TEE",
+        "ECG"
+      ],
+      "additional": [
+        "MRI",
+        "Cardiac cath"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Monitor if small and asymptomatic"
+      ],
+      "definitive": [
+        "Percutaneous or surgical closure"
+      ]
+    },
+    "treatment_protocol": "Echo with bubble \u2192 Close if large or symptomatic"
+  },
+  {
+    "disease": "Long QT Syndrome",
+    "epidemiology": "Congenital or drug-induced; prolongs ventricular repolarization; predisposes to torsades de pointes and SCD.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Palpitations",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 2,
+          "frequency": "moderate",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Seizure-like activity",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Torsades de pointes",
+        "Sudden cardiac death"
+      ],
+      "emergency_markers": [
+        "QTc >500 ms with syncope or torsades"
+      ]
+    },
+    "risk_factors": [
+      "Congenital syndromes",
+      "Medications (macrolides, antipsychotics)",
+      "Hypokalemia",
+      "Bradycardia"
+    ],
+    "differentials": [
+      "Seizure",
+      "Brugada syndrome",
+      "VT"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Electrolytes",
+        "Genetic testing"
+      ],
+      "additional": [
+        "Holter monitor",
+        "Exercise testing"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Avoid triggers",
+        "Correct electrolytes"
+      ],
+      "definitive": [
+        "Beta-blockers",
+        "ICD"
+      ]
+    },
+    "treatment_protocol": "QTc >480 ms \u2192 Rule out secondary causes \u2192 Beta-blocker or ICD"
+  },
+  {
+    "disease": "Atrial Fibrillation with RVR",
+    "epidemiology": "Most common arrhythmia; increasing with age; common in HTN, CHF, and thyrotoxicosis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Palpitations",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dizziness",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Stroke",
+        "Heart failure",
+        "Tachycardia-mediated cardiomyopathy"
+      ],
+      "emergency_markers": [
+        "Hemodynamic instability",
+        "Chest pain",
+        "Syncope"
+      ]
+    },
+    "risk_factors": [
+      "Age",
+      "HTN",
+      "Valvular disease",
+      "Alcohol",
+      "Hyperthyroidism"
+    ],
+    "differentials": [
+      "SVT",
+      "Flutter",
+      "PACs"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "TSH",
+        "Electrolytes"
+      ],
+      "additional": [
+        "Echocardiogram",
+        "Holter monitor"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Rate control (BB, CCB)",
+        "Anticoagulation"
+      ],
+      "definitive": [
+        "Cardioversion",
+        "Ablation"
+      ]
+    },
+    "treatment_protocol": "Stable \u2192 Rate control \u2192 Stroke risk eval \u2192 Anticoagulation or rhythm strategy"
+  },
+  {
+    "disease": "Wolff-Parkinson-White Syndrome",
+    "epidemiology": "Accessory pathway disorder; incidence 0.1\u20130.3%; may present as SVT or sudden cardiac death.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Palpitations",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 2,
+          "frequency": "moderate",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Chest discomfort",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "AF with rapid conduction \u2192 VF",
+        "Sudden cardiac death"
+      ],
+      "emergency_markers": [
+        "AF with pre-excitation and wide QRS"
+      ]
+    },
+    "risk_factors": [
+      "Congenital",
+      "Family history"
+    ],
+    "differentials": [
+      "SVT",
+      "AFib",
+      "VT"
+    ],
+    "investigations": {
+      "important": [
+        "ECG (delta wave)",
+        "Electrophysiology study"
+      ],
+      "additional": [
+        "Holter",
+        "Echo"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Avoid AV nodal blockers in AF"
+      ],
+      "definitive": [
+        "Catheter ablation"
+      ]
+    },
+    "treatment_protocol": "Confirm delta wave \u2192 Ablation of accessory pathway"
+  },
+  {
+    "disease": "Sinus Node Dysfunction",
+    "epidemiology": "Common in elderly; may result from fibrosis, ischemia, or medications; also known as sick sinus syndrome.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Bradycardia",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Syncope",
+        "Heart failure",
+        "Atrial fibrillation"
+      ],
+      "emergency_markers": [
+        "Bradycardia with hypotension or syncope"
+      ]
+    },
+    "risk_factors": [
+      "Age > 60",
+      "Ischemic heart disease",
+      "Beta-blockers",
+      "Calcium channel blockers"
+    ],
+    "differentials": [
+      "AV block",
+      "AFib",
+      "Seizures"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Holter monitoring",
+        "Electrolytes"
+      ],
+      "additional": [
+        "Echocardiogram",
+        "TSH"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Avoid bradycardia-inducing drugs"
+      ],
+      "definitive": [
+        "Permanent pacemaker"
+      ]
+    },
+    "treatment_protocol": "Symptomatic bradycardia \u2192 Pacemaker implantation"
+  },
+  {
+    "disease": "Pulmonary Hypertension",
+    "epidemiology": "Rare disorder; affects 15\u201350 per million; associated with connective tissue disease, chronic lung disease, or idiopathic.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea on exertion",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Chest pain",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Right heart failure",
+        "Arrhythmias",
+        "Sudden death"
+      ],
+      "emergency_markers": [
+        "Signs of decompensated RHF",
+        "Hypoxia"
+      ]
+    },
+    "risk_factors": [
+      "Connective tissue disorders",
+      "Chronic lung disease",
+      "HIV",
+      "Congenital heart disease"
+    ],
+    "differentials": [
+      "CHF",
+      "COPD",
+      "Anemia"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "Right heart catheterization",
+        "BNP"
+      ],
+      "additional": [
+        "V/Q scan",
+        "CT chest",
+        "ANA, HIV tests"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "Diuretics",
+        "Anticoagulation"
+      ],
+      "definitive": [
+        "Endothelin receptor antagonists",
+        "PDE-5 inhibitors",
+        "Prostacyclin analogues"
+      ]
+    },
+    "treatment_protocol": "Echo \u2192 RHC confirmation \u2192 Classify and treat accordingly"
+  },
+  {
+    "disease": "Aortic Aneurysm (Thoracic)",
+    "epidemiology": "More common in men >60; associated with HTN, connective tissue disorders, or atherosclerosis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymptomatic",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "none"
+        },
+        {
+          "symptom": "Chest pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hoarseness",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dysphagia",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Rupture",
+        "Dissection",
+        "Thromboembolism"
+      ],
+      "emergency_markers": [
+        "Sudden severe chest/back pain",
+        "Hemodynamic collapse"
+      ]
+    },
+    "risk_factors": [
+      "Hypertension",
+      "Marfan syndrome",
+      "Smoking",
+      "Bicuspid aortic valve"
+    ],
+    "differentials": [
+      "MI",
+      "Aortic dissection",
+      "Pulmonary embolism"
+    ],
+    "investigations": {
+      "important": [
+        "CT angiography",
+        "Chest X-ray",
+        "Echocardiogram"
+      ],
+      "additional": [
+        "MRI",
+        "ECG",
+        "Troponins"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Blood pressure control",
+        "Smoking cessation"
+      ],
+      "definitive": [
+        "Surgical repair if >5.5 cm or symptomatic"
+      ]
+    },
+    "treatment_protocol": "Monitor size \u2192 Surgical repair if indicated"
+  },
+  {
+    "disease": "Ventricular Septal Defect (Adult)",
+    "epidemiology": "Most common congenital heart defect in infancy; small defects may persist into adulthood asymptomatically.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 2,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Holosystolic murmur",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Pulmonary hypertension",
+        "Heart failure",
+        "Endocarditis"
+      ],
+      "emergency_markers": [
+        "Large defect with CHF symptoms",
+        "Eisenmenger syndrome"
+      ]
+    },
+    "risk_factors": [
+      "Congenital",
+      "Maternal diabetes"
+    ],
+    "differentials": [
+      "ASD",
+      "PDA",
+      "Tricuspid regurgitation"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "ECG",
+        "Chest X-ray"
+      ],
+      "additional": [
+        "Cardiac catheterization",
+        "MRI"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Medical management for CHF"
+      ],
+      "definitive": [
+        "Surgical or percutaneous closure"
+      ]
+    },
+    "treatment_protocol": "Confirm size/shunt \u2192 Surgery if large/symptomatic"
+  },
+  {
+    "disease": "Cardiac Sarcoidosis",
+    "epidemiology": "Rare granulomatous infiltration of myocardium; occurs in 5% of sarcoidosis patients; underdiagnosed cause of arrhythmia.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Palpitations",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 2,
+          "frequency": "moderate",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Heart block",
+        "VT/VF",
+        "Heart failure"
+      ],
+      "emergency_markers": [
+        "Syncope with arrhythmia",
+        "Mobitz II/Complete AV block"
+      ]
+    },
+    "risk_factors": [
+      "Sarcoidosis",
+      "African descent",
+      "Middle-aged adults"
+    ],
+    "differentials": [
+      "Myocarditis",
+      "ARVC",
+      "Cardiomyopathy"
+    ],
+    "investigations": {
+      "important": [
+        "Cardiac MRI",
+        "PET scan",
+        "ECG"
+      ],
+      "additional": [
+        "Endomyocardial biopsy",
+        "Echocardiogram"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Steroids",
+        "Immunosuppressants"
+      ],
+      "definitive": [
+        "ICD placement",
+        "Pacemaker for heart block"
+      ]
+    },
+    "treatment_protocol": "Suspected \u2192 MRI or PET \u2192 Biopsy or treat empirically"
+  },
+  {
+    "disease": "Cardiac Tamponade",
+    "epidemiology": "Life-threatening complication of pericardial effusion; may follow trauma, malignancy, or pericarditis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypotension",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Tachycardia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Muffled heart sounds",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pulsus paradoxus",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Cardiac arrest",
+        "Shock",
+        "Organ hypoperfusion"
+      ],
+      "emergency_markers": [
+        "Beck\u2019s triad",
+        "Electrical alternans"
+      ]
+    },
+    "risk_factors": [
+      "Malignancy",
+      "Pericarditis",
+      "Trauma",
+      "Aortic dissection"
+    ],
+    "differentials": [
+      "Massive PE",
+      "Tension pneumothorax",
+      "Severe HF"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "ECG",
+        "Chest X-ray"
+      ],
+      "additional": [
+        "CT chest",
+        "Pericardiocentesis fluid analysis"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Oxygen"
+      ],
+      "definitive": [
+        "Pericardiocentesis"
+      ]
+    },
+    "treatment_protocol": "Echo-confirmed effusion + instability \u2192 Pericardiocentesis"
+  },
+  {
+    "disease": "Tricuspid Regurgitation",
+    "epidemiology": "May be functional (due to RV dilation) or primary (endocarditis, trauma); common in pulmonary HTN and pacemaker leads.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Peripheral edema",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abdominal bloating",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Jugular venous distension",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Right heart failure",
+        "Atrial fibrillation",
+        "Hepatic congestion"
+      ],
+      "emergency_markers": [
+        "Severe RV failure signs",
+        "Liver dysfunction"
+      ]
+    },
+    "risk_factors": [
+      "Pulmonary HTN",
+      "Left heart failure",
+      "IV drug use"
+    ],
+    "differentials": [
+      "Constrictive pericarditis",
+      "CHF",
+      "Hepatic disease"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "ECG",
+        "LFTs"
+      ],
+      "additional": [
+        "Chest X-ray",
+        "BNP",
+        "Right heart cath"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Diuretics",
+        "Treat underlying cause"
+      ],
+      "definitive": [
+        "Valve repair or replacement"
+      ]
+    },
+    "treatment_protocol": "Echo diagnosis \u2192 Treat cause \u2192 Consider surgery"
+  },
+  {
+    "disease": "Pulmonary Valve Stenosis",
+    "epidemiology": "Congenital in most cases; rare in adults; may present with symptoms only in severe cases.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea on exertion",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Systolic ejection murmur",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "RV hypertrophy",
+        "Cyanosis",
+        "Heart failure"
+      ],
+      "emergency_markers": [
+        "Severe obstruction with syncope or cyanosis"
+      ]
+    },
+    "risk_factors": [
+      "Congenital heart disease",
+      "Noonan syndrome"
+    ],
+    "differentials": [
+      "ASD",
+      "Tetralogy of Fallot",
+      "Tricuspid stenosis"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "ECG",
+        "Cardiac MRI"
+      ],
+      "additional": [
+        "Chest X-ray",
+        "Right heart cath"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Monitor if mild"
+      ],
+      "definitive": [
+        "Balloon valvuloplasty",
+        "Surgical repair"
+      ]
+    },
+    "treatment_protocol": "Echo-confirmed stenosis \u2192 Valvuloplasty if moderate/severe"
+  },
+  {
+    "disease": "Aortic Valve Sclerosis",
+    "epidemiology": "Common in elderly; early form of calcific aortic stenosis; no obstruction of flow but associated with CV risk.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Typically asymptomatic",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "none"
+        },
+        {
+          "symptom": "Systolic murmur",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Progression to aortic stenosis",
+        "Increased CV mortality"
+      ],
+      "emergency_markers": [
+        "None unless progression"
+      ]
+    },
+    "risk_factors": [
+      "Age > 65",
+      "HTN",
+      "Hyperlipidemia",
+      "Smoking"
+    ],
+    "differentials": [
+      "Aortic stenosis",
+      "Flow murmur"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram"
+      ],
+      "additional": [
+        "ECG",
+        "Lipid profile"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Risk factor modification"
+      ],
+      "definitive": [
+        "Surveillance"
+      ]
+    },
+    "treatment_protocol": "Routine echo monitoring; manage atherosclerosis"
+  },
+  {
+    "disease": "Left Ventricular Noncompaction",
+    "epidemiology": "Rare congenital cardiomyopathy due to arrested endomyocardial development; can cause HF or arrhythmias.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Arrhythmias",
+        "Thromboembolism"
+      ],
+      "emergency_markers": [
+        "VT/VF",
+        "Sudden cardiac arrest"
+      ]
+    },
+    "risk_factors": [
+      "Congenital",
+      "Family history",
+      "Neuromuscular disorders"
+    ],
+    "differentials": [
+      "Dilated cardiomyopathy",
+      "ARVC",
+      "Myocarditis"
+    ],
+    "investigations": {
+      "important": [
+        "Cardiac MRI",
+        "Echocardiogram"
+      ],
+      "additional": [
+        "ECG",
+        "Genetic testing"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Heart failure management",
+        "Anticoagulation"
+      ],
+      "definitive": [
+        "ICD placement if indicated"
+      ]
+    },
+    "treatment_protocol": "Cardiac imaging \u2192 Risk stratification \u2192 Treat heart failure and prevent SCD"
+  },
+  {
+    "disease": "Myocardial Bridge",
+    "epidemiology": "Congenital anomaly where coronary artery tunnels through myocardium; often benign, but may cause ischemia or arrhythmias.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chest pain during exertion",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Myocardial ischemia",
+        "Arrhythmias",
+        "Sudden death (rare)"
+      ],
+      "emergency_markers": [
+        "Exercise-induced syncope or chest pain"
+      ]
+    },
+    "risk_factors": [
+      "Congenital",
+      "Intense exertion"
+    ],
+    "differentials": [
+      "Stable angina",
+      "Hypertrophic cardiomyopathy",
+      "Coronary spasm"
+    ],
+    "investigations": {
+      "important": [
+        "Coronary angiography",
+        "Stress testing",
+        "CT coronary angiogram"
+      ],
+      "additional": [
+        "ECG",
+        "Cardiac MRI"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Beta-blockers",
+        "Avoid nitrates"
+      ],
+      "definitive": [
+        "Surgical myotomy",
+        "Stenting (rare)"
+      ]
+    },
+    "treatment_protocol": "Diagnose on imaging \u2192 Trial beta-blockers \u2192 Surgery if severe"
+  },
+  {
+    "disease": "Loeffler Endocarditis",
+    "epidemiology": "Rare cause of restrictive cardiomyopathy due to eosinophilic infiltration; often related to hypereosinophilic syndrome.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Peripheral edema",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Ascites",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Restrictive cardiomyopathy",
+        "Thromboembolism",
+        "Heart failure"
+      ],
+      "emergency_markers": [
+        "Thromboembolic event",
+        "Severe CHF"
+      ]
+    },
+    "risk_factors": [
+      "Hypereosinophilic syndrome",
+      "Allergic conditions",
+      "Parasitic infections"
+    ],
+    "differentials": [
+      "Restrictive cardiomyopathy",
+      "Constrictive pericarditis",
+      "Amyloidosis"
+    ],
+    "investigations": {
+      "important": [
+        "Eosinophil count",
+        "Cardiac MRI",
+        "Echocardiogram"
+      ],
+      "additional": [
+        "Endomyocardial biopsy",
+        "CT chest/abdomen"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Diuretics",
+        "Anticoagulation"
+      ],
+      "definitive": [
+        "Steroids",
+        "Immunosuppressive therapy"
+      ]
+    },
+    "treatment_protocol": "Eosinophilia + cardiac symptoms \u2192 MRI or biopsy \u2192 Steroids +/- anticoagulation"
+  },
+  {
+    "disease": "Tachy-Brady Syndrome",
+    "epidemiology": "Subtype of sick sinus syndrome; alternating bradycardia and tachyarrhythmias, especially in elderly.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Palpitations",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dizziness",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "AFib",
+        "Syncope",
+        "Thromboembolism"
+      ],
+      "emergency_markers": [
+        "Bradycardia with hemodynamic instability",
+        "Sudden pauses"
+      ]
+    },
+    "risk_factors": [
+      "Age > 65",
+      "Ischemic heart disease",
+      "Beta-blocker use"
+    ],
+    "differentials": [
+      "AFib",
+      "AV block",
+      "VT"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Holter monitor",
+        "TSH"
+      ],
+      "additional": [
+        "Electrolytes",
+        "Echo"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Rate control for AF"
+      ],
+      "definitive": [
+        "Permanent pacemaker + anticoagulation"
+      ]
+    },
+    "treatment_protocol": "Document pauses + AF \u2192 Pacemaker \u2192 Anticoagulation"
+  },
+  {
+    "disease": "Coronary Artery Spasm (Prinzmetal Angina)",
+    "epidemiology": "Rare variant angina; occurs at rest and often during night; seen in smokers and cocaine users.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chest pain at rest",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Transient ST elevation",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "MI",
+        "Arrhythmias",
+        "Sudden cardiac death"
+      ],
+      "emergency_markers": [
+        "ST elevation with negative troponin",
+        "Severe chest pain at rest"
+      ]
+    },
+    "risk_factors": [
+      "Smoking",
+      "Cocaine",
+      "Raynaud\u2019s",
+      "Migraine"
+    ],
+    "differentials": [
+      "STEMI",
+      "NSTEMI",
+      "Pericarditis"
+    ],
+    "investigations": {
+      "important": [
+        "ECG during episode",
+        "Coronary angiography"
+      ],
+      "additional": [
+        "Cardiac enzymes",
+        "Stress test"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Avoid triggers",
+        "Smoking cessation"
+      ],
+      "definitive": [
+        "Calcium channel blockers",
+        "Nitrates"
+      ]
+    },
+    "treatment_protocol": "ST elevation + clean coronaries \u2192 CCB + nitrate"
+  },
+  {
+    "disease": "Infective Endocarditis",
+    "epidemiology": "More common in prosthetic valves, IVDU, or valvular heart disease; caused by Staph, Strep, Enterococci.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Murmur",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Petechiae",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Valve destruction",
+        "Septic emboli",
+        "Heart failure"
+      ],
+      "emergency_markers": [
+        "Septicemia",
+        "Stroke from emboli",
+        "CHF symptoms"
+      ]
+    },
+    "risk_factors": [
+      "Prosthetic valves",
+      "IVDU",
+      "Rheumatic heart disease",
+      "Dental procedures"
+    ],
+    "differentials": [
+      "Rheumatic fever",
+      "Lupus",
+      "Sepsis"
+    ],
+    "investigations": {
+      "important": [
+        "Blood cultures",
+        "Echocardiogram",
+        "CRP/ESR"
+      ],
+      "additional": [
+        "CBC",
+        "Urinalysis",
+        "CXR"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Supportive care"
+      ],
+      "definitive": [
+        "IV antibiotics",
+        "Surgical valve replacement if needed"
+      ]
+    },
+    "treatment_protocol": "3x blood cultures \u2192 Empiric IV antibiotics \u2192 Tailor to sensitivity"
+  },
+  {
+    "disease": "Takotsubo Cardiomyopathy",
+    "epidemiology": "Stress-induced cardiomyopathy, more common in postmenopausal women; often triggered by emotional or physical stress.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chest pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Arrhythmias",
+        "Cardiogenic shock"
+      ],
+      "emergency_markers": [
+        "Severe LV dysfunction",
+        "Apical ballooning on imaging"
+      ]
+    },
+    "risk_factors": [
+      "Emotional stress",
+      "Postmenopausal status",
+      "Neurologic illness"
+    ],
+    "differentials": [
+      "MI",
+      "Myocarditis",
+      "ACS"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Cardiac enzymes",
+        "Echocardiogram"
+      ],
+      "additional": [
+        "Coronary angiography",
+        "Cardiac MRI"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Beta-blockers",
+        "ACE inhibitors",
+        "Diuretics"
+      ],
+      "definitive": [
+        "Supportive care, resolves spontaneously in most cases"
+      ]
+    },
+    "treatment_protocol": "Exclude MI \u2192 Supportive cardiac care"
+  },
+  {
+    "disease": "Congenital Long QT Syndrome",
+    "epidemiology": "Inherited channelopathy causing prolonged QT interval and risk of sudden cardiac death; affects 1 in 2000 people.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Syncope",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Seizures",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Torsades de Pointes",
+        "Sudden death"
+      ],
+      "emergency_markers": [
+        "Prolonged QT with syncope or torsades"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Mutations in KCNQ1, KCNH2",
+      "Drugs that prolong QT"
+    ],
+    "differentials": [
+      "Seizure disorder",
+      "VT",
+      "Brugada syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Genetic testing"
+      ],
+      "additional": [
+        "Electrolytes",
+        "Holter monitor"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Avoid QT-prolonging drugs",
+        "Magnesium for torsades"
+      ],
+      "definitive": [
+        "Beta-blockers",
+        "ICD in high-risk patients"
+      ]
+    },
+    "treatment_protocol": "QTc >480ms with symptoms \u2192 Beta-blocker \u2192 Consider ICD"
+  },
+  {
+    "disease": "Restrictive Cardiomyopathy",
+    "epidemiology": "Least common cardiomyopathy; often secondary to amyloidosis, sarcoidosis, hemochromatosis, or radiation.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Peripheral edema",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Arrhythmias",
+        "Thromboembolism"
+      ],
+      "emergency_markers": [
+        "Pulmonary edema",
+        "Sudden heart block"
+      ]
+    },
+    "risk_factors": [
+      "Amyloidosis",
+      "Radiation",
+      "Sarcoidosis",
+      "Hemochromatosis"
+    ],
+    "differentials": [
+      "Constrictive pericarditis",
+      "Dilated cardiomyopathy"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "Cardiac MRI",
+        "Biopsy"
+      ],
+      "additional": [
+        "BNP",
+        "ECG"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Diuretics",
+        "Rate control"
+      ],
+      "definitive": [
+        "Treat underlying cause"
+      ]
+    },
+    "treatment_protocol": "Identify etiology \u2192 Symptomatic treatment \u2192 Targeted therapy"
+  },
+  {
+    "disease": "Ventricular Tachycardia",
+    "epidemiology": "Often seen in patients with prior MI or cardiomyopathy; life-threatening arrhythmia with high risk of SCD.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Palpitations",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dizziness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Sudden cardiac death",
+        "Hemodynamic collapse"
+      ],
+      "emergency_markers": [
+        "Sustained VT",
+        "Hypotension",
+        "Chest pain"
+      ]
+    },
+    "risk_factors": [
+      "Ischemic heart disease",
+      "Cardiomyopathy",
+      "Electrolyte abnormalities"
+    ],
+    "differentials": [
+      "SVT with aberrancy",
+      "AFib",
+      "Brugada syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Electrolytes",
+        "Echo"
+      ],
+      "additional": [
+        "Cardiac MRI",
+        "Electrophysiology study"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "IV amiodarone",
+        "Cardioversion if unstable"
+      ],
+      "definitive": [
+        "ICD placement",
+        "Catheter ablation"
+      ]
+    },
+    "treatment_protocol": "Stabilize \u2192 Identify cause \u2192 ICD/ablation"
+  },
+  {
+    "disease": "Peripartum Cardiomyopathy",
+    "epidemiology": "Dilated cardiomyopathy developing during late pregnancy or postpartum; more common in multiparous women and in Africa.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Orthopnea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Lower limb edema",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Arrhythmias",
+        "Thromboembolism"
+      ],
+      "emergency_markers": [
+        "Pulmonary edema",
+        "Cardiogenic shock"
+      ]
+    },
+    "risk_factors": [
+      "Advanced maternal age",
+      "Multiple pregnancies",
+      "Preeclampsia",
+      "Hypertension"
+    ],
+    "differentials": [
+      "Preeclampsia",
+      "Pulmonary embolism",
+      "Anemia"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "BNP",
+        "Chest X-ray"
+      ],
+      "additional": [
+        "ECG",
+        "Cardiac MRI"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Diuretics",
+        "Beta-blockers",
+        "Anticoagulation"
+      ],
+      "definitive": [
+        "Delivery if antepartum; HF management"
+      ]
+    },
+    "treatment_protocol": "Confirm by echo \u2192 Standard HF treatment \u2192 Avoid ACE-I if pregnant"
+  },
+  {
+    "disease": "Pulmonary Hypertension",
+    "epidemiology": "Affects ~1% globally; primary or secondary to heart, lung, or thromboembolic disease.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Exertional dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Peripheral edema",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Right heart failure",
+        "Arrhythmias",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Syncope",
+        "Signs of RV failure"
+      ]
+    },
+    "risk_factors": [
+      "Connective tissue disorders",
+      "COPD",
+      "Chronic thromboembolism",
+      "HIV"
+    ],
+    "differentials": [
+      "Heart failure",
+      "Interstitial lung disease",
+      "COPD"
+    ],
+    "investigations": {
+      "important": [
+        "Right heart catheterization",
+        "Echo",
+        "NT-proBNP"
+      ],
+      "additional": [
+        "CTPA",
+        "PFTs",
+        "V/Q scan"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "Diuretics"
+      ],
+      "definitive": [
+        "Endothelin receptor antagonists",
+        "PDE5 inhibitors",
+        "Prostacyclins"
+      ]
+    },
+    "treatment_protocol": "Confirm PH \u2192 Functional class \u2192 Targeted therapy"
+  },
+  {
+    "disease": "Sinus Node Dysfunction (Sick Sinus Syndrome)",
+    "epidemiology": "Common in elderly; due to fibrosis or ischemia of the sinus node; prevalence increases with age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dizziness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Bradycardia",
+        "Tachy-brady syndrome",
+        "Stroke"
+      ],
+      "emergency_markers": [
+        "Severe bradycardia",
+        "Syncope"
+      ]
+    },
+    "risk_factors": [
+      "Age > 70",
+      "Ischemic heart disease",
+      "Cardiomyopathy"
+    ],
+    "differentials": [
+      "AV block",
+      "VT",
+      "Seizures"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Holter monitor"
+      ],
+      "additional": [
+        "Electrolytes",
+        "TSH",
+        "Echo"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Monitor asymptomatic patients"
+      ],
+      "definitive": [
+        "Permanent pacemaker"
+      ]
+    },
+    "treatment_protocol": "Symptomatic bradycardia \u2192 Pacemaker"
+  },
+  {
+    "disease": "Hypertrophic Obstructive Cardiomyopathy (HOCM)",
+    "epidemiology": "Autosomal dominant; 1 in 500 prevalence; leading cause of sudden cardiac death in young athletes.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea on exertion",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Chest pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Sudden death",
+        "Heart failure",
+        "AFib"
+      ],
+      "emergency_markers": [
+        "Syncope",
+        "VT/VF",
+        "Family history of SCD"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Athletic activity",
+      "Mutation in sarcomere genes"
+    ],
+    "differentials": [
+      "ASD",
+      "AS",
+      "Athlete\u2019s heart"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "ECG",
+        "Cardiac MRI"
+      ],
+      "additional": [
+        "Genetic testing",
+        "Holter monitor"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Beta-blockers",
+        "Avoid strenuous exercise"
+      ],
+      "definitive": [
+        "Septal myectomy",
+        "ICD for high-risk patients"
+      ]
+    },
+    "treatment_protocol": "Risk stratification \u2192 Beta-blockers \u2192 ICD if high risk"
+  },
+  {
+    "disease": "Postural Orthostatic Tachycardia Syndrome (POTS)",
+    "epidemiology": "Affects young women; autonomic dysfunction; increasing recognition post-viral syndromes (e.g., COVID).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Lightheadedness on standing",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Tachycardia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nausea",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Syncope",
+        "Deconditioning"
+      ],
+      "emergency_markers": [
+        "Tachycardia >30 bpm after standing",
+        "Syncope"
+      ]
+    },
+    "risk_factors": [
+      "Post-viral illness",
+      "Female sex",
+      "Ehlers-Danlos",
+      "Deconditioning"
+    ],
+    "differentials": [
+      "Inappropriate sinus tachycardia",
+      "Neurocardiogenic syncope"
+    ],
+    "investigations": {
+      "important": [
+        "Tilt table test",
+        "Heart rate and BP monitoring"
+      ],
+      "additional": [
+        "TSH",
+        "Electrolytes"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Increased salt/fluid intake",
+        "Exercise therapy"
+      ],
+      "definitive": [
+        "Beta-blockers",
+        "Ivabradine",
+        "Midodrine"
+      ]
+    },
+    "treatment_protocol": "Diagnose with tilt test \u2192 Lifestyle + meds"
+  },
+  {
+    "disease": "Atrial Flutter",
+    "epidemiology": "Common arrhythmia in older adults or those with structural heart disease; less frequent than AFib but similar risks.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Palpitations",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dizziness",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Thromboembolism",
+        "Heart failure",
+        "Tachycardia-mediated cardiomyopathy"
+      ],
+      "emergency_markers": [
+        "Rapid ventricular response",
+        "Hemodynamic compromise"
+      ]
+    },
+    "risk_factors": [
+      "Valvular heart disease",
+      "COPD",
+      "Heart failure",
+      "HTN"
+    ],
+    "differentials": [
+      "AFib",
+      "PSVT",
+      "Multifocal atrial tachycardia"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Echo",
+        "TSH"
+      ],
+      "additional": [
+        "Electrolytes",
+        "Cardiac MRI"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Rate control",
+        "Anticoagulation"
+      ],
+      "definitive": [
+        "Catheter ablation"
+      ]
+    },
+    "treatment_protocol": "Anticoagulation \u2192 Rate/rhythm control \u2192 Ablation"
+  },
+  {
+    "disease": "Tricuspid Regurgitation",
+    "epidemiology": "Often functional due to RV dilatation or pulmonary hypertension; common in elderly or those with left-sided heart failure.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Peripheral edema",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ascites",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pulsatile neck veins",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Right heart failure",
+        "Atrial fibrillation"
+      ],
+      "emergency_markers": [
+        "Severe right heart failure symptoms"
+      ]
+    },
+    "risk_factors": [
+      "Pulmonary hypertension",
+      "Left-sided HF",
+      "Pacemaker leads",
+      "Endocarditis"
+    ],
+    "differentials": [
+      "Constrictive pericarditis",
+      "Right heart failure",
+      "Cardiac tamponade"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "ECG",
+        "Chest X-ray"
+      ],
+      "additional": [
+        "BNP",
+        "Liver function tests"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Diuretics"
+      ],
+      "definitive": [
+        "Surgical repair or replacement",
+        "Transcatheter therapies (in select cases)"
+      ]
+    },
+    "treatment_protocol": "Identify cause \u2192 Treat underlying \u2192 Surgical repair if severe"
+  },
+  {
+    "disease": "Aortic Dissection",
+    "epidemiology": "Incidence: ~3/100,000/year; more common in hypertensive men >60 years; classified as Stanford A or B.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden severe chest pain radiating to the back",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Unequal limb pulses",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Aortic rupture",
+        "Tamponade",
+        "Organ ischemia"
+      ],
+      "emergency_markers": [
+        "Pulse deficit",
+        "Widened mediastinum",
+        "Neurologic signs"
+      ]
+    },
+    "risk_factors": [
+      "Hypertension",
+      "Marfan syndrome",
+      "Bicuspid aortic valve",
+      "Cocaine use"
+    ],
+    "differentials": [
+      "MI",
+      "PE",
+      "Esophageal rupture"
+    ],
+    "investigations": {
+      "important": [
+        "CT angiography",
+        "Chest X-ray",
+        "ECG"
+      ],
+      "additional": [
+        "Echo (TEE)",
+        "D-dimer"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "IV beta-blockers",
+        "BP control"
+      ],
+      "definitive": [
+        "Surgery for Type A",
+        "Medical for Type B unless complicated"
+      ]
+    },
+    "treatment_protocol": "Stanford A \u2192 Emergency surgery; Type B \u2192 BP control"
+  },
+  {
+    "disease": "Cor Pulmonale",
+    "epidemiology": "Right-sided heart failure secondary to chronic lung disease; common in COPD, interstitial lung disease.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Peripheral edema",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Exertional syncope",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Right heart failure",
+        "Arrhythmias"
+      ],
+      "emergency_markers": [
+        "Severe hypoxia",
+        "Right ventricular failure"
+      ]
+    },
+    "risk_factors": [
+      "COPD",
+      "Obstructive sleep apnea",
+      "Pulmonary fibrosis"
+    ],
+    "differentials": [
+      "CHF",
+      "Pulmonary hypertension",
+      "LV dysfunction"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "Chest X-ray",
+        "BNP"
+      ],
+      "additional": [
+        "ABG",
+        "Pulmonary function tests"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Oxygen therapy",
+        "Diuretics"
+      ],
+      "definitive": [
+        "Treat underlying lung disease"
+      ]
+    },
+    "treatment_protocol": "Confirm RV strain \u2192 Supportive + treat lung disease"
+  },
+  {
+    "disease": "Congenital Heart Disease (ASD, VSD, PDA)",
+    "epidemiology": "Affects ~8/1000 live births; ASD and VSD most common; can be isolated or syndromic.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Murmur",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Failure to thrive",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Tachypnea",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "CHF",
+        "Pulmonary hypertension",
+        "Eisenmenger syndrome"
+      ],
+      "emergency_markers": [
+        "Heart failure signs in infancy"
+      ]
+    },
+    "risk_factors": [
+      "Maternal rubella",
+      "Genetic syndromes",
+      "Fetal alcohol exposure"
+    ],
+    "differentials": [
+      "Cardiomyopathy",
+      "Pulmonary disease",
+      "Sepsis"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "Pulse oximetry"
+      ],
+      "additional": [
+        "Chest X-ray",
+        "ECG"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Diuretics",
+        "Nutrition support"
+      ],
+      "definitive": [
+        "Surgical or catheter-based closure"
+      ]
+    },
+    "treatment_protocol": "Echocardiogram \u2192 Optimize medically \u2192 Refer for repair"
+  },
+  {
+    "disease": "Cardiac Tamponade",
+    "epidemiology": "Life-threatening condition; usually secondary to trauma, malignancy, or pericarditis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chest pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypotension",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Pulsus paradoxus",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Cardiogenic shock",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Beck's triad",
+        "Electrical alternans",
+        "Low voltage ECG"
+      ]
+    },
+    "risk_factors": [
+      "Malignancy",
+      "Pericarditis",
+      "Trauma",
+      "Uremia"
+    ],
+    "differentials": [
+      "PE",
+      "CHF",
+      "Tension pneumothorax"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "ECG",
+        "Chest X-ray"
+      ],
+      "additional": [
+        "Pericardiocentesis",
+        "Troponins"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Oxygen"
+      ],
+      "definitive": [
+        "Pericardiocentesis"
+      ]
+    },
+    "treatment_protocol": "Confirm with echo \u2192 Urgent drainage"
+  },
+  {
+    "disease": "Brugada Syndrome",
+    "epidemiology": "Genetic disorder affecting sodium channels, more common in Southeast Asian men; a major cause of sudden cardiac death in young adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Syncope",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nocturnal agonal respiration",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Ventricular fibrillation",
+        "Sudden cardiac death"
+      ],
+      "emergency_markers": [
+        "Coved ST elevation in V1-V3",
+        "Syncope",
+        "Family history of sudden death"
+      ]
+    },
+    "risk_factors": [
+      "Male gender",
+      "Fever",
+      "Certain medications",
+      "Family history"
+    ],
+    "differentials": [
+      "Long QT syndrome",
+      "VT",
+      "Epilepsy"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Ajmaline challenge",
+        "Genetic testing"
+      ],
+      "additional": [
+        "Electrolytes",
+        "Echo"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Avoid fever and QT-prolonging drugs"
+      ],
+      "definitive": [
+        "ICD placement"
+      ]
+    },
+    "treatment_protocol": "Identify ECG pattern \u2192 Risk stratify \u2192 ICD if high risk"
+  },
+  {
+    "disease": "Left Ventricular Noncompaction Cardiomyopathy (LVNC)",
+    "epidemiology": "Rare genetic cardiomyopathy with prominent trabeculations; may present in childhood or adulthood.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Arrhythmias",
+        "Thromboembolism"
+      ],
+      "emergency_markers": [
+        "Severe LV dysfunction",
+        "VT/VF"
+      ]
+    },
+    "risk_factors": [
+      "Genetic mutations",
+      "Family history",
+      "Neuromuscular disorders"
+    ],
+    "differentials": [
+      "Dilated cardiomyopathy",
+      "HOCM",
+      "Endocardial fibroelastosis"
+    ],
+    "investigations": {
+      "important": [
+        "Cardiac MRI",
+        "Echocardiogram",
+        "Genetic testing"
+      ],
+      "additional": [
+        "ECG",
+        "Holter monitoring"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Heart failure therapy",
+        "Anticoagulation if thrombus risk"
+      ],
+      "definitive": [
+        "ICD in high-risk patients"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis by imaging \u2192 HF meds \u2192 ICD if indicated"
+  },
+  {
+    "disease": "Paroxysmal Supraventricular Tachycardia (PSVT)",
+    "epidemiology": "Common in young adults; includes AVNRT and AVRT; often idiopathic or due to accessory pathways.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden onset palpitations",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dizziness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Anxiety",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Heart failure (rare)",
+        "Syncope"
+      ],
+      "emergency_markers": [
+        "HR > 150 bpm with narrow QRS",
+        "Hemodynamic instability"
+      ]
+    },
+    "risk_factors": [
+      "Stress",
+      "Caffeine",
+      "Alcohol",
+      "Wolff-Parkinson-White syndrome"
+    ],
+    "differentials": [
+      "AFib",
+      "VT",
+      "Sinus tachycardia"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Holter monitor"
+      ],
+      "additional": [
+        "Electrophysiologic study",
+        "Echo"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Vagal maneuvers",
+        "IV adenosine"
+      ],
+      "definitive": [
+        "Catheter ablation"
+      ]
+    },
+    "treatment_protocol": "Terminate acute episode \u2192 Electrophysiology study \u2192 Ablation"
+  },
+  {
+    "disease": "Eisenmenger Syndrome",
+    "epidemiology": "Late complication of unrepaired left-to-right shunt (e.g., VSD); occurs in childhood or adolescence if untreated.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Cyanosis",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Right heart failure",
+        "Hemoptysis",
+        "Stroke"
+      ],
+      "emergency_markers": [
+        "Central cyanosis",
+        "Clubbing",
+        "Pulmonary hypertension"
+      ]
+    },
+    "risk_factors": [
+      "Unrepaired VSD/ASD/PDA"
+    ],
+    "differentials": [
+      "Primary pulmonary hypertension",
+      "Tetralogy of Fallot"
+    ],
+    "investigations": {
+      "important": [
+        "Echo",
+        "Right heart catheterization"
+      ],
+      "additional": [
+        "Pulse oximetry",
+        "CXR",
+        "ECG"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "Anticoagulation"
+      ],
+      "definitive": [
+        "Pulmonary vasodilators",
+        "Heart-lung transplant (in severe cases)"
+      ]
+    },
+    "treatment_protocol": "Confirm PH + shunt reversal \u2192 Vasodilators \u2192 Transplant if needed"
+  },
+  {
+    "disease": "Constrictive Pericarditis",
+    "epidemiology": "Can occur post-infectious, post-surgical, post-radiation; endemic in TB-prevalent areas.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Peripheral edema",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ascites",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Elevated JVP",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Hepatic congestion",
+        "Reduced cardiac output"
+      ],
+      "emergency_markers": [
+        "Pericardial knock",
+        "Kussmaul's sign"
+      ]
+    },
+    "risk_factors": [
+      "TB",
+      "Cardiac surgery",
+      "Radiation",
+      "Autoimmune diseases"
+    ],
+    "differentials": [
+      "Restrictive cardiomyopathy",
+      "Cirrhosis",
+      "CHF"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "CT/MRI of chest",
+        "Cardiac catheterization"
+      ],
+      "additional": [
+        "ECG",
+        "CXR"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Diuretics"
+      ],
+      "definitive": [
+        "Pericardiectomy"
+      ]
+    },
+    "treatment_protocol": "Diagnose via imaging/hemodynamics \u2192 Surgery if symptomatic"
+  },
+  {
+    "disease": "Bicuspid Aortic Valve",
+    "epidemiology": "Most common congenital cardiac abnormality (~1-2% prevalence); often asymptomatic until complications develop.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymptomatic",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "none"
+        },
+        {
+          "symptom": "Exertional dyspnea (if stenotic)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Chest pain",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Aortic stenosis",
+        "Aortic regurgitation",
+        "Aortic dissection",
+        "Endocarditis"
+      ],
+      "emergency_markers": [
+        "Acute dissection",
+        "Severe AS with syncope or angina"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Male gender"
+    ],
+    "differentials": [
+      "Aortic stenosis",
+      "Aortic sclerosis",
+      "Coarctation of aorta"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "ECG"
+      ],
+      "additional": [
+        "CT or MRI of aorta (for root dilation)"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Routine surveillance",
+        "Infective endocarditis prophylaxis (if indicated)"
+      ],
+      "definitive": [
+        "Valve replacement if severe"
+      ]
+    },
+    "treatment_protocol": "Screen family \u2192 Monitor valve function \u2192 Surgery if severe stenosis or regurgitation"
+  },
+  {
+    "disease": "Pulmonary Stenosis",
+    "epidemiology": "Congenital in most cases; accounts for 5-10% of all congenital heart defects; may also be acquired.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea on exertion",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Cyanosis (severe cases)",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Right heart failure",
+        "Arrhythmias",
+        "Cyanosis"
+      ],
+      "emergency_markers": [
+        "Severe obstruction with syncope or right HF"
+      ]
+    },
+    "risk_factors": [
+      "Congenital syndromes (e.g., Noonan)",
+      "Rheumatic heart disease (rare)"
+    ],
+    "differentials": [
+      "ASD",
+      "Tetralogy of Fallot",
+      "Tricuspid regurgitation"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "ECG",
+        "Chest X-ray"
+      ],
+      "additional": [
+        "Cardiac catheterization (if needed)"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Monitoring if mild"
+      ],
+      "definitive": [
+        "Balloon valvuloplasty",
+        "Surgical repair"
+      ]
+    },
+    "treatment_protocol": "Classify severity \u2192 Balloon dilation if moderate/severe"
+  },
+  {
+    "disease": "Atrial Septal Aneurysm",
+    "epidemiology": "Seen in ~1-2% of the population; may coexist with PFO; often incidental finding.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Usually asymptomatic",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "none"
+        },
+        {
+          "symptom": "TIA/stroke (if associated with PFO)",
+          "order": 2,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Thromboembolism",
+        "Paradoxical embolism"
+      ],
+      "emergency_markers": [
+        "Cryptogenic stroke in young patient"
+      ]
+    },
+    "risk_factors": [
+      "PFO",
+      "Hypercoagulable states"
+    ],
+    "differentials": [
+      "Atrial myxoma",
+      "ASD",
+      "MVP"
+    ],
+    "investigations": {
+      "important": [
+        "Transesophageal echo",
+        "Bubble study"
+      ],
+      "additional": [
+        "ECG",
+        "Holter monitor"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Observation"
+      ],
+      "definitive": [
+        "PFO closure (if embolic event)"
+      ]
+    },
+    "treatment_protocol": "Identify on echo \u2192 Antiplatelets or closure based on stroke risk"
+  },
+  {
+    "disease": "Non-ST Elevation Myocardial Infarction (NSTEMI)",
+    "epidemiology": "One of the most common causes of hospital admissions for chest pain; part of the acute coronary syndrome spectrum.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chest pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Diaphoresis",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nausea",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Arrhythmias",
+        "Cardiogenic shock"
+      ],
+      "emergency_markers": [
+        "Positive troponins",
+        "ST depression or T-wave inversion"
+      ]
+    },
+    "risk_factors": [
+      "Smoking",
+      "Diabetes",
+      "HTN",
+      "Hyperlipidemia",
+      "Family history"
+    ],
+    "differentials": [
+      "STEMI",
+      "Angina",
+      "Aortic dissection",
+      "PE"
+    ],
+    "investigations": {
+      "important": [
+        "ECG",
+        "Serial troponins",
+        "Echo"
+      ],
+      "additional": [
+        "Chest X-ray",
+        "Lipid profile"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "Oxygen if hypoxic",
+        "Nitrates",
+        "Beta-blockers"
+      ],
+      "definitive": [
+        "Dual antiplatelet therapy",
+        "Anticoagulation",
+        "PCI"
+      ]
+    },
+    "treatment_protocol": "MONA \u2192 Antithrombotics \u2192 Cath lab if high risk"
+  },
+  {
+    "disease": "Right Ventricular Infarction",
+    "epidemiology": "Occurs in ~30-50% of inferior STEMIs (RCA territory); often underdiagnosed.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypotension",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Clear lungs with JVD",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Chest pain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Cardiogenic shock",
+        "Bradyarrhythmias"
+      ],
+      "emergency_markers": [
+        "ST elevation in V4R",
+        "Hypotension with clear lungs"
+      ]
+    },
+    "risk_factors": [
+      "Inferior STEMI",
+      "RCA occlusion"
+    ],
+    "differentials": [
+      "PE",
+      "Tamponade",
+      "Massive MI"
+    ],
+    "investigations": {
+      "important": [
+        "ECG with right-sided leads",
+        "Echo"
+      ],
+      "additional": [
+        "Cardiac enzymes",
+        "Hemodynamic monitoring"
+      ]
+    },
+    "specialty": "Cardiology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Avoid preload reducers"
+      ],
+      "definitive": [
+        "Reperfusion therapy (PCI)"
+      ]
+    },
+    "treatment_protocol": "Suspect with inferior MI \u2192 V4R \u2192 Fluids \u2192 PCI"
+  }
+]

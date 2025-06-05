@@ -1,0 +1,62 @@
+[
+  {
+    "disease": "Neonatal Sepsis"
+  },
+  {
+    "disease": "Respiratory Distress Syndrome (RDS)"
+  },
+  {
+    "disease": "Neonatal Jaundice"
+  },
+  {
+    "disease": "Hypoxic-Ischemic Encephalopathy (HIE)"
+  },
+  {
+    "disease": "Necrotizing Enterocolitis (NEC)"
+  },
+  {
+    "disease": "Meconium Aspiration Syndrome"
+  },
+  {
+    "disease": "Transient Tachypnea of the Newborn (TTN)"
+  },
+  {
+    "disease": "Neonatal Hypoglycemia"
+  },
+  {
+    "disease": "Intraventricular Hemorrhage (IVH)"
+  },
+  {
+    "disease": "Bronchopulmonary Dysplasia (BPD)"
+  },
+  {
+    "disease": "Persistent Pulmonary Hypertension of the Newborn (PPHN)"
+  },
+  {
+    "disease": "Neonatal Abstinence Syndrome (NAS)"
+  },
+  {
+    "disease": "Congenital Diaphragmatic Hernia"
+  },
+  {
+    "disease": "Hypothermia in Newborns"
+  },
+  {
+    "disease": "Neonatal Alloimmune Thrombocytopenia"
+  },
+  {
+    "disease": "Congenital Hypothyroidism"
+  },
+  {
+    "disease": "Neonatal Herpes Simplex Virus Infection"
+  },
+  {
+    "disease": "Galactosemia"
+  },
+  {
+    "disease": "Pierre Robin Sequence"
+  },
+  {
+    "disease": "Neonatal Cholestasis"
+  }
+]

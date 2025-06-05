@@ -1,0 +1,3291 @@
+[
+  {
+    "disease": "Bronchial Asthma",
+    "epidemiology": "Chronic inflammatory airway disease affecting ~300 million people globally. More common in children and young adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Wheezing",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild to severe"
+        },
+        {
+          "symptom": "Shortness of breath",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Chest tightness",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Cough (worse at night)",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Status asthmaticus",
+        "Respiratory failure",
+        "Airway remodeling"
+      ],
+      "emergency_markers": [
+        "Silent chest",
+        "Accessory muscle use",
+        "SpO2 < 92% on room air"
+      ]
+    },
+    "risk_factors": [
+      "Allergens",
+      "Respiratory infections",
+      "Exercise",
+      "Cold air",
+      "Air pollution"
+    ],
+    "differentials": [
+      "COPD",
+      "Vocal cord dysfunction",
+      "Heart failure"
+    ],
+    "investigations": {
+      "important": [
+        "Spirometry (FEV1/FVC < 0.7)",
+        "Peak expiratory flow rate"
+      ],
+      "additional": [
+        "CXR",
+        "Allergy testing",
+        "Methacholine challenge"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen therapy",
+        "Hydration"
+      ],
+      "definitive": [
+        "Inhaled corticosteroids",
+        "Beta-agonists",
+        "Leukotriene modifiers"
+      ]
+    },
+    "treatment_protocol": "Stepwise therapy: SABA \u2192 ICS \u2192 LABA + ICS \u2192 Add-ons"
+  },
+  {
+    "disease": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "epidemiology": "Third leading cause of death globally. Strongly associated with smoking and environmental pollutants.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chronic cough",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Sputum production",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Progressive dyspnea",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Pulmonary hypertension",
+        "Cor pulmonale"
+      ],
+      "emergency_markers": [
+        "Acute exacerbation with hypercapnia or hypoxia"
+      ]
+    },
+    "risk_factors": [
+      "Smoking",
+      "Air pollution",
+      "Alpha-1 antitrypsin deficiency"
+    ],
+    "differentials": [
+      "Asthma",
+      "Bronchiectasis",
+      "Tuberculosis"
+    ],
+    "investigations": {
+      "important": [
+        "Spirometry (FEV1/FVC < 0.7)",
+        "CXR"
+      ],
+      "additional": [
+        "ABG",
+        "Alpha-1 antitrypsin level",
+        "ECG"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Smoking cessation",
+        "Pulmonary rehab",
+        "Vaccination"
+      ],
+      "definitive": [
+        "Bronchodilators",
+        "Inhaled steroids",
+        "Long-term oxygen therapy"
+      ]
+    },
+    "treatment_protocol": "Stage-based approach with GOLD classification"
+  },
+  {
+    "disease": "Pneumonia",
+    "epidemiology": "Leading cause of infectious death worldwide. Common in elderly and immunocompromised.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever and chills",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Productive cough",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pleuritic chest pain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Shortness of breath",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Pleural effusion",
+        "Sepsis",
+        "Lung abscess"
+      ],
+      "emergency_markers": [
+        "Hypoxia",
+        "Confusion",
+        "Hypotension"
+      ]
+    },
+    "risk_factors": [
+      "Advanced age",
+      "Smoking",
+      "COPD",
+      "Diabetes",
+      "Immunosuppression"
+    ],
+    "differentials": [
+      "Pulmonary embolism",
+      "TB",
+      "Lung cancer"
+    ],
+    "investigations": {
+      "important": [
+        "Chest X-ray",
+        "Sputum culture",
+        "Blood cultures"
+      ],
+      "additional": [
+        "CBC",
+        "CRP",
+        "Procalcitonin"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "IV fluids"
+      ],
+      "definitive": [
+        "Empiric antibiotics based on severity and setting"
+      ]
+    },
+    "treatment_protocol": "CURB-65 or PSI score guides admission and antibiotics"
+  },
+  {
+    "disease": "Pulmonary Embolism (PE)",
+    "epidemiology": "Common cause of sudden death. Often from deep vein thrombosis. Higher risk in immobilized or post-op patients.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Pleuritic chest pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hemoptysis",
+          "order": 3,
+          "frequency": "uncommon",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Tachycardia",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Pulmonary infarction",
+        "Right heart strain",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Sudden collapse",
+        "Hypoxia",
+        "Shock"
+      ]
+    },
+    "risk_factors": [
+      "Surgery",
+      "Prolonged immobility",
+      "Cancer",
+      "OCP use",
+      "Thrombophilia"
+    ],
+    "differentials": [
+      "Pneumonia",
+      "MI",
+      "Pneumothorax"
+    ],
+    "investigations": {
+      "important": [
+        "CT pulmonary angiography",
+        "D-dimer"
+      ],
+      "additional": [
+        "ECG",
+        "CXR",
+        "ABG",
+        "Troponin"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "Analgesia"
+      ],
+      "definitive": [
+        "Anticoagulation",
+        "Thrombolysis for massive PE"
+      ]
+    },
+    "treatment_protocol": "Wells score \u2192 Imaging \u2192 Anticoagulation"
+  },
+  {
+    "disease": "Tuberculosis (Pulmonary TB)",
+    "epidemiology": "Global health burden. Highly endemic in sub-Saharan Africa, Southeast Asia. Spread by airborne droplets.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chronic cough",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hemoptysis",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Weight loss",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Night sweats",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Cavitation",
+        "Bronchiectasis",
+        "Dissemination"
+      ],
+      "emergency_markers": [
+        "Severe hemoptysis",
+        "Respiratory failure"
+      ]
+    },
+    "risk_factors": [
+      "HIV",
+      "Poverty",
+      "Overcrowding",
+      "Immunosuppression"
+    ],
+    "differentials": [
+      "Lung cancer",
+      "Pneumonia",
+      "Fungal infections"
+    ],
+    "investigations": {
+      "important": [
+        "Sputum AFB",
+        "GeneXpert MTB/RIF",
+        "Chest X-ray"
+      ],
+      "additional": [
+        "Tuberculin skin test",
+        "IGRA",
+        "ESR"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Nutritional support",
+        "Isolation"
+      ],
+      "definitive": [
+        "RIPE regimen: Rifampicin, Isoniazid, Pyrazinamide, Ethambutol"
+      ]
+    },
+    "treatment_protocol": "RIPE x 2 months \u2192 RI x 4 months"
+  },
+  {
+    "disease": "Pneumothorax",
+    "epidemiology": "Spontaneous in tall, thin young males or due to trauma/underlying lung disease.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden pleuritic chest pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Decreased breath sounds",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Tension pneumothorax",
+        "Hypoxia",
+        "Cardiac arrest"
+      ],
+      "emergency_markers": [
+        "Tracheal deviation",
+        "Hypotension",
+        "Distended neck veins"
+      ]
+    },
+    "risk_factors": [
+      "Smoking",
+      "COPD",
+      "Trauma",
+      "Mechanical ventilation"
+    ],
+    "differentials": [
+      "PE",
+      "MI",
+      "Pneumonia"
+    ],
+    "investigations": {
+      "important": [
+        "Chest X-ray",
+        "Bedside ultrasound"
+      ],
+      "additional": [
+        "CT chest",
+        "ABG"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "Monitoring"
+      ],
+      "definitive": [
+        "Needle decompression",
+        "Chest tube insertion"
+      ]
+    },
+    "treatment_protocol": "Stable \u2192 Observation/O2; Unstable \u2192 Decompression + Chest tube"
+  },
+  {
+    "disease": "Interstitial Lung Disease (ILD)",
+    "epidemiology": "A group of disorders characterized by inflammation and fibrosis of lung interstitium. Prevalence increases with age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Progressive dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dry cough",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Pulmonary hypertension",
+        "Respiratory failure"
+      ],
+      "emergency_markers": [
+        "Sudden deterioration in oxygenation"
+      ]
+    },
+    "risk_factors": [
+      "Smoking",
+      "Occupational exposures",
+      "Autoimmune diseases"
+    ],
+    "differentials": [
+      "COPD",
+      "Heart failure",
+      "Sarcoidosis"
+    ],
+    "investigations": {
+      "important": [
+        "High-resolution CT (HRCT)",
+        "Pulmonary function tests"
+      ],
+      "additional": [
+        "ANA panel",
+        "BAL",
+        "Lung biopsy"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen therapy",
+        "Pulmonary rehabilitation"
+      ],
+      "definitive": [
+        "Steroids",
+        "Antifibrotic agents",
+        "Lung transplant"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Manage inflammation \u2192 Consider transplant"
+  },
+  {
+    "disease": "Sarcoidosis",
+    "epidemiology": "Multisystem granulomatous disease; most commonly affects lungs. Higher incidence in young adults and African descent.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dry cough",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspnea on exertion",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Chest discomfort",
+          "order": 3,
+          "frequency": "uncommon",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Pulmonary fibrosis",
+        "Hypercalcemia",
+        "Ocular involvement"
+      ],
+      "emergency_markers": [
+        "Acute respiratory distress",
+        "Neurologic symptoms"
+      ]
+    },
+    "risk_factors": [
+      "Genetic predisposition",
+      "Environmental exposures"
+    ],
+    "differentials": [
+      "TB",
+      "Lymphoma",
+      "Hypersensitivity pneumonitis"
+    ],
+    "investigations": {
+      "important": [
+        "CXR (bilateral hilar lymphadenopathy)",
+        "Serum ACE",
+        "Biopsy"
+      ],
+      "additional": [
+        "HRCT",
+        "Calcium levels",
+        "PFTs"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Monitoring asymptomatic cases"
+      ],
+      "definitive": [
+        "Corticosteroids",
+        "Methotrexate",
+        "Hydroxychloroquine"
+      ]
+    },
+    "treatment_protocol": "Observe or treat depending on severity/organ involvement"
+  },
+  {
+    "disease": "Obstructive Sleep Apnea (OSA)",
+    "epidemiology": "Common sleep-related breathing disorder. Prevalence higher in obese males over 40 years old.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Snoring",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Daytime sleepiness",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Morning headaches",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Hypertension",
+        "Heart disease",
+        "Stroke"
+      ],
+      "emergency_markers": [
+        "Severe hypoxia during sleep",
+        "Apnea > 30/hr"
+      ]
+    },
+    "risk_factors": [
+      "Obesity",
+      "Male sex",
+      "Large neck circumference",
+      "Alcohol use"
+    ],
+    "differentials": [
+      "Insomnia",
+      "Narcolepsy",
+      "COPD"
+    ],
+    "investigations": {
+      "important": [
+        "Polysomnography"
+      ],
+      "additional": [
+        "Epworth sleepiness scale",
+        "Overnight oximetry"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Weight loss",
+        "Avoid alcohol and sedatives"
+      ],
+      "definitive": [
+        "CPAP therapy",
+        "Oral appliances",
+        "Surgical correction"
+      ]
+    },
+    "treatment_protocol": "Sleep study \u2192 CPAP or alternative interventions"
+  },
+  {
+    "disease": "Bronchiectasis",
+    "epidemiology": "Chronic disease with permanent dilation of bronchi due to repeated infections. Often post-TB or congenital.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chronic productive cough",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Foul-smelling sputum",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hemoptysis",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Recurrent pneumonia",
+        "Respiratory failure",
+        "Cor pulmonale"
+      ],
+      "emergency_markers": [
+        "Massive hemoptysis"
+      ]
+    },
+    "risk_factors": [
+      "Post-infectious",
+      "Cystic fibrosis",
+      "Immunodeficiency"
+    ],
+    "differentials": [
+      "COPD",
+      "TB",
+      "Asthma"
+    ],
+    "investigations": {
+      "important": [
+        "HRCT chest",
+        "Sputum culture"
+      ],
+      "additional": [
+        "CBC",
+        "Immunoglobulin levels",
+        "Sweat chloride test"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Airway clearance techniques",
+        "Vaccinations"
+      ],
+      "definitive": [
+        "Antibiotics for exacerbations",
+        "Surgical resection (rare)"
+      ]
+    },
+    "treatment_protocol": "Pulmonary hygiene \u2192 Antibiotics \u2192 Monitor function"
+  },
+  {
+    "disease": "Acute Respiratory Distress Syndrome (ARDS)",
+    "epidemiology": "Life-threatening lung injury due to various insults (sepsis, trauma, aspiration). Mortality 30\u201340%.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Severe dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Hypoxia unresponsive to oxygen",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Tachypnea",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Multi-organ failure",
+        "Barotrauma",
+        "Pulmonary fibrosis"
+      ],
+      "emergency_markers": [
+        "PaO2/FiO2 < 200",
+        "Diffuse infiltrates on CXR"
+      ]
+    },
+    "risk_factors": [
+      "Sepsis",
+      "Trauma",
+      "Aspiration",
+      "Pancreatitis"
+    ],
+    "differentials": [
+      "Cardiogenic pulmonary edema",
+      "Pneumonia",
+      "PE"
+    ],
+    "investigations": {
+      "important": [
+        "ABG",
+        "CXR",
+        "CT chest"
+      ],
+      "additional": [
+        "ECG",
+        "BNP",
+        "Echocardiogram"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Mechanical ventilation (low tidal volume)",
+        "Fluid management"
+      ],
+      "definitive": [
+        "Treat underlying cause"
+      ]
+    },
+    "treatment_protocol": "ARDS protocol \u2192 Treat cause \u2192 Lung-protective ventilation"
+  },
+  {
+    "disease": "Hypersensitivity Pneumonitis",
+    "epidemiology": "Immune-mediated inflammatory lung disease caused by inhalation of environmental antigens (e.g., mold, bird proteins).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Cough",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Pulmonary fibrosis",
+        "Chronic respiratory failure"
+      ],
+      "emergency_markers": [
+        "Acute hypoxic respiratory failure"
+      ]
+    },
+    "risk_factors": [
+      "Bird exposure",
+      "Farming",
+      "Moldy hay",
+      "Hot tubs"
+    ],
+    "differentials": [
+      "Sarcoidosis",
+      "ILD",
+      "Pneumonia"
+    ],
+    "investigations": {
+      "important": [
+        "HRCT chest",
+        "Serum precipitins",
+        "BAL"
+      ],
+      "additional": [
+        "Lung biopsy",
+        "PFTs",
+        "ESR"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Avoidance of exposure",
+        "Oxygen therapy"
+      ],
+      "definitive": [
+        "Corticosteroids"
+      ]
+    },
+    "treatment_protocol": "Remove antigen \u2192 Corticosteroids \u2192 Monitor for chronic fibrosis"
+  },
+  {
+    "disease": "Lung Abscess",
+    "epidemiology": "Localized collection of pus in the lung parenchyma. Often due to aspiration pneumonia in alcoholics or neurologically impaired.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever with chills",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Productive cough with foul sputum",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pleuritic chest pain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Weight loss",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Sepsis",
+        "Empyema",
+        "Bronchopleural fistula"
+      ],
+      "emergency_markers": [
+        "High-grade fever",
+        "Hypotension",
+        "Altered mental status"
+      ]
+    },
+    "risk_factors": [
+      "Aspiration",
+      "Poor dentition",
+      "Alcoholism",
+      "Seizures"
+    ],
+    "differentials": [
+      "TB",
+      "Lung cancer",
+      "Pneumonia"
+    ],
+    "investigations": {
+      "important": [
+        "Chest X-ray",
+        "CT scan",
+        "Sputum culture"
+      ],
+      "additional": [
+        "CBC",
+        "Blood culture",
+        "ESR"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Chest physiotherapy"
+      ],
+      "definitive": [
+        "IV antibiotics",
+        "Percutaneous drainage or surgery if no improvement"
+      ]
+    },
+    "treatment_protocol": "IV antibiotics \u2192 Reassess \u2192 Drain if persistent"
+  },
+  {
+    "disease": "Pulmonary Hypertension",
+    "epidemiology": "Increased pressure in pulmonary arteries. Classified into 5 groups by WHO. Idiopathic form is rare and severe.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea on exertion",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Chest discomfort",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 4,
+          "frequency": "uncommon",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Right heart failure",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Syncope",
+        "Signs of heart failure"
+      ]
+    },
+    "risk_factors": [
+      "Connective tissue diseases",
+      "HIV",
+      "Liver disease",
+      "Left heart disease"
+    ],
+    "differentials": [
+      "Heart failure",
+      "COPD",
+      "PE"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "Right heart catheterization"
+      ],
+      "additional": [
+        "CXR",
+        "BNP",
+        "PFTs",
+        "V/Q scan"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Diuretics",
+        "Oxygen",
+        "Exercise"
+      ],
+      "definitive": [
+        "Endothelin receptor antagonists",
+        "PDE-5 inhibitors",
+        "Prostacyclin analogs"
+      ]
+    },
+    "treatment_protocol": "Confirm group \u2192 Targeted therapy \u2192 Supportive care"
+  },
+  {
+    "disease": "Aspiration Pneumonitis",
+    "epidemiology": "Chemical lung injury due to inhalation of gastric contents. Seen in patients with altered consciousness or swallowing dysfunction.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Cough",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Tachypnea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fever",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Shortness of breath",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "ARDS",
+        "Infection",
+        "Chronic lung disease"
+      ],
+      "emergency_markers": [
+        "Rapid respiratory failure",
+        "Severe hypoxia"
+      ]
+    },
+    "risk_factors": [
+      "Stroke",
+      "Seizures",
+      "Alcoholism",
+      "GERD"
+    ],
+    "differentials": [
+      "Bacterial pneumonia",
+      "TB",
+      "PE"
+    ],
+    "investigations": {
+      "important": [
+        "CXR",
+        "ABG"
+      ],
+      "additional": [
+        "CBC",
+        "CT chest"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "Positioning",
+        "Suction"
+      ],
+      "definitive": [
+        "Antibiotics if secondary infection"
+      ]
+    },
+    "treatment_protocol": "Supportive care \u2192 Monitor for infection"
+  },
+  {
+    "disease": "Pleural Effusion",
+    "epidemiology": "Abnormal fluid accumulation in pleural space. Common in CHF, infections, malignancy.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pleuritic chest pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dry cough",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Empyema",
+        "Respiratory compromise"
+      ],
+      "emergency_markers": [
+        "Massive effusion with mediastinal shift"
+      ]
+    },
+    "risk_factors": [
+      "CHF",
+      "Pneumonia",
+      "Malignancy",
+      "Nephrotic syndrome"
+    ],
+    "differentials": [
+      "Pneumonia",
+      "Lung cancer",
+      "PE"
+    ],
+    "investigations": {
+      "important": [
+        "Chest X-ray",
+        "Thoracentesis",
+        "Ultrasound"
+      ],
+      "additional": [
+        "CT chest",
+        "Pleural fluid analysis"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "Diuretics (if transudative)"
+      ],
+      "definitive": [
+        "Therapeutic thoracentesis",
+        "Treat underlying cause"
+      ]
+    },
+    "treatment_protocol": "Drainage \u2192 Identify cause \u2192 Treat underlying pathology"
+  },
+  {
+    "disease": "Pulmonary Embolism (PE)",
+    "epidemiology": "Blockage of pulmonary artery due to thrombus. Common cause of sudden death in hospitalized patients.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden-onset dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Pleuritic chest pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Tachycardia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hemoptysis",
+          "order": 4,
+          "frequency": "uncommon",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Pulmonary infarction",
+        "Right heart strain",
+        "Sudden death"
+      ],
+      "emergency_markers": [
+        "Hypoxia",
+        "Syncope",
+        "Shock"
+      ]
+    },
+    "risk_factors": [
+      "Immobility",
+      "Recent surgery",
+      "Cancer",
+      "Pregnancy",
+      "OCPs"
+    ],
+    "differentials": [
+      "MI",
+      "Pneumothorax",
+      "Pneumonia"
+    ],
+    "investigations": {
+      "important": [
+        "D-dimer",
+        "CT pulmonary angiography"
+      ],
+      "additional": [
+        "ECG",
+        "CXR",
+        "V/Q scan"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "IV fluids if hypotensive"
+      ],
+      "definitive": [
+        "Anticoagulation",
+        "Thrombolysis",
+        "Surgical embolectomy"
+      ]
+    },
+    "treatment_protocol": "Risk stratify \u2192 Start anticoagulation \u2192 Consider lysis/embolectomy"
+  },
+  {
+    "disease": "Pneumothorax",
+    "epidemiology": "Air in pleural space causing lung collapse. Primary (spontaneous) or secondary (underlying lung disease).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden pleuritic chest pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Shortness of breath",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Tension pneumothorax",
+        "Respiratory failure"
+      ],
+      "emergency_markers": [
+        "Tracheal deviation",
+        "Hypotension",
+        "Distended neck veins"
+      ]
+    },
+    "risk_factors": [
+      "Tall thin male",
+      "Smoking",
+      "COPD",
+      "Trauma",
+      "Mechanical ventilation"
+    ],
+    "differentials": [
+      "PE",
+      "MI",
+      "Pneumonia"
+    ],
+    "investigations": {
+      "important": [
+        "Chest X-ray"
+      ],
+      "additional": [
+        "CT chest",
+        "ABG"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen"
+      ],
+      "definitive": [
+        "Needle decompression (tension)",
+        "Chest tube insertion"
+      ]
+    },
+    "treatment_protocol": "Stabilize \u2192 Chest tube or needle \u2192 Monitor"
+  },
+  {
+    "disease": "Tuberculosis (Pulmonary TB)",
+    "epidemiology": "Chronic infection by Mycobacterium tuberculosis. Endemic in developing countries; airborne transmission.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chronic cough > 2 weeks",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Weight loss",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Night sweats",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hemoptysis",
+          "order": 5,
+          "frequency": "uncommon",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Cavitary lesions",
+        "Bronchiectasis",
+        "Disseminated TB"
+      ],
+      "emergency_markers": [
+        "Massive hemoptysis",
+        "Severe respiratory distress"
+      ]
+    },
+    "risk_factors": [
+      "HIV",
+      "Immunosuppression",
+      "Malnutrition",
+      "Close contact with TB case"
+    ],
+    "differentials": [
+      "Lung cancer",
+      "Sarcoidosis",
+      "Fungal infections"
+    ],
+    "investigations": {
+      "important": [
+        "Sputum AFB smear and culture",
+        "CXR"
+      ],
+      "additional": [
+        "GeneXpert PCR",
+        "Tuberculin skin test",
+        "IGRA"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Isolation",
+        "Nutritional support"
+      ],
+      "definitive": [
+        "Rifampicin + Isoniazid + Pyrazinamide + Ethambutol (6-month regimen)"
+      ]
+    },
+    "treatment_protocol": "RIPE x 2 months \u2192 RI x 4 months \u2192 Monitor sputum & liver function"
+  },
+  {
+    "disease": "Chronic Cough Syndrome",
+    "epidemiology": "Cough lasting more than 8 weeks, often due to GERD, postnasal drip, or asthma. More common in non-smokers.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dry or productive cough",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Throat clearing",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Nocturnal cough",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Sleep disturbance",
+        "Chest pain",
+        "Urinary incontinence"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "GERD",
+      "Allergies",
+      "Asthma",
+      "ACE inhibitors"
+    ],
+    "differentials": [
+      "TB",
+      "Lung cancer",
+      "Asthma"
+    ],
+    "investigations": {
+      "important": [
+        "CXR",
+        "Spirometry",
+        "Empiric trials"
+      ],
+      "additional": [
+        "pH monitoring",
+        "ENT evaluation"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Lifestyle modification",
+        "Avoid triggers"
+      ],
+      "definitive": [
+        "Treat underlying cause (GERD, asthma, rhinitis)"
+      ]
+    },
+    "treatment_protocol": "Evaluate causes \u2192 Targeted therapy \u2192 Reassess"
+  },
+  {
+    "disease": "Lung Cancer",
+    "epidemiology": "Leading cause of cancer-related death worldwide. Most common types are NSCLC and SCLC. Strongly linked to smoking.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Persistent cough",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hemoptysis",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Weight loss",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Chest pain",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 5,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Metastasis",
+        "Pleural effusion",
+        "Paraneoplastic syndromes"
+      ],
+      "emergency_markers": [
+        "Superior vena cava syndrome",
+        "Massive hemoptysis"
+      ]
+    },
+    "risk_factors": [
+      "Smoking",
+      "Radiation",
+      "Asbestos exposure",
+      "Family history"
+    ],
+    "differentials": [
+      "TB",
+      "Pneumonia",
+      "Lymphoma"
+    ],
+    "investigations": {
+      "important": [
+        "Chest CT",
+        "Bronchoscopy",
+        "Biopsy"
+      ],
+      "additional": [
+        "PET scan",
+        "MRI brain",
+        "Molecular testing"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Pain control",
+        "Oxygen",
+        "Palliative care"
+      ],
+      "definitive": [
+        "Surgery",
+        "Chemotherapy",
+        "Radiation",
+        "Targeted therapy"
+      ]
+    },
+    "treatment_protocol": "Stage \u2192 MDT plan \u2192 Treatment modality based on type & stage"
+  },
+  {
+    "disease": "Pulmonary Fibrosis",
+    "epidemiology": "Progressive scarring of lung tissue. Most common in older adults. Idiopathic pulmonary fibrosis (IPF) is the most severe type.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Progressive dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dry cough",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Pulmonary hypertension",
+        "Cor pulmonale"
+      ],
+      "emergency_markers": [
+        "Acute exacerbation",
+        "Severe hypoxia"
+      ]
+    },
+    "risk_factors": [
+      "Smoking",
+      "Occupational dust exposure",
+      "Genetics",
+      "Autoimmune diseases"
+    ],
+    "differentials": [
+      "COPD",
+      "Sarcoidosis",
+      "Heart failure"
+    ],
+    "investigations": {
+      "important": [
+        "HRCT chest",
+        "PFTs"
+      ],
+      "additional": [
+        "Bronchoscopy with BAL",
+        "Lung biopsy",
+        "ANA panel"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen therapy",
+        "Pulmonary rehab"
+      ],
+      "definitive": [
+        "Antifibrotics (nintedanib, pirfenidone)",
+        "Lung transplant (advanced)"
+      ]
+    },
+    "treatment_protocol": "Confirm IPF \u2192 Antifibrotics \u2192 Transplant evaluation"
+  },
+  {
+    "disease": "Acute Respiratory Distress Syndrome (ARDS)",
+    "epidemiology": "Severe acute lung injury leading to hypoxemia and respiratory failure. Common in sepsis, trauma, or pneumonia.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Rapid-onset dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Tachypnea",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypoxia",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Multi-organ failure",
+        "Death"
+      ],
+      "emergency_markers": [
+        "PaO\u2082/FiO\u2082 < 300",
+        "Bilateral infiltrates on CXR"
+      ]
+    },
+    "risk_factors": [
+      "Sepsis",
+      "Pneumonia",
+      "Trauma",
+      "Pancreatitis"
+    ],
+    "differentials": [
+      "Cardiogenic pulmonary edema",
+      "PE",
+      "Pneumonia"
+    ],
+    "investigations": {
+      "important": [
+        "ABG",
+        "CXR",
+        "Echocardiogram"
+      ],
+      "additional": [
+        "CT chest",
+        "BNP",
+        "Procalcitonin"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Mechanical ventilation (low tidal volume)",
+        "Prone positioning"
+      ],
+      "definitive": [
+        "Treat underlying cause"
+      ]
+    },
+    "treatment_protocol": "ICU \u2192 Lung-protective ventilation \u2192 Manage cause"
+  },
+  {
+    "disease": "Obstructive Sleep Apnea (OSA)",
+    "epidemiology": "Intermittent upper airway collapse during sleep. Affects ~5-10% of adults, especially obese males.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Loud snoring",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Daytime sleepiness",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Unrefreshing sleep",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Morning headache",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Hypertension",
+        "MI",
+        "Stroke",
+        "AFib"
+      ],
+      "emergency_markers": [
+        "Severe desaturation",
+        "Apnea-hypopnea index > 30"
+      ]
+    },
+    "risk_factors": [
+      "Obesity",
+      "Male sex",
+      "Neck circumference > 17 inches",
+      "Alcohol",
+      "Sedatives"
+    ],
+    "differentials": [
+      "Narcolepsy",
+      "Insomnia",
+      "Depression"
+    ],
+    "investigations": {
+      "important": [
+        "Polysomnography (sleep study)"
+      ],
+      "additional": [
+        "STOP-BANG questionnaire",
+        "Epworth Sleepiness Scale"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Weight loss",
+        "Sleep hygiene"
+      ],
+      "definitive": [
+        "CPAP therapy",
+        "Mandibular advancement device",
+        "Surgery (UPPP)"
+      ]
+    },
+    "treatment_protocol": "Diagnose \u2192 Initiate CPAP \u2192 Monitor adherence"
+  },
+  {
+    "disease": "Allergic Bronchopulmonary Aspergillosis (ABPA)",
+    "epidemiology": "Hypersensitivity reaction to Aspergillus in patients with asthma or cystic fibrosis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Recurrent wheezing",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Brownish sputum",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Cough",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fever",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Bronchiectasis",
+        "Pulmonary fibrosis"
+      ],
+      "emergency_markers": [
+        "Severe exacerbation of asthma with ABPA features"
+      ]
+    },
+    "risk_factors": [
+      "Asthma",
+      "Cystic fibrosis",
+      "Immunocompromised state"
+    ],
+    "differentials": [
+      "TB",
+      "Pneumonia",
+      "Eosinophilic lung disease"
+    ],
+    "investigations": {
+      "important": [
+        "Serum IgE",
+        "Chest CT",
+        "Sputum culture"
+      ],
+      "additional": [
+        "Aspergillus-specific IgE",
+        "Skin prick test",
+        "Eosinophil count"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Bronchodilators"
+      ],
+      "definitive": [
+        "Oral corticosteroids",
+        "Antifungals (itraconazole)"
+      ]
+    },
+    "treatment_protocol": "Steroids \u2192 Monitor IgE \u2192 Add antifungals if recurrent"
+  },
+  {
+    "disease": "Respiratory Syncytial Virus (RSV) Infection",
+    "epidemiology": "Common viral lower respiratory tract infection in infants. Peaks in winter. Leading cause of bronchiolitis in children < 2 years.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Cough",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Wheezing",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Poor feeding",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Bronchiolitis",
+        "Pneumonia",
+        "Apnea in infants"
+      ],
+      "emergency_markers": [
+        "Severe respiratory distress",
+        "Hypoxia < 92%"
+      ]
+    },
+    "risk_factors": [
+      "Prematurity",
+      "Congenital heart disease",
+      "Daycare attendance",
+      "Crowded living"
+    ],
+    "differentials": [
+      "Influenza",
+      "COVID-19",
+      "Asthma"
+    ],
+    "investigations": {
+      "important": [
+        "Nasopharyngeal swab PCR",
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "CXR",
+        "Pulse oximetry"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Oxygen",
+        "Nasal suctioning"
+      ],
+      "definitive": [
+        "Palivizumab prophylaxis in high-risk infants"
+      ]
+    },
+    "treatment_protocol": "Supportive \u2192 Hospitalize if hypoxic or dehydrated"
+  },
+  {
+    "disease": "Cystic Fibrosis",
+    "epidemiology": "Autosomal recessive disorder affecting chloride channels, leading to thick mucus secretions. Common in Caucasians.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chronic productive cough",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Recurrent respiratory infections",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nasal polyps",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Failure to thrive",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Bronchiectasis",
+        "Respiratory failure",
+        "Diabetes"
+      ],
+      "emergency_markers": [
+        "Massive hemoptysis",
+        "Respiratory collapse"
+      ]
+    },
+    "risk_factors": [
+      "Genetic mutation (CFTR)",
+      "Family history"
+    ],
+    "differentials": [
+      "Primary ciliary dyskinesia",
+      "Asthma",
+      "Chronic bronchitis"
+    ],
+    "investigations": {
+      "important": [
+        "Sweat chloride test",
+        "CFTR gene testing"
+      ],
+      "additional": [
+        "Sputum culture",
+        "Chest CT",
+        "PFTs"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Chest physiotherapy",
+        "Nutritional support"
+      ],
+      "definitive": [
+        "CFTR modulators",
+        "Antibiotics",
+        "Lung transplant"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Multidisciplinary care \u2192 Targeted therapy"
+  },
+  {
+    "disease": "Bronchiolitis",
+    "epidemiology": "Common viral lower respiratory tract infection in children < 2 years, usually due to RSV.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Cough",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Wheezing",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Tachypnea",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nasal flaring",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Apnea",
+        "Respiratory failure"
+      ],
+      "emergency_markers": [
+        "Severe respiratory distress",
+        "SpO\u2082 < 92%"
+      ]
+    },
+    "risk_factors": [
+      "Prematurity",
+      "Exposure to smoke",
+      "Daycare",
+      "Age < 6 months"
+    ],
+    "differentials": [
+      "Pneumonia",
+      "Asthma",
+      "Pertussis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis",
+        "Pulse oximetry"
+      ],
+      "additional": [
+        "RSV antigen test",
+        "Chest X-ray (if severe)"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Nasal suctioning",
+        "Oxygen"
+      ],
+      "definitive": [
+        "Supportive care only (no routine antivirals)"
+      ]
+    },
+    "treatment_protocol": "Assess severity \u2192 Supportive care \u2192 Hospitalize if needed"
+  },
+  {
+    "disease": "Silicosis",
+    "epidemiology": "Pneumoconiosis caused by inhalation of silica dust. Common in miners, sandblasters, and construction workers.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Progressive dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cough",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Pulmonary fibrosis",
+        "TB",
+        "Cor pulmonale"
+      ],
+      "emergency_markers": [
+        "Massive respiratory compromise"
+      ]
+    },
+    "risk_factors": [
+      "Occupational exposure",
+      "Lack of PPE",
+      "Long duration of exposure"
+    ],
+    "differentials": [
+      "Asbestosis",
+      "Sarcoidosis",
+      "COPD"
+    ],
+    "investigations": {
+      "important": [
+        "CXR (eggshell calcifications)",
+        "HRCT"
+      ],
+      "additional": [
+        "PFTs",
+        "TB screening"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Avoid exposure",
+        "Pulmonary rehab"
+      ],
+      "definitive": [
+        "No cure, manage complications",
+        "Lung transplant in advanced cases"
+      ]
+    },
+    "treatment_protocol": "Remove exposure \u2192 Supportive care \u2192 Monitor for TB"
+  },
+  {
+    "disease": "Asbestosis",
+    "epidemiology": "Interstitial lung disease from asbestos exposure. Long latency. Seen in shipyard workers, insulation industry.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Exertional dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dry cough",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Lung cancer",
+        "Mesothelioma",
+        "Pulmonary fibrosis"
+      ],
+      "emergency_markers": [
+        "Rapid progression of symptoms",
+        "New pleural effusion"
+      ]
+    },
+    "risk_factors": [
+      "Occupational exposure",
+      "Cigarette smoking"
+    ],
+    "differentials": [
+      "Silicosis",
+      "IPF",
+      "Bronchogenic carcinoma"
+    ],
+    "investigations": {
+      "important": [
+        "CXR",
+        "HRCT (pleural plaques)",
+        "PFTs"
+      ],
+      "additional": [
+        "Biopsy",
+        "Bronchoalveolar lavage"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Smoking cessation",
+        "Oxygen"
+      ],
+      "definitive": [
+        "No specific treatment; monitor for malignancy"
+      ]
+    },
+    "treatment_protocol": "Supportive \u2192 Surveillance for cancer \u2192 Manage fibrosis"
+  },
+  {
+    "disease": "Hantavirus Pulmonary Syndrome",
+    "epidemiology": "Zoonotic viral disease from rodent droppings. Rare but potentially fatal respiratory illness.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Myalgia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Non-productive cough",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Pulmonary edema",
+        "Shock",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Rapid respiratory failure",
+        "Hypotension",
+        "Tachycardia"
+      ]
+    },
+    "risk_factors": [
+      "Exposure to rodents or rodent-infested areas"
+    ],
+    "differentials": [
+      "Influenza",
+      "COVID-19",
+      "Legionnaire's disease"
+    ],
+    "investigations": {
+      "important": [
+        "Serology for hantavirus",
+        "CXR (pulmonary edema)"
+      ],
+      "additional": [
+        "PCR",
+        "CBC",
+        "Renal function tests"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "ICU care",
+        "Oxygen",
+        "Mechanical ventilation"
+      ],
+      "definitive": [
+        "No antiviral proven; supportive care is mainstay"
+      ]
+    },
+    "treatment_protocol": "Early recognition \u2192 ICU \u2192 Manage respiratory failure"
+  },
+  {
+    "disease": "Bronchiectasis",
+    "epidemiology": "Permanent dilation of bronchi due to chronic infection or inflammation. Prevalence higher in elderly and post-TB cases.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chronic productive cough",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Large volumes of purulent sputum",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Recurrent respiratory infections",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hemoptysis",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Massive hemoptysis",
+        "Pneumonia"
+      ],
+      "emergency_markers": [
+        "Massive hemoptysis",
+        "Severe respiratory distress"
+      ]
+    },
+    "risk_factors": [
+      "Previous severe infections (TB, pneumonia)",
+      "Cystic fibrosis",
+      "Immunodeficiency"
+    ],
+    "differentials": [
+      "COPD",
+      "Cystic fibrosis",
+      "Chronic bronchitis"
+    ],
+    "investigations": {
+      "important": [
+        "High-resolution CT scan",
+        "Sputum culture"
+      ],
+      "additional": [
+        "Bronchoscopy",
+        "CBC",
+        "PFTs"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Chest physiotherapy",
+        "Bronchodilators"
+      ],
+      "definitive": [
+        "Antibiotics",
+        "Surgery (localized disease)",
+        "Macrolides (chronic)"
+      ]
+    },
+    "treatment_protocol": "Manage infections \u2192 Airway clearance \u2192 Consider resection"
+  },
+  {
+    "disease": "Sarcoidosis (Pulmonary)",
+    "epidemiology": "Multisystem granulomatous disease with pulmonary involvement in >90% cases. Common in young adults and African descent.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dry cough",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Chest discomfort",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Pulmonary fibrosis",
+        "Cor pulmonale"
+      ],
+      "emergency_markers": [
+        "Hypercalcemia",
+        "Severe hypoxia"
+      ]
+    },
+    "risk_factors": [
+      "African ancestry",
+      "Female sex",
+      "Age 20\u201340 years"
+    ],
+    "differentials": [
+      "TB",
+      "Lymphoma",
+      "Histoplasmosis"
+    ],
+    "investigations": {
+      "important": [
+        "CXR (bilateral hilar lymphadenopathy)",
+        "Serum ACE",
+        "Biopsy (noncaseating granulomas)"
+      ],
+      "additional": [
+        "HRCT",
+        "PFTs",
+        "Calcium and vitamin D levels"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Monitor mild disease"
+      ],
+      "definitive": [
+        "Corticosteroids",
+        "Methotrexate (refractory)"
+      ]
+    },
+    "treatment_protocol": "Mild \u2192 Monitor | Moderate-severe \u2192 Steroids"
+  },
+  {
+    "disease": "Pulmonary Embolism",
+    "epidemiology": "Blockage of pulmonary artery by thrombus. Common cause of sudden death. Risk increased in immobility, surgery, malignancy.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden-onset dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Pleuritic chest pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hemoptysis",
+          "order": 3,
+          "frequency": "uncommon",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Tachycardia",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Right heart failure",
+        "Death",
+        "Pulmonary hypertension"
+      ],
+      "emergency_markers": [
+        "Shock",
+        "SpO2 < 90%",
+        "Elevated troponin/BMP"
+      ]
+    },
+    "risk_factors": [
+      "Surgery",
+      "Immobility",
+      "Pregnancy",
+      "Cancer",
+      "OCP use"
+    ],
+    "differentials": [
+      "MI",
+      "Pneumothorax",
+      "Pericarditis"
+    ],
+    "investigations": {
+      "important": [
+        "D-dimer",
+        "CTPA",
+        "ECG (S1Q3T3)"
+      ],
+      "additional": [
+        "Echo",
+        "V/Q scan",
+        "Troponin"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "IV fluids if hypotensive"
+      ],
+      "definitive": [
+        "Anticoagulation",
+        "Thrombolysis (massive PE)",
+        "IVC filter"
+      ]
+    },
+    "treatment_protocol": "Risk stratify \u2192 Anticoagulate \u2192 Consider thrombolysis"
+  },
+  {
+    "disease": "Pulmonary Hypertension",
+    "epidemiology": "Elevated pulmonary artery pressure > 25 mmHg. Associated with heart/lung disease, idiopathic forms more common in females.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Exertional dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Syncope",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Chest pain",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Right heart failure",
+        "Arrhythmias",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Right heart strain",
+        "Severe hypoxia"
+      ]
+    },
+    "risk_factors": [
+      "Connective tissue disease",
+      "Congenital heart disease",
+      "Chronic lung disease",
+      "HIV"
+    ],
+    "differentials": [
+      "CHF",
+      "COPD",
+      "Angina"
+    ],
+    "investigations": {
+      "important": [
+        "Echo",
+        "Right heart catheterization (gold standard)"
+      ],
+      "additional": [
+        "CXR",
+        "BNP",
+        "Pulmonary function tests"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "Diuretics"
+      ],
+      "definitive": [
+        "Endothelin receptor antagonists",
+        "PDE-5 inhibitors",
+        "Prostacyclins"
+      ]
+    },
+    "treatment_protocol": "Classify WHO group \u2192 Tailor therapy"
+  },
+  {
+    "disease": "Pneumoconiosis (Coal Workers)",
+    "epidemiology": "Interstitial lung disease from inhalation of coal dust particles. Common in miners.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chronic cough",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspnea on exertion",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Progressive massive fibrosis",
+        "Cor pulmonale"
+      ],
+      "emergency_markers": [
+        "Rapid decline in lung function",
+        "Hypoxia"
+      ]
+    },
+    "risk_factors": [
+      "Coal mining",
+      "Long exposure duration",
+      "Smoking"
+    ],
+    "differentials": [
+      "Silicosis",
+      "Asbestosis",
+      "Tuberculosis"
+    ],
+    "investigations": {
+      "important": [
+        "CXR",
+        "PFTs"
+      ],
+      "additional": [
+        "CT scan",
+        "Occupational history"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Avoid exposure",
+        "Oxygen therapy"
+      ],
+      "definitive": [
+        "No specific cure, supportive care",
+        "Lung transplant in severe cases"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Eliminate exposure \u2192 Monitor and support"
+  },
+  {
+    "disease": "Chronic Hypoventilation Syndrome (Obesity Hypoventilation)",
+    "epidemiology": "Seen in obese patients with BMI >30, characterized by chronic hypercapnia without other causes. Prevalent in 10\u201320% of severely obese individuals.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Daytime hypersomnolence",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Morning headaches",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Cor pulmonale",
+        "Pulmonary hypertension"
+      ],
+      "emergency_markers": [
+        "CO\u2082 narcosis",
+        "Hypoxic respiratory failure"
+      ]
+    },
+    "risk_factors": [
+      "Obesity",
+      "Obstructive sleep apnea",
+      "Sedentary lifestyle"
+    ],
+    "differentials": [
+      "COPD",
+      "OSA",
+      "Heart failure"
+    ],
+    "investigations": {
+      "important": [
+        "ABG (chronic hypercapnia)",
+        "Polysomnography"
+      ],
+      "additional": [
+        "CXR",
+        "ECG",
+        "PFTs"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Weight reduction",
+        "Pulmonary rehab"
+      ],
+      "definitive": [
+        "Non-invasive ventilation (BiPAP)",
+        "Treat OSA"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Initiate BiPAP \u2192 Lifestyle changes"
+  },
+  {
+    "disease": "Lung Abscess",
+    "epidemiology": "Localized suppurative infection of lung parenchyma. Common in alcoholics, aspiration, or post-pneumonia.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Productive cough with foul-smelling sputum",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pleuritic chest pain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Weight loss",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Empyema",
+        "Sepsis",
+        "Bronchopleural fistula"
+      ],
+      "emergency_markers": [
+        "Septic shock",
+        "Massive hemoptysis"
+      ]
+    },
+    "risk_factors": [
+      "Alcoholism",
+      "Seizure disorder",
+      "Poor dental hygiene"
+    ],
+    "differentials": [
+      "TB",
+      "Necrotizing pneumonia",
+      "Lung cancer"
+    ],
+    "investigations": {
+      "important": [
+        "CXR",
+        "CT chest",
+        "Sputum culture"
+      ],
+      "additional": [
+        "Blood culture",
+        "Bronchoscopy"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Chest physiotherapy"
+      ],
+      "definitive": [
+        "IV antibiotics (clindamycin or beta-lactam/beta-lactamase inhibitor)",
+        "Drainage if needed"
+      ]
+    },
+    "treatment_protocol": "Antibiotics \u2192 Monitor \u2192 Drain if unresolved"
+  },
+  {
+    "disease": "Pulmonary Alveolar Proteinosis",
+    "epidemiology": "Rare lung disease where surfactant accumulates in alveoli. Seen in autoimmune, congenital, or secondary forms (e.g. dust exposure).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Progressive dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dry cough",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Infection",
+        "Respiratory failure"
+      ],
+      "emergency_markers": [
+        "Worsening hypoxia",
+        "Rapid decompensation"
+      ]
+    },
+    "risk_factors": [
+      "Silica exposure",
+      "Autoimmunity",
+      "Genetic mutations"
+    ],
+    "differentials": [
+      "Pneumocystis pneumonia",
+      "Sarcoidosis",
+      "Interstitial lung disease"
+    ],
+    "investigations": {
+      "important": [
+        "HRCT (crazy-paving pattern)",
+        "BAL (milky fluid)",
+        "Anti-GM-CSF antibodies"
+      ],
+      "additional": [
+        "Lung biopsy",
+        "PFTs"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen therapy"
+      ],
+      "definitive": [
+        "Whole lung lavage",
+        "GM-CSF therapy"
+      ]
+    },
+    "treatment_protocol": "Diagnose \u2192 Lavage \u2192 Immunotherapy if refractory"
+  },
+  {
+    "disease": "Hypersensitivity Pneumonitis",
+    "epidemiology": "Inflammatory lung reaction to inhaled organic dusts (e.g. bird proteins, mold). Also called extrinsic allergic alveolitis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Acute dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cough",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fever and chills",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Pulmonary fibrosis",
+        "Respiratory failure"
+      ],
+      "emergency_markers": [
+        "Severe hypoxia",
+        "Acute respiratory distress"
+      ]
+    },
+    "risk_factors": [
+      "Farming",
+      "Bird owners",
+      "Exposure to molds"
+    ],
+    "differentials": [
+      "Pneumonia",
+      "Asthma",
+      "COPD"
+    ],
+    "investigations": {
+      "important": [
+        "CXR/HRCT (ground-glass)",
+        "Serum precipitins"
+      ],
+      "additional": [
+        "BAL (lymphocytosis)",
+        "Lung biopsy"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Remove exposure",
+        "Oxygen"
+      ],
+      "definitive": [
+        "Corticosteroids"
+      ]
+    },
+    "treatment_protocol": "Remove antigen \u2192 Steroids \u2192 Monitor fibrosis"
+  },
+  {
+    "disease": "Lymphangioleiomyomatosis (LAM)",
+    "epidemiology": "Rare lung disease in women of childbearing age. Linked with tuberous sclerosis. Causes cystic lung destruction.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Exertional dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Spontaneous pneumothorax",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Chylous effusions",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Hemorrhagic effusion"
+      ],
+      "emergency_markers": [
+        "Large pneumothorax",
+        "Hypoxia"
+      ]
+    },
+    "risk_factors": [
+      "Female sex",
+      "Tuberous sclerosis complex"
+    ],
+    "differentials": [
+      "Pulmonary metastases",
+      "Histiocytosis X",
+      "Emphysema"
+    ],
+    "investigations": {
+      "important": [
+        "HRCT (diffuse thin-walled cysts)",
+        "VEGF-D levels"
+      ],
+      "additional": [
+        "Lung biopsy",
+        "PFTs"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "Thoracentesis if effusion"
+      ],
+      "definitive": [
+        "Sirolimus",
+        "Lung transplantation"
+      ]
+    },
+    "treatment_protocol": "Diagnose \u2192 mTOR inhibitors \u2192 Transplant if needed"
+  },
+  {
+    "disease": "Pulmonary Capillaritis",
+    "epidemiology": "Rare cause of pulmonary hemorrhage, often seen in autoimmune vasculitides like GPA or microscopic polyangiitis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hemoptysis",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Cough",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Diffuse alveolar hemorrhage",
+        "Respiratory failure"
+      ],
+      "emergency_markers": [
+        "Massive hemoptysis",
+        "Hypoxemia"
+      ]
+    },
+    "risk_factors": [
+      "ANCA-associated vasculitis",
+      "Connective tissue disease"
+    ],
+    "differentials": [
+      "Goodpasture's syndrome",
+      "TB",
+      "Lung cancer"
+    ],
+    "investigations": {
+      "important": [
+        "BAL (blood in all aliquots)",
+        "CT chest",
+        "Autoimmune panel (ANCA)"
+      ],
+      "additional": [
+        "Lung biopsy",
+        "CBC, ESR/CRP"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "IV fluids"
+      ],
+      "definitive": [
+        "High-dose corticosteroids",
+        "Cyclophosphamide",
+        "Plasmapheresis"
+      ]
+    },
+    "treatment_protocol": "Treat vasculitis \u2192 Immunosuppressive therapy \u2192 Plasmapheresis in severe cases"
+  },
+  {
+    "disease": "Pulmonary Langerhans Cell Histiocytosis (PLCH)",
+    "epidemiology": "Rare interstitial lung disease associated with smoking. Most common in young adult smokers.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Non-productive cough",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Spontaneous pneumothorax",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Pulmonary fibrosis",
+        "Pulmonary hypertension"
+      ],
+      "emergency_markers": [
+        "Pneumothorax",
+        "Respiratory decompensation"
+      ]
+    },
+    "risk_factors": [
+      "Cigarette smoking",
+      "Young adulthood"
+    ],
+    "differentials": [
+      "Emphysema",
+      "LAM",
+      "Sarcoidosis"
+    ],
+    "investigations": {
+      "important": [
+        "HRCT (nodules and cysts)",
+        "Lung biopsy"
+      ],
+      "additional": [
+        "PFTs",
+        "BAL"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Smoking cessation",
+        "Oxygen therapy"
+      ],
+      "definitive": [
+        "Steroids in early disease",
+        "Chemotherapy in multisystem disease"
+      ]
+    },
+    "treatment_protocol": "Stop smoking \u2192 Monitor \u2192 Treat inflammation if progressive"
+  },
+  {
+    "disease": "Tracheomalacia",
+    "epidemiology": "Weakening of tracheal cartilage leading to airway collapse, especially during expiration. Can be congenital or acquired.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Expiratory wheeze",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Stridor",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Recurrent respiratory infections",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dyspnea on exertion",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Respiratory distress",
+        "Chronic infections"
+      ],
+      "emergency_markers": [
+        "Severe airway collapse",
+        "Stridor at rest"
+      ]
+    },
+    "risk_factors": [
+      "Prolonged intubation",
+      "Congenital anomalies",
+      "Tracheal surgery"
+    ],
+    "differentials": [
+      "Asthma",
+      "COPD",
+      "Vocal cord dysfunction"
+    ],
+    "investigations": {
+      "important": [
+        "Bronchoscopy (dynamic collapse)",
+        "CT scan"
+      ],
+      "additional": [
+        "Flow-volume loop",
+        "MRI (in children)"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "CPAP",
+        "Avoid irritants"
+      ],
+      "definitive": [
+        "Surgical repair",
+        "Tracheal stenting"
+      ]
+    },
+    "treatment_protocol": "Supportive therapy \u2192 Surgery if severe"
+  },
+  {
+    "disease": "Respiratory Syncytial Virus (RSV) Bronchiolitis",
+    "epidemiology": "Common viral infection in infants <2 years, leading cause of hospitalization in infants. Peaks in winter.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Cough",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Wheezing",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Poor feeding",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Apnea",
+        "Respiratory failure",
+        "Secondary bacterial infection"
+      ],
+      "emergency_markers": [
+        "Severe respiratory distress",
+        "Apnea episodes"
+      ]
+    },
+    "risk_factors": [
+      "Prematurity",
+      "Congenital heart disease",
+      "Daycare exposure"
+    ],
+    "differentials": [
+      "Asthma",
+      "Pertussis",
+      "Foreign body aspiration"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis",
+        "Nasopharyngeal swab for RSV"
+      ],
+      "additional": [
+        "CXR if severe",
+        "Pulse oximetry"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "Hydration",
+        "Suctioning"
+      ],
+      "definitive": [
+        "Ribavirin (in select high-risk cases)"
+      ]
+    },
+    "treatment_protocol": "Supportive \u2192 Hospitalize if severe"
+  },
+  {
+    "disease": "Tension Pneumothorax",
+    "epidemiology": "Life-threatening condition from accumulation of air under pressure in pleural space. Common after trauma or mechanical ventilation.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden dyspnea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Chest pain",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Tracheal deviation",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Distended neck veins",
+          "order": 4,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Cardiac arrest",
+        "Shock"
+      ],
+      "emergency_markers": [
+        "Absent breath sounds",
+        "Hypotension",
+        "Tachycardia"
+      ]
+    },
+    "risk_factors": [
+      "Chest trauma",
+      "Positive pressure ventilation",
+      "Lung disease"
+    ],
+    "differentials": [
+      "MI",
+      "Massive PE",
+      "Pericardial tamponade"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis",
+        "Needle decompression before imaging"
+      ],
+      "additional": [
+        "CXR (post-decompression)",
+        "USG FAST if trauma"
+      ]
+    },
+    "specialty": "Pulmonology",
+    "treatment": {
+      "supportive": [
+        "High-flow oxygen"
+      ],
+      "definitive": [
+        "Immediate needle decompression",
+        "Chest tube insertion"
+      ]
+    },
+    "treatment_protocol": "Immediate needle decompression \u2192 Chest tube"
+  }
+]

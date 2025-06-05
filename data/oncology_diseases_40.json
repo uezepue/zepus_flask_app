@@ -1,0 +1,122 @@
+[
+  {
+    "disease": "Breast Cancer"
+  },
+  {
+    "disease": "Lung Cancer"
+  },
+  {
+    "disease": "Prostate Cancer"
+  },
+  {
+    "disease": "Colorectal Cancer"
+  },
+  {
+    "disease": "Cervical Cancer"
+  },
+  {
+    "disease": "Ovarian Cancer"
+  },
+  {
+    "disease": "Pancreatic Cancer"
+  },
+  {
+    "disease": "Leukemia"
+  },
+  {
+    "disease": "Lymphoma (Hodgkin and Non-Hodgkin)"
+  },
+  {
+    "disease": "Esophageal Cancer"
+  },
+  {
+    "disease": "Stomach Cancer"
+  },
+  {
+    "disease": "Liver Cancer"
+  },
+  {
+    "disease": "Kidney Cancer (Renal Cell Carcinoma)"
+  },
+  {
+    "disease": "Bladder Cancer"
+  },
+  {
+    "disease": "Thyroid Cancer"
+  },
+  {
+    "disease": "Skin Cancer (Melanoma and Non-Melanoma)"
+  },
+  {
+    "disease": "Endometrial Cancer"
+  },
+  {
+    "disease": "Testicular Cancer"
+  },
+  {
+    "disease": "Nasopharyngeal Carcinoma"
+  },
+  {
+    "disease": "Brain Tumors (Glioblastoma, Astrocytoma)"
+  },
+  {
+    "disease": "Multiple Myeloma"
+  },
+  {
+    "disease": "Gallbladder Cancer"
+  },
+  {
+    "disease": "Uterine Sarcoma"
+  },
+  {
+    "disease": "Penile Cancer"
+  },
+  {
+    "disease": "Salivary Gland Cancer"
+  },
+  {
+    "disease": "Mesothelioma"
+  },
+  {
+    "disease": "Vaginal Cancer"
+  },
+  {
+    "disease": "Vulvar Cancer"
+  },
+  {
+    "disease": "Adrenocortical Carcinoma"
+  },
+  {
+    "disease": "Carcinoid Tumor"
+  },
+  {
+    "disease": "Thymoma"
+  },
+  {
+    "disease": "Retinoblastoma"
+  },
+  {
+    "disease": "Cholangiocarcinoma"
+  },
+  {
+    "disease": "Ewing Sarcoma"
+  },
+  {
+    "disease": "Neuroblastoma"
+  },
+  {
+    "disease": "Wilms Tumor"
+  },
+  {
+    "disease": "Medulloblastoma"
+  },
+  {
+    "disease": "Uveal Melanoma"
+  },
+  {
+    "disease": "Choriocarcinoma"
+  },
+  {
+    "disease": "Kaposi Sarcoma"
+  }
+]

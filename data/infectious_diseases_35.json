@@ -1,0 +1,107 @@
+[
+  {
+    "disease": "Malaria"
+  },
+  {
+    "disease": "Tuberculosis"
+  },
+  {
+    "disease": "HIV/AIDS"
+  },
+  {
+    "disease": "Typhoid Fever"
+  },
+  {
+    "disease": "Hepatitis B"
+  },
+  {
+    "disease": "COVID-19"
+  },
+  {
+    "disease": "Measles"
+  },
+  {
+    "disease": "Dengue Fever"
+  },
+  {
+    "disease": "Cholera"
+  },
+  {
+    "disease": "Tetanus"
+  },
+  {
+    "disease": "Yellow Fever"
+  },
+  {
+    "disease": "Rabies"
+  },
+  {
+    "disease": "Syphilis"
+  },
+  {
+    "disease": "Leptospirosis"
+  },
+  {
+    "disease": "Schistosomiasis"
+  },
+  {
+    "disease": "Gonorrhea"
+  },
+  {
+    "disease": "Chlamydia"
+  },
+  {
+    "disease": "Giardiasis"
+  },
+  {
+    "disease": "Amebiasis"
+  },
+  {
+    "disease": "Ebola Virus Disease"
+  },
+  {
+    "disease": "Listeriosis"
+  },
+  {
+    "disease": "Cryptosporidiosis"
+  },
+  {
+    "disease": "Toxoplasmosis"
+  },
+  {
+    "disease": "Brucellosis"
+  },
+  {
+    "disease": "Plague"
+  },
+  {
+    "disease": "Zika Virus Infection"
+  },
+  {
+    "disease": "Influenza"
+  },
+  {
+    "disease": "Herpes Simplex Virus (HSV) Infection"
+  },
+  {
+    "disease": "Norovirus Gastroenteritis"
+  },
+  {
+    "disease": "Cytomegalovirus (CMV) Infection"
+  },
+  {
+    "disease": "Human Papillomavirus (HPV) Infection"
+  },
+  {
+    "disease": "Varicella-Zoster Virus (Chickenpox and Shingles)"
+  },
+  {
+    "disease": "Mumps"
+  },
+  {
+    "disease": "Rubella"
+  },
+  {
+    "disease": "Hepatitis C"
+  }
+]

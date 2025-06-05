@@ -1,0 +1,3213 @@
+[
+  {
+    "disease": "Traumatic Brain Injury (TBI)",
+    "epidemiology": "Affects ~69 million people globally each year. Most common in young adults and elderly. Major causes: road traffic accidents, falls, assaults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Loss of consciousness",
+          "order": 1,
+          "frequency": "common",
+          "severity": "variable"
+        },
+        {
+          "symptom": "Headache",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Vomiting",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Amnesia",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild to moderate"
+        }
+      ],
+      "complications": [
+        "Intracranial hematoma",
+        "Seizures",
+        "Cognitive deficits"
+      ],
+      "emergency_markers": [
+        "Glasgow Coma Scale < 8",
+        "Unequal pupils",
+        "Posturing"
+      ]
+    },
+    "risk_factors": [
+      "Alcohol use",
+      "High-risk sports",
+      "Violence",
+      "Old age"
+    ],
+    "differentials": [
+      "Stroke",
+      "Seizure",
+      "Intoxication"
+    ],
+    "investigations": {
+      "important": [
+        "CT head (non-contrast)",
+        "GCS assessment"
+      ],
+      "additional": [
+        "MRI brain",
+        "CBC",
+        "Coagulation profile"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Oxygenation",
+        "Head elevation",
+        "ICP monitoring"
+      ],
+      "definitive": [
+        "Decompressive craniectomy",
+        "Evacuation of hematoma"
+      ]
+    },
+    "treatment_protocol": "Stabilize airway, breathing, circulation \u2192 CT imaging \u2192 Surgical or conservative management"
+  },
+  {
+    "disease": "Subdural Hematoma",
+    "epidemiology": "More common in elderly and alcoholics. Incidence increases with age. Can be acute, subacute, or chronic.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Gradual decline in consciousness",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Headache",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild to moderate"
+        },
+        {
+          "symptom": "Hemiparesis",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Confusion",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Seizures",
+        "Brain herniation",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Dilated pupil",
+        "Drop in GCS",
+        "Midline shift on CT"
+      ]
+    },
+    "risk_factors": [
+      "Anticoagulant use",
+      "Falls",
+      "Alcoholism",
+      "Elderly age"
+    ],
+    "differentials": [
+      "Stroke",
+      "Encephalopathy",
+      "TBI"
+    ],
+    "investigations": {
+      "important": [
+        "CT head",
+        "Coagulation profile"
+      ],
+      "additional": [
+        "MRI brain",
+        "Neuro exam"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Stop anticoagulants",
+        "Head elevation",
+        "Monitor GCS"
+      ],
+      "definitive": [
+        "Burr hole drainage",
+        "Craniotomy"
+      ]
+    },
+    "treatment_protocol": "Identify via CT \u2192 Burr hole/craniotomy \u2192 Neuro ICU monitoring"
+  },
+  {
+    "disease": "Intracerebral Hemorrhage (ICH)",
+    "epidemiology": "Second most common type of stroke (~10\u201315% of all strokes). Incidence increases with hypertension and age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden headache",
+          "order": 1,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Hemiparesis",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Altered consciousness",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Vomiting",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Brain herniation",
+        "Rebleeding",
+        "Neurologic deficit"
+      ],
+      "emergency_markers": [
+        "Large bleed on CT",
+        "Decline in GCS",
+        "Midline shift"
+      ]
+    },
+    "risk_factors": [
+      "Hypertension",
+      "Amyloid angiopathy",
+      "Anticoagulants",
+      "Cocaine use"
+    ],
+    "differentials": [
+      "Ischemic stroke",
+      "TBI",
+      "Aneurysmal SAH"
+    ],
+    "investigations": {
+      "important": [
+        "CT head (non-contrast)",
+        "BP monitoring"
+      ],
+      "additional": [
+        "MRI",
+        "Angiography if needed",
+        "Coagulation tests"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "BP control",
+        "ICP monitoring",
+        "Neuro ICU care"
+      ],
+      "definitive": [
+        "Surgical evacuation (if accessible/life-threatening)"
+      ]
+    },
+    "treatment_protocol": "Emergency CT \u2192 Stabilization \u2192 Neurosurgical consultation"
+  },
+  {
+    "disease": "Hydrocephalus",
+    "epidemiology": "Prevalence in infants is 1 in 1000 births. Can also occur in elderly (normal pressure hydrocephalus) and after trauma or infection.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Head enlargement (infants)",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Gait disturbance",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Urinary incontinence",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Memory loss",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Increased ICP",
+        "Cognitive decline",
+        "Shunt malfunction"
+      ],
+      "emergency_markers": [
+        "Bulging fontanelle",
+        "Papilledema",
+        "Vomiting and drowsiness"
+      ]
+    },
+    "risk_factors": [
+      "Neural tube defects",
+      "Infections",
+      "Hemorrhage",
+      "Tumors"
+    ],
+    "differentials": [
+      "Brain atrophy",
+      "Parkinsonism",
+      "Alzheimer\u2019s"
+    ],
+    "investigations": {
+      "important": [
+        "CT/MRI brain",
+        "CSF analysis if safe"
+      ],
+      "additional": [
+        "Gait assessment",
+        "Neuropsychological testing"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "ICP control",
+        "Frequent monitoring"
+      ],
+      "definitive": [
+        "Ventriculoperitoneal (VP) shunt",
+        "Endoscopic third ventriculostomy (ETV)"
+      ]
+    },
+    "treatment_protocol": "Imaging \u2192 CSF diversion with VP shunt or ETV"
+  },
+  {
+    "disease": "Spinal Cord Compression",
+    "epidemiology": "Can result from trauma, tumors, abscesses, or degenerative disease. Incidence varies with cause; more common in elderly and cancer patients.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Back pain",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Motor weakness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate to severe"
+        },
+        {
+          "symptom": "Sensory loss",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bladder/bowel dysfunction",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Paralysis",
+        "Loss of sphincter control",
+        "Neuropathic pain"
+      ],
+      "emergency_markers": [
+        "Rapid progression of symptoms",
+        "Loss of anal tone",
+        "Saddle anesthesia"
+      ]
+    },
+    "risk_factors": [
+      "Trauma",
+      "Spinal metastases",
+      "TB (Pott\u2019s disease)",
+      "Degenerative spine disease"
+    ],
+    "differentials": [
+      "Guillain-Barr\u00e9 syndrome",
+      "Cauda equina syndrome",
+      "Disc prolapse"
+    ],
+    "investigations": {
+      "important": [
+        "MRI spine",
+        "Neurological examination"
+      ],
+      "additional": [
+        "CT spine",
+        "ESR/CRP",
+        "X-rays"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Steroids (e.g., dexamethasone)",
+        "Pain relief",
+        "Bladder care"
+      ],
+      "definitive": [
+        "Decompressive laminectomy",
+        "Tumor resection",
+        "Spinal stabilization"
+      ]
+    },
+    "treatment_protocol": "Urgent MRI \u2192 Steroids \u2192 Surgery if compressive lesion"
+  },
+  {
+    "disease": "Brain Tumor (Glioblastoma Multiforme)",
+    "epidemiology": "Most common and aggressive primary brain tumor in adults. Incidence: 3.2 per 100,000 annually. Peak age 45\u201370 years. Male predominance.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache (worse in morning)",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nausea/vomiting",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Seizures",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate to severe"
+        },
+        {
+          "symptom": "Focal neurological deficits",
+          "order": 4,
+          "frequency": "variable",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Increased ICP",
+        "Herniation",
+        "Neurologic deficits"
+      ],
+      "emergency_markers": [
+        "Rapid neurological decline",
+        "Severe raised ICP",
+        "Uncal herniation signs"
+      ]
+    },
+    "risk_factors": [
+      "Ionizing radiation",
+      "Genetic syndromes (Li-Fraumeni, NF1)",
+      "Age > 40"
+    ],
+    "differentials": [
+      "Brain abscess",
+      "Metastasis",
+      "Stroke"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain with contrast",
+        "Histopathology via biopsy"
+      ],
+      "additional": [
+        "CT brain",
+        "CBC",
+        "Coagulation profile"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Steroids (dexamethasone)",
+        "Anticonvulsants",
+        "ICP monitoring"
+      ],
+      "definitive": [
+        "Surgical resection",
+        "Radiotherapy",
+        "Temozolomide chemotherapy"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Craniotomy/biopsy \u2192 Post-op chemoradiotherapy"
+  },
+  {
+    "disease": "Meningioma",
+    "epidemiology": "Most common benign brain tumor. Accounts for ~30% of all intracranial tumors. More common in females (2:1). Peak incidence: 40\u201360 years.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild to moderate"
+        },
+        {
+          "symptom": "Focal deficits (e.g., weakness, aphasia)",
+          "order": 2,
+          "frequency": "variable",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Seizures",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Visual impairment (if compressing optic pathways)",
+          "order": 4,
+          "frequency": "variable",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Seizures",
+        "Cognitive dysfunction",
+        "Mass effect"
+      ],
+      "emergency_markers": [
+        "Sudden neurological deterioration",
+        "Acute raised ICP"
+      ]
+    },
+    "risk_factors": [
+      "Radiation exposure",
+      "Hormonal factors",
+      "Neurofibromatosis type 2"
+    ],
+    "differentials": [
+      "Glioma",
+      "Metastasis",
+      "Brain abscess"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain with contrast",
+        "CT head"
+      ],
+      "additional": [
+        "Hormonal panel",
+        "Angiography (for vascular lesions)"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Steroids",
+        "Anticonvulsants if needed"
+      ],
+      "definitive": [
+        "Surgical resection",
+        "Observation (if asymptomatic)",
+        "Radiotherapy"
+      ]
+    },
+    "treatment_protocol": "Neuroimaging \u2192 Surgical planning \u2192 Resect or monitor based on symptoms/size"
+  },
+  {
+    "disease": "Subarachnoid Hemorrhage (Aneurysmal)",
+    "epidemiology": "Accounts for ~5% of all strokes. Incidence: 6\u201310 per 100,000 per year. Peak age 40\u201360. Higher in women and smokers.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden severe headache (thunderclap)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Neck stiffness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Photophobia",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Loss of consciousness",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Vasospasm",
+        "Hydrocephalus",
+        "Rebleeding"
+      ],
+      "emergency_markers": [
+        "Sudden coma",
+        "Nuchal rigidity",
+        "Blood on CT scan"
+      ]
+    },
+    "risk_factors": [
+      "Hypertension",
+      "Smoking",
+      "Polycystic kidney disease",
+      "Family history of aneurysms"
+    ],
+    "differentials": [
+      "Migraine",
+      "Meningitis",
+      "TBI"
+    ],
+    "investigations": {
+      "important": [
+        "CT brain (non-contrast)",
+        "CT angiography",
+        "Lumbar puncture if CT negative"
+      ],
+      "additional": [
+        "MRI/MRA",
+        "Coagulation screen"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Nimodipine",
+        "BP control",
+        "ICP management"
+      ],
+      "definitive": [
+        "Endovascular coiling",
+        "Surgical clipping"
+      ]
+    },
+    "treatment_protocol": "CT \u2192 CTA or LP \u2192 Coiling or clipping + ICU care"
+  },
+  {
+    "disease": "Chiari Malformation",
+    "epidemiology": "Prevalence ~0.1\u20130.5%. Often diagnosed in adolescence or early adulthood. Type I is most common and often asymptomatic.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Occipital headache",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dizziness/vertigo",
+          "order": 2,
+          "frequency": "moderate",
+          "severity": "mild to moderate"
+        },
+        {
+          "symptom": "Balance problems",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Neck pain",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Syringomyelia",
+        "Hydrocephalus",
+        "Sleep apnea"
+      ],
+      "emergency_markers": [
+        "Sudden worsening of symptoms",
+        "Brainstem compression signs"
+      ]
+    },
+    "risk_factors": [
+      "Congenital malformation",
+      "Connective tissue disorders",
+      "Spina bifida"
+    ],
+    "differentials": [
+      "Cervical spondylosis",
+      "Multiple sclerosis",
+      "Posterior fossa tumors"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain and cervical spine"
+      ],
+      "additional": [
+        "CT scan",
+        "Neurological evaluation"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Pain relief",
+        "Monitoring of asymptomatic cases"
+      ],
+      "definitive": [
+        "Posterior fossa decompression surgery"
+      ]
+    },
+    "treatment_protocol": "MRI confirmation \u2192 Surgery if symptomatic or worsening"
+  },
+  {
+    "disease": "Cervical Disc Prolapse",
+    "epidemiology": "Affects ~83 per 100,000 adults annually. Peak age 30\u201350 years. More common in men and those with heavy manual labor.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Neck pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Radiating arm pain (radiculopathy)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Numbness/tingling",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Motor weakness",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Myelopathy",
+        "Chronic pain",
+        "Loss of function"
+      ],
+      "emergency_markers": [
+        "Signs of myelopathy",
+        "Bladder involvement",
+        "Rapid weakness"
+      ]
+    },
+    "risk_factors": [
+      "Degenerative disc disease",
+      "Trauma",
+      "Repetitive strain"
+    ],
+    "differentials": [
+      "Brachial plexopathy",
+      "Thoracic outlet syndrome",
+      "Peripheral neuropathy"
+    ],
+    "investigations": {
+      "important": [
+        "MRI cervical spine"
+      ],
+      "additional": [
+        "X-ray",
+        "CT cervical spine",
+        "Nerve conduction studies"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Physiotherapy",
+        "Cervical collar"
+      ],
+      "definitive": [
+        "Anterior cervical discectomy and fusion (ACDF)",
+        "Disc replacement"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Trial of conservative care \u2192 Surgery if persistent or progressive"
+  },
+  {
+    "disease": "Cauda Equina Syndrome",
+    "epidemiology": "Rare but serious condition. Incidence ~1 in 33,000 to 100,000 per year. Commonly due to massive lumbar disc herniation, trauma, or tumors.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Severe lower back pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Saddle anesthesia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Bladder/bowel dysfunction",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Lower limb weakness",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Permanent paralysis",
+        "Urinary incontinence",
+        "Sexual dysfunction"
+      ],
+      "emergency_markers": [
+        "Acute urinary retention",
+        "Loss of anal tone",
+        "Bilateral radiculopathy"
+      ]
+    },
+    "risk_factors": [
+      "Disc herniation",
+      "Spinal trauma",
+      "Spinal tumors",
+      "Spinal infection"
+    ],
+    "differentials": [
+      "Spinal cord compression",
+      "Multiple sclerosis",
+      "Guillain-Barr\u00e9 syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "MRI lumbar spine"
+      ],
+      "additional": [
+        "CT myelogram",
+        "Bladder scan",
+        "Neurological exam"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Steroids",
+        "Bladder catheterization"
+      ],
+      "definitive": [
+        "Urgent decompressive surgery"
+      ]
+    },
+    "treatment_protocol": "Immediate MRI \u2192 Emergency surgery within 24\u201348 hrs"
+  },
+  {
+    "disease": "Epidural Abscess",
+    "epidemiology": "Incidence ~0.2\u20131.2 per 10,000 hospital admissions. Risk increases with immunosuppression and IV drug use. Thoracic spine most commonly affected.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Back pain",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Neurological deficits",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate to severe"
+        },
+        {
+          "symptom": "Bladder dysfunction",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Spinal cord compression",
+        "Paralysis",
+        "Sepsis"
+      ],
+      "emergency_markers": [
+        "Rapid neurological decline",
+        "Signs of sepsis",
+        "MRI evidence of abscess"
+      ]
+    },
+    "risk_factors": [
+      "Diabetes",
+      "IV drug use",
+      "Immunosuppression",
+      "Recent spine surgery"
+    ],
+    "differentials": [
+      "Meningitis",
+      "Vertebral osteomyelitis",
+      "Tumor"
+    ],
+    "investigations": {
+      "important": [
+        "MRI spine with contrast",
+        "Blood cultures"
+      ],
+      "additional": [
+        "ESR/CRP",
+        "CBC",
+        "CT spine"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "IV antibiotics",
+        "Supportive care"
+      ],
+      "definitive": [
+        "Surgical drainage or decompression"
+      ]
+    },
+    "treatment_protocol": "MRI + blood work \u2192 Start antibiotics \u2192 Surgery if neurologic compromise"
+  },
+  {
+    "disease": "Normal Pressure Hydrocephalus (NPH)",
+    "epidemiology": "Prevalence ~1\u20132% in individuals over 65. Often underdiagnosed. Can mimic neurodegenerative disorders.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Gait disturbance",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Urinary incontinence",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild to moderate"
+        },
+        {
+          "symptom": "Cognitive impairment",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Falls",
+        "Shunt malfunction",
+        "Infection"
+      ],
+      "emergency_markers": [
+        "Rapid symptom progression",
+        "Increased ICP on imaging"
+      ]
+    },
+    "risk_factors": [
+      "Age > 60",
+      "History of subarachnoid hemorrhage",
+      "Meningitis"
+    ],
+    "differentials": [
+      "Alzheimer's disease",
+      "Parkinsonism",
+      "Vascular dementia"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain",
+        "CSF tap test"
+      ],
+      "additional": [
+        "Neuropsychological testing",
+        "Gait analysis"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Rehabilitation",
+        "Monitoring"
+      ],
+      "definitive": [
+        "Ventriculoperitoneal (VP) shunt"
+      ]
+    },
+    "treatment_protocol": "Imaging + CSF tap test \u2192 VP shunt if responsive"
+  },
+  {
+    "disease": "Spina Bifida",
+    "epidemiology": "Incidence ~1 in 1,000 births globally. More common in low folic acid intake. Most common type: myelomeningocele.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Visible spinal defect at birth",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Lower limb weakness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate to severe"
+        },
+        {
+          "symptom": "Bladder/bowel incontinence",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hydrocephalus",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Infection",
+        "Neurological disability",
+        "Orthopedic deformities"
+      ],
+      "emergency_markers": [
+        "CSF leak",
+        "Infected lesion",
+        "Progressive hydrocephalus"
+      ]
+    },
+    "risk_factors": [
+      "Folate deficiency",
+      "Family history",
+      "Maternal diabetes",
+      "Obesity"
+    ],
+    "differentials": [
+      "Sacrococcygeal teratoma",
+      "Dermoid cyst",
+      "Lipomyelomeningocele"
+    ],
+    "investigations": {
+      "important": [
+        "Prenatal ultrasound",
+        "MRI spine (postnatal)"
+      ],
+      "additional": [
+        "CT spine",
+        "Neurological evaluation"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Bladder/bowel care",
+        "Rehabilitation"
+      ],
+      "definitive": [
+        "Surgical repair",
+        "VP shunt for hydrocephalus"
+      ]
+    },
+    "treatment_protocol": "Postnatal closure \u2192 Shunt if hydrocephalus \u2192 Multidisciplinary care"
+  },
+  {
+    "disease": "Pituitary Adenoma",
+    "epidemiology": "Accounts for ~10\u201315% of all intracranial tumors. Incidence ~4 per 100,000/year. Most are benign. Prolactinomas are most common subtype.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild to moderate"
+        },
+        {
+          "symptom": "Visual field loss (bitemporal hemianopia)",
+          "order": 2,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hormonal imbalance symptoms",
+          "order": 3,
+          "frequency": "variable",
+          "severity": "variable"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Vision loss",
+        "Pituitary apoplexy",
+        "Endocrinopathies"
+      ],
+      "emergency_markers": [
+        "Sudden vision loss",
+        "Severe headache",
+        "Hypotension from adrenal insufficiency"
+      ]
+    },
+    "risk_factors": [
+      "MEN-1 syndrome",
+      "Genetic predisposition",
+      "Radiation exposure"
+    ],
+    "differentials": [
+      "Craniopharyngioma",
+      "Aneurysm",
+      "Optic glioma"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain with pituitary protocol",
+        "Hormonal profile"
+      ],
+      "additional": [
+        "Visual field testing",
+        "CT scan"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Hormonal replacement",
+        "Monitoring"
+      ],
+      "definitive": [
+        "Transsphenoidal surgery",
+        "Medical therapy (e.g., cabergoline for prolactinoma)"
+      ]
+    },
+    "treatment_protocol": "Hormone tests + MRI \u2192 Surgery or medical therapy based on type"
+  },
+  {
+    "disease": "Cerebral Aneurysm",
+    "epidemiology": "Affects 1\u20132% of the population. Most are asymptomatic. Rupture risk increases with size, hypertension, and smoking. More common in women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymptomatic (unruptured)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "none"
+        },
+        {
+          "symptom": "Headache",
+          "order": 2,
+          "frequency": "common if symptomatic",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Visual disturbances",
+          "order": 3,
+          "frequency": "variable",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Cranial nerve palsy",
+          "order": 4,
+          "frequency": "uncommon",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Subarachnoid hemorrhage",
+        "Mass effect",
+        "Vasospasm"
+      ],
+      "emergency_markers": [
+        "Sudden severe headache",
+        "Neurological decline",
+        "SAH on CT"
+      ]
+    },
+    "risk_factors": [
+      "Hypertension",
+      "Smoking",
+      "Family history",
+      "Polycystic kidney disease"
+    ],
+    "differentials": [
+      "Tumor",
+      "AVM",
+      "Meningitis"
+    ],
+    "investigations": {
+      "important": [
+        "CT angiography",
+        "MRI/MRA"
+      ],
+      "additional": [
+        "Digital subtraction angiography",
+        "Routine CT if symptomatic"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "BP control",
+        "Surveillance"
+      ],
+      "definitive": [
+        "Endovascular coiling",
+        "Surgical clipping"
+      ]
+    },
+    "treatment_protocol": "Identify on imaging \u2192 Clip or coil if high rupture risk"
+  },
+  {
+    "disease": "Arteriovenous Malformation (AVM)",
+    "epidemiology": "Rare; incidence ~1 in 100,000. More common in males. Often diagnosed in teens to early adulthood. Risk of hemorrhage ~2\u20134%/year.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Seizures",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Headache",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Focal neurological deficits",
+          "order": 3,
+          "frequency": "variable",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Intracerebral hemorrhage",
+          "order": 4,
+          "frequency": "variable",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Hemorrhage",
+        "Epilepsy",
+        "Ischemia"
+      ],
+      "emergency_markers": [
+        "Sudden ICH",
+        "Rapid deterioration",
+        "AVM rupture on imaging"
+      ]
+    },
+    "risk_factors": [
+      "Congenital vascular anomalies",
+      "Family history (rare)"
+    ],
+    "differentials": [
+      "Glioma",
+      "Cavernoma",
+      "Meningioma"
+    ],
+    "investigations": {
+      "important": [
+        "MRI/MRA",
+        "CT angiography"
+      ],
+      "additional": [
+        "DSA (gold standard)",
+        "EEG if seizures"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Anticonvulsants",
+        "Observation (low risk)"
+      ],
+      "definitive": [
+        "Surgical resection",
+        "Endovascular embolization",
+        "Stereotactic radiosurgery"
+      ]
+    },
+    "treatment_protocol": "Neuroimaging \u2192 Grade AVM \u2192 Multimodal treatment based on risk"
+  },
+  {
+    "disease": "Cavernous Malformation (Cavernoma)",
+    "epidemiology": "Prevalence ~0.5% of the population. Can be sporadic or familial. Most remain asymptomatic throughout life.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Seizures",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Headache",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild to moderate"
+        },
+        {
+          "symptom": "Neurological deficits",
+          "order": 3,
+          "frequency": "variable",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Hemorrhage",
+        "Seizures",
+        "Neurological impairment"
+      ],
+      "emergency_markers": [
+        "Symptomatic hemorrhage",
+        "Acute neurological deficit"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Radiation exposure",
+      "Female sex"
+    ],
+    "differentials": [
+      "AVM",
+      "Glioma",
+      "Multiple sclerosis"
+    ],
+    "investigations": {
+      "important": [
+        "MRI with gradient echo (susceptibility weighted imaging)"
+      ],
+      "additional": [
+        "CT head",
+        "Genetic testing for familial forms"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Antiepileptics",
+        "Monitoring"
+      ],
+      "definitive": [
+        "Surgical excision if symptomatic or bleeding"
+      ]
+    },
+    "treatment_protocol": "MRI confirmation \u2192 Conservative vs surgical based on symptoms"
+  },
+  {
+    "disease": "Trigeminal Neuralgia",
+    "epidemiology": "Incidence ~4\u201313 per 100,000/year. More common in women and individuals over 50. Often due to vascular compression of CN V.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden facial pain (electric-shock like)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Trigger points on face",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Brief episodes lasting seconds to minutes",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Weight loss from pain",
+        "Depression",
+        "Medication side effects"
+      ],
+      "emergency_markers": [
+        "Loss of corneal reflex",
+        "Bilateral symptoms",
+        "MS signs (if secondary)"
+      ]
+    },
+    "risk_factors": [
+      "Multiple sclerosis",
+      "Vascular loop compression",
+      "Age > 50"
+    ],
+    "differentials": [
+      "Cluster headache",
+      "Dental pain",
+      "Postherpetic neuralgia"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain to rule out compression or MS"
+      ],
+      "additional": [
+        "Neuro exam",
+        "CT head"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Carbamazepine",
+        "Gabapentin"
+      ],
+      "definitive": [
+        "Microvascular decompression",
+        "Percutaneous rhizotomy",
+        "Gamma Knife radiosurgery"
+      ]
+    },
+    "treatment_protocol": "Trial of medications \u2192 Surgery if refractory"
+  },
+  {
+    "disease": "Basilar Invagination",
+    "epidemiology": "Rare congenital or acquired condition. Common in rheumatoid arthritis, connective tissue disorders. Can lead to brainstem compression.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Neck pain",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Occipital headache",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ataxia",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Limb weakness",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Brainstem compression",
+        "Quadriparesis",
+        "Sudden death (rare)"
+      ],
+      "emergency_markers": [
+        "Signs of medullary compression",
+        "Hyperreflexia",
+        "Gait disturbance"
+      ]
+    },
+    "risk_factors": [
+      "Rheumatoid arthritis",
+      "Klippel-Feil syndrome",
+      "Paget's disease"
+    ],
+    "differentials": [
+      "Chiari malformation",
+      "Tumors",
+      "Degenerative spine disease"
+    ],
+    "investigations": {
+      "important": [
+        "CT craniocervical junction",
+        "MRI brain and cervical spine"
+      ],
+      "additional": [
+        "Dynamic cervical X-rays",
+        "Neurological assessment"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Neck brace",
+        "Steroids if inflammatory"
+      ],
+      "definitive": [
+        "Surgical decompression and stabilization"
+      ]
+    },
+    "treatment_protocol": "Imaging \u2192 Surgery if symptomatic or signs of compression"
+  },
+  {
+    "disease": "Spinal Cord Tumor",
+    "epidemiology": "Rare; incidence ~0.5\u20132 per 100,000 annually. Can be intramedullary (astrocytomas, ependymomas), intradural-extramedullary (meningiomas, schwannomas), or extradural (metastases).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Back pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Radicular pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Motor weakness",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sensory deficits",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bladder/bowel dysfunction",
+          "order": 5,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Spinal cord compression",
+        "Paralysis",
+        "Incontinence"
+      ],
+      "emergency_markers": [
+        "Rapid neurological deterioration",
+        "Cord compression on MRI"
+      ]
+    },
+    "risk_factors": [
+      "Neurofibromatosis",
+      "Radiation exposure",
+      "Spinal metastases"
+    ],
+    "differentials": [
+      "Disc herniation",
+      "Multiple sclerosis",
+      "Epidural abscess"
+    ],
+    "investigations": {
+      "important": [
+        "MRI spine with contrast"
+      ],
+      "additional": [
+        "CT spine",
+        "CSF cytology",
+        "Spinal angiogram (for vascular tumors)"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Steroids",
+        "Pain control",
+        "Physiotherapy"
+      ],
+      "definitive": [
+        "Surgical resection",
+        "Radiotherapy (for malignant lesions)"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Steroids \u2192 Surgery or radiation depending on pathology"
+  },
+  {
+    "disease": "Tethered Cord Syndrome",
+    "epidemiology": "More common in children. Associated with spina bifida, lipomas, or dermal sinus tracts. Often diagnosed during evaluation of urinary issues or gait abnormalities.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Back or leg pain",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Weakness in legs",
+          "order": 2,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bladder dysfunction",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Gait disturbances",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Foot deformities",
+          "order": 5,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Neurological decline",
+        "Orthopedic deformities",
+        "Incontinence"
+      ],
+      "emergency_markers": [
+        "Rapid worsening of neurologic function",
+        "Loss of bladder control"
+      ]
+    },
+    "risk_factors": [
+      "Spina bifida",
+      "Congenital spinal lipomas",
+      "Myelomeningocele repair"
+    ],
+    "differentials": [
+      "Cerebral palsy",
+      "Guillain-Barr\u00e9 syndrome",
+      "Spinal cord tumor"
+    ],
+    "investigations": {
+      "important": [
+        "MRI lumbosacral spine"
+      ],
+      "additional": [
+        "Urodynamic studies",
+        "Neurophysiology tests"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Bladder training",
+        "Physiotherapy"
+      ],
+      "definitive": [
+        "Surgical detethering of the cord"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Urological + neuro exam \u2192 Surgery if symptomatic"
+  },
+  {
+    "disease": "Vertebral Fracture with Cord Compression",
+    "epidemiology": "Common in trauma and metastatic spine disease. Incidence increases with age and osteoporosis. Thoracic and lumbar regions most affected.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden back pain after trauma",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Limb weakness or paralysis",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Sensory loss",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bladder/bowel dysfunction",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Paraplegia",
+        "Incontinence",
+        "Spinal instability"
+      ],
+      "emergency_markers": [
+        "Neurological deterioration",
+        "Cord compression on MRI/CT"
+      ]
+    },
+    "risk_factors": [
+      "Osteoporosis",
+      "Trauma",
+      "Spinal metastasis"
+    ],
+    "differentials": [
+      "Disc herniation",
+      "Epidural abscess",
+      "Transverse myelitis"
+    ],
+    "investigations": {
+      "important": [
+        "Spine CT",
+        "MRI spine"
+      ],
+      "additional": [
+        "X-ray",
+        "Bone scan if metastasis suspected"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Immobilization",
+        "Steroids",
+        "Pain control"
+      ],
+      "definitive": [
+        "Surgical decompression and stabilization"
+      ]
+    },
+    "treatment_protocol": "CT/MRI \u2192 Decompression + fixation if unstable or neurological signs"
+  },
+  {
+    "disease": "Brain Metastases",
+    "epidemiology": "Most common intracranial tumors in adults. Occur in 20\u201340% of cancer patients. Common primaries: lung, breast, melanoma, kidney, colon.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Seizures",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Focal neurological deficits",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cognitive impairment",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild to moderate"
+        }
+      ],
+      "complications": [
+        "Mass effect",
+        "Increased ICP",
+        "Seizures"
+      ],
+      "emergency_markers": [
+        "Sudden deterioration",
+        "Signs of herniation",
+        "Hemorrhagic metastasis"
+      ]
+    },
+    "risk_factors": [
+      "Known malignancy",
+      "Smoking",
+      "Genetic mutations"
+    ],
+    "differentials": [
+      "Primary brain tumor",
+      "Abscess",
+      "Stroke"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain with contrast"
+      ],
+      "additional": [
+        "CT brain",
+        "PET scan",
+        "Primary cancer workup"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Steroids",
+        "Anticonvulsants"
+      ],
+      "definitive": [
+        "Surgical resection",
+        "Radiotherapy",
+        "Stereotactic radiosurgery"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Resect solitary lesion or radiosurgery \u2192 Adjuvant therapy"
+  },
+  {
+    "disease": "Craniopharyngioma",
+    "epidemiology": "Benign suprasellar tumor; bimodal age distribution (children 5\u201314 and adults 50\u201374). Incidence: ~0.5\u20132 per million/year.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Visual disturbances",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Growth retardation (in children)",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hormonal deficiencies",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild to moderate"
+        }
+      ],
+      "complications": [
+        "Pituitary dysfunction",
+        "Visual loss",
+        "Recurrence"
+      ],
+      "emergency_markers": [
+        "Sudden visual loss",
+        "Hydrocephalus",
+        "Pituitary apoplexy"
+      ]
+    },
+    "risk_factors": [
+      "Embryologic remnant of Rathke\u2019s pouch"
+    ],
+    "differentials": [
+      "Pituitary adenoma",
+      "Germinoma",
+      "Optic glioma"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain",
+        "Hormonal panel"
+      ],
+      "additional": [
+        "Visual field testing",
+        "CT scan"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Hormone replacement",
+        "Monitoring"
+      ],
+      "definitive": [
+        "Surgical resection",
+        "Radiotherapy (if incomplete resection)"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Surgery \u2192 Adjuvant radiation if needed"
+  },
+  {
+    "disease": "Colloid Cyst",
+    "epidemiology": "Benign cyst usually in third ventricle. Rare, but can cause acute hydrocephalus and death. Typically presents in adults 20\u201350 years old.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Intermittent headache",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Memory disturbance",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Drop attacks or sudden loss of consciousness",
+          "order": 3,
+          "frequency": "rare",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Nausea and vomiting",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Acute hydrocephalus",
+        "Brain herniation",
+        "Sudden death"
+      ],
+      "emergency_markers": [
+        "Obstructive hydrocephalus",
+        "Rapid neurological decline"
+      ]
+    },
+    "risk_factors": [
+      "Congenital anomaly",
+      "Familial cases (rare)"
+    ],
+    "differentials": [
+      "Third ventricle tumor",
+      "Hydrocephalus",
+      "Arachnoid cyst"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain",
+        "CT scan"
+      ],
+      "additional": [
+        "Neuro exam",
+        "ICP monitoring"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "ICP management",
+        "Close monitoring"
+      ],
+      "definitive": [
+        "Surgical resection (endoscopic or open)"
+      ]
+    },
+    "treatment_protocol": "MRI/CT \u2192 Surgery if symptomatic or obstructive"
+  },
+  {
+    "disease": "Meningocele",
+    "epidemiology": "A neural tube defect that is less common than myelomeningocele. Incidence ~1 per 10,000 births. Typically diagnosed at birth.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Visible sac at back (lumbar/sacral)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "No neurological deficit",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "none"
+        }
+      ],
+      "complications": [
+        "Infection",
+        "CSF leak",
+        "Spinal cord tethering (rare)"
+      ],
+      "emergency_markers": [
+        "CSF leak",
+        "Signs of infection"
+      ]
+    },
+    "risk_factors": [
+      "Folic acid deficiency",
+      "Family history",
+      "Maternal diabetes",
+      "Antiepileptic drug use in pregnancy"
+    ],
+    "differentials": [
+      "Lipomeningocele",
+      "Myelomeningocele",
+      "Dermoid cyst"
+    ],
+    "investigations": {
+      "important": [
+        "Prenatal ultrasound",
+        "MRI spine (postnatal)"
+      ],
+      "additional": [
+        "Antenatal AFP levels",
+        "Neurological assessment"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Protect sac from trauma/infection"
+      ],
+      "definitive": [
+        "Surgical closure of defect"
+      ]
+    },
+    "treatment_protocol": "Surgical repair soon after birth to prevent complications"
+  },
+  {
+    "disease": "Myelomeningocele",
+    "epidemiology": "Most severe form of spina bifida. Incidence ~1\u20132 per 1,000 births. Common in regions with low folate intake.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Visible protruding sac with neural tissue",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Leg weakness/paralysis",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Bladder/bowel dysfunction",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hydrocephalus",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Infection",
+        "Paralysis",
+        "Hydrocephalus",
+        "Chiari II malformation"
+      ],
+      "emergency_markers": [
+        "Open defect with CSF leak",
+        "Signs of meningitis",
+        "Neurological deterioration"
+      ]
+    },
+    "risk_factors": [
+      "Folic acid deficiency",
+      "Maternal diabetes",
+      "Valproic acid use"
+    ],
+    "differentials": [
+      "Meningocele",
+      "Teratoma",
+      "Sacrococcygeal tumors"
+    ],
+    "investigations": {
+      "important": [
+        "Prenatal ultrasound",
+        "MRI spine"
+      ],
+      "additional": [
+        "CT brain (for hydrocephalus)",
+        "Genetic testing"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Hydrocephalus management",
+        "Multidisciplinary care"
+      ],
+      "definitive": [
+        "Surgical closure",
+        "VP shunt if hydrocephalus present"
+      ]
+    },
+    "treatment_protocol": "Surgical closure within 48 hours of birth \u2192 Shunt placement as needed"
+  },
+  {
+    "disease": "Dandy-Walker Malformation",
+    "epidemiology": "Congenital brain malformation. Incidence ~1 per 30,000 births. Commonly associated with hydrocephalus and chromosomal anomalies.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Developmental delay",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Enlarged head circumference",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Irritability",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Vomiting",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Hydrocephalus",
+        "Seizures",
+        "Motor impairment"
+      ],
+      "emergency_markers": [
+        "Signs of increased ICP",
+        "Vomiting + bulging fontanelle"
+      ]
+    },
+    "risk_factors": [
+      "Congenital infections",
+      "Chromosomal syndromes",
+      "Family history"
+    ],
+    "differentials": [
+      "Hydrocephalus",
+      "Posterior fossa cysts",
+      "Joubert syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain",
+        "Prenatal ultrasound"
+      ],
+      "additional": [
+        "Genetic testing",
+        "Echocardiogram (for associated anomalies)"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Developmental therapy",
+        "Monitoring"
+      ],
+      "definitive": [
+        "VP shunt",
+        "Posterior fossa decompression (in select cases)"
+      ]
+    },
+    "treatment_protocol": "MRI diagnosis \u2192 Shunt for hydrocephalus \u2192 Monitor development"
+  },
+  {
+    "disease": "Epidural Hematoma",
+    "epidemiology": "Occurs in 2% of head trauma cases. Most common in young males. Often caused by temporal bone fracture tearing middle meningeal artery.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Loss of consciousness (initial)",
+          "order": 1,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Lucid interval",
+          "order": 2,
+          "frequency": "typical",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Sudden deterioration",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Ipsilateral pupil dilation",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Herniation",
+        "Death",
+        "Seizures"
+      ],
+      "emergency_markers": [
+        "Loss of consciousness + CT showing biconvex hematoma",
+        "Uncal herniation signs"
+      ]
+    },
+    "risk_factors": [
+      "Trauma",
+      "Skull fracture",
+      "Young age"
+    ],
+    "differentials": [
+      "SDH",
+      "Concussion",
+      "SAH"
+    ],
+    "investigations": {
+      "important": [
+        "Non-contrast CT brain"
+      ],
+      "additional": [
+        "MRI",
+        "Coagulation profile"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Stabilize vitals",
+        "ICP monitoring"
+      ],
+      "definitive": [
+        "Craniotomy and evacuation"
+      ]
+    },
+    "treatment_protocol": "CT diagnosis \u2192 Urgent surgical evacuation"
+  },
+  {
+    "disease": "Skull Fracture (Basilar and Depressed)",
+    "epidemiology": "Common in high-impact head trauma. Basilar fractures ~4% of severe head injuries. Depressed fractures more frequent in assault or falls.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "CSF rhinorrhea/otorrhea",
+          "order": 2,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Battle sign, raccoon eyes",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Consciousness disturbance",
+          "order": 4,
+          "frequency": "variable",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Meningitis",
+        "Seizures",
+        "Hemorrhage",
+        "Facial nerve injury"
+      ],
+      "emergency_markers": [
+        "CSF leak",
+        "Open fracture",
+        "Signs of herniation"
+      ]
+    },
+    "risk_factors": [
+      "Trauma",
+      "High-speed accidents",
+      "Assault"
+    ],
+    "differentials": [
+      "Concussion",
+      "SAH",
+      "SDH"
+    ],
+    "investigations": {
+      "important": [
+        "CT head bone window"
+      ],
+      "additional": [
+        "MRI brain",
+        "CSF analysis if leak"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Observation",
+        "Antibiotics for CSF leak"
+      ],
+      "definitive": [
+        "Surgical elevation (for depressed)",
+        "Repair CSF leak if persistent"
+      ]
+    },
+    "treatment_protocol": "CT confirmation \u2192 Surgery if depressed or leaking"
+  },
+  {
+    "disease": "Cerebral Abscess",
+    "epidemiology": "Rare but serious. Incidence: 0.3\u20131.3 per 100,000/year. Common in immunocompromised, patients with congenital heart disease, or contiguous infection.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Seizures",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Focal neurological deficits",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Rupture into ventricles",
+        "Increased ICP",
+        "Neurological deficit"
+      ],
+      "emergency_markers": [
+        "Severe headache + fever + focal signs",
+        "Ring-enhancing lesion on CT/MRI"
+      ]
+    },
+    "risk_factors": [
+      "Otitis media",
+      "Sinusitis",
+      "Congenital heart disease",
+      "Immunosuppression"
+    ],
+    "differentials": [
+      "Tumor",
+      "Tuberculoma",
+      "Neurocysticercosis"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain with contrast"
+      ],
+      "additional": [
+        "CT brain",
+        "Blood cultures",
+        "CBC",
+        "CRP"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "IV antibiotics",
+        "ICP control",
+        "Seizure prophylaxis"
+      ],
+      "definitive": [
+        "Surgical drainage or excision"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Empirical antibiotics \u2192 Surgery if large or no response"
+  },
+  {
+    "disease": "Cervical Spondylotic Myelopathy",
+    "epidemiology": "Most common cause of spinal cord dysfunction in adults over 55. Degenerative narrowing of the spinal canal due to osteophytes and disc herniation.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Neck pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild to moderate"
+        },
+        {
+          "symptom": "Hand clumsiness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Gait instability",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Urinary urgency",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Spinal cord compression",
+        "Permanent neurological deficit"
+      ],
+      "emergency_markers": [
+        "Rapid progression of motor symptoms",
+        "Myelopathic signs on exam"
+      ]
+    },
+    "risk_factors": [
+      "Aging",
+      "Smoking",
+      "Repetitive trauma",
+      "Genetics"
+    ],
+    "differentials": [
+      "ALS",
+      "MS",
+      "Peripheral neuropathy"
+    ],
+    "investigations": {
+      "important": [
+        "MRI cervical spine"
+      ],
+      "additional": [
+        "X-ray spine",
+        "CT myelogram"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Physiotherapy",
+        "Pain management"
+      ],
+      "definitive": [
+        "Decompressive laminectomy or anterior cervical discectomy and fusion (ACDF)"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Surgical decompression in moderate/severe or progressive cases"
+  },
+  {
+    "disease": "Idiopathic Intracranial Hypertension (IIH)",
+    "epidemiology": "Most common in obese women of childbearing age. Incidence ~1\u20133 per 100,000/year. Also called pseudotumor cerebri.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Transient visual obscurations",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pulsatile tinnitus",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Diplopia (CN VI palsy)",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Vision loss",
+        "Papilledema",
+        "Chronic headaches"
+      ],
+      "emergency_markers": [
+        "Papilledema with visual decline",
+        "Severe headache + high CSF pressure"
+      ]
+    },
+    "risk_factors": [
+      "Obesity",
+      "Female sex",
+      "Tetracycline use",
+      "Vitamin A toxicity"
+    ],
+    "differentials": [
+      "Venous sinus thrombosis",
+      "Brain tumor",
+      "Meningitis"
+    ],
+    "investigations": {
+      "important": [
+        "MRI + MRV",
+        "Lumbar puncture (elevated opening pressure)"
+      ],
+      "additional": [
+        "Visual field testing",
+        "Ophthalmoscopy"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Weight loss",
+        "Acetazolamide",
+        "Serial LPs"
+      ],
+      "definitive": [
+        "CSF diversion (shunt)",
+        "Optic nerve sheath fenestration"
+      ]
+    },
+    "treatment_protocol": "MRI/MRV \u2192 LP \u2192 Medical therapy \u2192 Shunt if vision threatened"
+  },
+  {
+    "disease": "Spinal Epidural Abscess",
+    "epidemiology": "Rare but increasingly recognized. Incidence ~0.2\u20132 per 10,000 hospital admissions. Most common organism: Staphylococcus aureus.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Back pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Neurological deficits",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bowel/bladder dysfunction",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Paralysis",
+        "Sepsis",
+        "Spinal instability"
+      ],
+      "emergency_markers": [
+        "Fever + back pain + neuro deficits",
+        "MRI showing abscess"
+      ]
+    },
+    "risk_factors": [
+      "IV drug use",
+      "Diabetes",
+      "Recent spinal surgery",
+      "Immunosuppression"
+    ],
+    "differentials": [
+      "Discitis",
+      "Cord tumor",
+      "Transverse myelitis"
+    ],
+    "investigations": {
+      "important": [
+        "MRI spine with contrast"
+      ],
+      "additional": [
+        "Blood cultures",
+        "ESR/CRP",
+        "CBC"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "IV antibiotics",
+        "Pain control"
+      ],
+      "definitive": [
+        "Urgent surgical decompression and drainage"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Start antibiotics \u2192 Surgery if deficit or abscess confirmed"
+  },
+  {
+    "disease": "Pineal Tumor",
+    "epidemiology": "Rare, accounting for <1% of brain tumors. More common in children and young adults. Germ cell tumors are the most frequent subtype.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache (due to hydrocephalus)",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Parinaud\u2019s syndrome (upward gaze palsy)",
+          "order": 2,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nausea/vomiting",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Papilledema",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Hydrocephalus",
+        "Visual impairment",
+        "Endocrine dysfunction"
+      ],
+      "emergency_markers": [
+        "Acute hydrocephalus",
+        "Decreased consciousness"
+      ]
+    },
+    "risk_factors": [
+      "Genetic syndromes (Klinefelter\u2019s)",
+      "Pediatric age",
+      "Male sex"
+    ],
+    "differentials": [
+      "Craniopharyngioma",
+      "Glioma",
+      "Arachnoid cyst"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain with contrast",
+        "Tumor markers (AFP, \u03b2-HCG)"
+      ],
+      "additional": [
+        "CT scan",
+        "Endocrine panel"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Manage hydrocephalus",
+        "Steroids"
+      ],
+      "definitive": [
+        "Surgical resection",
+        "Radiotherapy",
+        "Chemotherapy (germ cell tumors)"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Tumor markers \u2192 Surgery \u00b1 RT/CT"
+  },
+  {
+    "disease": "Brainstem Glioma",
+    "epidemiology": "Mostly affects children (median age 6\u201310). Diffuse intrinsic pontine glioma (DIPG) is the most lethal form. Accounts for ~10\u201320% of pediatric CNS tumors.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Cranial nerve deficits",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ataxia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dysphagia/dysarthria",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Headache",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Swallowing difficulty",
+        "Hydrocephalus"
+      ],
+      "emergency_markers": [
+        "Brainstem compression",
+        "Rapid neurologic deterioration"
+      ]
+    },
+    "risk_factors": [
+      "Pediatric age",
+      "Genetic predispositions (Li-Fraumeni)"
+    ],
+    "differentials": [
+      "MS",
+      "Atypical brainstem stroke",
+      "Cerebellar tumor"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain with brainstem focus"
+      ],
+      "additional": [
+        "Biopsy (in select cases)",
+        "CSF analysis (rarely done)"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Steroids",
+        "Palliative care"
+      ],
+      "definitive": [
+        "Radiation therapy",
+        "Experimental therapies (clinical trials)"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Radiotherapy (no resection for DIPG) \u2192 Consider trials"
+  },
+  {
+    "disease": "Lumbar Disc Herniation",
+    "epidemiology": "Affects 1\u20132% of the population annually. Peak incidence in 30\u201350 years. Most common at L4-L5 and L5-S1 levels.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Low back pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Radicular leg pain (sciatica)",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Numbness/tingling",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Weakness",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Cauda equina syndrome",
+        "Chronic pain"
+      ],
+      "emergency_markers": [
+        "Saddle anesthesia",
+        "Bladder/bowel dysfunction"
+      ]
+    },
+    "risk_factors": [
+      "Heavy lifting",
+      "Obesity",
+      "Smoking",
+      "Degenerative disc disease"
+    ],
+    "differentials": [
+      "Spinal stenosis",
+      "Spondylolisthesis",
+      "Hip pathology"
+    ],
+    "investigations": {
+      "important": [
+        "MRI lumbar spine"
+      ],
+      "additional": [
+        "X-ray",
+        "CT myelogram (if MRI contraindicated)"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Physiotherapy",
+        "Steroids"
+      ],
+      "definitive": [
+        "Microdiscectomy",
+        "Laminectomy"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Conservative management \u2192 Surgery if no improvement or emergency signs"
+  },
+  {
+    "disease": "Neurofibromatosis Type I (NF1)",
+    "epidemiology": "Autosomal dominant. Incidence ~1 in 3,000. Associated with optic gliomas, plexiform neurofibromas, and learning disabilities.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Caf\u00e9-au-lait spots",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "none"
+        },
+        {
+          "symptom": "Lisch nodules",
+          "order": 2,
+          "frequency": "common",
+          "severity": "none"
+        },
+        {
+          "symptom": "Neurofibromas",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Optic pathway glioma",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Malignant transformation",
+        "Vision loss",
+        "Scoliosis"
+      ],
+      "emergency_markers": [
+        "Rapid tumor growth",
+        "Painful neurofibromas"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "NF1 gene mutation"
+    ],
+    "differentials": [
+      "Legius syndrome",
+      "McCune-Albright syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Genetic testing",
+        "MRI brain/orbit"
+      ],
+      "additional": [
+        "Ophthalmologic exam",
+        "Skin biopsy (if atypical lesion)"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Visual monitoring",
+        "Educational support"
+      ],
+      "definitive": [
+        "Surgical excision of tumors",
+        "Chemotherapy for gliomas"
+      ]
+    },
+    "treatment_protocol": "Genetic diagnosis \u2192 Periodic imaging \u2192 Surgery/chemo as indicated"
+  },
+  {
+    "disease": "Neurofibromatosis Type II (NF2)",
+    "epidemiology": "Autosomal dominant. Incidence ~1 in 25,000. Characterized by bilateral vestibular schwannomas and spinal tumors.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hearing loss",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Tinnitus",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Balance problems",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Facial weakness",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Deafness",
+        "Spinal cord compression",
+        "Visual impairment"
+      ],
+      "emergency_markers": [
+        "Rapid hearing loss",
+        "Spinal cord signs"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "NF2 gene mutation"
+    ],
+    "differentials": [
+      "Sporadic acoustic neuroma",
+      "Meningioma",
+      "MS"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain and spine with contrast"
+      ],
+      "additional": [
+        "Audiometry",
+        "Genetic testing"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Hearing aids",
+        "Physical therapy"
+      ],
+      "definitive": [
+        "Surgical excision",
+        "Radiotherapy for schwannomas"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Audiometry \u2192 Surgery or radiosurgery as needed"
+  },
+  {
+    "disease": "Spinal Meningioma",
+    "epidemiology": "Accounts for ~25\u201345% of primary spinal cord tumors. Most common in middle-aged women. Typically intradural and extramedullary.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Gradual onset back pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Progressive limb weakness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Paresthesia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Bladder dysfunction",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Spinal cord compression",
+        "Permanent neurological damage"
+      ],
+      "emergency_markers": [
+        "Sudden worsening of motor/sensory function"
+      ]
+    },
+    "risk_factors": [
+      "Female sex",
+      "Radiation exposure",
+      "NF2"
+    ],
+    "differentials": [
+      "Schwannoma",
+      "Ependymoma",
+      "MS"
+    ],
+    "investigations": {
+      "important": [
+        "MRI spine with contrast"
+      ],
+      "additional": [
+        "Spinal angiography",
+        "CT spine"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Physiotherapy",
+        "Steroids for cord edema"
+      ],
+      "definitive": [
+        "Surgical excision (laminectomy)"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Surgical resection \u2192 Post-op rehab"
+  },
+  {
+    "disease": "Chordoma",
+    "epidemiology": "Rare malignant tumor from notochord remnants. Incidence ~0.1 per 100,000. Most common at skull base (clivus) and sacrum.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Neck pain (clival)",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cranial nerve deficits",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Back/pelvic pain (sacral)",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bowel/bladder issues",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Local recurrence",
+        "Neurological compromise",
+        "CSF leak"
+      ],
+      "emergency_markers": [
+        "Brainstem compression",
+        "Rapid neurological worsening"
+      ]
+    },
+    "risk_factors": [
+      "Sporadic cases",
+      "No known modifiable risks"
+    ],
+    "differentials": [
+      "Chondrosarcoma",
+      "Meningioma",
+      "Metastasis"
+    ],
+    "investigations": {
+      "important": [
+        "MRI and CT skull/spine",
+        "Biopsy"
+      ],
+      "additional": [
+        "PET scan (metastasis)",
+        "Histopathology"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Pain control",
+        "Rehabilitation"
+      ],
+      "definitive": [
+        "En bloc surgical resection",
+        "Proton beam radiation"
+      ]
+    },
+    "treatment_protocol": "Imaging \u2192 Biopsy \u2192 Surgery + Proton RT"
+  },
+  {
+    "disease": "Colloid Cyst of Third Ventricle",
+    "epidemiology": "Benign cystic lesion, rare. Represents ~0.5\u20131% of intracranial tumors. Typically presents in young adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Intermittent headache",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Drop attacks",
+          "order": 2,
+          "frequency": "moderate",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Nausea/vomiting",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Visual blurring",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Hydrocephalus",
+        "Sudden death",
+        "Cognitive impairment"
+      ],
+      "emergency_markers": [
+        "Acute obstructive hydrocephalus",
+        "Loss of consciousness"
+      ]
+    },
+    "risk_factors": [
+      "Congenital",
+      "Incidental findings on imaging"
+    ],
+    "differentials": [
+      "Intraventricular tumor",
+      "Arachnoid cyst",
+      "Hydrocephalus"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain",
+        "CT brain"
+      ],
+      "additional": [
+        "ICP monitoring (if needed)"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "ICP management"
+      ],
+      "definitive": [
+        "Endoscopic or open surgical removal"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Surgery to prevent hydrocephalus/death"
+  },
+  {
+    "disease": "Spinal Arteriovenous Malformation (AVM)",
+    "epidemiology": "Rare vascular lesion. Estimated prevalence ~3\u201310 per 100,000. Most common in thoracolumbar region. Male > female.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Back pain",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sudden paraplegia",
+          "order": 2,
+          "frequency": "moderate",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Paresthesia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bladder dysfunction",
+          "order": 4,
+          "frequency": "moderate",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Spinal cord infarction",
+        "Hemorrhage",
+        "Chronic weakness"
+      ],
+      "emergency_markers": [
+        "Acute neurological deterioration",
+        "Spinal hemorrhage"
+      ]
+    },
+    "risk_factors": [
+      "Congenital vascular anomalies"
+    ],
+    "differentials": [
+      "Spinal cord tumor",
+      "Transverse myelitis",
+      "Disc herniation"
+    ],
+    "investigations": {
+      "important": [
+        "MRI spine",
+        "Spinal angiography"
+      ],
+      "additional": [
+        "CT myelogram",
+        "Neurological exam"
+      ]
+    },
+    "specialty": "Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Steroids",
+        "Rehabilitation"
+      ],
+      "definitive": [
+        "Endovascular embolization",
+        "Microsurgical resection"
+      ]
+    },
+    "treatment_protocol": "MRI \u2192 Angiography \u2192 Embolization or Surgery"
+  }
+]

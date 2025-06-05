@@ -1,0 +1,4566 @@
+[
+  {
+    "disease": "Acute Otitis Media",
+    "system": "ENT",
+    "epidemiology": "Common in children under 5 years. Peak between 6\u201318 months. Often follows URTI.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Ear pain (otalgia)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Irritability",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hearing loss",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "ENT": [
+          "Ear pain",
+          "Hearing loss",
+          "Otorrhoea"
+        ],
+        "General": [
+          "Fever",
+          "Irritability"
+        ]
+      },
+      "complications": [
+        "Mastoiditis",
+        "Hearing impairment",
+        "Intracranial abscess"
+      ],
+      "emergency_markers": [
+        "High fever",
+        "Neck stiffness",
+        "Persistent vomiting"
+      ]
+    },
+    "risk_factors": [
+      "Bottle-feeding",
+      "Daycare attendance",
+      "Parental smoking"
+    ],
+    "differentials": [
+      "Otitis externa",
+      "Foreign body in ear",
+      "Mastoiditis"
+    ],
+    "investigations": {
+      "important": [
+        "Pneumatic otoscopy",
+        "Tympanometry"
+      ],
+      "others": [
+        "Ear swab culture",
+        "CBC",
+        "CRP"
+      ]
+    },
+    "specialty": "Paediatrics",
+    "treatment": {
+      "supportive": [
+        "Paracetamol for pain",
+        "Hydration"
+      ],
+      "definitive": [
+        "Amoxicillin (first line)",
+        "Cefuroxime if allergic or resistant"
+      ],
+      "protocol": "Start antibiotics if symptoms persist >48 hrs or if <2 years. Follow-up in 10\u201314 days."
+    }
+  },
+  {
+    "disease": "Bronchiolitis",
+    "system": "Respiratory",
+    "epidemiology": "Peak in infants <2 years, especially in winter. RSV is the commonest cause.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Runny nose",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Cough",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Wheezing",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Difficulty breathing",
+          "order": 4,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "by_system": {
+        "Respiratory": [
+          "Cough",
+          "Wheezing",
+          "Tachypnea"
+        ],
+        "General": [
+          "Fever",
+          "Feeding difficulty"
+        ]
+      },
+      "complications": [
+        "Respiratory failure",
+        "Apnoea",
+        "Secondary bacterial pneumonia"
+      ],
+      "emergency_markers": [
+        "Severe chest indrawing",
+        "Apnoea",
+        "O2 saturation <90%"
+      ]
+    },
+    "risk_factors": [
+      "Prematurity",
+      "Congenital heart disease",
+      "Passive smoking"
+    ],
+    "differentials": [
+      "Asthma",
+      "Pneumonia",
+      "Foreign body aspiration"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis",
+        "Pulse oximetry"
+      ],
+      "others": [
+        "Chest X-ray (if severe)",
+        "RSV antigen test"
+      ]
+    },
+    "specialty": "Paediatrics",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "Nasogastric feeds if unable to feed",
+        "Hydration"
+      ],
+      "definitive": [
+        "Supportive only; no antibiotics unless superinfection suspected"
+      ],
+      "protocol": "Admit if feeding poorly or hypoxic. Oxygen if SpO\u2082 <90%. Monitor closely."
+    }
+  },
+  {
+    "disease": "Measles",
+    "system": "Infectious Diseases",
+    "epidemiology": "Highly contagious viral illness. Unvaccinated children at highest risk.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cough",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Coryza",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Koplik spots",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Maculopapular rash",
+          "order": 5,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "General": [
+          "Fever",
+          "Fatigue"
+        ],
+        "Respiratory": [
+          "Cough",
+          "Coryza"
+        ],
+        "Skin": [
+          "Maculopapular rash"
+        ],
+        "Oral": [
+          "Koplik spots"
+        ]
+      },
+      "complications": [
+        "Pneumonia",
+        "Otitis media",
+        "Encephalitis"
+      ],
+      "emergency_markers": [
+        "Altered consciousness",
+        "Severe respiratory distress"
+      ]
+    },
+    "risk_factors": [
+      "Unvaccinated status",
+      "Vitamin A deficiency",
+      "Overcrowded living conditions"
+    ],
+    "differentials": [
+      "Rubella",
+      "Roseola",
+      "Scarlet fever"
+    ],
+    "investigations": {
+      "important": [
+        "Measles IgM",
+        "PCR from throat swab"
+      ],
+      "others": [
+        "CBC",
+        "CXR if pneumonia suspected"
+      ]
+    },
+    "specialty": "Paediatrics",
+    "treatment": {
+      "supportive": [
+        "Paracetamol",
+        "Hydration",
+        "Vitamin A"
+      ],
+      "definitive": [
+        "No antiviral; isolation and supportive care"
+      ],
+      "protocol": "Give Vitamin A 200,000 IU once daily for 2 days. Isolate for at least 5 days after rash appears."
+    }
+  },
+  {
+    "disease": "Febrile Seizures",
+    "system": "Neurology",
+    "epidemiology": "Occur in children aged 6 months\u20135 years. Triggered by high fever. Often benign.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Generalized tonic-clonic seizure",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Post-ictal drowsiness",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Neurological": [
+          "Seizure",
+          "Drowsiness"
+        ],
+        "General": [
+          "Fever"
+        ]
+      },
+      "complications": [
+        "Recurrent seizures",
+        "Development of epilepsy (rare)"
+      ],
+      "emergency_markers": [
+        "Seizure >5 mins",
+        "Focal seizures",
+        "Status epilepticus"
+      ]
+    },
+    "risk_factors": [
+      "Family history of febrile seizures",
+      "Rapid rise in temperature"
+    ],
+    "differentials": [
+      "Meningitis",
+      "Epilepsy",
+      "Hypoglycaemia"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical history",
+        "Ruling out CNS infections"
+      ],
+      "others": [
+        "Lumbar puncture if <18 months or suspicious symptoms"
+      ]
+    },
+    "specialty": "Paediatrics / Neurology",
+    "treatment": {
+      "supportive": [
+        "Antipyretics",
+        "Reassurance"
+      ],
+      "definitive": [
+        "Diazepam rectal gel for prolonged seizures"
+      ],
+      "protocol": "If seizure <5 mins: no meds. >5 mins: diazepam. Investigate if atypical features present."
+    }
+  },
+  {
+    "disease": "Gastroenteritis",
+    "system": "Gastrointestinal",
+    "epidemiology": "Common in under-5s. Viral causes dominate (rotavirus, norovirus). High morbidity in low-resource settings.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Vomiting",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Watery diarrhea",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dehydration",
+          "order": 4,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "by_system": {
+        "Gastrointestinal": [
+          "Diarrhea",
+          "Vomiting"
+        ],
+        "General": [
+          "Fever",
+          "Dehydration"
+        ]
+      },
+      "complications": [
+        "Severe dehydration",
+        "Electrolyte imbalance",
+        "Shock"
+      ],
+      "emergency_markers": [
+        "Lethargy",
+        "Sunken eyes",
+        "Decreased urine output"
+      ]
+    },
+    "risk_factors": [
+      "Poor sanitation",
+      "Bottle feeding",
+      "Malnutrition"
+    ],
+    "differentials": [
+      "UTI",
+      "Intussusception",
+      "Malabsorption"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical assessment of hydration",
+        "Stool microscopy if bloody"
+      ],
+      "others": [
+        "Electrolytes",
+        "Stool culture"
+      ]
+    },
+    "specialty": "Paediatrics",
+    "treatment": {
+      "supportive": [
+        "Oral Rehydration Solution",
+        "Zinc supplementation",
+        "Continue feeding"
+      ],
+      "definitive": [
+        "Antibiotics only for bacterial causes (e.g., Shigella)"
+      ],
+      "protocol": "Mild: ORS. Severe: IV fluids. Zinc 10\u201320 mg/day for 10\u201314 days."
+    }
+  },
+  {
+    "disease": "Whooping Cough (Pertussis)",
+    "system": "Respiratory",
+    "epidemiology": "Affects unvaccinated or partially vaccinated children. Caused by Bordetella pertussis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Runny nose",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Mild cough",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Paroxysms of cough with inspiratory 'whoop'",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Post-tussive vomiting",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Respiratory": [
+          "Cough",
+          "Whoop",
+          "Breathing difficulty"
+        ],
+        "General": [
+          "Fever",
+          "Vomiting"
+        ]
+      },
+      "complications": [
+        "Pneumonia",
+        "Apnoea",
+        "Seizures",
+        "Death in infants"
+      ],
+      "emergency_markers": [
+        "Apnoea",
+        "Cyanosis",
+        "Severe respiratory distress"
+      ]
+    },
+    "risk_factors": [
+      "Unvaccinated status",
+      "Exposure to infected person"
+    ],
+    "differentials": [
+      "Croup",
+      "Bronchiolitis",
+      "Foreign body aspiration"
+    ],
+    "investigations": {
+      "important": [
+        "Nasopharyngeal swab PCR",
+        "Culture for Bordetella pertussis"
+      ],
+      "others": [
+        "CBC with lymphocytosis",
+        "CXR"
+      ]
+    },
+    "specialty": "Paediatrics / Infectious Disease",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "Suctioning",
+        "Hydration"
+      ],
+      "definitive": [
+        "Azithromycin (macrolides)"
+      ],
+      "protocol": "Start antibiotics early in catarrhal phase. Isolate for 5 days after treatment starts."
+    }
+  },
+  {
+    "disease": "Pneumonia",
+    "system": "Respiratory",
+    "epidemiology": "Major cause of mortality in under-5s worldwide. Can be viral or bacterial.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cough",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fast breathing",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Chest indrawing",
+          "order": 4,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "by_system": {
+        "Respiratory": [
+          "Cough",
+          "Tachypnoea",
+          "Crepitations"
+        ],
+        "General": [
+          "Fever",
+          "Lethargy"
+        ]
+      },
+      "complications": [
+        "Pleural effusion",
+        "Sepsis",
+        "Respiratory failure"
+      ],
+      "emergency_markers": [
+        "Central cyanosis",
+        "Grunting",
+        "Severe chest indrawing"
+      ]
+    },
+    "risk_factors": [
+      "Malnutrition",
+      "Low birth weight",
+      "Inadequate immunization"
+    ],
+    "differentials": [
+      "Bronchiolitis",
+      "Tuberculosis",
+      "Asthma"
+    ],
+    "investigations": {
+      "important": [
+        "Chest X-ray",
+        "Pulse oximetry"
+      ],
+      "others": [
+        "CBC",
+        "Blood culture",
+        "CRP"
+      ]
+    },
+    "specialty": "Paediatrics / Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "Antipyretics",
+        "Fluids"
+      ],
+      "definitive": [
+        "Amoxicillin (oral)",
+        "IV antibiotics if severe"
+      ],
+      "protocol": "Treat mild cases with oral antibiotics. Admit severe cases for IV therapy and monitoring."
+    }
+  },
+  {
+    "disease": "Neonatal Jaundice",
+    "system": "Hepatobiliary",
+    "epidemiology": "Affects 60% of term and 80% of preterm newborns. Most cases are physiologic.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Yellowing of skin and eyes",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Lethargy",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Poor feeding",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Skin": [
+          "Jaundice"
+        ],
+        "Neurological": [
+          "Lethargy"
+        ],
+        "General": [
+          "Poor feeding"
+        ]
+      },
+      "complications": [
+        "Kernicterus",
+        "Hearing loss",
+        "Cerebral palsy"
+      ],
+      "emergency_markers": [
+        "Arching",
+        "High-pitched cry",
+        "Seizures"
+      ]
+    },
+    "risk_factors": [
+      "Prematurity",
+      "ABO incompatibility",
+      "Sepsis"
+    ],
+    "differentials": [
+      "Sepsis",
+      "Biliary atresia",
+      "Hypothyroidism"
+    ],
+    "investigations": {
+      "important": [
+        "Total serum bilirubin",
+        "Blood group and Coombs test"
+      ],
+      "others": [
+        "CBC",
+        "Reticulocyte count"
+      ]
+    },
+    "specialty": "Paediatrics / Neonatology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Frequent breastfeeding"
+      ],
+      "definitive": [
+        "Phototherapy",
+        "Exchange transfusion (if severe)"
+      ],
+      "protocol": "Start phototherapy if bilirubin > threshold. Monitor levels. Escalate to transfusion if no improvement."
+    }
+  },
+  {
+    "disease": "Scabies",
+    "system": "Dermatology",
+    "epidemiology": "Highly contagious skin infestation. Common in crowded environments.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Itchy rash",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Worse itching at night",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Linear burrows",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Skin": [
+          "Pruritus",
+          "Burrows",
+          "Excoriations"
+        ]
+      },
+      "complications": [
+        "Secondary bacterial infection",
+        "Impetigo"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Crowded living",
+      "Poor hygiene",
+      "Close contact"
+    ],
+    "differentials": [
+      "Eczema",
+      "Insect bites",
+      "Fungal infections"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "others": [
+        "Skin scraping for mites"
+      ]
+    },
+    "specialty": "Paediatrics / Dermatology",
+    "treatment": {
+      "supportive": [
+        "Antihistamines for itching"
+      ],
+      "definitive": [
+        "Permethrin cream 5%",
+        "Ivermectin orally if severe"
+      ],
+      "protocol": "Apply permethrin overnight, repeat in 1 week. Treat all close contacts."
+    }
+  },
+  {
+    "disease": "Iron Deficiency Anaemia",
+    "system": "Hematology",
+    "epidemiology": "Most common nutritional deficiency in children. Peak incidence in toddlers and adolescent girls.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pallor",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Poor concentration",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "General": [
+          "Pallor",
+          "Fatigue"
+        ],
+        "Neurological": [
+          "Poor concentration"
+        ]
+      },
+      "complications": [
+        "Developmental delay",
+        "Reduced immunity"
+      ],
+      "emergency_markers": [
+        "Severe pallor with tachycardia or breathlessness"
+      ]
+    },
+    "risk_factors": [
+      "Low iron diet",
+      "Chronic blood loss",
+      "Rapid growth"
+    ],
+    "differentials": [
+      "Thalassemia",
+      "Leukaemia",
+      "Chronic infection"
+    ],
+    "investigations": {
+      "important": [
+        "CBC",
+        "Serum ferritin"
+      ],
+      "others": [
+        "Peripheral smear",
+        "Serum iron, TIBC"
+      ]
+    },
+    "specialty": "Paediatrics / Hematology",
+    "treatment": {
+      "supportive": [
+        "Dietary counselling",
+        "Vitamin C supplementation"
+      ],
+      "definitive": [
+        "Oral iron therapy",
+        "Parenteral iron if oral fails"
+      ],
+      "protocol": "Give ferrous sulfate 3\u20136 mg/kg/day. Continue for 3 months after correction. Monitor Hb and ferritin."
+    }
+  },
+  {
+    "disease": "Meningitis",
+    "system": "Neurology / Infectious Disease",
+    "epidemiology": "Affects all age groups but more common in neonates and young children. Bacterial causes are most severe.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Irritability",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Neck stiffness",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Seizures",
+          "order": 4,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Bulging fontanelle",
+          "order": 5,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "by_system": {
+        "Neurological": [
+          "Seizures",
+          "Bulging fontanelle",
+          "Irritability"
+        ],
+        "General": [
+          "Fever",
+          "Lethargy"
+        ],
+        "Musculoskeletal": [
+          "Neck stiffness"
+        ]
+      },
+      "complications": [
+        "Hydrocephalus",
+        "Hearing loss",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Altered consciousness",
+        "Severe seizures",
+        "Signs of shock"
+      ]
+    },
+    "risk_factors": [
+      "Age <1 year",
+      "Lack of vaccination",
+      "Immunodeficiency"
+    ],
+    "differentials": [
+      "Febrile seizures",
+      "Encephalitis",
+      "Sepsis"
+    ],
+    "investigations": {
+      "important": [
+        "Lumbar puncture with CSF analysis",
+        "Blood culture"
+      ],
+      "others": [
+        "CBC",
+        "CRP",
+        "CT brain if raised ICP suspected"
+      ]
+    },
+    "specialty": "Paediatrics / Neurology / Infectious Disease",
+    "treatment": {
+      "supportive": [
+        "Antipyretics",
+        "Fluids",
+        "Oxygen"
+      ],
+      "definitive": [
+        "IV antibiotics (ceftriaxone/cefotaxime)",
+        "Dexamethasone in selected cases"
+      ],
+      "protocol": "Start empiric antibiotics immediately. Adjust based on culture. Admit for monitoring."
+    }
+  },
+  {
+    "disease": "Nephrotic Syndrome",
+    "system": "Renal",
+    "epidemiology": "Most common glomerular disorder in children. Peak onset 2\u20136 years. Usually minimal change disease.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Facial puffiness",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Generalized edema",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Decreased urine output",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Renal": [
+          "Proteinuria",
+          "Oliguria"
+        ],
+        "General": [
+          "Edema",
+          "Fatigue"
+        ]
+      },
+      "complications": [
+        "Infections",
+        "Thromboembolism",
+        "Hypovolemia"
+      ],
+      "emergency_markers": [
+        "Severe edema",
+        "Hypotension",
+        "Respiratory distress from effusion"
+      ]
+    },
+    "risk_factors": [
+      "Recent infection",
+      "Allergens",
+      "NSAID use"
+    ],
+    "differentials": [
+      "Acute glomerulonephritis",
+      "Heart failure",
+      "Liver disease"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis (proteinuria)",
+        "Serum albumin",
+        "Renal function tests"
+      ],
+      "others": [
+        "Lipid profile",
+        "Renal ultrasound"
+      ]
+    },
+    "specialty": "Paediatrics / Nephrology",
+    "treatment": {
+      "supportive": [
+        "Salt restriction",
+        "Diuretics if needed"
+      ],
+      "definitive": [
+        "Prednisolone (first-line)"
+      ],
+      "protocol": "Start corticosteroids. Monitor urine protein. Taper slowly over weeks. Treat relapses similarly."
+    }
+  },
+  {
+    "disease": "Acute Tonsillitis",
+    "system": "ENT",
+    "epidemiology": "Very common in school-aged children. Mostly viral but can be bacterial (Group A strep).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sore throat",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Painful swallowing",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Enlarged tonsils",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "ENT": [
+          "Tonsillar enlargement",
+          "Tonsillar exudate",
+          "Throat pain"
+        ],
+        "General": [
+          "Fever",
+          "Malaise"
+        ]
+      },
+      "complications": [
+        "Peritonsillar abscess",
+        "Rheumatic fever",
+        "Post-strep glomerulonephritis"
+      ],
+      "emergency_markers": [
+        "Airway obstruction",
+        "Drooling",
+        "Difficulty breathing"
+      ]
+    },
+    "risk_factors": [
+      "Exposure to infected peers",
+      "Poor hygiene"
+    ],
+    "differentials": [
+      "Infectious mononucleosis",
+      "Diphtheria",
+      "Pharyngitis"
+    ],
+    "investigations": {
+      "important": [
+        "Throat swab culture",
+        "Rapid antigen detection test"
+      ],
+      "others": [
+        "CBC",
+        "Monospot test"
+      ]
+    },
+    "specialty": "Paediatrics / ENT",
+    "treatment": {
+      "supportive": [
+        "Warm fluids",
+        "Analgesics",
+        "Rest"
+      ],
+      "definitive": [
+        "Penicillin or amoxicillin if bacterial"
+      ],
+      "protocol": "Treat strep with 10-day antibiotics. Supportive care for viral cases. Tonsillectomy for recurrent."
+    }
+  },
+  {
+    "disease": "Diarrhoea with Severe Dehydration",
+    "system": "Gastrointestinal",
+    "epidemiology": "Common in under-5s. Major cause of child mortality in low-resource settings.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Frequent watery stools",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Vomiting",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sunken eyes",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Lethargy",
+          "order": 4,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "by_system": {
+        "Gastrointestinal": [
+          "Diarrhea",
+          "Vomiting"
+        ],
+        "General": [
+          "Dehydration signs",
+          "Lethargy"
+        ]
+      },
+      "complications": [
+        "Shock",
+        "Acute kidney injury",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Absent pulses",
+        "Cold extremities",
+        "Unconsciousness"
+      ]
+    },
+    "risk_factors": [
+      "Poor sanitation",
+      "Contaminated water",
+      "Malnutrition"
+    ],
+    "differentials": [
+      "Dysentery",
+      "Intestinal obstruction",
+      "Malabsorption"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical dehydration scale",
+        "Electrolytes"
+      ],
+      "others": [
+        "Stool microscopy",
+        "RBS"
+      ]
+    },
+    "specialty": "Paediatrics / Gastroenterology",
+    "treatment": {
+      "supportive": [
+        "IV fluids (Ringer\u2019s lactate)",
+        "ORS after rehydration"
+      ],
+      "definitive": [
+        "Zinc supplementation",
+        "Antibiotics if dysentery present"
+      ],
+      "protocol": "Give IV fluids per WHO Plan C. Monitor vitals. Continue ORS. Give zinc for 10\u201314 days."
+    }
+  },
+  {
+    "disease": "Hydrocephalus",
+    "system": "Neurology",
+    "epidemiology": "May be congenital or acquired. Common causes: aqueductal stenosis, infection, hemorrhage.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Increasing head circumference",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bulging fontanelle",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Vomiting",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Irritability",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Neurological": [
+          "Vomiting",
+          "Irritability"
+        ],
+        "Head": [
+          "Enlarged head",
+          "Fontanelle bulging"
+        ]
+      },
+      "complications": [
+        "Vision loss",
+        "Developmental delay",
+        "Seizures"
+      ],
+      "emergency_markers": [
+        "Sunsetting eyes",
+        "Severe vomiting",
+        "Altered consciousness"
+      ]
+    },
+    "risk_factors": [
+      "Prematurity",
+      "Intraventricular hemorrhage",
+      "Neural tube defects"
+    ],
+    "differentials": [
+      "Macrocephaly",
+      "Brain tumor",
+      "Subdural hematoma"
+    ],
+    "investigations": {
+      "important": [
+        "Cranial ultrasound",
+        "CT/MRI brain"
+      ],
+      "others": [
+        "OFC chart",
+        "Fundoscopy"
+      ]
+    },
+    "specialty": "Paediatrics / Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Monitor OFC",
+        "Treat infections"
+      ],
+      "definitive": [
+        "VP shunt placement",
+        "Endoscopic third ventriculostomy"
+      ],
+      "protocol": "Refer to neurosurgery. Imaging confirmation. Schedule shunt. Monitor for complications."
+    }
+  },
+  {
+    "disease": "Congenital Hypothyroidism"
+  },
+  {
+    "disease": "Cerebral Palsy"
+  },
+  {
+    "disease": "Acute Lymphoblastic Leukemia (ALL)"
+  },
+  {
+    "disease": "Rickets"
+  },
+  {
+    "disease": "Mumps"
+  },
+  {
+    "disease": "Impetigo"
+  },
+  {
+    "disease": "Henoch-Sch\u00f6nlein Purpura (HSP)"
+  },
+  {
+    "disease": "Tinea Capitis"
+  },
+  {
+    "disease": "Otitis Externa"
+  },
+  {
+    "disease": "Juvenile Idiopathic Arthritis (JIA)"
+  },
+  {
+    "disease": "Constipation",
+    "system": "Gastrointestinal",
+    "epidemiology": "Very common in children, especially during toilet training or school entry. Often functional.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Infrequent bowel movements",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hard, dry stools",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abdominal pain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Soiling (encopresis)",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Gastrointestinal": [
+          "Abdominal pain",
+          "Hard stools",
+          "Soiling"
+        ]
+      },
+      "complications": [
+        "Fissures",
+        "Fecal impaction",
+        "UTI"
+      ],
+      "emergency_markers": [
+        "Severe distension",
+        "Vomiting",
+        "No passage of stool >1 week"
+      ]
+    },
+    "risk_factors": [
+      "Low fiber diet",
+      "Poor toilet habits",
+      "Emotional stress"
+    ],
+    "differentials": [
+      "Hirschsprung's disease",
+      "Hypothyroidism",
+      "Spinal cord anomalies"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical history"
+      ],
+      "others": [
+        "Abdominal X-ray",
+        "Thyroid function",
+        "Barium enema if red flags"
+      ]
+    },
+    "specialty": "Paediatrics / Gastroenterology",
+    "treatment": {
+      "supportive": [
+        "Dietary fiber",
+        "Toilet training",
+        "Fluid intake"
+      ],
+      "definitive": [
+        "Polyethylene glycol (PEG)",
+        "Lactulose"
+      ],
+      "protocol": "Disimpaction if needed, followed by maintenance therapy and behavioral changes."
+    }
+  },
+  {
+    "disease": "Eczema (Atopic Dermatitis)",
+    "system": "Dermatology / Allergy",
+    "epidemiology": "Affects up to 20% of children. Often associated with other atopic conditions like asthma.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dry, itchy skin",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Red, inflamed patches",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Lichenification",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Oozing or crusting",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Skin": [
+          "Dryness",
+          "Itching",
+          "Erythema",
+          "Crusting"
+        ]
+      },
+      "complications": [
+        "Secondary infection",
+        "Sleep disturbance"
+      ],
+      "emergency_markers": [
+        "Widespread infection",
+        "Extensive crusting"
+      ]
+    },
+    "risk_factors": [
+      "Family history of atopy",
+      "Allergens",
+      "Cold weather"
+    ],
+    "differentials": [
+      "Contact dermatitis",
+      "Psoriasis",
+      "Scabies"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "others": [
+        "Allergy testing if severe or persistent"
+      ]
+    },
+    "specialty": "Paediatrics / Dermatology / Allergy",
+    "treatment": {
+      "supportive": [
+        "Moisturizers",
+        "Avoid triggers"
+      ],
+      "definitive": [
+        "Topical corticosteroids",
+        "Antihistamines for itch"
+      ],
+      "protocol": "Emollients multiple times daily. Mild steroids for flares. Treat infections promptly."
+    }
+  },
+  {
+    "disease": "Varicella (Chickenpox)",
+    "system": "Infectious / Dermatology",
+    "epidemiology": "Highly contagious viral disease in children. Caused by varicella-zoster virus.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Itchy rash (macules \u2192 papules \u2192 vesicles \u2192 crusts)",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Skin": [
+          "Rash",
+          "Itching"
+        ],
+        "General": [
+          "Fever",
+          "Malaise"
+        ]
+      },
+      "complications": [
+        "Bacterial superinfection",
+        "Pneumonia",
+        "Encephalitis"
+      ],
+      "emergency_markers": [
+        "Neurological signs",
+        "Severe rash with high fever"
+      ]
+    },
+    "risk_factors": [
+      "Unvaccinated",
+      "Immunosuppressed"
+    ],
+    "differentials": [
+      "Hand-foot-mouth disease",
+      "Impetigo",
+      "Insect bites"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "others": [
+        "PCR or direct fluorescent antibody test if uncertain"
+      ]
+    },
+    "specialty": "Paediatrics / Infectious Disease",
+    "treatment": {
+      "supportive": [
+        "Calamine lotion",
+        "Antipyretics",
+        "Hydration"
+      ],
+      "definitive": [
+        "Acyclovir (for high-risk patients)"
+      ],
+      "protocol": "Isolate until all lesions crust. Acyclovir if immunocompromised or severe disease."
+    }
+  },
+  {
+    "disease": "Urinary Tract Infection (UTI)",
+    "system": "Renal / Urology",
+    "epidemiology": "Common in infants and young girls. May be first sign of urinary tract anomaly.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever without focus",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dysuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Frequency and urgency",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Abdominal or loin pain",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Urinary": [
+          "Dysuria",
+          "Frequency",
+          "Urgency"
+        ],
+        "General": [
+          "Fever",
+          "Irritability"
+        ]
+      },
+      "complications": [
+        "Renal scarring",
+        "Recurrent UTI",
+        "Hypertension"
+      ],
+      "emergency_markers": [
+        "Sepsis",
+        "Vomiting",
+        "Poor feeding in infants"
+      ]
+    },
+    "risk_factors": [
+      "Female sex",
+      "Constipation",
+      "Vesicoureteral reflux"
+    ],
+    "differentials": [
+      "Vaginitis",
+      "Appendicitis",
+      "Dehydration"
+    ],
+    "investigations": {
+      "important": [
+        "Urine culture",
+        "Urinalysis"
+      ],
+      "others": [
+        "Renal ultrasound",
+        "MCUG if recurrent"
+      ]
+    },
+    "specialty": "Paediatrics / Nephrology / Urology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Paracetamol"
+      ],
+      "definitive": [
+        "Oral or IV antibiotics"
+      ],
+      "protocol": "Treat with antibiotics for 7\u201310 days. Investigate structural anomalies if recurrent."
+    }
+  },
+  {
+    "disease": "Asthma",
+    "system": "Respiratory / Allergy",
+    "epidemiology": "Common chronic respiratory condition in children. Often triggered by allergens or infections.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Wheezing",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cough (especially at night)",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Shortness of breath",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Chest tightness",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Respiratory": [
+          "Wheezing",
+          "Cough",
+          "Breathlessness"
+        ]
+      },
+      "complications": [
+        "Exacerbations",
+        "Hospitalizations",
+        "Status asthmaticus"
+      ],
+      "emergency_markers": [
+        "Inability to speak",
+        "Severe wheezing",
+        "Low oxygen saturation"
+      ]
+    },
+    "risk_factors": [
+      "Family history of asthma",
+      "Allergens",
+      "Pollution"
+    ],
+    "differentials": [
+      "Bronchiolitis",
+      "Foreign body",
+      "GERD"
+    ],
+    "investigations": {
+      "important": [
+        "Peak expiratory flow rate",
+        "Clinical history"
+      ],
+      "others": [
+        "Spirometry (in older children)",
+        "CXR if atypical"
+      ]
+    },
+    "specialty": "Paediatrics / Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Trigger avoidance",
+        "Education"
+      ],
+      "definitive": [
+        "Inhaled beta-agonists",
+        "Inhaled corticosteroids"
+      ],
+      "protocol": "Stepwise management. SABA for rescue. ICS for control. Oral steroids for exacerbations."
+    }
+  },
+  {
+    "disease": "Dengue Fever",
+    "system": "Infectious / Hematology",
+    "epidemiology": "Common in tropical regions. Mosquito-borne viral illness affecting children during rainy seasons.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "High-grade fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Headache and retro-orbital pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Myalgia and arthralgia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Rash",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Bleeding tendency",
+          "order": 5,
+          "frequency": "occasional",
+          "severity": "severe"
+        }
+      ],
+      "by_system": {
+        "General": [
+          "Fever",
+          "Fatigue"
+        ],
+        "Musculoskeletal": [
+          "Myalgia",
+          "Joint pain"
+        ],
+        "Skin": [
+          "Rash",
+          "Petechiae"
+        ]
+      },
+      "complications": [
+        "Dengue hemorrhagic fever",
+        "Shock",
+        "Multi-organ failure"
+      ],
+      "emergency_markers": [
+        "Persistent vomiting",
+        "Abdominal pain",
+        "Bleeding",
+        "Cold extremities"
+      ]
+    },
+    "risk_factors": [
+      "Tropical residence",
+      "Exposure to mosquitoes"
+    ],
+    "differentials": [
+      "Malaria",
+      "Typhoid fever",
+      "Measles"
+    ],
+    "investigations": {
+      "important": [
+        "NS1 antigen",
+        "Platelet count"
+      ],
+      "others": [
+        "IgM ELISA",
+        "LFTs",
+        "Hematocrit"
+      ]
+    },
+    "specialty": "Paediatrics / Infectious Disease / Hematology",
+    "treatment": {
+      "supportive": [
+        "Paracetamol",
+        "Hydration",
+        "Monitor hematocrit"
+      ],
+      "definitive": [
+        "Supportive only \u2013 no antivirals"
+      ],
+      "protocol": "Avoid NSAIDs. Monitor for warning signs. Admit if platelet count <100,000 or symptoms severe."
+    }
+  },
+  {
+    "disease": "Malaria",
+    "system": "Infectious / Hematology",
+    "epidemiology": "Common in endemic regions. Caused by Plasmodium falciparum in most severe cases.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever (often cyclical)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Chills and rigors",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Headache",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Vomiting",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Anemia",
+          "order": 5,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "General": [
+          "Fever",
+          "Fatigue"
+        ],
+        "GI": [
+          "Vomiting"
+        ],
+        "Hematology": [
+          "Anemia"
+        ]
+      },
+      "complications": [
+        "Cerebral malaria",
+        "Severe anemia",
+        "Renal failure"
+      ],
+      "emergency_markers": [
+        "Altered consciousness",
+        "Severe pallor",
+        "Convulsions"
+      ]
+    },
+    "risk_factors": [
+      "Lack of mosquito protection",
+      "Travel to endemic areas"
+    ],
+    "differentials": [
+      "Typhoid fever",
+      "Sepsis",
+      "Viral hepatitis"
+    ],
+    "investigations": {
+      "important": [
+        "Blood smear",
+        "Rapid diagnostic test"
+      ],
+      "others": [
+        "CBC",
+        "LFTs",
+        "Urea and creatinine"
+      ]
+    },
+    "specialty": "Paediatrics / Infectious Disease",
+    "treatment": {
+      "supportive": [
+        "Antipyretics",
+        "Fluids"
+      ],
+      "definitive": [
+        "Artemisinin-based combination therapy (ACT)"
+      ],
+      "protocol": "Uncomplicated: ACT. Severe: IV artesunate. Monitor Hb and treat complications."
+    }
+  },
+  {
+    "disease": "Typhoid Fever",
+    "system": "Gastrointestinal / Infectious",
+    "epidemiology": "Common in areas with poor sanitation. Caused by Salmonella typhi.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Prolonged fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abdominal pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Constipation or diarrhea",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Rose spots",
+          "order": 4,
+          "frequency": "occasional",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "GI": [
+          "Abdominal pain",
+          "Altered bowel habits"
+        ],
+        "Skin": [
+          "Rose spots"
+        ],
+        "General": [
+          "Fever",
+          "Malaise"
+        ]
+      },
+      "complications": [
+        "Intestinal perforation",
+        "Encephalopathy",
+        "GI bleeding"
+      ],
+      "emergency_markers": [
+        "Shock",
+        "Peritonitis",
+        "Severe lethargy"
+      ]
+    },
+    "risk_factors": [
+      "Contaminated water",
+      "Food handling by carriers"
+    ],
+    "differentials": [
+      "Malaria",
+      "Appendicitis",
+      "UTI"
+    ],
+    "investigations": {
+      "important": [
+        "Blood culture",
+        "Widal test"
+      ],
+      "others": [
+        "Stool culture",
+        "CBC"
+      ]
+    },
+    "specialty": "Paediatrics / Infectious Disease",
+    "treatment": {
+      "supportive": [
+        "Fluids",
+        "Nutrition"
+      ],
+      "definitive": [
+        "Ceftriaxone",
+        "Azithromycin"
+      ],
+      "protocol": "Start empiric antibiotics. Adjust per sensitivity. Admit if toxic or complications suspected."
+    }
+  },
+  {
+    "disease": "Kawasaki Disease",
+    "system": "Cardiovascular / Rheumatology",
+    "epidemiology": "Common vasculitis in children <5 years. More common in boys and Asian ethnicity.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever >5 days",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Conjunctival injection",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Strawberry tongue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Extremity changes (edema/erythema)",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Polymorphous rash",
+          "order": 5,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Skin": [
+          "Rash",
+          "Red palms"
+        ],
+        "Cardiac": [
+          "Myocarditis",
+          "Coronary aneurysms"
+        ],
+        "General": [
+          "Fever",
+          "Lymphadenopathy"
+        ]
+      },
+      "complications": [
+        "Coronary artery aneurysm",
+        "Myocarditis",
+        "Pericardial effusion"
+      ],
+      "emergency_markers": [
+        "Prolonged fever",
+        "Cardiac symptoms"
+      ]
+    },
+    "risk_factors": [
+      "Age <5",
+      "Male sex",
+      "Asian descent"
+    ],
+    "differentials": [
+      "Measles",
+      "Scarlet fever",
+      "Juvenile arthritis"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiography",
+        "ESR/CRP"
+      ],
+      "others": [
+        "CBC",
+        "LFTs"
+      ]
+    },
+    "specialty": "Paediatrics / Cardiology / Rheumatology",
+    "treatment": {
+      "supportive": [
+        "Fluids",
+        "Antipyretics"
+      ],
+      "definitive": [
+        "IVIG",
+        "Aspirin"
+      ],
+      "protocol": "Administer IVIG 2 g/kg over 12 hrs. High-dose aspirin. Monitor coronary arteries."
+    }
+  },
+  {
+    "disease": "Scarlet Fever",
+    "system": "Infectious / ENT / Dermatology",
+    "epidemiology": "Caused by Group A Streptococcus. Occurs in children 5\u201315 years after pharyngitis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sore throat",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sandpaper-like rash",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Strawberry tongue",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Peeling of skin (desquamation)",
+          "order": 5,
+          "frequency": "occasional",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Skin": [
+          "Rash",
+          "Desquamation"
+        ],
+        "ENT": [
+          "Sore throat",
+          "Strawberry tongue"
+        ],
+        "General": [
+          "Fever"
+        ]
+      },
+      "complications": [
+        "Rheumatic fever",
+        "Glomerulonephritis",
+        "Otitis media"
+      ],
+      "emergency_markers": [
+        "High fever",
+        "Toxic appearance"
+      ]
+    },
+    "risk_factors": [
+      "Close contact with infected",
+      "School outbreaks"
+    ],
+    "differentials": [
+      "Measles",
+      "Rubella",
+      "Kawasaki disease"
+    ],
+    "investigations": {
+      "important": [
+        "Throat swab",
+        "Rapid strep test"
+      ],
+      "others": [
+        "ASO titer",
+        "CBC"
+      ]
+    },
+    "specialty": "Paediatrics / Infectious Disease",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Antipyretics"
+      ],
+      "definitive": [
+        "Penicillin V",
+        "Amoxicillin"
+      ],
+      "protocol": "10-day penicillin course. Educate on hygiene. Monitor for complications."
+    }
+  },
+  {
+    "disease": "Otitis Media with Effusion (OME)",
+    "system": "ENT",
+    "epidemiology": "Common in children under 5 years. Often follows acute otitis media or URTI.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hearing loss",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Ear fullness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Speech delay",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "No pain or fever",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "none"
+        }
+      ],
+      "by_system": {
+        "ENT": [
+          "Hearing loss",
+          "Ear fullness"
+        ]
+      },
+      "complications": [
+        "Speech delay",
+        "Learning difficulties"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Recurrent URTIs",
+      "Daycare attendance",
+      "Parental smoking"
+    ],
+    "differentials": [
+      "Acute otitis media",
+      "Hearing impairment",
+      "Cerumen impaction"
+    ],
+    "investigations": {
+      "important": [
+        "Tympanometry",
+        "Otoscopy"
+      ],
+      "others": [
+        "Audiometry in older children"
+      ]
+    },
+    "specialty": "Paediatrics / ENT",
+    "treatment": {
+      "supportive": [
+        "Watchful waiting for 3 months"
+      ],
+      "definitive": [
+        "Grommet insertion if persistent"
+      ],
+      "protocol": "Observe for 3 months. Refer for audiology. Insert tubes if no improvement or speech delay."
+    }
+  },
+  {
+    "disease": "Down Syndrome (Trisomy 21)",
+    "system": "Genetic / Multisystem",
+    "epidemiology": "Most common chromosomal abnormality. Risk increases with maternal age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypotonia at birth",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Characteristic facial features",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Developmental delay",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Congenital heart defects",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Neurological": [
+          "Hypotonia",
+          "Developmental delay"
+        ],
+        "Cardiac": [
+          "AV septal defect",
+          "VSD"
+        ],
+        "General": [
+          "Short stature",
+          "Facial dysmorphism"
+        ]
+      },
+      "complications": [
+        "Heart disease",
+        "Hearing loss",
+        "Leukemia",
+        "Thyroid dysfunction"
+      ],
+      "emergency_markers": [
+        "Congenital heart failure",
+        "Airway obstruction"
+      ]
+    },
+    "risk_factors": [
+      "Advanced maternal age",
+      "Genetic predisposition"
+    ],
+    "differentials": [
+      "Other chromosomal syndromes",
+      "Congenital hypothyroidism"
+    ],
+    "investigations": {
+      "important": [
+        "Karyotype",
+        "Echocardiogram"
+      ],
+      "others": [
+        "Thyroid profile",
+        "Hearing and vision screen"
+      ]
+    },
+    "specialty": "Paediatrics / Genetics",
+    "treatment": {
+      "supportive": [
+        "Early intervention",
+        "Multidisciplinary care"
+      ],
+      "definitive": [
+        "Surgical correction of defects"
+      ],
+      "protocol": "Refer to specialists early. Screen for comorbidities. Monitor growth and development."
+    }
+  },
+  {
+    "disease": "Intussusception",
+    "system": "Gastrointestinal",
+    "epidemiology": "Common cause of intestinal obstruction in infants 6\u201318 months. Often idiopathic.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden onset abdominal pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Crying and drawing up legs",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Vomiting",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Red currant jelly stools",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpable sausage-shaped mass",
+          "order": 5,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "GI": [
+          "Abdominal pain",
+          "Vomiting",
+          "Bloody stools"
+        ]
+      },
+      "complications": [
+        "Bowel necrosis",
+        "Perforation",
+        "Shock"
+      ],
+      "emergency_markers": [
+        "Severe abdominal pain",
+        "Bilious vomiting",
+        "Hypotension"
+      ]
+    },
+    "risk_factors": [
+      "Recent viral illness",
+      "Meckel\u2019s diverticulum",
+      "Polyps"
+    ],
+    "differentials": [
+      "Gastroenteritis",
+      "Malrotation with volvulus",
+      "Appendicitis"
+    ],
+    "investigations": {
+      "important": [
+        "Abdominal ultrasound"
+      ],
+      "others": [
+        "X-ray abdomen",
+        "Air/contrast enema"
+      ]
+    },
+    "specialty": "Paediatrics / Surgery",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "NG tube"
+      ],
+      "definitive": [
+        "Air/contrast enema reduction",
+        "Surgery if unsuccessful"
+      ],
+      "protocol": "Stabilize first. Attempt enema reduction. Surgery if signs of peritonitis or failed reduction."
+    }
+  },
+  {
+    "disease": "Coeliac Disease",
+    "system": "Gastrointestinal / Immunology",
+    "epidemiology": "Autoimmune disease triggered by gluten in genetically predisposed individuals.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Chronic diarrhea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Failure to thrive",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abdominal bloating",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Irritability",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "GI": [
+          "Diarrhea",
+          "Bloating",
+          "Abdominal pain"
+        ],
+        "General": [
+          "Poor weight gain",
+          "Fatigue"
+        ]
+      },
+      "complications": [
+        "Malabsorption",
+        "Short stature",
+        "Delayed puberty"
+      ],
+      "emergency_markers": [
+        "Severe malnutrition",
+        "Electrolyte imbalance"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Type 1 diabetes",
+      "Down syndrome"
+    ],
+    "differentials": [
+      "Lactose intolerance",
+      "IBD",
+      "Giardiasis"
+    ],
+    "investigations": {
+      "important": [
+        "Tissue transglutaminase IgA",
+        "Small bowel biopsy"
+      ],
+      "others": [
+        "Total IgA",
+        "Nutrient levels (iron, calcium)"
+      ]
+    },
+    "specialty": "Paediatrics / Gastroenterology",
+    "treatment": {
+      "supportive": [
+        "Nutritional support"
+      ],
+      "definitive": [
+        "Lifelong gluten-free diet"
+      ],
+      "protocol": "Strict gluten-free diet. Monitor growth and antibody levels. Screen family members."
+    }
+  },
+  {
+    "disease": "G6PD Deficiency",
+    "system": "Hematology / Genetics",
+    "epidemiology": "X-linked enzymopathy affecting RBCs. Common in African, Mediterranean, and Asian populations.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Jaundice (neonatal or after trigger)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dark urine",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pallor",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Hematology": [
+          "Hemolysis",
+          "Anemia"
+        ],
+        "General": [
+          "Jaundice",
+          "Fatigue"
+        ]
+      },
+      "complications": [
+        "Acute hemolysis",
+        "Kernicterus in neonates"
+      ],
+      "emergency_markers": [
+        "Severe anemia",
+        "Hemoglobinuria"
+      ]
+    },
+    "risk_factors": [
+      "Fava beans",
+      "Sulfa drugs",
+      "Infections"
+    ],
+    "differentials": [
+      "Autoimmune hemolytic anemia",
+      "Sickle cell anemia"
+    ],
+    "investigations": {
+      "important": [
+        "G6PD enzyme assay"
+      ],
+      "others": [
+        "Peripheral smear",
+        "Reticulocyte count",
+        "LDH"
+      ]
+    },
+    "specialty": "Paediatrics / Hematology",
+    "treatment": {
+      "supportive": [
+        "Avoid triggers",
+        "Hydration"
+      ],
+      "definitive": [
+        "Blood transfusion in crisis"
+      ],
+      "protocol": "Prevent exposure to oxidants. Transfuse if Hb dangerously low. Screen family if needed."
+    }
+  },
+  {
+    "disease": "Neonatal Sepsis"
+  },
+  {
+    "disease": "Hirschsprung Disease"
+  },
+  {
+    "disease": "Tetanus (Neonatal)"
+  },
+  {
+    "disease": "Bronchial Foreign Body Aspiration"
+  },
+  {
+    "disease": "Infantile Colic"
+  },
+  {
+    "disease": "Pertussis (Whooping Cough)",
+    "system": "Respiratory / Infectious",
+    "epidemiology": "Highly contagious bacterial infection. Common in infants not fully vaccinated.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Mild cough and coryza",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Paroxysmal cough with whoop",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Post-tussive vomiting",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Apnea (in infants)",
+          "order": 4,
+          "frequency": "occasional",
+          "severity": "severe"
+        }
+      ],
+      "by_system": {
+        "Respiratory": [
+          "Cough",
+          "Whoop",
+          "Apnea"
+        ],
+        "General": [
+          "Fever",
+          "Fatigue"
+        ]
+      },
+      "complications": [
+        "Pneumonia",
+        "Seizures",
+        "Death in infants"
+      ],
+      "emergency_markers": [
+        "Apnea",
+        "Cyanosis",
+        "Dehydration"
+      ]
+    },
+    "risk_factors": [
+      "Incomplete vaccination",
+      "Infant age <6 months"
+    ],
+    "differentials": [
+      "Bronchiolitis",
+      "Croup",
+      "Foreign body"
+    ],
+    "investigations": {
+      "important": [
+        "Nasopharyngeal PCR",
+        "CBC (lymphocytosis)"
+      ],
+      "others": [
+        "Chest X-ray"
+      ]
+    },
+    "specialty": "Paediatrics / Infectious Disease / Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Oxygen if needed"
+      ],
+      "definitive": [
+        "Azithromycin (macrolide antibiotics)"
+      ],
+      "protocol": "Treat with macrolide. Isolate for 5 days. Supportive care for cough and apnea."
+    }
+  },
+  {
+    "disease": "Pyloric Stenosis",
+    "system": "Gastrointestinal / Surgery",
+    "epidemiology": "Hypertrophy of pyloric muscle causing gastric outlet obstruction. Common in firstborn males.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Non-bilious projectile vomiting",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hunger after vomiting",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Weight loss or poor weight gain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpable olive mass in abdomen",
+          "order": 4,
+          "frequency": "occasional",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "GI": [
+          "Vomiting",
+          "Poor weight gain"
+        ],
+        "General": [
+          "Dehydration"
+        ]
+      },
+      "complications": [
+        "Hypochloremic metabolic alkalosis",
+        "Dehydration"
+      ],
+      "emergency_markers": [
+        "Lethargy",
+        "Shock",
+        "Severe electrolyte imbalance"
+      ]
+    },
+    "risk_factors": [
+      "Male sex",
+      "Firstborn",
+      "Family history"
+    ],
+    "differentials": [
+      "Gastroesophageal reflux",
+      "Intestinal atresia"
+    ],
+    "investigations": {
+      "important": [
+        "Abdominal ultrasound"
+      ],
+      "others": [
+        "Electrolytes",
+        "Blood gases"
+      ]
+    },
+    "specialty": "Paediatrics / Surgery",
+    "treatment": {
+      "supportive": [
+        "Correct dehydration and electrolytes"
+      ],
+      "definitive": [
+        "Pyloromyotomy"
+      ],
+      "protocol": "Stabilize first. Surgery after correction. Excellent prognosis post-op."
+    }
+  },
+  {
+    "disease": "Diaper Dermatitis",
+    "system": "Dermatology",
+    "epidemiology": "Very common in infants due to moisture and friction in diaper area.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Red rash in diaper area",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Irritability during diaper changes",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Satellite lesions (if candida)",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Skin": [
+          "Rash",
+          "Redness",
+          "Lesions"
+        ]
+      },
+      "complications": [
+        "Secondary bacterial or fungal infection"
+      ],
+      "emergency_markers": [
+        "Extensive ulceration",
+        "Bleeding",
+        "Fever"
+      ]
+    },
+    "risk_factors": [
+      "Prolonged diaper use",
+      "Antibiotic use",
+      "Diarrhea"
+    ],
+    "differentials": [
+      "Seborrheic dermatitis",
+      "Psoriasis",
+      "Allergic contact dermatitis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "others": [
+        "KOH prep if fungal suspected"
+      ]
+    },
+    "specialty": "Paediatrics / Dermatology",
+    "treatment": {
+      "supportive": [
+        "Frequent diaper changes",
+        "Air drying"
+      ],
+      "definitive": [
+        "Barrier creams",
+        "Antifungal cream if candida"
+      ],
+      "protocol": "Apply zinc oxide barrier. Add antifungal if no improvement in 3 days."
+    }
+  },
+  {
+    "disease": "Severe Acute Malnutrition (SAM)",
+    "system": "Nutritional / General",
+    "epidemiology": "Affects under-5 children in low-resource settings. WHO classification used.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Visible wasting or bilateral pedal edema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Lethargy",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Loss of appetite",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "General": [
+          "Wasting",
+          "Edema",
+          "Lethargy"
+        ]
+      },
+      "complications": [
+        "Hypoglycemia",
+        "Infections",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Hypothermia",
+        "Severe edema",
+        "Sepsis"
+      ]
+    },
+    "risk_factors": [
+      "Poverty",
+      "Inadequate feeding",
+      "Frequent infections"
+    ],
+    "differentials": [
+      "Celiac disease",
+      "Chronic illness",
+      "Neglect"
+    ],
+    "investigations": {
+      "important": [
+        "MUAC",
+        "Weight-for-height",
+        "Clinical signs"
+      ],
+      "others": [
+        "CBC",
+        "Blood sugar",
+        "Electrolytes"
+      ]
+    },
+    "specialty": "Paediatrics / Nutrition",
+    "treatment": {
+      "supportive": [
+        "Treat hypoglycemia, hypothermia, dehydration"
+      ],
+      "definitive": [
+        "Therapeutic feeds (F75, F100, RUTF)"
+      ],
+      "protocol": "Stabilize first 2\u20137 days. Transition to catch-up growth. Monitor for complications."
+    }
+  },
+  {
+    "disease": "Tonsillitis",
+    "system": "ENT",
+    "epidemiology": "Common in school-aged children. Often viral, but bacterial cases require antibiotics.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sore throat",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Painful swallowing",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Enlarged red tonsils \u00b1 exudates",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "ENT": [
+          "Throat pain",
+          "Tonsillar enlargement",
+          "Difficulty swallowing"
+        ]
+      },
+      "complications": [
+        "Peritonsillar abscess",
+        "Rheumatic fever"
+      ],
+      "emergency_markers": [
+        "Airway obstruction",
+        "Drooling",
+        "Trismus"
+      ]
+    },
+    "risk_factors": [
+      "Crowded living",
+      "Poor hygiene",
+      "Recent URTI"
+    ],
+    "differentials": [
+      "Pharyngitis",
+      "Mononucleosis",
+      "Diphtheria"
+    ],
+    "investigations": {
+      "important": [
+        "Throat swab",
+        "Rapid strep test"
+      ],
+      "others": [
+        "CBC",
+        "Monospot test"
+      ]
+    },
+    "specialty": "Paediatrics / ENT",
+    "treatment": {
+      "supportive": [
+        "Analgesics",
+        "Fluids"
+      ],
+      "definitive": [
+        "Penicillin or amoxicillin if bacterial"
+      ],
+      "protocol": "10-day antibiotic course for strep. Consider tonsillectomy if recurrent."
+    }
+  },
+  {
+    "disease": "Chickenpox (Varicella)",
+    "system": "Infectious / Dermatology",
+    "epidemiology": "Highly contagious viral infection in children. More severe in adolescents and adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Itchy vesicular rash (starts on trunk)",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Skin": [
+          "Vesicles",
+          "Crusting",
+          "Itching"
+        ],
+        "General": [
+          "Fever",
+          "Malaise"
+        ]
+      },
+      "complications": [
+        "Bacterial superinfection",
+        "Encephalitis",
+        "Pneumonia"
+      ],
+      "emergency_markers": [
+        "High fever",
+        "Severe rash",
+        "Altered consciousness"
+      ]
+    },
+    "risk_factors": [
+      "Unvaccinated",
+      "Immunosuppression"
+    ],
+    "differentials": [
+      "Hand-foot-mouth disease",
+      "Insect bites",
+      "Measles"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "others": [
+        "PCR or direct fluorescent antibody test if atypical"
+      ]
+    },
+    "specialty": "Paediatrics / Infectious Disease",
+    "treatment": {
+      "supportive": [
+        "Antipyretics",
+        "Calamine lotion",
+        "Antihistamines"
+      ],
+      "definitive": [
+        "Acyclovir (for severe cases or immunocompromised)"
+      ],
+      "protocol": "Isolate until lesions crust. Treat high-risk patients with antivirals."
+    }
+  },
+  {
+    "disease": "Juvenile Diabetes (Type 1)",
+    "system": "Endocrinology / Metabolic",
+    "epidemiology": "Autoimmune destruction of pancreatic beta cells. Commonest in adolescents.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Polyuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Polydipsia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Weight loss",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Endocrine": [
+          "Polyuria",
+          "Polydipsia",
+          "Weight loss"
+        ],
+        "General": [
+          "Fatigue"
+        ]
+      },
+      "complications": [
+        "DKA",
+        "Hypoglycemia",
+        "Microvascular damage"
+      ],
+      "emergency_markers": [
+        "Kussmaul breathing",
+        "Abdominal pain",
+        "Vomiting"
+      ]
+    },
+    "risk_factors": [
+      "Genetic predisposition",
+      "Autoimmune disorders"
+    ],
+    "differentials": [
+      "Type 2 diabetes",
+      "Diabetes insipidus"
+    ],
+    "investigations": {
+      "important": [
+        "Fasting glucose",
+        "HbA1c",
+        "Urinalysis (ketones, glucose)"
+      ],
+      "others": [
+        "C-peptide",
+        "Autoantibodies"
+      ]
+    },
+    "specialty": "Paediatrics / Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Dietary education",
+        "Glucose monitoring"
+      ],
+      "definitive": [
+        "Insulin therapy"
+      ],
+      "protocol": "Start basal-bolus insulin. Educate on DKA signs. Regular HbA1c monitoring."
+    }
+  },
+  {
+    "disease": "Rubella (German Measles)",
+    "system": "Infectious / Dermatology",
+    "epidemiology": "Mild viral exanthem. Dangerous during pregnancy due to congenital rubella syndrome.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Low-grade fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Maculopapular rash (starts on face)",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Postauricular lymphadenopathy",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Skin": [
+          "Rash"
+        ],
+        "Lymphatic": [
+          "Lymphadenopathy"
+        ],
+        "General": [
+          "Fever"
+        ]
+      },
+      "complications": [
+        "Arthritis",
+        "Thrombocytopenia",
+        "Encephalitis"
+      ],
+      "emergency_markers": [
+        "Neurological signs",
+        "Bleeding tendencies"
+      ]
+    },
+    "risk_factors": [
+      "Unvaccinated",
+      "Exposure during outbreaks"
+    ],
+    "differentials": [
+      "Measles",
+      "Scarlet fever",
+      "Drug rash"
+    ],
+    "investigations": {
+      "important": [
+        "Rubella IgM serology"
+      ],
+      "others": [
+        "PCR from throat swab"
+      ]
+    },
+    "specialty": "Paediatrics / Infectious Disease",
+    "treatment": {
+      "supportive": [
+        "Antipyretics",
+        "Fluids"
+      ],
+      "definitive": [
+        "No antiviral available"
+      ],
+      "protocol": "Isolate for 7 days after rash onset. Supportive care only."
+    }
+  },
+  {
+    "disease": "Hemophilia A",
+    "system": "Hematology / Genetic",
+    "epidemiology": "X-linked recessive bleeding disorder. Deficiency of factor VIII. Affects males.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Prolonged bleeding after cuts",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hemarthrosis (joint swelling)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Easy bruising",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Hematology": [
+          "Prolonged bleeding",
+          "Joint bleeds",
+          "Bruising"
+        ]
+      },
+      "complications": [
+        "Joint damage",
+        "Intracranial bleeding"
+      ],
+      "emergency_markers": [
+        "Head trauma",
+        "Severe joint swelling",
+        "Bleeding from mucosa"
+      ]
+    },
+    "risk_factors": [
+      "Family history of hemophilia"
+    ],
+    "differentials": [
+      "ITP",
+      "von Willebrand disease",
+      "Leukemia"
+    ],
+    "investigations": {
+      "important": [
+        "aPTT",
+        "Factor VIII assay"
+      ],
+      "others": [
+        "Genetic testing",
+        "CBC"
+      ]
+    },
+    "specialty": "Paediatrics / Hematology",
+    "treatment": {
+      "supportive": [
+        "Avoid trauma",
+        "Physiotherapy"
+      ],
+      "definitive": [
+        "Factor VIII concentrate replacement"
+      ],
+      "protocol": "Prophylactic factor VIII infusion. Emergency factor replacement for trauma."
+    }
+  },
+  {
+    "disease": "Congenital Heart Disease \u2013 VSD",
+    "system": "Cardiology",
+    "epidemiology": "Most common congenital heart defect. Varies in size and hemodynamic effect.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Failure to thrive",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Tachypnea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Feeding difficulty",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pansystolic murmur",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Cardiac": [
+          "Murmur",
+          "Heart failure"
+        ],
+        "General": [
+          "Poor weight gain",
+          "Sweating with feeds"
+        ]
+      },
+      "complications": [
+        "Heart failure",
+        "Pulmonary hypertension",
+        "Endocarditis"
+      ],
+      "emergency_markers": [
+        "Severe respiratory distress",
+        "Cyanosis"
+      ]
+    },
+    "risk_factors": [
+      "Congenital syndromes",
+      "Maternal infections"
+    ],
+    "differentials": [
+      "ASD",
+      "PDA",
+      "Tetralogy of Fallot"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram"
+      ],
+      "others": [
+        "Chest X-ray",
+        "ECG"
+      ]
+    },
+    "specialty": "Paediatrics / Cardiology",
+    "treatment": {
+      "supportive": [
+        "Diuretics",
+        "Nutritional support"
+      ],
+      "definitive": [
+        "Surgical closure or device closure"
+      ],
+      "protocol": "Small VSDs may close spontaneously. Treat symptoms. Surgery if persistent shunt."
+    }
+  },
+  {
+    "disease": "Hand, Foot and Mouth Disease (HFMD)",
+    "system": "Infectious / Dermatology",
+    "epidemiology": "Common viral illness in young children caused by coxsackievirus. Spreads in childcare settings.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Painful mouth ulcers",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Vesicular rash on hands and feet",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Irritability",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Skin": [
+          "Rash on hands and feet"
+        ],
+        "Oral": [
+          "Mouth ulcers"
+        ],
+        "General": [
+          "Fever",
+          "Irritability"
+        ]
+      },
+      "complications": [
+        "Dehydration",
+        "Viral meningitis",
+        "Encephalitis"
+      ],
+      "emergency_markers": [
+        "Inability to drink",
+        "Seizures",
+        "Neurologic signs"
+      ]
+    },
+    "risk_factors": [
+      "Age <5 years",
+      "Childcare attendance"
+    ],
+    "differentials": [
+      "Herpangina",
+      "Chickenpox",
+      "Aphthous ulcers"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "others": [
+        "Throat or stool PCR (rarely needed)"
+      ]
+    },
+    "specialty": "Paediatrics / Infectious Disease",
+    "treatment": {
+      "supportive": [
+        "Pain relief",
+        "Hydration",
+        "Soft foods"
+      ],
+      "definitive": [
+        "Self-limiting; no antiviral"
+      ],
+      "protocol": "Supportive care. Isolate during contagious phase. Monitor hydration."
+    }
+  },
+  {
+    "disease": "Kawasaki Disease",
+    "system": "Cardiology / Vasculitis",
+    "epidemiology": "Acute febrile vasculitis of childhood. Common in <5 years. Leading cause of acquired heart disease.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever >5 days",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Conjunctival injection",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Strawberry tongue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Swollen hands and feet",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Polymorphous rash",
+          "order": 5,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Cardiac": [
+          "Coronary artery aneurysms"
+        ],
+        "Skin": [
+          "Rash",
+          "Desquamation"
+        ],
+        "Oral": [
+          "Red lips",
+          "Strawberry tongue"
+        ],
+        "General": [
+          "Fever",
+          "Lymphadenopathy"
+        ]
+      },
+      "complications": [
+        "Coronary aneurysms",
+        "Myocarditis"
+      ],
+      "emergency_markers": [
+        "Signs of cardiac ischemia",
+        "Shock"
+      ]
+    },
+    "risk_factors": [
+      "Age <5 years",
+      "Asian ethnicity"
+    ],
+    "differentials": [
+      "Scarlet fever",
+      "Measles",
+      "Toxic shock syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Echocardiogram",
+        "CRP",
+        "ESR"
+      ],
+      "others": [
+        "CBC",
+        "LFTs",
+        "Urinalysis"
+      ]
+    },
+    "specialty": "Paediatrics / Cardiology / Rheumatology",
+    "treatment": {
+      "supportive": [
+        "Antipyretics",
+        "IV fluids"
+      ],
+      "definitive": [
+        "IVIG and high-dose aspirin"
+      ],
+      "protocol": "Administer IVIG within 10 days of fever. Monitor heart with serial echos."
+    }
+  },
+  {
+    "disease": "Measles",
+    "system": "Infectious / Dermatology / Respiratory",
+    "epidemiology": "Highly contagious viral disease. Preventable by vaccination.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cough, coryza, conjunctivitis",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Koplik spots",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Maculopapular rash",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Respiratory": [
+          "Cough",
+          "Coryza"
+        ],
+        "Skin": [
+          "Rash"
+        ],
+        "Oral": [
+          "Koplik spots"
+        ],
+        "General": [
+          "Fever"
+        ]
+      },
+      "complications": [
+        "Pneumonia",
+        "Otitis media",
+        "Encephalitis"
+      ],
+      "emergency_markers": [
+        "Severe pneumonia",
+        "Seizures"
+      ]
+    },
+    "risk_factors": [
+      "Unvaccinated",
+      "Vitamin A deficiency"
+    ],
+    "differentials": [
+      "Rubella",
+      "Scarlet fever",
+      "Drug rash"
+    ],
+    "investigations": {
+      "important": [
+        "Measles IgM",
+        "PCR from throat swab"
+      ],
+      "others": [
+        "CXR if pneumonia suspected"
+      ]
+    },
+    "specialty": "Paediatrics / Infectious Disease",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Antipyretics",
+        "Vitamin A"
+      ],
+      "definitive": [
+        "No antiviral; isolation essential"
+      ],
+      "protocol": "Administer Vitamin A. Supportive care. Isolate for at least 4 days after rash onset."
+    }
+  },
+  {
+    "disease": "Idiopathic Thrombocytopenic Purpura (ITP)",
+    "system": "Hematology / Immunology",
+    "epidemiology": "Autoimmune destruction of platelets, often post-viral. Most common cause of thrombocytopenia in children.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Petechiae",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Easy bruising",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Mucosal bleeding (e.g., gums)",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Hematology": [
+          "Low platelets",
+          "Bleeding"
+        ],
+        "Skin": [
+          "Bruises",
+          "Petechiae"
+        ]
+      },
+      "complications": [
+        "Severe bleeding",
+        "Intracranial hemorrhage"
+      ],
+      "emergency_markers": [
+        "Headache",
+        "Vomiting",
+        "Bleeding from orifices"
+      ]
+    },
+    "risk_factors": [
+      "Recent viral illness",
+      "Autoimmune disease"
+    ],
+    "differentials": [
+      "Leukemia",
+      "DIC",
+      "Hemophilia"
+    ],
+    "investigations": {
+      "important": [
+        "CBC with smear",
+        "Platelet count"
+      ],
+      "others": [
+        "Bone marrow if atypical"
+      ]
+    },
+    "specialty": "Paediatrics / Hematology",
+    "treatment": {
+      "supportive": [
+        "Monitor if mild"
+      ],
+      "definitive": [
+        "IVIG or corticosteroids"
+      ],
+      "protocol": "Treat if platelets <20,000 or bleeding. Avoid NSAIDs and IM injections."
+    }
+  },
+  {
+    "disease": "Scabies",
+    "system": "Dermatology / Infectious",
+    "epidemiology": "Caused by Sarcoptes scabiei mite. Spreads via close contact.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Intense itching (worse at night)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Papular rash with burrows",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Excoriations",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Skin": [
+          "Itching",
+          "Rash",
+          "Burrows"
+        ]
+      },
+      "complications": [
+        "Secondary bacterial infection",
+        "Impetigo"
+      ],
+      "emergency_markers": [
+        "Extensive crusted scabies in immunocompromised"
+      ]
+    },
+    "risk_factors": [
+      "Overcrowding",
+      "Poor hygiene",
+      "Close contacts"
+    ],
+    "differentials": [
+      "Eczema",
+      "Insect bites",
+      "Allergic rash"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "others": [
+        "Skin scraping under microscope"
+      ]
+    },
+    "specialty": "Paediatrics / Dermatology",
+    "treatment": {
+      "supportive": [
+        "Antihistamines",
+        "Treat household contacts"
+      ],
+      "definitive": [
+        "Topical permethrin 5%"
+      ],
+      "protocol": "Apply permethrin overnight. Wash all bedding/clothes. Treat all close contacts."
+    }
+  },
+  {
+    "disease": "Otitis Externa",
+    "system": "ENT / Infectious",
+    "epidemiology": "Inflammation of external auditory canal, often bacterial. Common in swimmers.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Ear pain (especially with manipulation)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ear discharge",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hearing loss (conductive)",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Ear canal swelling",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "ENT": [
+          "Pain",
+          "Discharge",
+          "Swelling",
+          "Hearing loss"
+        ]
+      },
+      "complications": [
+        "Cellulitis",
+        "Malignant otitis externa in immunocompromised"
+      ],
+      "emergency_markers": [
+        "Severe ear pain with cranial nerve palsy"
+      ]
+    },
+    "risk_factors": [
+      "Swimming",
+      "Trauma from Q-tips",
+      "Eczema"
+    ],
+    "differentials": [
+      "Otitis media",
+      "Foreign body",
+      "Furuncle"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "others": [
+        "Ear swab culture (recurrent or severe)"
+      ]
+    },
+    "specialty": "Paediatrics / ENT",
+    "treatment": {
+      "supportive": [
+        "Keep ear dry",
+        "Pain relief"
+      ],
+      "definitive": [
+        "Topical antibiotics \u00b1 steroids (e.g., ciprofloxacin drops)"
+      ],
+      "protocol": "Clean ear canal. Apply topical antibiotics. Avoid moisture."
+    }
+  },
+  {
+    "disease": "Acute Glomerulonephritis (Post-streptococcal)",
+    "system": "Renal / Infectious",
+    "epidemiology": "Immune-mediated renal inflammation after Group A strep infection. Peak age 5\u201312 years.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hematuria (cola-colored urine)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Periorbital edema",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Oliguria",
+          "order": 4,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Renal": [
+          "Hematuria",
+          "Edema",
+          "Oliguria"
+        ],
+        "Cardiac": [
+          "Hypertension"
+        ]
+      },
+      "complications": [
+        "Hypertensive encephalopathy",
+        "Renal failure"
+      ],
+      "emergency_markers": [
+        "Severe hypertension",
+        "Seizures",
+        "Anuria"
+      ]
+    },
+    "risk_factors": [
+      "Recent pharyngitis or skin infection",
+      "Poor hygiene"
+    ],
+    "differentials": [
+      "IgA nephropathy",
+      "Nephrotic syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis",
+        "ASO titer",
+        "Serum complement (low C3)"
+      ],
+      "others": [
+        "Renal function tests",
+        "Throat culture"
+      ]
+    },
+    "specialty": "Paediatrics / Nephrology",
+    "treatment": {
+      "supportive": [
+        "Salt restriction",
+        "Antihypertensives"
+      ],
+      "definitive": [
+        "Treat underlying strep (penicillin), monitor renal function"
+      ],
+      "protocol": "Support BP and fluid balance. Most recover fully. Rarely need dialysis."
+    }
+  },
+  {
+    "disease": "Mumps",
+    "system": "Infectious / Endocrine",
+    "epidemiology": "Viral illness with parotid gland swelling. Affects unvaccinated school-aged children.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Parotid gland swelling",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pain on chewing",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Headache",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Endocrine": [
+          "Parotid swelling"
+        ],
+        "General": [
+          "Fever",
+          "Fatigue"
+        ]
+      },
+      "complications": [
+        "Orchitis",
+        "Meningitis",
+        "Deafness"
+      ],
+      "emergency_markers": [
+        "Severe headache",
+        "Neck stiffness",
+        "Testicular pain"
+      ]
+    },
+    "risk_factors": [
+      "Unvaccinated",
+      "Crowded environments"
+    ],
+    "differentials": [
+      "Parotitis",
+      "Lymphadenitis",
+      "Dental abscess"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "others": [
+        "Mumps IgM serology",
+        "PCR from saliva"
+      ]
+    },
+    "specialty": "Paediatrics / Infectious Disease",
+    "treatment": {
+      "supportive": [
+        "Fluids",
+        "Analgesics",
+        "Rest"
+      ],
+      "definitive": [
+        "Self-limited; isolate during infection"
+      ],
+      "protocol": "Supportive care. Prevent with MMR vaccine. Monitor for complications."
+    }
+  },
+  {
+    "disease": "Cerebral Palsy",
+    "system": "Neurology",
+    "epidemiology": "Non-progressive motor disorder from brain injury before, during, or after birth.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Delayed motor milestones",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abnormal muscle tone (spasticity or floppiness)",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Poor coordination",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Seizures",
+          "order": 4,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Neurology": [
+          "Spasticity",
+          "Seizures"
+        ],
+        "Musculoskeletal": [
+          "Contractures"
+        ]
+      },
+      "complications": [
+        "Contractures",
+        "Feeding difficulties",
+        "Cognitive delay"
+      ],
+      "emergency_markers": [
+        "Status epilepticus",
+        "Aspiration"
+      ]
+    },
+    "risk_factors": [
+      "Prematurity",
+      "Birth asphyxia",
+      "Kernicterus"
+    ],
+    "differentials": [
+      "Muscular dystrophy",
+      "Neurodegenerative disorders"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain",
+        "Developmental screening"
+      ],
+      "others": [
+        "EEG (if seizures)",
+        "Metabolic screening"
+      ]
+    },
+    "specialty": "Paediatrics / Neurology / Rehabilitation",
+    "treatment": {
+      "supportive": [
+        "Physiotherapy",
+        "Speech and occupational therapy"
+      ],
+      "definitive": [
+        "No cure; symptomatic treatment"
+      ],
+      "protocol": "Multidisciplinary care. Focus on function and prevention of complications."
+    }
+  },
+  {
+    "disease": "Foreign Body Ingestion",
+    "system": "Gastrointestinal / Emergency",
+    "epidemiology": "Common in toddlers exploring environment. Most pass spontaneously.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "History of ingestion or witnessed event",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Drooling",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Gagging or choking",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abdominal pain (if GI obstruction)",
+          "order": 4,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "GI": [
+          "Pain",
+          "Drooling"
+        ],
+        "Respiratory": [
+          "Cough if airway affected"
+        ]
+      },
+      "complications": [
+        "Perforation",
+        "Obstruction",
+        "Aspiration"
+      ],
+      "emergency_markers": [
+        "Respiratory distress",
+        "Persistent vomiting",
+        "Sharp object ingestion"
+      ]
+    },
+    "risk_factors": [
+      "Age <4 years",
+      "Inattention",
+      "Accessible small objects"
+    ],
+    "differentials": [
+      "Esophagitis",
+      "Gastroenteritis"
+    ],
+    "investigations": {
+      "important": [
+        "X-ray (if radiopaque)"
+      ],
+      "others": [
+        "Endoscopy if symptomatic or high-risk object"
+      ]
+    },
+    "specialty": "Paediatrics / Surgery / Gastroenterology",
+    "treatment": {
+      "supportive": [
+        "Observation if low-risk object"
+      ],
+      "definitive": [
+        "Endoscopic removal"
+      ],
+      "protocol": "Assess location and type of object. Endoscopy for batteries, magnets, sharp items."
+    }
+  },
+  {
+    "disease": "Febrile Seizures",
+    "system": "Neurology / Infectious",
+    "epidemiology": "Seizures occurring in 6 months to 5 years of age with fever, without CNS infection.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Generalized tonic-clonic seizure",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Postictal drowsiness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fever preceding or following seizure",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Neurology": [
+          "Seizure",
+          "Postictal state"
+        ],
+        "General": [
+          "Fever"
+        ]
+      },
+      "complications": [
+        "Recurrent febrile seizures",
+        "Rare progression to epilepsy"
+      ],
+      "emergency_markers": [
+        "Seizure >15 minutes",
+        "Focal features",
+        "Multiple seizures in 24h"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Rapid fever rise",
+      "Viral infection"
+    ],
+    "differentials": [
+      "Meningitis",
+      "Epilepsy",
+      "Breath-holding spells"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "others": [
+        "Lumbar puncture (if CNS infection suspected)"
+      ]
+    },
+    "specialty": "Paediatrics / Neurology",
+    "treatment": {
+      "supportive": [
+        "Reassurance",
+        "Antipyretics"
+      ],
+      "definitive": [
+        "Benzodiazepines if prolonged seizure"
+      ],
+      "protocol": "Simple febrile seizures require no long-term treatment. Educate caregivers."
+    }
+  },
+  {
+    "disease": "Hydrocephalus",
+    "system": "Neurology / Neurosurgery",
+    "epidemiology": "Excess CSF accumulation in ventricles. Can be congenital or acquired.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Enlarging head circumference",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bulging fontanelle",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sunsetting eyes",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Vomiting",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Neurology": [
+          "Head enlargement",
+          "Increased ICP signs"
+        ],
+        "Ophthalmic": [
+          "Sunsetting eyes"
+        ]
+      },
+      "complications": [
+        "Brain damage",
+        "Seizures",
+        "Shunt complications"
+      ],
+      "emergency_markers": [
+        "Signs of increased ICP",
+        "Seizures",
+        "Vomiting"
+      ]
+    },
+    "risk_factors": [
+      "Neural tube defects",
+      "Intraventricular hemorrhage",
+      "Infections"
+    ],
+    "differentials": [
+      "Macrocephaly",
+      "Cerebral atrophy"
+    ],
+    "investigations": {
+      "important": [
+        "Cranial ultrasound (infants)",
+        "CT/MRI brain"
+      ],
+      "others": [
+        "ICP monitoring in selected cases"
+      ]
+    },
+    "specialty": "Paediatrics / Neurosurgery",
+    "treatment": {
+      "supportive": [
+        "Monitor growth and development"
+      ],
+      "definitive": [
+        "Ventriculoperitoneal shunt",
+        "Endoscopic third ventriculostomy"
+      ],
+      "protocol": "Surgical CSF diversion. Long-term follow-up for shunt function."
+    }
+  },
+  {
+    "disease": "Neonatal Jaundice",
+    "system": "Hepatology / Neonatology",
+    "epidemiology": "Common in first week of life. Physiologic vs pathologic causes.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Yellowing of skin and sclera",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Lethargy",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Poor feeding",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Skin": [
+          "Jaundice"
+        ],
+        "General": [
+          "Lethargy",
+          "Feeding difficulty"
+        ]
+      },
+      "complications": [
+        "Kernicterus",
+        "Encephalopathy"
+      ],
+      "emergency_markers": [
+        "High bilirubin >20 mg/dL",
+        "Signs of kernicterus"
+      ]
+    },
+    "risk_factors": [
+      "Prematurity",
+      "ABO incompatibility",
+      "Breastfeeding"
+    ],
+    "differentials": [
+      "Sepsis",
+      "Biliary atresia"
+    ],
+    "investigations": {
+      "important": [
+        "Total and direct bilirubin",
+        "Blood group & Coombs test"
+      ],
+      "others": [
+        "CBC",
+        "Reticulocyte count"
+      ]
+    },
+    "specialty": "Paediatrics / Neonatology",
+    "treatment": {
+      "supportive": [
+        "Frequent feeds"
+      ],
+      "definitive": [
+        "Phototherapy",
+        "Exchange transfusion (if severe)"
+      ],
+      "protocol": "Treat based on age-specific bilirubin nomogram. Monitor neuro status."
+    }
+  },
+  {
+    "disease": "Congenital Hypothyroidism",
+    "system": "Endocrinology / Neonatology",
+    "epidemiology": "Screened at birth. Can cause irreversible neurodevelopmental delay if untreated.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Prolonged jaundice",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Constipation",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Large fontanelles",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Poor feeding",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Endocrine": [
+          "Low energy",
+          "Poor growth"
+        ],
+        "Gastrointestinal": [
+          "Constipation"
+        ]
+      },
+      "complications": [
+        "Mental retardation",
+        "Growth failure"
+      ],
+      "emergency_markers": [
+        "Signs of severe hypothyroidism",
+        "Hypothermia",
+        "Lethargy"
+      ]
+    },
+    "risk_factors": [
+      "Iodine deficiency",
+      "Family history"
+    ],
+    "differentials": [
+      "Down syndrome",
+      "Congenital infections"
+    ],
+    "investigations": {
+      "important": [
+        "TSH, Free T4"
+      ],
+      "others": [
+        "Thyroid scan",
+        "Bone age"
+      ]
+    },
+    "specialty": "Paediatrics / Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Nutritional support"
+      ],
+      "definitive": [
+        "Levothyroxine replacement"
+      ],
+      "protocol": "Start within first 2 weeks of life. Adjust dose based on TSH and T4."
+    }
+  },
+  {
+    "disease": "Bronchiolitis",
+    "system": "Respiratory / Infectious",
+    "epidemiology": "Most common cause of hospitalization in infants <1 year. RSV is main pathogen.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Cough",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Wheezing",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Tachypnea",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Feeding difficulty",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Respiratory": [
+          "Wheezing",
+          "Cough",
+          "Tachypnea"
+        ],
+        "General": [
+          "Poor feeding",
+          "Lethargy"
+        ]
+      },
+      "complications": [
+        "Apnea",
+        "Respiratory failure",
+        "Otitis media"
+      ],
+      "emergency_markers": [
+        "Severe retractions",
+        "Oxygen saturation <90%",
+        "Apnea"
+      ]
+    },
+    "risk_factors": [
+      "Prematurity",
+      "Chronic lung disease",
+      "Congenital heart disease"
+    ],
+    "differentials": [
+      "Asthma",
+      "Pneumonia",
+      "Foreign body"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "others": [
+        "Nasopharyngeal swab for RSV",
+        "Pulse oximetry"
+      ]
+    },
+    "specialty": "Paediatrics / Pulmonology",
+    "treatment": {
+      "supportive": [
+        "Oxygen",
+        "Hydration",
+        "Nasal suctioning"
+      ],
+      "definitive": [
+        "No specific antiviral; palivizumab for prevention in high-risk"
+      ],
+      "protocol": "Supportive care. Admit if respiratory distress. Monitor closely in infants."
+    }
+  }
+]

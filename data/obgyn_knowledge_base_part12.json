@@ -1,0 +1,3830 @@
+[
+  {
+    "disease": "Ectopic Pregnancy",
+    "epidemiology": "Occurs in 1-2% of all pregnancies. Most commonly in the fallopian tube.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Amenorrhea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Unilateral pelvic/abdominal pain",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Vaginal bleeding",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Shoulder tip pain (if ruptured)",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Syncope/shock",
+          "order": 5,
+          "frequency": "rare",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Rupture",
+        "Hemoperitoneum",
+        "Infertility"
+      ],
+      "emergency_markers": [
+        "Hemodynamic instability",
+        "Peritonitis"
+      ]
+    },
+    "risk_factors": [
+      "Previous ectopic pregnancy",
+      "Tubal surgery",
+      "PID",
+      "IUD use",
+      "Smoking"
+    ],
+    "differentials": [
+      "Threatened miscarriage",
+      "Ovarian torsion",
+      "Appendicitis"
+    ],
+    "investigations": {
+      "important": [
+        "Transvaginal ultrasound",
+        "Serial \u03b2-hCG"
+      ],
+      "additional": [
+        "Hemoglobin level",
+        "Serum progesterone"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Stabilize vitals",
+        "Analgesia"
+      ],
+      "definitive": [
+        "Methotrexate (if stable)",
+        "Laparoscopic salpingectomy/salpingostomy (if ruptured or unstable)"
+      ]
+    },
+    "treatment_protocol": "Hemodynamically stable: Methotrexate \u2192 Unstable or large mass: Surgery"
+  },
+  {
+    "disease": "Pre-eclampsia",
+    "epidemiology": "Occurs in 5\u20138% of pregnancies. More common in first pregnancies and extremes of maternal age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypertension after 20 weeks gestation",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Headache",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Visual disturbances",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Epigastric pain",
+          "order": 5,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Eclampsia",
+        "HELLP syndrome",
+        "Placental abruption"
+      ],
+      "emergency_markers": [
+        "BP \u2265160/110",
+        "Seizures"
+      ]
+    },
+    "risk_factors": [
+      "First pregnancy",
+      "Multiple gestation",
+      "Chronic hypertension",
+      "Obesity"
+    ],
+    "differentials": [
+      "Chronic hypertension",
+      "HELLP syndrome",
+      "Acute fatty liver of pregnancy"
+    ],
+    "investigations": {
+      "important": [
+        "BP measurement",
+        "Urinalysis for protein",
+        "LFTs",
+        "Platelet count"
+      ],
+      "additional": [
+        "Uric acid",
+        "Ultrasound for fetal growth"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Close monitoring",
+        "Fetal surveillance"
+      ],
+      "definitive": [
+        "Antihypertensives",
+        "Magnesium sulfate for seizure prophylaxis",
+        "Delivery if severe"
+      ]
+    },
+    "treatment_protocol": "Mild: monitor \u2192 Severe: MgSO\u2084 + delivery at \u226537 weeks"
+  },
+  {
+    "disease": "Gestational Diabetes Mellitus",
+    "epidemiology": "Affects 2\u201310% of pregnancies. Usually resolves postpartum but increases lifetime risk of type 2 diabetes.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Often asymptomatic",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Polyuria and polydipsia",
+          "order": 2,
+          "frequency": "occasional",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Recurrent UTIs",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Macrosomia",
+        "Neonatal hypoglycemia",
+        "Shoulder dystocia"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Obesity",
+      "Family history",
+      "Previous macrosomic baby",
+      "PCOS"
+    ],
+    "differentials": [
+      "Pre-existing diabetes",
+      "Diabetes insipidus"
+    ],
+    "investigations": {
+      "important": [
+        "Oral glucose tolerance test (OGTT)"
+      ],
+      "additional": [
+        "HbA1c",
+        "Urinalysis"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Dietary modification",
+        "Exercise"
+      ],
+      "definitive": [
+        "Insulin therapy",
+        "Metformin (in select cases)"
+      ]
+    },
+    "treatment_protocol": "Lifestyle \u2192 Add insulin if glycemic targets unmet"
+  },
+  {
+    "disease": "Placenta Previa",
+    "epidemiology": "Occurs in 0.5% of pregnancies. More common with previous cesarean section or uterine surgery.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Painless vaginal bleeding in 2nd or 3rd trimester",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Malpresentation",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Preterm labor",
+        "Postpartum hemorrhage",
+        "Placenta accreta"
+      ],
+      "emergency_markers": [
+        "Heavy vaginal bleeding"
+      ]
+    },
+    "risk_factors": [
+      "Previous cesarean",
+      "Multiparity",
+      "Smoking",
+      "Multiple pregnancy"
+    ],
+    "differentials": [
+      "Placental abruption",
+      "Cervical polyp",
+      "Vasa previa"
+    ],
+    "investigations": {
+      "important": [
+        "Transvaginal ultrasound"
+      ],
+      "additional": [
+        "CBC",
+        "Crossmatch",
+        "Fetal monitoring"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Hospitalization if bleeding",
+        "Fetal monitoring"
+      ],
+      "definitive": [
+        "Cesarean delivery"
+      ]
+    },
+    "treatment_protocol": "Monitor \u2192 Schedule C-section at ~36\u201337 weeks"
+  },
+  {
+    "disease": "Polycystic Ovary Syndrome (PCOS)",
+    "epidemiology": "Affects 6\u201310% of reproductive-aged women. Most common endocrine disorder in this group.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Oligomenorrhea or amenorrhea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hirsutism",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Acne",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Infertility",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Endometrial hyperplasia",
+        "Type 2 diabetes",
+        "Cardiovascular risk"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history",
+      "Obesity",
+      "Insulin resistance"
+    ],
+    "differentials": [
+      "Hypothyroidism",
+      "Hyperprolactinemia",
+      "Late-onset CAH"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic ultrasound",
+        "Serum LH/FSH ratio",
+        "Testosterone"
+      ],
+      "additional": [
+        "Glucose tolerance test",
+        "Lipid profile"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Weight loss",
+        "Exercise"
+      ],
+      "definitive": [
+        "OCPs for menstrual regularity",
+        "Clomiphene for ovulation induction"
+      ]
+    },
+    "treatment_protocol": "Lifestyle \u2192 OCPs for symptoms \u2192 Fertility treatment if desired"
+  },
+  {
+    "disease": "Postpartum Hemorrhage (PPH)",
+    "epidemiology": "Affects ~5% of deliveries. Leading cause of maternal mortality worldwide.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Excessive vaginal bleeding after delivery",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Pallor",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Tachycardia/hypotension",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Hypovolemic shock",
+        "Sheehan\u2019s syndrome",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Blood loss >500 mL (vaginal) or >1000 mL (cesarean)"
+      ]
+    },
+    "risk_factors": [
+      "Uterine atony",
+      "Prolonged labor",
+      "Multiple pregnancy",
+      "Retained placenta"
+    ],
+    "differentials": [
+      "Cervical laceration",
+      "Uterine rupture",
+      "Coagulopathy"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical evaluation",
+        "CBC",
+        "Coagulation profile"
+      ],
+      "additional": [
+        "Ultrasound for retained products"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Oxygen"
+      ],
+      "definitive": [
+        "Uterotonics (oxytocin, misoprostol)",
+        "Bimanual massage",
+        "Surgery if refractory"
+      ]
+    },
+    "treatment_protocol": "IV fluids + uterotonics \u2192 Massage \u2192 Surgery if unresponsive"
+  },
+  {
+    "disease": "Ovarian Torsion",
+    "epidemiology": "Accounts for 3% of gynecologic emergencies. Most common in reproductive-age women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden onset unilateral lower abdominal pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Nausea and vomiting",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever (late sign)",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Ovarian necrosis",
+        "Infertility",
+        "Peritonitis"
+      ],
+      "emergency_markers": [
+        "Acute severe abdominal pain"
+      ]
+    },
+    "risk_factors": [
+      "Ovarian cysts/masses",
+      "Pregnancy",
+      "Reproductive age"
+    ],
+    "differentials": [
+      "Appendicitis",
+      "Ectopic pregnancy",
+      "Pelvic inflammatory disease"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic ultrasound with Doppler"
+      ],
+      "additional": [
+        "CBC",
+        "Pregnancy test"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Pain control",
+        "IV fluids"
+      ],
+      "definitive": [
+        "Laparoscopy for detorsion",
+        "Oophorectomy if nonviable"
+      ]
+    },
+    "treatment_protocol": "Surgical emergency \u2192 Prompt laparoscopy"
+  },
+  {
+    "disease": "Endometriosis",
+    "epidemiology": "Affects 6\u201310% of reproductive-aged women. Common cause of chronic pelvic pain and infertility.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dysmenorrhea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Chronic pelvic pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dyspareunia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Infertility",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Adhesions",
+        "Ovarian cysts",
+        "Infertility"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history",
+      "Early menarche",
+      "Short menstrual cycles"
+    ],
+    "differentials": [
+      "PID",
+      "IBS",
+      "Ovarian cysts"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic ultrasound",
+        "Diagnostic laparoscopy"
+      ],
+      "additional": [
+        "CA-125 (non-specific marker)"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Hormonal suppression"
+      ],
+      "definitive": [
+        "Laparoscopic excision",
+        "Hysterectomy in refractory cases"
+      ]
+    },
+    "treatment_protocol": "Medical management \u2192 Surgery if refractory or infertility"
+  },
+  {
+    "disease": "Pelvic Inflammatory Disease (PID)",
+    "epidemiology": "Common complication of STIs in women. Affects ~1 million annually in the U.S.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Lower abdominal pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abnormal vaginal discharge",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fever",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dyspareunia",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Cervical motion tenderness",
+          "order": 5,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Infertility",
+        "Ectopic pregnancy",
+        "Tubo-ovarian abscess"
+      ],
+      "emergency_markers": [
+        "Sepsis",
+        "Severe pelvic pain"
+      ]
+    },
+    "risk_factors": [
+      "Multiple sexual partners",
+      "Unprotected sex",
+      "Previous PID"
+    ],
+    "differentials": [
+      "Appendicitis",
+      "UTI",
+      "Ovarian torsion"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic exam",
+        "NAAT for chlamydia/gonorrhea",
+        "Ultrasound"
+      ],
+      "additional": [
+        "WBC count",
+        "CRP"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Pain management",
+        "Partner treatment"
+      ],
+      "definitive": [
+        "Antibiotics (ceftriaxone + doxycycline + metronidazole)"
+      ]
+    },
+    "treatment_protocol": "Empiric antibiotics \u2192 Reassess \u2192 Admit if no improvement"
+  },
+  {
+    "disease": "Fibroids (Leiomyoma)",
+    "epidemiology": "Most common pelvic tumor in women. Affects 20\u201340% of reproductive-aged women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Menorrhagia",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pelvic pressure",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Urinary frequency",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Infertility",
+          "order": 4,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Anemia",
+        "Pregnancy complications",
+        "Urinary obstruction"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "African descent",
+      "Early menarche",
+      "Nulliparity",
+      "Obesity"
+    ],
+    "differentials": [
+      "Adenomyosis",
+      "Endometrial cancer",
+      "Ovarian mass"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic ultrasound"
+      ],
+      "additional": [
+        "MRI (for mapping)",
+        "CBC (for anemia)"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Iron supplements",
+        "NSAIDs"
+      ],
+      "definitive": [
+        "Myomectomy",
+        "Hysterectomy",
+        "GnRH analogues"
+      ]
+    },
+    "treatment_protocol": "Symptomatic \u2192 Medical or surgical depending on fertility plans"
+  },
+  {
+    "disease": "Ovarian Cyst (Functional)",
+    "epidemiology": "Common in reproductive-age women. Often asymptomatic and resolve spontaneously.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Pelvic pain (mid-cycle)",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Menstrual irregularities",
+          "order": 2,
+          "frequency": "occasional",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Sudden severe pain (if ruptured)",
+          "order": 3,
+          "frequency": "rare",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Rupture",
+        "Hemorrhage",
+        "Torsion"
+      ],
+      "emergency_markers": [
+        "Acute abdomen (rupture/torsion)"
+      ]
+    },
+    "risk_factors": [
+      "Ovulatory cycles",
+      "Young reproductive age"
+    ],
+    "differentials": [
+      "Ectopic pregnancy",
+      "Endometrioma",
+      "Ovarian cancer"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic ultrasound"
+      ],
+      "additional": [
+        "\u03b2-hCG",
+        "Tumor markers (if suspicious)"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Observation",
+        "Pain relief"
+      ],
+      "definitive": [
+        "Surgical removal if large or persistent"
+      ]
+    },
+    "treatment_protocol": "Observe \u2192 Surgery if symptomatic or complex"
+  },
+  {
+    "disease": "Threatened Miscarriage",
+    "epidemiology": "Occurs in up to 20% of all recognized pregnancies in the first trimester.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Vaginal bleeding in early pregnancy",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Mild lower abdominal pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Closed cervical os",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Progression to inevitable miscarriage",
+        "Anxiety",
+        "Emotional distress"
+      ],
+      "emergency_markers": [
+        "Heavy bleeding",
+        "Hemodynamic instability"
+      ]
+    },
+    "risk_factors": [
+      "Advanced maternal age",
+      "Smoking",
+      "History of miscarriage"
+    ],
+    "differentials": [
+      "Ectopic pregnancy",
+      "Molar pregnancy",
+      "Subchorionic hemorrhage"
+    ],
+    "investigations": {
+      "important": [
+        "Ultrasound",
+        "Serum \u03b2-hCG"
+      ],
+      "additional": [
+        "CBC",
+        "Blood type and Rh status"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Reassurance",
+        "Rest",
+        "Progesterone (if indicated)"
+      ],
+      "definitive": [
+        "Observation"
+      ]
+    },
+    "treatment_protocol": "Confirm viability \u2192 Expectant management with monitoring"
+  },
+  {
+    "disease": "Inevitable Miscarriage",
+    "epidemiology": "Occurs in 10\u201315% of early pregnancies. Often follows a threatened miscarriage.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Heavy vaginal bleeding",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cramping lower abdominal pain",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Open cervical os",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Infection",
+        "Hemorrhage",
+        "Emotional trauma"
+      ],
+      "emergency_markers": [
+        "Heavy bleeding",
+        "Signs of shock"
+      ]
+    },
+    "risk_factors": [
+      "Chromosomal abnormalities",
+      "Infections",
+      "Trauma"
+    ],
+    "differentials": [
+      "Complete miscarriage",
+      "Septic abortion"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic ultrasound",
+        "\u03b2-hCG"
+      ],
+      "additional": [
+        "CBC",
+        "Blood group and Rh"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Pain control"
+      ],
+      "definitive": [
+        "Manual vacuum aspiration",
+        "Medical evacuation (misoprostol)"
+      ]
+    },
+    "treatment_protocol": "Stabilize \u2192 Evacuation of retained products"
+  },
+  {
+    "disease": "Complete Miscarriage",
+    "epidemiology": "Occurs after passage of all products of conception. Often follows an inevitable miscarriage.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "History of bleeding and cramping",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Subsequent cessation of pain and bleeding",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Closed cervical os",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Emotional trauma",
+        "Incomplete evacuation"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Same as for threatened miscarriage"
+    ],
+    "differentials": [
+      "Incomplete miscarriage",
+      "Retained products"
+    ],
+    "investigations": {
+      "important": [
+        "Ultrasound to confirm empty uterus"
+      ],
+      "additional": [
+        "CBC"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Reassurance",
+        "Monitor for bleeding"
+      ],
+      "definitive": [
+        "No intervention if stable"
+      ]
+    },
+    "treatment_protocol": "Confirm complete \u2192 Monitor for complications"
+  },
+  {
+    "disease": "Incomplete Miscarriage",
+    "epidemiology": "Occurs in 2\u20135% of pregnancies. Products of conception remain in the uterus.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Heavy vaginal bleeding",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Lower abdominal pain",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Open cervix",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Infection",
+        "Hemorrhage",
+        "Septic abortion"
+      ],
+      "emergency_markers": [
+        "Unstable vitals",
+        "Signs of infection"
+      ]
+    },
+    "risk_factors": [
+      "Previous miscarriage",
+      "Infection",
+      "Trauma"
+    ],
+    "differentials": [
+      "Complete miscarriage",
+      "Threatened miscarriage"
+    ],
+    "investigations": {
+      "important": [
+        "Ultrasound",
+        "\u03b2-hCG"
+      ],
+      "additional": [
+        "CBC",
+        "Blood group and Rh"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Antibiotics if febrile"
+      ],
+      "definitive": [
+        "Evacuation of retained products (manual or medical)"
+      ]
+    },
+    "treatment_protocol": "Stabilize \u2192 Evacuate"
+  },
+  {
+    "disease": "Missed Miscarriage",
+    "epidemiology": "Often asymptomatic. Diagnosed incidentally during routine ultrasound.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "No fetal heart activity",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "No symptoms or mild spotting",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Cervix closed",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Emotional trauma",
+        "Coagulopathy if prolonged"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Chromosomal abnormalities",
+      "Poor placental development"
+    ],
+    "differentials": [
+      "Viable early pregnancy",
+      "Blighted ovum"
+    ],
+    "investigations": {
+      "important": [
+        "Ultrasound",
+        "Serial \u03b2-hCG"
+      ],
+      "additional": [
+        "CBC"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Counseling",
+        "Observation"
+      ],
+      "definitive": [
+        "Medical evacuation (misoprostol)",
+        "Surgical evacuation"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Medical or surgical evacuation"
+  },
+  {
+    "disease": "Gestational Diabetes Mellitus (GDM)",
+    "epidemiology": "Affects about 6-9% of pregnancies. More common in obese women and those with family history of diabetes.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Often asymptomatic",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Polyuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Macrosomia",
+        "Shoulder dystocia",
+        "Neonatal hypoglycemia"
+      ],
+      "emergency_markers": [
+        "Fetal distress",
+        "Uncontrolled hyperglycemia"
+      ]
+    },
+    "risk_factors": [
+      "Obesity",
+      "Previous GDM",
+      "Family history of diabetes",
+      "Advanced maternal age"
+    ],
+    "differentials": [
+      "Type 2 diabetes",
+      "Pregnancy-induced hypertension"
+    ],
+    "investigations": {
+      "important": [
+        "Oral glucose tolerance test (OGTT)"
+      ],
+      "additional": [
+        "HbA1c",
+        "Urine glucose"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Dietary modification",
+        "Exercise"
+      ],
+      "definitive": [
+        "Insulin therapy",
+        "Oral hypoglycemics if needed"
+      ]
+    },
+    "treatment_protocol": "Screen at 24\u201328 weeks \u2192 Monitor glucose \u2192 Treat based on severity"
+  },
+  {
+    "disease": "Pre-eclampsia",
+    "epidemiology": "Affects 5-10% of pregnancies. More common in first-time pregnancies and multiple gestations.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypertension after 20 weeks",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Headache",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Visual disturbances",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Epigastric pain",
+          "order": 5,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Eclampsia",
+        "HELLP syndrome",
+        "Fetal growth restriction"
+      ],
+      "emergency_markers": [
+        "Severe hypertension",
+        "Seizures"
+      ]
+    },
+    "risk_factors": [
+      "Nulliparity",
+      "History of pre-eclampsia",
+      "Obesity",
+      "Diabetes"
+    ],
+    "differentials": [
+      "Chronic hypertension",
+      "Renal disease",
+      "HELLP syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "BP monitoring",
+        "Urinalysis",
+        "LFTs",
+        "CBC"
+      ],
+      "additional": [
+        "24-hour urine protein",
+        "Fetal ultrasound"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Antihypertensives",
+        "Seizure prophylaxis with magnesium sulfate"
+      ],
+      "definitive": [
+        "Delivery of fetus"
+      ]
+    },
+    "treatment_protocol": "Mild: Monitor \u2192 Severe: Admit, control BP, deliver at term"
+  },
+  {
+    "disease": "Eclampsia",
+    "epidemiology": "Occurs in 0.5\u20131% of pregnancies with pre-eclampsia. Leading cause of maternal death.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Seizures in a pregnant woman with pre-eclampsia",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Loss of consciousness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Severe headache",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Visual disturbances",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Maternal death",
+        "Stroke",
+        "Abruptio placentae"
+      ],
+      "emergency_markers": [
+        "Generalized tonic-clonic seizures",
+        "Severe hypertension"
+      ]
+    },
+    "risk_factors": [
+      "Pre-eclampsia",
+      "Lack of prenatal care"
+    ],
+    "differentials": [
+      "Epilepsy",
+      "Intracranial hemorrhage",
+      "Meningitis"
+    ],
+    "investigations": {
+      "important": [
+        "BP monitoring",
+        "CBC",
+        "LFTs",
+        "Urinalysis"
+      ],
+      "additional": [
+        "CT brain (if neurologic deficit)"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Airway protection",
+        "Antihypertensives"
+      ],
+      "definitive": [
+        "Magnesium sulfate",
+        "Emergency delivery"
+      ]
+    },
+    "treatment_protocol": "Stabilize mother \u2192 Seizure control \u2192 Expedite delivery"
+  },
+  {
+    "disease": "Placenta Previa",
+    "epidemiology": "Occurs in about 0.5% of pregnancies. Risk increases with previous C-sections and multiparity.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Painless vaginal bleeding in third trimester",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Soft, non-tender uterus",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Hemorrhage",
+        "Preterm birth",
+        "Placenta accreta"
+      ],
+      "emergency_markers": [
+        "Profuse vaginal bleeding"
+      ]
+    },
+    "risk_factors": [
+      "Previous placenta previa",
+      "C-section",
+      "Multiple pregnancies",
+      "Smoking"
+    ],
+    "differentials": [
+      "Placental abruption",
+      "Cervical polyp",
+      "Preterm labor"
+    ],
+    "investigations": {
+      "important": [
+        "Transvaginal ultrasound"
+      ],
+      "additional": [
+        "CBC",
+        "Coagulation profile"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Hospital admission",
+        "Monitor bleeding"
+      ],
+      "definitive": [
+        "C-section delivery"
+      ]
+    },
+    "treatment_protocol": "Stabilize \u2192 Plan C-section at 36\u201337 weeks"
+  },
+  {
+    "disease": "Abruptio Placentae",
+    "epidemiology": "Occurs in 1% of pregnancies. Associated with maternal hypertension and trauma.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Painful vaginal bleeding",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Uterine tenderness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Frequent uterine contractions",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fetal distress",
+          "order": 4,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "DIC",
+        "Hypovolemic shock",
+        "Fetal demise"
+      ],
+      "emergency_markers": [
+        "Hemodynamic instability",
+        "Severe pain"
+      ]
+    },
+    "risk_factors": [
+      "Hypertension",
+      "Trauma",
+      "Cocaine use",
+      "Smoking"
+    ],
+    "differentials": [
+      "Placenta previa",
+      "Labor",
+      "Uterine rupture"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis",
+        "Ultrasound (limited sensitivity)"
+      ],
+      "additional": [
+        "CBC",
+        "Coagulation profile"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Monitor vitals",
+        "Fetal monitoring"
+      ],
+      "definitive": [
+        "Immediate delivery if unstable or fetal distress"
+      ]
+    },
+    "treatment_protocol": "Stabilize \u2192 Emergency delivery if necessary"
+  },
+  {
+    "disease": "Postpartum Hemorrhage (PPH)",
+    "epidemiology": "Occurs in about 3-5% of deliveries. Leading cause of maternal mortality globally.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Excessive vaginal bleeding after delivery",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Signs of shock (tachycardia, hypotension)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Uterine atony",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Hypovolemic shock",
+        "DIC",
+        "Maternal death"
+      ],
+      "emergency_markers": [
+        ">500 mL (vaginal) or >1000 mL (C-section) blood loss",
+        "Hemodynamic instability"
+      ]
+    },
+    "risk_factors": [
+      "Prolonged labor",
+      "Multiple gestation",
+      "Polyhydramnios",
+      "Uterine atony"
+    ],
+    "differentials": [
+      "Retained placenta",
+      "Uterine rupture",
+      "Cervical laceration"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis",
+        "CBC",
+        "Coagulation profile"
+      ],
+      "additional": [
+        "Ultrasound (to check for retained products)"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Blood transfusion"
+      ],
+      "definitive": [
+        "Uterotonics (oxytocin, misoprostol)",
+        "Uterine massage",
+        "Surgical intervention"
+      ]
+    },
+    "treatment_protocol": "Assess and stabilize \u2192 Identify cause \u2192 Treat accordingly"
+  },
+  {
+    "disease": "Endometritis",
+    "epidemiology": "Common postpartum infection, especially after C-section. Incidence is about 1\u20133% in vaginal deliveries and up to 27% after cesarean.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever postpartum",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Lower abdominal pain",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Foul-smelling lochia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Uterine tenderness",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Sepsis",
+        "Infertility",
+        "Pelvic abscess"
+      ],
+      "emergency_markers": [
+        "High-grade fever",
+        "Signs of sepsis"
+      ]
+    },
+    "risk_factors": [
+      "C-section",
+      "Prolonged rupture of membranes",
+      "Multiple vaginal exams"
+    ],
+    "differentials": [
+      "UTI",
+      "Pelvic abscess",
+      "Wound infection"
+    ],
+    "investigations": {
+      "important": [
+        "CBC",
+        "Blood cultures",
+        "Endometrial cultures"
+      ],
+      "additional": [
+        "Pelvic ultrasound"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Analgesia"
+      ],
+      "definitive": [
+        "IV broad-spectrum antibiotics"
+      ]
+    },
+    "treatment_protocol": "Empiric IV antibiotics \u2192 Adjust based on culture"
+  },
+  {
+    "disease": "Ovarian Hyperstimulation Syndrome (OHSS)",
+    "epidemiology": "Occurs in 1\u20135% of women undergoing assisted reproductive technology, especially with hCG use.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Abdominal bloating",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Ascites",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nausea/vomiting",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Ovarian enlargement",
+          "order": 5,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Thromboembolism",
+        "Renal failure",
+        "Pleural effusion"
+      ],
+      "emergency_markers": [
+        "Severe ascites",
+        "Oliguria",
+        "Respiratory distress"
+      ]
+    },
+    "risk_factors": [
+      "Polycystic ovary syndrome",
+      "Young age",
+      "High estradiol levels"
+    ],
+    "differentials": [
+      "Ruptured ovarian cyst",
+      "Ectopic pregnancy",
+      "Appendicitis"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic ultrasound",
+        "CBC",
+        "Electrolytes"
+      ],
+      "additional": [
+        "Chest X-ray (if dyspnea)",
+        "Serum creatinine"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Fluid and electrolyte management",
+        "Thromboprophylaxis"
+      ],
+      "definitive": [
+        "Paracentesis",
+        "Hospitalization for severe cases"
+      ]
+    },
+    "treatment_protocol": "Classify severity \u2192 Supportive care \u2192 Admit if severe"
+  },
+  {
+    "disease": "Polycystic Ovary Syndrome (PCOS)",
+    "epidemiology": "Affects 5\u201310% of women of reproductive age. Common cause of infertility.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Irregular menstruation",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hirsutism",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Acne",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Weight gain",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Subfertility",
+          "order": 5,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Infertility",
+        "Type 2 diabetes",
+        "Endometrial hyperplasia"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history",
+      "Obesity",
+      "Insulin resistance"
+    ],
+    "differentials": [
+      "Cushing's syndrome",
+      "Hypothyroidism",
+      "Adrenal hyperplasia"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic ultrasound",
+        "LH/FSH ratio",
+        "Serum androgens"
+      ],
+      "additional": [
+        "Fasting glucose",
+        "Lipid profile"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Weight loss",
+        "Diet and exercise"
+      ],
+      "definitive": [
+        "OCPs",
+        "Metformin",
+        "Ovulation induction (clomiphene)"
+      ]
+    },
+    "treatment_protocol": "Lifestyle \u2192 Hormonal therapy \u2192 Ovulation induction"
+  },
+  {
+    "disease": "Ovarian Torsion",
+    "epidemiology": "Accounts for 3% of gynecologic emergencies. Most common in reproductive-age women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden onset unilateral lower abdominal pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Nausea and vomiting",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Adnexal tenderness",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Ovarian necrosis",
+        "Infertility",
+        "Peritonitis"
+      ],
+      "emergency_markers": [
+        "Severe pain",
+        "Peritoneal signs"
+      ]
+    },
+    "risk_factors": [
+      "Ovarian cysts",
+      "Hyperstimulation",
+      "Pregnancy"
+    ],
+    "differentials": [
+      "Appendicitis",
+      "Ectopic pregnancy",
+      "Ruptured cyst"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic ultrasound with Doppler"
+      ],
+      "additional": [
+        "CBC",
+        "Urinalysis",
+        "\u03b2-hCG"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Pain management"
+      ],
+      "definitive": [
+        "Emergency laparoscopic detorsion",
+        "Oophorectomy if necrotic"
+      ]
+    },
+    "treatment_protocol": "Urgent surgery to preserve ovarian function"
+  },
+  {
+    "disease": "Hydatidiform Mole (Molar Pregnancy)",
+    "epidemiology": "Occurs in about 1 in 1000 pregnancies. More common in extremes of reproductive age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Vaginal bleeding in early pregnancy",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Excessive nausea/vomiting (hyperemesis)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Uterus larger than dates",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Passage of vesicular tissue",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Persistent trophoblastic disease",
+        "Choriocarcinoma",
+        "Uterine rupture"
+      ],
+      "emergency_markers": [
+        "Profuse bleeding",
+        "High \u03b2-hCG with no fetal parts"
+      ]
+    },
+    "risk_factors": [
+      "Extremes of age",
+      "Previous molar pregnancy",
+      "Nutritional deficiencies"
+    ],
+    "differentials": [
+      "Missed abortion",
+      "Ectopic pregnancy",
+      "Multiple gestation"
+    ],
+    "investigations": {
+      "important": [
+        "Transvaginal ultrasound",
+        "Serum \u03b2-hCG"
+      ],
+      "additional": [
+        "CXR (metastasis)",
+        "Pelvic exam"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Blood products if bleeding"
+      ],
+      "definitive": [
+        "Uterine evacuation by suction curettage",
+        "Methotrexate if malignant"
+      ]
+    },
+    "treatment_protocol": "Evacuation \u2192 Monitor \u03b2-hCG \u2192 Chemotherapy if persistent"
+  },
+  {
+    "disease": "Choriocarcinoma",
+    "epidemiology": "Rare malignant trophoblastic tumor. Can follow molar pregnancy, abortion, or normal delivery.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Irregular vaginal bleeding",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "High \u03b2-hCG levels",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hemoptysis or cough (lung metastasis)",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Neurologic symptoms (brain mets)",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Lung and brain metastasis",
+        "Hemorrhage",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Massive bleeding",
+        "Signs of metastasis"
+      ]
+    },
+    "risk_factors": [
+      "Previous molar pregnancy",
+      "Poor follow-up of molar pregnancy"
+    ],
+    "differentials": [
+      "Molar pregnancy",
+      "Cervical cancer",
+      "Miscarriage"
+    ],
+    "investigations": {
+      "important": [
+        "\u03b2-hCG",
+        "CXR",
+        "Pelvic ultrasound"
+      ],
+      "additional": [
+        "CT scan (brain, abdomen)",
+        "LFTs"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Stabilization",
+        "Monitoring"
+      ],
+      "definitive": [
+        "Methotrexate or actinomycin D",
+        "Combination chemotherapy"
+      ]
+    },
+    "treatment_protocol": "Stage disease \u2192 Start chemo \u2192 Monitor \u03b2-hCG"
+  },
+  {
+    "disease": "Cervical Incompetence",
+    "epidemiology": "Occurs in 1 in 100 pregnancies. Often detected in the second trimester.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Painless cervical dilatation",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Recurrent mid-trimester losses",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Pressure sensation",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Preterm birth",
+        "Second trimester miscarriage"
+      ],
+      "emergency_markers": [
+        "Bulging membranes in the absence of contractions"
+      ]
+    },
+    "risk_factors": [
+      "Previous cervical surgery",
+      "Congenital anomalies",
+      "Multiple D&Cs"
+    ],
+    "differentials": [
+      "Preterm labor",
+      "Placenta previa"
+    ],
+    "investigations": {
+      "important": [
+        "Transvaginal cervical length measurement"
+      ],
+      "additional": [
+        "Fetal fibronectin",
+        "Pelvic exam"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Modified bed rest"
+      ],
+      "definitive": [
+        "Cerclage (McDonald or Shirodkar)"
+      ]
+    },
+    "treatment_protocol": "Identify risk \u2192 Offer cerclage before 24 weeks"
+  },
+  {
+    "disease": "Vulvovaginal Candidiasis",
+    "epidemiology": "Affects 75% of women at least once. More frequent in pregnancy, diabetes, and antibiotic use.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Itching",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Thick white vaginal discharge",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dyspareunia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Erythema of vulva",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Recurrent infections"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Antibiotic use",
+      "Pregnancy",
+      "Diabetes",
+      "Immunosuppression"
+    ],
+    "differentials": [
+      "Bacterial vaginosis",
+      "Trichomoniasis",
+      "STIs"
+    ],
+    "investigations": {
+      "important": [
+        "Wet mount microscopy",
+        "KOH prep"
+      ],
+      "additional": [
+        "Culture in recurrent cases"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Avoid irritants",
+        "Hygiene education"
+      ],
+      "definitive": [
+        "Topical azoles",
+        "Oral fluconazole (except in pregnancy)"
+      ]
+    },
+    "treatment_protocol": "Single dose or 7-day topical regimen depending on severity"
+  },
+  {
+    "disease": "Asherman Syndrome",
+    "epidemiology": "Occurs mainly after uterine surgeries such as D&C. Common in women with amenorrhea after surgery.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Secondary amenorrhea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Infertility",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Recurrent miscarriage",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pelvic pain",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Infertility",
+        "Menstrual disturbances"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Post-abortion curettage",
+      "Tuberculosis of uterus"
+    ],
+    "differentials": [
+      "PCOS",
+      "Hypothalamic amenorrhea",
+      "Premature ovarian failure"
+    ],
+    "investigations": {
+      "important": [
+        "Hysteroscopy",
+        "Hysterosalpingogram"
+      ],
+      "additional": [
+        "Transvaginal ultrasound"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Hormonal therapy to prevent recurrence"
+      ],
+      "definitive": [
+        "Hysteroscopic adhesiolysis"
+      ]
+    },
+    "treatment_protocol": "Diagnose via hysteroscopy \u2192 Surgical lysis \u2192 Prevent recurrence"
+  },
+  {
+    "disease": "Uterine Fibroids (Leiomyoma)",
+    "epidemiology": "Affects up to 70% of women by age 50. More common in African descent and women in reproductive age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Heavy menstrual bleeding (menorrhagia)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pelvic pressure or pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Infertility or miscarriage",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Urinary frequency",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Anemia",
+        "Infertility",
+        "Pregnancy complications"
+      ],
+      "emergency_markers": [
+        "Acute pain from fibroid degeneration"
+      ]
+    },
+    "risk_factors": [
+      "African descent",
+      "Nulliparity",
+      "Obesity",
+      "Early menarche"
+    ],
+    "differentials": [
+      "Adenomyosis",
+      "Endometrial polyps",
+      "Ovarian masses"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic ultrasound",
+        "CBC"
+      ],
+      "additional": [
+        "MRI (for mapping)",
+        "Hysteroscopy"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Iron supplementation",
+        "NSAIDs"
+      ],
+      "definitive": [
+        "Myomectomy",
+        "Hysterectomy",
+        "GnRH analogs"
+      ]
+    },
+    "treatment_protocol": "Medical therapy \u2192 Conservative surgery \u2192 Hysterectomy if indicated"
+  },
+  {
+    "disease": "Adenomyosis",
+    "epidemiology": "Occurs in 20\u201335% of women, typically in those aged 35\u201350 years. Often coexists with fibroids or endometriosis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dysmenorrhea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Menorrhagia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Enlarged tender uterus",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Anemia",
+        "Infertility"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Multiparity",
+      "Previous uterine surgery"
+    ],
+    "differentials": [
+      "Fibroids",
+      "Endometriosis",
+      "Pelvic inflammatory disease"
+    ],
+    "investigations": {
+      "important": [
+        "Transvaginal ultrasound",
+        "MRI"
+      ],
+      "additional": [
+        "CBC",
+        "Endometrial biopsy (to exclude cancer)"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Iron supplements"
+      ],
+      "definitive": [
+        "Hormonal therapy",
+        "Hysterectomy"
+      ]
+    },
+    "treatment_protocol": "Trial medical therapy \u2192 Surgery if refractory"
+  },
+  {
+    "disease": "Premature Ovarian Failure (Primary Ovarian Insufficiency)",
+    "epidemiology": "Affects 1% of women under 40. Can be idiopathic or related to autoimmune or genetic causes.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Amenorrhea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hot flashes",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Infertility",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Vaginal dryness",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Infertility",
+        "Osteoporosis",
+        "Cardiovascular risks"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history",
+      "Autoimmune disease",
+      "Chemotherapy",
+      "Radiation"
+    ],
+    "differentials": [
+      "PCOS",
+      "Hypothalamic amenorrhea",
+      "Turner syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "FSH and LH levels",
+        "Estradiol",
+        "Karyotyping"
+      ],
+      "additional": [
+        "Autoimmune screen",
+        "DEXA scan"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Calcium and vitamin D",
+        "Emotional support"
+      ],
+      "definitive": [
+        "Hormone replacement therapy"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Start HRT \u2192 Monitor bone and cardiovascular health"
+  },
+  {
+    "disease": "Pelvic Inflammatory Disease (PID)",
+    "epidemiology": "Affects 1 million women annually in the US. Common in sexually active women <25 years.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Lower abdominal pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Purulent cervical discharge",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Cervical motion tenderness",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Tubo-ovarian abscess",
+        "Infertility",
+        "Ectopic pregnancy"
+      ],
+      "emergency_markers": [
+        "Severe pain",
+        "Toxic appearance",
+        "Abscess on imaging"
+      ]
+    },
+    "risk_factors": [
+      "Multiple sexual partners",
+      "Chlamydia",
+      "IUCD use"
+    ],
+    "differentials": [
+      "Ectopic pregnancy",
+      "Appendicitis",
+      "Endometriosis"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic exam",
+        "NAAT for gonorrhea/chlamydia",
+        "CBC"
+      ],
+      "additional": [
+        "Pelvic ultrasound",
+        "Urinalysis"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Pain control",
+        "Fluids"
+      ],
+      "definitive": [
+        "IV or oral antibiotics per CDC guidelines"
+      ]
+    },
+    "treatment_protocol": "Empiric antibiotics \u2192 Monitor \u2192 Admit if severe"
+  },
+  {
+    "disease": "Vaginal Prolapse",
+    "epidemiology": "Affects up to 50% of parous women. Risk increases with age and vaginal delivery.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Pelvic pressure",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Vaginal bulge sensation",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Urinary symptoms",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Sexual dysfunction",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Urinary retention",
+        "Recurrent UTIs",
+        "Ulceration"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Multiparity",
+      "Chronic constipation",
+      "Obesity",
+      "Menopause"
+    ],
+    "differentials": [
+      "Bladder cancer",
+      "Uterine fibroids"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic exam",
+        "POP-Q scoring"
+      ],
+      "additional": [
+        "Ultrasound",
+        "Urinalysis"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Pelvic floor exercises",
+        "Pessary"
+      ],
+      "definitive": [
+        "Surgical repair (anterior/posterior colporrhaphy)"
+      ]
+    },
+    "treatment_protocol": "Assess severity \u2192 Conservative or surgical treatment"
+  },
+  {
+    "disease": "Ovarian Hyperstimulation Syndrome (OHSS)",
+    "epidemiology": "Iatrogenic complication of ovulation induction. Occurs in 1-5% of women undergoing IVF.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Abdominal bloating",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nausea and vomiting",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Rapid weight gain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Shortness of breath",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Ascites",
+        "Thromboembolism",
+        "Renal failure"
+      ],
+      "emergency_markers": [
+        "Hemoconcentration",
+        "Respiratory distress",
+        "Oliguria"
+      ]
+    },
+    "risk_factors": [
+      "Polycystic ovarian syndrome",
+      "High estradiol levels",
+      "Young age"
+    ],
+    "differentials": [
+      "Ovarian torsion",
+      "Pelvic infection",
+      "Ectopic pregnancy"
+    ],
+    "investigations": {
+      "important": [
+        "CBC",
+        "Ultrasound",
+        "Electrolytes"
+      ],
+      "additional": [
+        "Liver function tests",
+        "Coagulation profile"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Electrolyte correction",
+        "Thromboprophylaxis"
+      ],
+      "definitive": [
+        "Paracentesis if needed",
+        "Hospitalization for severe cases"
+      ]
+    },
+    "treatment_protocol": "Monitor \u2192 Hydration \u2192 Hospitalize if severe"
+  },
+  {
+    "disease": "Sheehan Syndrome",
+    "epidemiology": "Postpartum hypopituitarism due to severe blood loss during delivery. Rare in developed countries.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Failure to lactate postpartum",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Amenorrhea",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cold intolerance",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Infertility",
+        "Adrenal insufficiency",
+        "Hypothyroidism"
+      ],
+      "emergency_markers": [
+        "Adrenal crisis"
+      ]
+    },
+    "risk_factors": [
+      "Massive postpartum hemorrhage",
+      "Hypotension",
+      "Twin pregnancy"
+    ],
+    "differentials": [
+      "Postpartum depression",
+      "Pituitary adenoma",
+      "Thyroid dysfunction"
+    ],
+    "investigations": {
+      "important": [
+        "Pituitary hormone panel",
+        "MRI brain"
+      ],
+      "additional": [
+        "Serum electrolytes",
+        "TSH and cortisol"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Hydrocortisone",
+        "Thyroxine replacement"
+      ],
+      "definitive": [
+        "Hormonal replacement therapy"
+      ]
+    },
+    "treatment_protocol": "Hormone replacement as per deficiencies"
+  },
+  {
+    "disease": "Ovarian Cyst Torsion",
+    "epidemiology": "Common gynecologic emergency, especially in reproductive-age women. Often involves cyst >5cm.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden onset lower abdominal pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Nausea and vomiting",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Adnexal tenderness",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Ovarian necrosis",
+        "Infertility",
+        "Peritonitis"
+      ],
+      "emergency_markers": [
+        "Acute severe pain",
+        "Peritoneal signs"
+      ]
+    },
+    "risk_factors": [
+      "Ovarian cysts >5cm",
+      "Pregnancy",
+      "Ovulation induction"
+    ],
+    "differentials": [
+      "Appendicitis",
+      "Ruptured cyst",
+      "Ectopic pregnancy"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic ultrasound with Doppler"
+      ],
+      "additional": [
+        "CBC",
+        "Pregnancy test"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Pain control"
+      ],
+      "definitive": [
+        "Surgical detorsion or oophorectomy"
+      ]
+    },
+    "treatment_protocol": "Emergency laparoscopy for detorsion"
+  },
+  {
+    "disease": "Cervical Dysplasia",
+    "epidemiology": "Common precancerous lesion detected via Pap smear. Linked to HPV 16 and 18.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymptomatic in most cases",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "none"
+        },
+        {
+          "symptom": "Postcoital bleeding (rare)",
+          "order": 2,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Progression to cervical cancer"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "HPV infection",
+      "Early sexual debut",
+      "Multiple partners",
+      "Smoking"
+    ],
+    "differentials": [
+      "Cervicitis",
+      "Cervical polyps"
+    ],
+    "investigations": {
+      "important": [
+        "Pap smear",
+        "HPV DNA testing"
+      ],
+      "additional": [
+        "Colposcopy",
+        "Biopsy"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Surveillance"
+      ],
+      "definitive": [
+        "LEEP",
+        "Cryotherapy",
+        "Cone biopsy"
+      ]
+    },
+    "treatment_protocol": "Screen \u2192 Biopsy \u2192 Ablation or excision depending on grade"
+  },
+  {
+    "disease": "Ovarian Cancer",
+    "epidemiology": "One of the leading causes of gynecologic cancer death. Peak incidence post-menopause.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Abdominal distension",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Early satiety",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pelvic pain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bloating",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Ascites",
+        "Metastasis",
+        "Bowel obstruction"
+      ],
+      "emergency_markers": [
+        "Acute abdomen",
+        "Bowel obstruction"
+      ]
+    },
+    "risk_factors": [
+      "BRCA mutation",
+      "Nulliparity",
+      "Early menarche/late menopause"
+    ],
+    "differentials": [
+      "Benign ovarian cyst",
+      "Gastrointestinal disorders"
+    ],
+    "investigations": {
+      "important": [
+        "Transvaginal ultrasound",
+        "CA-125"
+      ],
+      "additional": [
+        "CT abdomen/pelvis",
+        "Histopathology"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Nutritional support",
+        "Pain management"
+      ],
+      "definitive": [
+        "Surgical staging and debulking",
+        "Chemotherapy"
+      ]
+    },
+    "treatment_protocol": "Stage disease \u2192 Surgery \u2192 Adjuvant chemotherapy"
+  },
+  {
+    "disease": "Intrauterine Growth Restriction (IUGR)",
+    "epidemiology": "Affects 3\u20137% of pregnancies. Higher incidence in low-resource settings.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Small-for-gestational-age fetus on ultrasound",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Decreased fundal height",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Decreased fetal movements",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Stillbirth",
+        "Neonatal hypoglycemia",
+        "Neurodevelopmental delay"
+      ],
+      "emergency_markers": [
+        "Absent or reversed umbilical artery flow"
+      ]
+    },
+    "risk_factors": [
+      "Maternal hypertension",
+      "Smoking",
+      "Placental insufficiency",
+      "Malnutrition"
+    ],
+    "differentials": [
+      "Wrong dates",
+      "Fetal anomalies",
+      "Multiple gestation"
+    ],
+    "investigations": {
+      "important": [
+        "Ultrasound biometry",
+        "Doppler velocimetry",
+        "Non-stress test"
+      ],
+      "additional": [
+        "TORCH screening",
+        "Amniocentesis if indicated"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Nutritional support",
+        "Serial ultrasounds"
+      ],
+      "definitive": [
+        "Early delivery if deterioration or term reached"
+      ]
+    },
+    "treatment_protocol": "Monitor growth and Dopplers \u2192 Plan delivery accordingly"
+  },
+  {
+    "disease": "Gestational Diabetes Mellitus (GDM)",
+    "epidemiology": "Affects 2\u201310% of pregnancies globally. Risk increases with maternal age and BMI.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Often asymptomatic",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "none"
+        },
+        {
+          "symptom": "Polyhydramnios",
+          "order": 2,
+          "frequency": "less common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Macrosomia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Shoulder dystocia",
+        "Neonatal hypoglycemia",
+        "Preeclampsia",
+        "Stillbirth"
+      ],
+      "emergency_markers": [
+        "Marked hyperglycemia with fetal compromise"
+      ]
+    },
+    "risk_factors": [
+      "Obesity",
+      "Family history of diabetes",
+      "Previous macrosomia",
+      "PCOS"
+    ],
+    "differentials": [
+      "Type 1 diabetes",
+      "Type 2 diabetes"
+    ],
+    "investigations": {
+      "important": [
+        "OGTT",
+        "Fasting and postprandial glucose"
+      ],
+      "additional": [
+        "HbA1c",
+        "Ultrasound for fetal growth"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Diet and exercise",
+        "Glucose monitoring"
+      ],
+      "definitive": [
+        "Insulin therapy if uncontrolled"
+      ]
+    },
+    "treatment_protocol": "Screen \u2192 Diet/exercise \u2192 Start insulin if required"
+  },
+  {
+    "disease": "Postpartum Hemorrhage (PPH)",
+    "epidemiology": "Leading cause of maternal mortality worldwide. Defined as blood loss >500ml (vaginal) or >1000ml (C-section).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Heavy vaginal bleeding",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Hypotension",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Tachycardia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pallor and dizziness",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Shock",
+        "Coagulopathy",
+        "Sheehan syndrome",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Uncontrolled bleeding",
+        "Hypovolemic shock"
+      ]
+    },
+    "risk_factors": [
+      "Uterine atony",
+      "Multiple gestation",
+      "Prolonged labor",
+      "Retained placenta"
+    ],
+    "differentials": [
+      "Vaginal/cervical lacerations",
+      "Uterine rupture"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical assessment",
+        "CBC",
+        "Coagulation profile"
+      ],
+      "additional": [
+        "Ultrasound (retained products)"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Blood transfusion"
+      ],
+      "definitive": [
+        "Uterotonics",
+        "Uterine massage",
+        "Surgical intervention"
+      ]
+    },
+    "treatment_protocol": "A\u2192B\u2192C resuscitation \u2192 Uterotonics \u2192 Escalate to surgery"
+  },
+  {
+    "disease": "Chorioamnionitis",
+    "epidemiology": "Occurs in 1\u20132% of term deliveries and up to 25% of preterm births.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Foul-smelling amniotic fluid",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Maternal/fetal tachycardia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Uterine tenderness",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Neonatal sepsis",
+        "Preterm labor",
+        "Uterine atony"
+      ],
+      "emergency_markers": [
+        "Sepsis",
+        "Fetal distress"
+      ]
+    },
+    "risk_factors": [
+      "Prolonged rupture of membranes",
+      "Multiple vaginal exams",
+      "Bacterial vaginosis"
+    ],
+    "differentials": [
+      "Endometritis",
+      "Labor pyrexia",
+      "Pyelonephritis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis",
+        "CBC",
+        "Blood cultures"
+      ],
+      "additional": [
+        "Amniotic fluid Gram stain",
+        "CRP"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Fluids",
+        "Antipyretics"
+      ],
+      "definitive": [
+        "Broad-spectrum IV antibiotics",
+        "Prompt delivery"
+      ]
+    },
+    "treatment_protocol": "Antibiotics \u2192 Expedite delivery \u2192 Monitor neonate"
+  },
+  {
+    "disease": "Endometrial Hyperplasia",
+    "epidemiology": "Precursor to endometrial cancer. Common in postmenopausal women with unopposed estrogen exposure.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Abnormal uterine bleeding",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Postmenopausal bleeding",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Progression to endometrial carcinoma"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Obesity",
+      "PCOS",
+      "Tamoxifen use",
+      "Estrogen-only therapy"
+    ],
+    "differentials": [
+      "Endometrial cancer",
+      "Fibroids",
+      "Cervical polyps"
+    ],
+    "investigations": {
+      "important": [
+        "Transvaginal ultrasound",
+        "Endometrial biopsy"
+      ],
+      "additional": [
+        "Hysteroscopy"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Weight loss",
+        "Surveillance"
+      ],
+      "definitive": [
+        "Progestin therapy",
+        "Hysterectomy if atypia or persistent"
+      ]
+    },
+    "treatment_protocol": "Biopsy to confirm \u2192 Progestins or surgery depending on type"
+  },
+  {
+    "disease": "Preterm Labor",
+    "epidemiology": "Occurs in about 10% of all pregnancies. Leading cause of neonatal morbidity and mortality.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Regular uterine contractions before 37 weeks",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cervical dilatation and effacement",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pelvic pressure",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Preterm birth",
+        "Neonatal respiratory distress",
+        "Sepsis"
+      ],
+      "emergency_markers": [
+        "Cervical change with contractions before 37 weeks"
+      ]
+    },
+    "risk_factors": [
+      "Previous preterm birth",
+      "Multiple pregnancy",
+      "Infection",
+      "Short cervix"
+    ],
+    "differentials": [
+      "Braxton Hicks contractions",
+      "Urinary tract infection",
+      "Placental abruption"
+    ],
+    "investigations": {
+      "important": [
+        "Transvaginal cervical length",
+        "Fetal fibronectin test"
+      ],
+      "additional": [
+        "Urinalysis",
+        "Ultrasound"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Bed rest",
+        "Hydration"
+      ],
+      "definitive": [
+        "Tocolytics",
+        "Corticosteroids",
+        "Magnesium sulfate for neuroprotection"
+      ]
+    },
+    "treatment_protocol": "Identify \u2192 Delay labor if safe \u2192 Administer corticosteroids"
+  },
+  {
+    "disease": "Asherman Syndrome",
+    "epidemiology": "Rare; typically occurs after uterine surgeries like D&C. Associated with infertility and amenorrhea.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Secondary amenorrhea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Infertility",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypomenorrhea",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Infertility",
+        "Recurrent miscarriage"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Postpartum or post-abortion D&C",
+      "Infections like TB"
+    ],
+    "differentials": [
+      "Premature ovarian insufficiency",
+      "Hypothalamic amenorrhea"
+    ],
+    "investigations": {
+      "important": [
+        "Hysteroscopy",
+        "Sonohysterogram"
+      ],
+      "additional": [
+        "Pelvic ultrasound"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Estrogen therapy post-adhesiolysis"
+      ],
+      "definitive": [
+        "Surgical lysis of intrauterine adhesions"
+      ]
+    },
+    "treatment_protocol": "Hysteroscopic adhesiolysis \u2192 Hormonal therapy"
+  },
+  {
+    "disease": "Molar Pregnancy (Hydatidiform Mole)",
+    "epidemiology": "1 in 1000 pregnancies in developed countries; more common in Asia and low-resource areas.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Vaginal bleeding in first trimester",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Excessively high beta-hCG",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Uterine size greater than dates",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hyperemesis gravidarum",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Gestational trophoblastic neoplasia",
+        "Preeclampsia"
+      ],
+      "emergency_markers": [
+        "Heavy bleeding",
+        "Severe preeclampsia before 20 weeks"
+      ]
+    },
+    "risk_factors": [
+      "Extremes of maternal age",
+      "Previous molar pregnancy",
+      "Low dietary carotene"
+    ],
+    "differentials": [
+      "Threatened miscarriage",
+      "Ectopic pregnancy",
+      "Normal pregnancy"
+    ],
+    "investigations": {
+      "important": [
+        "Quantitative beta-hCG",
+        "Pelvic ultrasound"
+      ],
+      "additional": [
+        "Chest X-ray (metastases)",
+        "LFTs"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Monitor hCG levels post-evacuation"
+      ],
+      "definitive": [
+        "Suction curettage"
+      ]
+    },
+    "treatment_protocol": "Evacuation \u2192 Monitor hCG \u2192 Chemotherapy if persistent"
+  },
+  {
+    "disease": "Pelvic Inflammatory Disease (PID)",
+    "epidemiology": "Affects 1 million women per year in the US. Frequently caused by Chlamydia or Gonorrhea.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Lower abdominal pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Cervical motion tenderness",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Purulent vaginal discharge",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Tubo-ovarian abscess",
+        "Infertility",
+        "Ectopic pregnancy"
+      ],
+      "emergency_markers": [
+        "Sepsis",
+        "Pelvic abscess"
+      ]
+    },
+    "risk_factors": [
+      "Multiple sexual partners",
+      "Unprotected sex",
+      "History of STIs"
+    ],
+    "differentials": [
+      "Ectopic pregnancy",
+      "Appendicitis",
+      "UTI"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic exam",
+        "NAAT for STIs",
+        "Ultrasound"
+      ],
+      "additional": [
+        "CBC",
+        "CRP",
+        "Pregnancy test"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Analgesia",
+        "Hydration"
+      ],
+      "definitive": [
+        "Broad-spectrum antibiotics",
+        "Drain abscess if needed"
+      ]
+    },
+    "treatment_protocol": "Antibiotics (IM/IV then oral) \u2192 Reassess in 48\u201372 hours"
+  },
+  {
+    "disease": "Lichen Sclerosus",
+    "epidemiology": "Chronic inflammatory skin condition primarily affecting postmenopausal women. Prevalence is underreported.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Vulvar pruritus",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "White atrophic plaques",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dyspareunia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Vulvar burning",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Vulvar scarring",
+        "Increased risk of vulvar carcinoma"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Autoimmune conditions",
+      "Genetic predisposition"
+    ],
+    "differentials": [
+      "Lichen planus",
+      "Psoriasis",
+      "Vulvar cancer"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical exam",
+        "Skin biopsy"
+      ],
+      "additional": []
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Moisturizers",
+        "Avoid irritants"
+      ],
+      "definitive": [
+        "High-potency topical corticosteroids"
+      ]
+    },
+    "treatment_protocol": "Steroid ointment daily \u2192 Maintenance therapy"
+  },
+  {
+    "disease": "Ovarian Cyst",
+    "epidemiology": "Common in women of reproductive age; most are functional and benign.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Pelvic pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Menstrual irregularities",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Abdominal bloating",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Ovarian torsion",
+        "Rupture",
+        "Hemorrhage"
+      ],
+      "emergency_markers": [
+        "Severe acute pain suggesting torsion or rupture"
+      ]
+    },
+    "risk_factors": [
+      "Hormonal imbalance",
+      "Endometriosis",
+      "Pregnancy"
+    ],
+    "differentials": [
+      "Ectopic pregnancy",
+      "Endometrioma",
+      "Ovarian cancer"
+    ],
+    "investigations": {
+      "important": [
+        "Pelvic ultrasound",
+        "Serum CA-125 if suspicious"
+      ],
+      "additional": [
+        "MRI pelvis"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Observation"
+      ],
+      "definitive": [
+        "Surgical removal if persistent or suspicious"
+      ]
+    },
+    "treatment_protocol": "Monitor \u2192 Repeat imaging \u2192 Surgery if indicated"
+  },
+  {
+    "disease": "Adenomyosis",
+    "epidemiology": "Affects 20\u201330% of women in reproductive age. Often coexists with fibroids or endometriosis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Dysmenorrhea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Menorrhagia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pelvic pain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Anemia",
+        "Infertility"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Multiparity",
+      "Uterine surgery"
+    ],
+    "differentials": [
+      "Fibroids",
+      "Endometriosis",
+      "Endometrial hyperplasia"
+    ],
+    "investigations": {
+      "important": [
+        "MRI",
+        "Transvaginal ultrasound"
+      ],
+      "additional": [
+        "Endometrial biopsy to exclude cancer"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Hormonal therapy"
+      ],
+      "definitive": [
+        "Hysterectomy"
+      ]
+    },
+    "treatment_protocol": "Medical therapy \u2192 Hysterectomy if unresponsive"
+  },
+  {
+    "disease": "Cervical Cancer",
+    "epidemiology": "Fourth most common cancer in women worldwide. Strongly linked to persistent HPV infection.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Postcoital bleeding",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Foul vaginal discharge",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pelvic pain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Weight loss",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Obstructive uropathy",
+        "Fistula formation",
+        "Metastasis"
+      ],
+      "emergency_markers": [
+        "Hemorrhage",
+        "Obstructive renal failure"
+      ]
+    },
+    "risk_factors": [
+      "HPV 16 and 18",
+      "Multiple sexual partners",
+      "Smoking",
+      "Immunosuppression"
+    ],
+    "differentials": [
+      "Endometrial cancer",
+      "Cervicitis",
+      "Vaginal cancer"
+    ],
+    "investigations": {
+      "important": [
+        "Pap smear",
+        "Colposcopy and biopsy"
+      ],
+      "additional": [
+        "MRI/CT for staging"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Palliative care if advanced"
+      ],
+      "definitive": [
+        "Surgery or chemoradiation depending on stage"
+      ]
+    },
+    "treatment_protocol": "Staging \u2192 Radical hysterectomy or chemoradiation"
+  },
+  {
+    "disease": "Vaginal Candidiasis",
+    "epidemiology": "Affects 75% of women at least once in their life. Common in pregnancy, diabetes, antibiotic use.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Itching",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Thick white vaginal discharge",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Burning sensation",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Recurrent infections"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Pregnancy",
+      "Diabetes",
+      "Immunosuppression",
+      "Antibiotic use"
+    ],
+    "differentials": [
+      "Bacterial vaginosis",
+      "Trichomoniasis",
+      "Contact dermatitis"
+    ],
+    "investigations": {
+      "important": [
+        "Microscopy with KOH prep"
+      ],
+      "additional": [
+        "Culture if recurrent"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Probiotics"
+      ],
+      "definitive": [
+        "Topical azoles or oral fluconazole"
+      ]
+    },
+    "treatment_protocol": "Topical or oral antifungals \u2192 Maintenance for recurrent"
+  },
+  {
+    "disease": "Bartholin's Cyst",
+    "epidemiology": "Common in women of reproductive age. Occurs when duct becomes blocked, forming fluid-filled swelling.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Painless vulvar lump",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Tender swelling if infected",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dyspareunia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Abscess formation",
+        "Recurrence"
+      ],
+      "emergency_markers": [
+        "Severe pain and swelling suggesting abscess"
+      ]
+    },
+    "risk_factors": [
+      "Poor hygiene",
+      "Trauma",
+      "Infection"
+    ],
+    "differentials": [
+      "Sebaceous cyst",
+      "Inguinal hernia",
+      "Skene\u2019s gland cyst"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical exam"
+      ],
+      "additional": [
+        "Culture if infected",
+        "Biopsy if >40 years"
+      ]
+    },
+    "specialty": "Obstetrics and Gynaecology",
+    "treatment": {
+      "supportive": [
+        "Sitz baths",
+        "Analgesia"
+      ],
+      "definitive": [
+        "Incision and drainage",
+        "Marsupialization"
+      ]
+    },
+    "treatment_protocol": "Drain if symptomatic \u2192 Marsupialization if recurrent"
+  }
+]

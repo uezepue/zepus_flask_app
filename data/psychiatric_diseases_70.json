@@ -1,0 +1,1520 @@
+[
+  {
+    "disease": "Major Depressive Disorder (MDD)",
+    "system": "Psychiatry / Mood Disorders",
+    "epidemiology": "Affects ~5% globally. More common in females. Can begin in adolescence or adulthood.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Depressed mood",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Anhedonia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sleep disturbance",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Feelings of worthlessness",
+          "order": 5,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Suicidal ideation",
+          "order": 6,
+          "frequency": "occasional",
+          "severity": "severe"
+        }
+      ],
+      "by_system": {
+        "Mood": [
+          "Depressed mood",
+          "Anhedonia"
+        ],
+        "Neurovegetative": [
+          "Sleep disturbance",
+          "Fatigue",
+          "Appetite changes"
+        ],
+        "Cognition": [
+          "Worthlessness",
+          "Poor concentration"
+        ],
+        "Emergency": [
+          "Suicidal ideation"
+        ]
+      },
+      "complications": [
+        "Suicide",
+        "Substance use",
+        "Occupational dysfunction"
+      ],
+      "emergency_markers": [
+        "Suicidal ideation with plan",
+        "Psychotic features"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Chronic illness",
+      "Trauma"
+    ],
+    "differentials": [
+      "Bipolar disorder",
+      "Dysthymia",
+      "Hypothyroidism"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis (DSM-5 criteria)"
+      ],
+      "others": [
+        "TSH",
+        "CBC",
+        "Vitamin B12"
+      ]
+    },
+    "specialty": "Psychiatry",
+    "treatment": {
+      "supportive": [
+        "Psychoeducation",
+        "Lifestyle changes"
+      ],
+      "definitive": [
+        "SSRIs (e.g., sertraline)",
+        "CBT"
+      ],
+      "protocol": "Start SSRI; monitor 4-6 weeks; add CBT. Consider psychiatry referral if no response."
+    }
+  },
+  {
+    "disease": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+    "system": "Child/Adolescent Psychiatry / Neurodevelopmental",
+    "epidemiology": "Affects ~5% of school-aged children. More common in boys. Often persists into adulthood.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Inattention",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hyperactivity",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Impulsivity",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Academic difficulties",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Poor peer relationships",
+          "order": 5,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Cognitive": [
+          "Inattention",
+          "Forgetfulness"
+        ],
+        "Behavioral": [
+          "Hyperactivity",
+          "Impulsivity"
+        ],
+        "Social": [
+          "Peer conflict",
+          "Disruptive behaviors"
+        ]
+      },
+      "complications": [
+        "School failure",
+        "Low self-esteem",
+        "Conduct problems"
+      ],
+      "emergency_markers": [
+        "Aggression",
+        "Safety concerns"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Prematurity",
+      "Lead exposure"
+    ],
+    "differentials": [
+      "Anxiety disorder",
+      "Learning disability",
+      "Oppositional defiant disorder"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical history, teacher and parent rating scales"
+      ],
+      "others": [
+        "Hearing/vision testing",
+        "Neuropsychological testing"
+      ]
+    },
+    "specialty": "Paediatric Psychiatry / Developmental Paediatrics",
+    "treatment": {
+      "supportive": [
+        "Parental training",
+        "Classroom accommodations"
+      ],
+      "definitive": [
+        "Stimulants (e.g., methylphenidate)",
+        "Behavior therapy"
+      ],
+      "protocol": "Start with behavioral therapy if <6 yrs. Combine meds + behavior therapy for school-aged children."
+    }
+  },
+  {
+    "disease": "Schizophrenia",
+    "system": "Psychiatry / Psychotic Disorders",
+    "epidemiology": "Lifetime prevalence ~1%. Onset typically in late teens to early 30s. Slightly earlier in males.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Delusions",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Auditory hallucinations",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Disorganized speech",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Social withdrawal",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Flat affect",
+          "order": 5,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Positive symptoms": [
+          "Hallucinations",
+          "Delusions"
+        ],
+        "Negative symptoms": [
+          "Flat affect",
+          "Social withdrawal"
+        ],
+        "Cognitive": [
+          "Disorganized thought"
+        ]
+      },
+      "complications": [
+        "Suicide",
+        "Homelessness",
+        "Substance use"
+      ],
+      "emergency_markers": [
+        "Command hallucinations",
+        "Aggression",
+        "Self-harm"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Urban upbringing",
+      "Cannabis use"
+    ],
+    "differentials": [
+      "Schizoaffective disorder",
+      "Bipolar disorder",
+      "Drug-induced psychosis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical evaluation (DSM-5)"
+      ],
+      "others": [
+        "Urine drug screen",
+        "Brain imaging (to exclude organic causes)"
+      ]
+    },
+    "specialty": "Psychiatry",
+    "treatment": {
+      "supportive": [
+        "Psychoeducation",
+        "Social skills training"
+      ],
+      "definitive": [
+        "Antipsychotics (e.g., risperidone)"
+      ],
+      "protocol": "Start antipsychotic; monitor side effects. Consider depot if noncompliant. Add psychotherapy."
+    }
+  },
+  {
+    "disease": "Generalized Anxiety Disorder (GAD)",
+    "system": "Psychiatry / Anxiety Disorders",
+    "epidemiology": "Affects ~3-5% globally. More common in females. Often begins in adolescence or early adulthood.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Excessive worry",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Restlessness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Muscle tension",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Sleep disturbance",
+          "order": 5,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Psychological": [
+          "Worry",
+          "Irritability"
+        ],
+        "Physical": [
+          "Muscle tension",
+          "Sleep issues",
+          "Fatigue"
+        ]
+      },
+      "complications": [
+        "Substance use",
+        "Poor quality of life"
+      ],
+      "emergency_markers": [
+        "Panic attacks",
+        "Functional impairment"
+      ]
+    },
+    "risk_factors": [
+      "Genetics",
+      "Stress",
+      "Childhood trauma"
+    ],
+    "differentials": [
+      "Panic disorder",
+      "OCD",
+      "Hyperthyroidism"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis (DSM-5)"
+      ],
+      "others": [
+        "TSH",
+        "CBC",
+        "Rule out organic causes"
+      ]
+    },
+    "specialty": "Psychiatry / Primary Care",
+    "treatment": {
+      "supportive": [
+        "Relaxation training",
+        "Sleep hygiene"
+      ],
+      "definitive": [
+        "SSRIs (e.g., escitalopram)",
+        "CBT"
+      ],
+      "protocol": "Start SSRI + CBT. Titrate dose gradually. Follow up regularly."
+    }
+  },
+  {
+    "disease": "Autism Spectrum Disorder (ASD)",
+    "system": "Child Psychiatry / Neurodevelopmental",
+    "epidemiology": "Affects ~1 in 44 children. Male:female ~4:1. Usually presents by age 2-3.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Delayed speech",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Poor eye contact",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Repetitive behaviors",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Social withdrawal",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fixated interests",
+          "order": 5,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Communication": [
+          "Speech delay",
+          "Poor nonverbal cues"
+        ],
+        "Behavioral": [
+          "Stereotypies",
+          "Rigidity"
+        ],
+        "Social": [
+          "Lack of peer interest"
+        ]
+      },
+      "complications": [
+        "Intellectual disability",
+        "Behavioral issues",
+        "Speech delay"
+      ],
+      "emergency_markers": [
+        "Self-injurious behavior",
+        "Aggression"
+      ]
+    },
+    "risk_factors": [
+      "Male sex",
+      "Sibling with ASD",
+      "Advanced parental age"
+    ],
+    "differentials": [
+      "Language delay",
+      "Intellectual disability",
+      "Social anxiety"
+    ],
+    "investigations": {
+      "important": [
+        "Developmental assessment",
+        "ADOS",
+        "M-CHAT"
+      ],
+      "others": [
+        "Hearing test",
+        "Genetic testing if dysmorphic features"
+      ]
+    },
+    "specialty": "Child Psychiatry / Developmental Paediatrics",
+    "treatment": {
+      "supportive": [
+        "Speech and occupational therapy",
+        "Parent training"
+      ],
+      "definitive": [
+        "Applied Behavior Analysis (ABA)",
+        "Special education programs"
+      ],
+      "protocol": "Start early intervention ASAP. Create IEP. Monitor progress regularly."
+    }
+  },
+  {
+    "disease": "Obsessive-Compulsive Disorder (OCD)",
+    "system": "Psychiatry / Anxiety Disorders",
+    "epidemiology": "Lifetime prevalence ~2%. Onset typically in adolescence or early adulthood. Equal gender distribution.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Intrusive thoughts (obsessions)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Repetitive behaviors (compulsions)",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Anxiety if rituals not performed",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Functional impairment",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Psychological": [
+          "Obsessions",
+          "Compulsions",
+          "Anxiety"
+        ],
+        "Behavioral": [
+          "Rituals",
+          "Avoidance"
+        ]
+      },
+      "complications": [
+        "Impaired functioning",
+        "Depression"
+      ],
+      "emergency_markers": [
+        "Severe distress",
+        "Suicidal ideation"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Childhood trauma",
+      "PANDAS (pediatric autoimmune)"
+    ],
+    "differentials": [
+      "GAD",
+      "Autism",
+      "Psychotic disorders"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis (DSM-5)"
+      ],
+      "others": [
+        "Yale-Brown Obsessive Compulsive Scale (Y-BOCS)"
+      ]
+    },
+    "specialty": "Psychiatry",
+    "treatment": {
+      "supportive": [
+        "Psychoeducation",
+        "Family involvement"
+      ],
+      "definitive": [
+        "CBT with exposure and response prevention (ERP)",
+        "SSRIs"
+      ],
+      "protocol": "Start CBT + SSRI (fluoxetine or sertraline). Titrate dose and monitor response."
+    }
+  },
+  {
+    "disease": "Bipolar I Disorder",
+    "system": "Psychiatry / Mood Disorders",
+    "epidemiology": "Lifetime prevalence ~1%. Equal gender prevalence. Manic episode defines diagnosis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Elevated or irritable mood",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Increased energy or activity",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Decreased need for sleep",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Grandiosity",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Impulsivity",
+          "order": 5,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Mood": [
+          "Euphoria",
+          "Irritability"
+        ],
+        "Behavioral": [
+          "Risk-taking",
+          "Increased goal-directed activity"
+        ],
+        "Cognitive": [
+          "Flight of ideas",
+          "Distractibility"
+        ]
+      },
+      "complications": [
+        "Suicide",
+        "Legal/financial trouble",
+        "Psychosis"
+      ],
+      "emergency_markers": [
+        "Psychosis",
+        "Aggression",
+        "Suicidal behavior"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Sleep disruption",
+      "Substance use"
+    ],
+    "differentials": [
+      "Schizoaffective disorder",
+      "Substance-induced mania",
+      "ADHD"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical evaluation (DSM-5)"
+      ],
+      "others": [
+        "Thyroid function",
+        "Toxicology screen"
+      ]
+    },
+    "specialty": "Psychiatry",
+    "treatment": {
+      "supportive": [
+        "Sleep hygiene",
+        "Family psychoeducation"
+      ],
+      "definitive": [
+        "Mood stabilizers (e.g., lithium)",
+        "Atypical antipsychotics"
+      ],
+      "protocol": "Start mood stabilizer (lithium/valproate). Monitor mood and renal/thyroid function."
+    }
+  },
+  {
+    "disease": "Post-Traumatic Stress Disorder (PTSD)",
+    "system": "Psychiatry / Trauma-Related Disorders",
+    "epidemiology": "Prevalence ~8%. Common in combat veterans, abuse survivors. Can occur at any age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Re-experiencing (e.g., flashbacks)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Avoidance of reminders",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Negative mood and cognition",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hyperarousal (e.g., startle)",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Psychological": [
+          "Intrusions",
+          "Avoidance",
+          "Negative beliefs"
+        ],
+        "Behavioral": [
+          "Hypervigilance",
+          "Irritability"
+        ]
+      },
+      "complications": [
+        "Substance abuse",
+        "Depression",
+        "Suicidality"
+      ],
+      "emergency_markers": [
+        "Suicidal thoughts",
+        "Severe dissociation"
+      ]
+    },
+    "risk_factors": [
+      "Trauma history",
+      "Lack of social support",
+      "Pre-existing anxiety"
+    ],
+    "differentials": [
+      "GAD",
+      "Depression",
+      "Adjustment disorder"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical interview (DSM-5)"
+      ],
+      "others": [
+        "PCL-5 scale"
+      ]
+    },
+    "specialty": "Psychiatry",
+    "treatment": {
+      "supportive": [
+        "Supportive therapy",
+        "Sleep hygiene"
+      ],
+      "definitive": [
+        "Trauma-focused CBT",
+        "SSRIs (sertraline, paroxetine)"
+      ],
+      "protocol": "Start TF-CBT and SSRI. Monitor symptoms and safety. Avoid benzodiazepines long-term."
+    }
+  },
+  {
+    "disease": "Conduct Disorder",
+    "system": "Child Psychiatry / Behavioral Disorders",
+    "epidemiology": "Affects ~2-10% of children and adolescents. More common in boys. Associated with antisocial behavior in adulthood.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Aggression to people or animals",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Destruction of property",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Deceitfulness or theft",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Serious rule violations",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Behavioral": [
+          "Aggression",
+          "Theft",
+          "Defiance"
+        ],
+        "Social": [
+          "Poor school performance",
+          "Conflict with authority"
+        ]
+      },
+      "complications": [
+        "School expulsion",
+        "Substance abuse",
+        "Juvenile detention"
+      ],
+      "emergency_markers": [
+        "Violent behavior",
+        "Animal cruelty",
+        "Weapon use"
+      ]
+    },
+    "risk_factors": [
+      "Parental neglect",
+      "Abuse",
+      "Family conflict"
+    ],
+    "differentials": [
+      "Oppositional defiant disorder",
+      "ADHD",
+      "Mood disorders"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical evaluation",
+        "Behavioral observation"
+      ],
+      "others": [
+        "Rule out comorbid conditions"
+      ]
+    },
+    "specialty": "Child Psychiatry",
+    "treatment": {
+      "supportive": [
+        "Parental training",
+        "School intervention"
+      ],
+      "definitive": [
+        "CBT",
+        "Multisystemic therapy"
+      ],
+      "protocol": "Start behavioral therapy. Involve school and family. Medication only if comorbid condition."
+    }
+  },
+  {
+    "disease": "Separation Anxiety Disorder",
+    "system": "Child Psychiatry / Anxiety Disorders",
+    "epidemiology": "Common in children aged 7-9. More common in girls. Often triggered by major life changes.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Excessive distress when separated",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Worry about losing attachment figures",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Refusal to go to school",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nightmares about separation",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Psychological": [
+          "Worry",
+          "Fear of abandonment"
+        ],
+        "Behavioral": [
+          "School refusal",
+          "Clinginess"
+        ]
+      },
+      "complications": [
+        "School refusal",
+        "Social phobia",
+        "Depression"
+      ],
+      "emergency_markers": [
+        "Functional impairment",
+        "Suicidal thoughts in severe cases"
+      ]
+    },
+    "risk_factors": [
+      "Parental anxiety",
+      "Loss or illness in family",
+      "Overprotective parenting"
+    ],
+    "differentials": [
+      "Generalized anxiety",
+      "Social anxiety",
+      "School phobia"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical history",
+        "Parent/teacher reports"
+      ],
+      "others": [
+        "Rule out medical cause of school refusal"
+      ]
+    },
+    "specialty": "Child Psychiatry",
+    "treatment": {
+      "supportive": [
+        "Parental counseling",
+        "School coordination"
+      ],
+      "definitive": [
+        "CBT",
+        "SSRIs (if severe and persistent)"
+      ],
+      "protocol": "Begin CBT. Address school environment. Medication only if moderate-to-severe symptoms persist."
+    }
+  },
+  {
+    "disease": "Panic Disorder",
+    "system": "Psychiatry / Anxiety Disorders",
+    "epidemiology": "Affects ~2\u20133% of population. More common in females. Onset typically in late adolescence to early adulthood.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden intense fear",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Chest pain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Shortness of breath",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fear of losing control or dying",
+          "order": 5,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "by_system": {
+        "Autonomic": [
+          "Tachycardia",
+          "Sweating",
+          "Chest discomfort"
+        ],
+        "Respiratory": [
+          "Hyperventilation",
+          "Shortness of breath"
+        ],
+        "Psychological": [
+          "Fear of death",
+          "Imminent doom"
+        ]
+      },
+      "complications": [
+        "Agoraphobia",
+        "Depression",
+        "Avoidance behaviors"
+      ],
+      "emergency_markers": [
+        "Recurrent panic attacks",
+        "ER visits for chest pain"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Stressful life events",
+      "Substance use"
+    ],
+    "differentials": [
+      "Myocardial infarction",
+      "Hyperthyroidism",
+      "Social anxiety disorder"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis (DSM-5)"
+      ],
+      "others": [
+        "ECG",
+        "TSH",
+        "Electrolytes (to rule out mimics)"
+      ]
+    },
+    "specialty": "Psychiatry",
+    "treatment": {
+      "supportive": [
+        "Breathing exercises",
+        "Reassurance"
+      ],
+      "definitive": [
+        "CBT",
+        "SSRIs (e.g., paroxetine)"
+      ],
+      "protocol": "Start with CBT \u00b1 SSRI. Avoid benzodiazepines for long-term use. Educate patient."
+    }
+  },
+  {
+    "disease": "Oppositional Defiant Disorder (ODD)",
+    "system": "Child Psychiatry / Behavioral Disorders",
+    "epidemiology": "Prevalence ~3%. Onset in early childhood. More common in boys before puberty.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Angry/irritable mood",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Argumentative behavior",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Deliberate defiance",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Vindictiveness",
+          "order": 4,
+          "frequency": "occasional",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Behavioral": [
+          "Defiance",
+          "Temper outbursts"
+        ],
+        "Emotional": [
+          "Irritability",
+          "Resentment"
+        ]
+      },
+      "complications": [
+        "Conduct disorder",
+        "Poor academic performance"
+      ],
+      "emergency_markers": [
+        "Aggression toward authority",
+        "School expulsion"
+      ]
+    },
+    "risk_factors": [
+      "Parental conflict",
+      "Harsh discipline",
+      "ADHD"
+    ],
+    "differentials": [
+      "Conduct disorder",
+      "Mood disorders",
+      "Autism spectrum disorder"
+    ],
+    "investigations": {
+      "important": [
+        "Behavioral assessment"
+      ],
+      "others": [
+        "Teacher and parent reports"
+      ]
+    },
+    "specialty": "Child Psychiatry",
+    "treatment": {
+      "supportive": [
+        "Parent-child interaction therapy",
+        "Consistent discipline"
+      ],
+      "definitive": [
+        "Behavior therapy"
+      ],
+      "protocol": "Start behavior modification. Early intervention to prevent progression to conduct disorder."
+    }
+  },
+  {
+    "disease": "Anorexia Nervosa",
+    "system": "Psychiatry / Eating Disorders",
+    "epidemiology": "Affects ~0.5\u20131% of adolescent girls. Highest mortality rate of psychiatric illnesses.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Restriction of food intake",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Intense fear of gaining weight",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Distorted body image",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Amenorrhea",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Weight loss",
+          "order": 5,
+          "frequency": "very common",
+          "severity": "severe"
+        }
+      ],
+      "by_system": {
+        "Endocrine": [
+          "Amenorrhea",
+          "Bradycardia"
+        ],
+        "Psychological": [
+          "Body image distortion",
+          "Food preoccupation"
+        ]
+      },
+      "complications": [
+        "Electrolyte imbalance",
+        "Cardiac arrhythmias",
+        "Death"
+      ],
+      "emergency_markers": [
+        "BMI <15",
+        "Bradycardia <40 bpm",
+        "Electrolyte derangement"
+      ]
+    },
+    "risk_factors": [
+      "Female gender",
+      "Perfectionism",
+      "Media influence"
+    ],
+    "differentials": [
+      "Bulimia nervosa",
+      "Depression",
+      "GI disease"
+    ],
+    "investigations": {
+      "important": [
+        "BMI",
+        "Electrolytes",
+        "ECG"
+      ],
+      "others": [
+        "Thyroid panel",
+        "CBC",
+        "DEXA (if chronic)"
+      ]
+    },
+    "specialty": "Psychiatry / Adolescent Medicine",
+    "treatment": {
+      "supportive": [
+        "Nutritional support",
+        "Monitoring of vitals"
+      ],
+      "definitive": [
+        "CBT",
+        "Family-based therapy"
+      ],
+      "protocol": "Admit if unstable vitals. Begin psychotherapy. Involve nutritionist and family."
+    }
+  },
+  {
+    "disease": "Substance Use Disorder (Alcohol)",
+    "system": "Psychiatry / Addiction Medicine",
+    "epidemiology": "Lifetime prevalence ~13%. More common in males. Often comorbid with mood disorders.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Increased tolerance",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cravings",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Loss of control",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Withdrawal symptoms",
+          "order": 4,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Continued use despite harm",
+          "order": 5,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "by_system": {
+        "Behavioral": [
+          "Craving",
+          "Failed attempts to quit"
+        ],
+        "Physical": [
+          "Withdrawal signs",
+          "Liver damage"
+        ]
+      },
+      "complications": [
+        "Liver cirrhosis",
+        "Pancreatitis",
+        "Social/occupational failure"
+      ],
+      "emergency_markers": [
+        "Delirium tremens",
+        "Seizures",
+        "Alcohol poisoning"
+      ]
+    },
+    "risk_factors": [
+      "Genetic predisposition",
+      "Stress",
+      "Peer pressure"
+    ],
+    "differentials": [
+      "Bipolar disorder",
+      "GAD",
+      "Impulse control disorders"
+    ],
+    "investigations": {
+      "important": [
+        "AUDIT screening",
+        "LFTs",
+        "GGT"
+      ],
+      "others": [
+        "Blood alcohol level",
+        "MCV"
+      ]
+    },
+    "specialty": "Psychiatry / Addiction Medicine",
+    "treatment": {
+      "supportive": [
+        "Motivational interviewing",
+        "Support groups (AA)"
+      ],
+      "definitive": [
+        "CBT",
+        "Pharmacotherapy (naltrexone, acamprosate)"
+      ],
+      "protocol": "Assess withdrawal risk. Detox if needed. Begin rehab and relapse prevention plan."
+    }
+  },
+  {
+    "disease": "Delirium",
+    "system": "Psychiatry / Geriatric Medicine / Neurology",
+    "epidemiology": "Common in hospitalized elderly. Often reversible. Associated with high morbidity.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Acute onset confusion",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Fluctuating alertness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Disorganized thinking",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hallucinations (visual)",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sleep-wake cycle disruption",
+          "order": 5,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "by_system": {
+        "Cognitive": [
+          "Confusion",
+          "Inattention"
+        ],
+        "Behavioral": [
+          "Agitation",
+          "Hallucinations"
+        ]
+      },
+      "complications": [
+        "Falls",
+        "Functional decline",
+        "Increased mortality"
+      ],
+      "emergency_markers": [
+        "Sudden agitation",
+        "Delusions",
+        "Poor safety awareness"
+      ]
+    },
+    "risk_factors": [
+      "Elderly",
+      "Infection",
+      "Polypharmacy",
+      "Surgery"
+    ],
+    "differentials": [
+      "Dementia",
+      "Psychosis",
+      "Substance withdrawal"
+    ],
+    "investigations": {
+      "important": [
+        "CAM score",
+        "CBC",
+        "Electrolytes"
+      ],
+      "others": [
+        "CT brain",
+        "Urinalysis",
+        "Drug screen"
+      ]
+    },
+    "specialty": "Psychiatry / Geriatrics / Internal Medicine",
+    "treatment": {
+      "supportive": [
+        "Reorientation",
+        "Reduce noise and stimulation"
+      ],
+      "definitive": [
+        "Treat underlying cause"
+      ],
+      "protocol": "Identify and manage precipitating factor. Avoid antipsychotics unless severe agitation."
+    }
+  },
+  {
+    "disease": "Social Anxiety Disorder (Social Phobia)"
+  },
+  {
+    "disease": "Tourette Syndrome"
+  },
+  {
+    "disease": "Sleep-Wake Disorder (Insomnia)"
+  },
+  {
+    "disease": "Dissociative Identity Disorder"
+  },
+  {
+    "disease": "Body Dysmorphic Disorder"
+  },
+  {
+    "disease": "Schizophrenia"
+  },
+  {
+    "disease": "Autism Spectrum Disorder"
+  },
+  {
+    "disease": "Adjustment Disorder"
+  },
+  {
+    "disease": "Somatic Symptom Disorder"
+  },
+  {
+    "disease": "Kleptomania"
+  },
+  {
+    "disease": "Trichotillomania"
+  },
+  {
+    "disease": "Factitious Disorder"
+  },
+  {
+    "disease": "Paranoid Personality Disorder"
+  },
+  {
+    "disease": "Histrionic Personality Disorder"
+  },
+  {
+    "disease": "Sleep Terror Disorder"
+  },
+  {
+    "disease": "Dependent Personality Disorder"
+  },
+  {
+    "disease": "Delusional Disorder"
+  },
+  {
+    "disease": "Cyclothymic Disorder"
+  },
+  {
+    "disease": "Catatonia"
+  },
+  {
+    "disease": "Specific Phobia"
+  },
+  {
+    "disease": "Schizoaffective Disorder"
+  },
+  {
+    "disease": "Premenstrual Dysphoric Disorder"
+  },
+  {
+    "disease": "Rumination Disorder"
+  },
+  {
+    "disease": "Intermittent Explosive Disorder"
+  },
+  {
+    "disease": "Gender Dysphoria"
+  },
+  {
+    "disease": "Hypochondriasis"
+  },
+  {
+    "disease": "Pica"
+  },
+  {
+    "disease": "Erotomania"
+  },
+  {
+    "disease": "Pathological Gambling"
+  },
+  {
+    "disease": "Brief Psychotic Disorder"
+  },
+  {
+    "disease": "Sleepwalking Disorder"
+  },
+  {
+    "disease": "Obsessive-Compulsive Personality Disorder"
+  },
+  {
+    "disease": "Anankastic Personality Disorder"
+  },
+  {
+    "disease": "Postpartum Depression"
+  },
+  {
+    "disease": "Neurocognitive Disorder due to Alzheimer's Disease"
+  },
+  {
+    "disease": "Disinhibited Social Engagement Disorder"
+  },
+  {
+    "disease": "Reactive Attachment Disorder"
+  },
+  {
+    "disease": "Persistent Complex Bereavement Disorder"
+  },
+  {
+    "disease": "Male Hypoactive Sexual Desire Disorder"
+  },
+  {
+    "disease": "Female Sexual Interest/Arousal Disorder"
+  },
+  {
+    "disease": "Voyeuristic Disorder"
+  },
+  {
+    "disease": "Exhibitionistic Disorder"
+  },
+  {
+    "disease": "Frotteuristic Disorder"
+  },
+  {
+    "disease": "Sexual Masochism Disorder"
+  },
+  {
+    "disease": "Sexual Sadism Disorder"
+  },
+  {
+    "disease": "Pedophilic Disorder"
+  },
+  {
+    "disease": "Transvestic Disorder"
+  },
+  {
+    "disease": "Gender Identity Disorder in Children"
+  },
+  {
+    "disease": "Substance/Medication-Induced Psychotic Disorder"
+  },
+  {
+    "disease": "Other Specified Schizophrenia Spectrum and Other Psychotic Disorder"
+  },
+  {
+    "disease": "Cannabis Use Disorder"
+  },
+  {
+    "disease": "Cocaine Use Disorder"
+  },
+  {
+    "disease": "Hallucinogen Persisting Perception Disorder"
+  },
+  {
+    "disease": "Inhalant Use Disorder"
+  },
+  {
+    "disease": "Sedative, Hypnotic, or Anxiolytic Use Disorder"
+  }
+]

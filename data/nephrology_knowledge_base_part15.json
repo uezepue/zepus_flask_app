@@ -1,0 +1,4895 @@
+[
+  {
+    "disease": "Acute Kidney Injury (AKI)",
+    "epidemiology": "Occurs in ~13 million people/year globally. Common in hospitalized and critically ill patients. Associated with high mortality.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Oliguria or anuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate to severe"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Nausea",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Peripheral edema",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Electrolyte imbalance",
+        "Metabolic acidosis",
+        "Pulmonary edema",
+        "Uremia"
+      ],
+      "emergency_markers": [
+        "Hyperkalemia",
+        "Severe acidosis",
+        "Fluid overload with respiratory distress"
+      ]
+    },
+    "risk_factors": [
+      "Sepsis",
+      "Dehydration",
+      "Nephrotoxic drugs",
+      "Major surgery",
+      "Contrast agents"
+    ],
+    "differentials": [
+      "Chronic kidney disease",
+      "Urinary tract obstruction",
+      "Heart failure"
+    ],
+    "investigations": {
+      "important": [
+        "Serum creatinine",
+        "Urine output",
+        "BUN/Cr ratio",
+        "Renal ultrasound"
+      ],
+      "additional": [
+        "Urinalysis",
+        "Electrolytes",
+        "Fractional excretion of sodium (FENa)"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Fluid management",
+        "Electrolyte correction",
+        "Avoid nephrotoxins"
+      ],
+      "definitive": [
+        "Dialysis if indicated"
+      ]
+    },
+    "treatment_protocol": "Identify cause \u2192 Supportive care \u2192 Initiate dialysis if refractory or severe"
+  },
+  {
+    "disease": "Chronic Kidney Disease (CKD)",
+    "epidemiology": "Affects ~10% of the global population. Risk increases with age, diabetes, and hypertension.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Anorexia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Nocturia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Edema",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Anemia",
+        "Secondary hyperparathyroidism",
+        "Uremia",
+        "Cardiovascular disease"
+      ],
+      "emergency_markers": [
+        "Severe uremia",
+        "Hyperkalemia",
+        "Volume overload"
+      ]
+    },
+    "risk_factors": [
+      "Diabetes",
+      "Hypertension",
+      "Glomerulonephritis",
+      "Polycystic kidney disease"
+    ],
+    "differentials": [
+      "Acute kidney injury",
+      "Obstructive uropathy"
+    ],
+    "investigations": {
+      "important": [
+        "eGFR",
+        "Serum creatinine",
+        "Urinalysis",
+        "Renal ultrasound"
+      ],
+      "additional": [
+        "Albumin/creatinine ratio",
+        "Electrolytes",
+        "PTH levels"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "BP control",
+        "Glycemic control",
+        "Dietary protein restriction"
+      ],
+      "definitive": [
+        "Dialysis",
+        "Kidney transplantation"
+      ]
+    },
+    "treatment_protocol": "Stage CKD \u2192 Slow progression \u2192 Plan for RRT if advanced"
+  },
+  {
+    "disease": "Nephrotic Syndrome",
+    "epidemiology": "Characterized by proteinuria >3.5g/day. More common in children (minimal change disease) and adults (FSGS, membranous GN).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Generalized edema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Foamy urine",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Thromboembolism",
+        "Infection",
+        "Hyperlipidemia",
+        "AKI"
+      ],
+      "emergency_markers": [
+        "Thromboembolic events",
+        "Anasarca",
+        "AKI"
+      ]
+    },
+    "risk_factors": [
+      "Autoimmune disease",
+      "Infections (Hep B/C)",
+      "Drugs (NSAIDs)"
+    ],
+    "differentials": [
+      "Nephritic syndrome",
+      "CKD",
+      "Heart failure"
+    ],
+    "investigations": {
+      "important": [
+        "Urine protein:creatinine ratio",
+        "Serum albumin",
+        "Lipid panel"
+      ],
+      "additional": [
+        "Renal biopsy",
+        "Serology for systemic disease"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Salt restriction",
+        "Diuretics",
+        "Statins"
+      ],
+      "definitive": [
+        "Steroids or immunosuppressants depending on cause"
+      ]
+    },
+    "treatment_protocol": "Control symptoms \u2192 Identify cause \u2192 Immunotherapy if needed"
+  },
+  {
+    "disease": "Nephritic Syndrome",
+    "epidemiology": "Often caused by post-infectious glomerulonephritis, IgA nephropathy, lupus nephritis. Common in children and young adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hematuria (cola-colored urine)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Edema",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Oliguria",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Hypertensive emergency",
+        "AKI",
+        "CKD"
+      ],
+      "emergency_markers": [
+        "Rapidly progressive GN",
+        "Uremia"
+      ]
+    },
+    "risk_factors": [
+      "Streptococcal infection",
+      "Autoimmune disease",
+      "Hepatitis"
+    ],
+    "differentials": [
+      "Nephrotic syndrome",
+      "Urinary tract infection",
+      "Rhabdomyolysis"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis (RBC casts)",
+        "Renal function tests",
+        "Complement levels"
+      ],
+      "additional": [
+        "ASO titers",
+        "ANA",
+        "Renal biopsy"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Salt restriction",
+        "Antihypertensives"
+      ],
+      "definitive": [
+        "Immunosuppressants depending on cause"
+      ]
+    },
+    "treatment_protocol": "Treat underlying cause \u2192 Control BP \u2192 Immunotherapy if indicated"
+  },
+  {
+    "disease": "Polycystic Kidney Disease (ADPKD)",
+    "epidemiology": "Affects 1 in 400\u20131000 people. Autosomal dominant form accounts for >90% cases. Progressive renal enlargement and failure.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Flank pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Palpable kidneys",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "Cyst rupture",
+        "Infection",
+        "Intracranial aneurysm"
+      ],
+      "emergency_markers": [
+        "Cyst rupture with bleeding",
+        "Urosepsis"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "PKD1/PKD2 gene mutations"
+    ],
+    "differentials": [
+      "Hydronephrosis",
+      "Renal tumor",
+      "Medullary sponge kidney"
+    ],
+    "investigations": {
+      "important": [
+        "Renal ultrasound",
+        "Genetic testing"
+      ],
+      "additional": [
+        "MRI brain (screen aneurysms)",
+        "Serum creatinine"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "BP control (ACE inhibitors)",
+        "Pain control",
+        "Hydration"
+      ],
+      "definitive": [
+        "Dialysis or kidney transplant if ESRD"
+      ]
+    },
+    "treatment_protocol": "Monitor function \u2192 Treat complications \u2192 Transplant in ESRD"
+  },
+  {
+    "disease": "Renal Tubular Acidosis (RTA)",
+    "epidemiology": "Rare disorder of renal tubules resulting in normal anion gap metabolic acidosis. Types 1 (distal), 2 (proximal), 4 (hyperkalemic).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Polyuria",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Muscle weakness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Growth retardation (children)",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nephrolithiasis",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Nephrocalcinosis",
+        "Hypokalemia",
+        "Bone disease"
+      ],
+      "emergency_markers": [
+        "Severe hypokalemia",
+        "Acute decompensation"
+      ]
+    },
+    "risk_factors": [
+      "Autoimmune disease",
+      "Drugs (amphotericin)",
+      "Genetic mutations"
+    ],
+    "differentials": [
+      "Diabetes insipidus",
+      "CKD",
+      "Diarrhea"
+    ],
+    "investigations": {
+      "important": [
+        "Serum electrolytes",
+        "ABG",
+        "Urine pH",
+        "Anion gap"
+      ],
+      "additional": [
+        "Urinary electrolytes",
+        "Renal imaging"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Alkali therapy (bicarbonate or citrate)",
+        "Potassium supplementation"
+      ],
+      "definitive": [
+        "Treat underlying cause"
+      ]
+    },
+    "treatment_protocol": "Classify type \u2192 Correct acid-base \u2192 Monitor electrolytes"
+  },
+  {
+    "disease": "IgA Nephropathy (Berger's Disease)",
+    "epidemiology": "Most common glomerulonephritis worldwide. Peaks in 2nd-3rd decade of life. Higher prevalence in Asia.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Gross hematuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Microscopic hematuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Flank pain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "Nephrotic syndrome",
+        "Hypertension"
+      ],
+      "emergency_markers": [
+        "Rapidly progressive glomerulonephritis"
+      ]
+    },
+    "risk_factors": [
+      "Upper respiratory tract infections",
+      "Genetic predisposition"
+    ],
+    "differentials": [
+      "Post-streptococcal GN",
+      "Lupus nephritis",
+      "Thin basement membrane disease"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis",
+        "Serum creatinine",
+        "Renal biopsy (IgA deposits)"
+      ],
+      "additional": [
+        "Complement levels (usually normal)",
+        "Proteinuria quantification"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "ACE inhibitors or ARBs",
+        "Salt restriction"
+      ],
+      "definitive": [
+        "Steroids in select patients with proteinuria"
+      ]
+    },
+    "treatment_protocol": "Supportive \u2192 Consider steroids if proteinuria persists"
+  },
+  {
+    "disease": "Goodpasture\u2019s Syndrome",
+    "epidemiology": "Rare autoimmune disease with anti-GBM antibodies. Bimodal age distribution (20\u201330 and 60\u201370 years).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hemoptysis",
+          "order": 1,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Dyspnea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Pulmonary hemorrhage",
+        "Rapidly progressive glomerulonephritis",
+        "ESRD"
+      ],
+      "emergency_markers": [
+        "Severe hemoptysis",
+        "Respiratory failure"
+      ]
+    },
+    "risk_factors": [
+      "Smoking",
+      "Inhaled hydrocarbons",
+      "Genetic predisposition"
+    ],
+    "differentials": [
+      "ANCA-associated vasculitis",
+      "Lupus nephritis",
+      "IgA nephropathy"
+    ],
+    "investigations": {
+      "important": [
+        "Anti-GBM antibodies",
+        "Renal biopsy (linear IgG)"
+      ],
+      "additional": [
+        "Chest X-ray",
+        "ANCA panel",
+        "Urinalysis"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Oxygen therapy",
+        "Dialysis if needed"
+      ],
+      "definitive": [
+        "Plasmapheresis",
+        "Steroids",
+        "Cyclophosphamide"
+      ]
+    },
+    "treatment_protocol": "Immunosuppression + plasmapheresis \u2192 Monitor renal and pulmonary function"
+  },
+  {
+    "disease": "Alport Syndrome",
+    "epidemiology": "X-linked hereditary nephritis. Associated with sensorineural hearing loss and ocular abnormalities. Presents in childhood.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hematuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hearing loss",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Vision problems",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Progressive CKD",
+        "ESRD",
+        "Hearing impairment"
+      ],
+      "emergency_markers": [
+        "Accelerated renal failure (in late stages)"
+      ]
+    },
+    "risk_factors": [
+      "Family history of renal disease or hearing loss"
+    ],
+    "differentials": [
+      "Thin basement membrane disease",
+      "FSGS",
+      "IgA nephropathy"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis",
+        "Audiometry",
+        "Ophthalmologic exam"
+      ],
+      "additional": [
+        "Genetic testing",
+        "Renal biopsy (basket weave pattern)"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "ACE inhibitors to slow progression"
+      ],
+      "definitive": [
+        "Kidney transplant in ESRD"
+      ]
+    },
+    "treatment_protocol": "Supportive until ESRD \u2192 Renal replacement therapy"
+  },
+  {
+    "disease": "Lupus Nephritis",
+    "epidemiology": "Affects up to 60% of patients with systemic lupus erythematosus (SLE). More common in females and certain ethnic groups (e.g., African descent).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hematuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Edema",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "Nephrotic syndrome",
+        "ESRD"
+      ],
+      "emergency_markers": [
+        "Rapidly progressive GN",
+        "Systemic lupus flare"
+      ]
+    },
+    "risk_factors": [
+      "SLE",
+      "Female sex",
+      "Ethnicity (African, Hispanic, Asian)"
+    ],
+    "differentials": [
+      "IgA nephropathy",
+      "FSGS",
+      "Membranous nephropathy"
+    ],
+    "investigations": {
+      "important": [
+        "ANA, Anti-dsDNA",
+        "Complement levels",
+        "Renal biopsy"
+      ],
+      "additional": [
+        "Urinalysis",
+        "Serum creatinine",
+        "Proteinuria quantification"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "BP control",
+        "ACE inhibitors",
+        "Low salt diet"
+      ],
+      "definitive": [
+        "Steroids + immunosuppressants (e.g., MMF, cyclophosphamide)"
+      ]
+    },
+    "treatment_protocol": "Induction \u2192 Maintenance therapy based on biopsy class"
+  },
+  {
+    "disease": "Membranous Nephropathy",
+    "epidemiology": "Most common cause of nephrotic syndrome in white adults. Primary (idiopathic) or secondary to malignancy, infection, drugs, or autoimmune disease.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Edema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Frothy urine",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Thrombosis",
+        "CKD",
+        "ESRD"
+      ],
+      "emergency_markers": [
+        "Thromboembolic complications",
+        "Severe nephrotic syndrome"
+      ]
+    },
+    "risk_factors": [
+      "Malignancy",
+      "HBV/HCV",
+      "NSAIDs",
+      "Autoimmune disease"
+    ],
+    "differentials": [
+      "Minimal change disease",
+      "FSGS",
+      "Amyloidosis"
+    ],
+    "investigations": {
+      "important": [
+        "Anti-PLA2R antibodies",
+        "Renal biopsy"
+      ],
+      "additional": [
+        "Serum albumin",
+        "Lipid profile",
+        "Malignancy screening"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Salt restriction",
+        "ACE inhibitors",
+        "Statins"
+      ],
+      "definitive": [
+        "Steroids + cyclophosphamide or rituximab"
+      ]
+    },
+    "treatment_protocol": "Supportive care \u2192 Immunosuppression for high-risk patients"
+  },
+  {
+    "disease": "Focal Segmental Glomerulosclerosis (FSGS)",
+    "epidemiology": "Common cause of nephrotic syndrome in adults, particularly in African descent. Can be primary or secondary to obesity, HIV, or reflux nephropathy.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Edema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "Nephrotic syndrome",
+        "ESRD"
+      ],
+      "emergency_markers": [
+        "Nephrotic-range proteinuria with hypoalbuminemia"
+      ]
+    },
+    "risk_factors": [
+      "HIV",
+      "Obesity",
+      "Reflux nephropathy",
+      "Drug use (heroin, bisphosphonates)"
+    ],
+    "differentials": [
+      "Minimal change disease",
+      "Membranous nephropathy",
+      "Diabetic nephropathy"
+    ],
+    "investigations": {
+      "important": [
+        "Renal biopsy",
+        "Urinalysis",
+        "Serum creatinine"
+      ],
+      "additional": [
+        "HIV testing",
+        "Serum albumin",
+        "Lipid profile"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "ACE inhibitors",
+        "Diuretics",
+        "Salt restriction"
+      ],
+      "definitive": [
+        "Steroids or calcineurin inhibitors for primary FSGS"
+      ]
+    },
+    "treatment_protocol": "Biopsy-confirmed \u2192 Immunosuppression if primary \u2192 Treat cause if secondary"
+  },
+  {
+    "disease": "Minimal Change Disease (MCD)",
+    "epidemiology": "Most common cause of nephrotic syndrome in children. Often idiopathic but may follow infection or drug use (NSAIDs).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Edema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Frothy urine",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Weight gain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Thrombosis",
+        "Infection",
+        "Hypovolemia"
+      ],
+      "emergency_markers": [
+        "Massive proteinuria",
+        "Hypoalbuminemia"
+      ]
+    },
+    "risk_factors": [
+      "Recent viral infection",
+      "NSAIDs",
+      "Lymphoma"
+    ],
+    "differentials": [
+      "FSGS",
+      "Membranous nephropathy"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis",
+        "Serum albumin",
+        "Renal biopsy (in adults)"
+      ],
+      "additional": [
+        "Lipid profile",
+        "Serum creatinine"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Salt restriction",
+        "Diuretics"
+      ],
+      "definitive": [
+        "High-dose steroids (prednisone)"
+      ]
+    },
+    "treatment_protocol": "Empiric steroids \u2192 Renal biopsy if no remission"
+  },
+  {
+    "disease": "Diabetic Nephropathy",
+    "epidemiology": "Leading cause of ESRD globally. Develops in ~20\u201340% of diabetic patients. More common in Type 1 with >10 years of disease.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Microalbuminuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Edema",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "ESRD",
+        "Cardiovascular disease"
+      ],
+      "emergency_markers": [
+        "Rapid decline in GFR"
+      ]
+    },
+    "risk_factors": [
+      "Poor glycemic control",
+      "Hypertension",
+      "Smoking",
+      "Genetic predisposition"
+    ],
+    "differentials": [
+      "Hypertensive nephrosclerosis",
+      "FSGS",
+      "Amyloidosis"
+    ],
+    "investigations": {
+      "important": [
+        "Urine albumin-creatinine ratio",
+        "eGFR",
+        "HbA1c"
+      ],
+      "additional": [
+        "Fundoscopy",
+        "Renal ultrasound"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Glycemic control",
+        "ACE inhibitors or ARBs",
+        "Lifestyle modification"
+      ],
+      "definitive": [
+        "Dialysis or transplant in ESRD"
+      ]
+    },
+    "treatment_protocol": "Early detection \u2192 BP and glucose control \u2192 Prepare for RRT in advanced stages"
+  },
+  {
+    "disease": "Hypertensive Nephrosclerosis",
+    "epidemiology": "Chronic kidney damage due to long-standing hypertension. Common in older adults and African Americans.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymptomatic early",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "none"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "ESRD",
+        "Left ventricular hypertrophy"
+      ],
+      "emergency_markers": [
+        "Hypertensive crisis with AKI"
+      ]
+    },
+    "risk_factors": [
+      "Uncontrolled hypertension",
+      "Black ethnicity",
+      "Family history of kidney disease"
+    ],
+    "differentials": [
+      "Diabetic nephropathy",
+      "Glomerulonephritis"
+    ],
+    "investigations": {
+      "important": [
+        "BP monitoring",
+        "Serum creatinine",
+        "Urinalysis"
+      ],
+      "additional": [
+        "Renal ultrasound",
+        "Fundoscopy"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Strict BP control with ACE inhibitors",
+        "Salt restriction"
+      ],
+      "definitive": [
+        "Dialysis or transplant in ESRD"
+      ]
+    },
+    "treatment_protocol": "Early diagnosis \u2192 Aggressive BP management"
+  },
+  {
+    "disease": "Amyloidosis (Renal)",
+    "epidemiology": "Can be AL (plasma cell dyscrasia) or AA (chronic inflammation). Renal involvement leads to nephrotic syndrome and progressive CKD.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Edema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Foamy urine",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Nephrotic syndrome",
+        "CKD",
+        "ESRD"
+      ],
+      "emergency_markers": [
+        "Rapidly progressive proteinuria"
+      ]
+    },
+    "risk_factors": [
+      "Chronic inflammatory diseases",
+      "Multiple myeloma",
+      "Rheumatoid arthritis"
+    ],
+    "differentials": [
+      "FSGS",
+      "Membranous nephropathy",
+      "Minimal change disease"
+    ],
+    "investigations": {
+      "important": [
+        "Serum and urine electrophoresis",
+        "Renal biopsy with Congo red staining"
+      ],
+      "additional": [
+        "Serum free light chains",
+        "Imaging for systemic involvement"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Salt restriction",
+        "Diuretics"
+      ],
+      "definitive": [
+        "Treat underlying cause",
+        "Chemotherapy for AL amyloidosis"
+      ]
+    },
+    "treatment_protocol": "Identify type \u2192 Systemic therapy for AL \u2192 Supportive renal care"
+  },
+  {
+    "disease": "Renal Artery Stenosis",
+    "epidemiology": "Occurs in ~1-5% of hypertensive patients. Atherosclerosis is the most common cause in older adults; fibromuscular dysplasia in younger women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Resistant hypertension",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abdominal bruit",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Recurrent flash pulmonary edema",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "Hypertensive emergency",
+        "Ischemic nephropathy"
+      ],
+      "emergency_markers": [
+        "Flash pulmonary edema",
+        "Acute kidney injury after ACE inhibitor"
+      ]
+    },
+    "risk_factors": [
+      "Atherosclerosis",
+      "Smoking",
+      "Fibromuscular dysplasia"
+    ],
+    "differentials": [
+      "Essential hypertension",
+      "Pheochromocytoma",
+      "Coarctation of the aorta"
+    ],
+    "investigations": {
+      "important": [
+        "Duplex renal ultrasound",
+        "CT angiography",
+        "Plasma renin activity"
+      ],
+      "additional": [
+        "MR angiography",
+        "Captopril renogram"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Blood pressure control",
+        "Statins"
+      ],
+      "definitive": [
+        "Angioplasty with or without stenting (especially for FMD)"
+      ]
+    },
+    "treatment_protocol": "Identify etiology \u2192 Optimize BP \u2192 Revascularization if indicated"
+  },
+  {
+    "disease": "Obstructive Uropathy",
+    "epidemiology": "Can affect all ages; caused by stones, tumors, strictures, or BPH. Leads to hydronephrosis and kidney dysfunction if untreated.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Flank pain",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Difficulty urinating",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Urinary frequency",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Hydronephrosis",
+        "CKD",
+        "UTIs"
+      ],
+      "emergency_markers": [
+        "Anuria",
+        "Acute kidney injury with bilateral obstruction"
+      ]
+    },
+    "risk_factors": [
+      "Kidney stones",
+      "Prostate hypertrophy",
+      "Pelvic tumors"
+    ],
+    "differentials": [
+      "UTI",
+      "Renal colic",
+      "Bladder dysfunction"
+    ],
+    "investigations": {
+      "important": [
+        "Renal ultrasound",
+        "CT urogram",
+        "Serum creatinine"
+      ],
+      "additional": [
+        "Post-void residual",
+        "Cystoscopy"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Pain management",
+        "Fluid support"
+      ],
+      "definitive": [
+        "Relieve obstruction\u2014catheterization, stenting, or surgery"
+      ]
+    },
+    "treatment_protocol": "Identify cause \u2192 Decompress \u2192 Address underlying etiology"
+  },
+  {
+    "disease": "Polycystic Kidney Disease (ADPKD)",
+    "epidemiology": "Most common inherited kidney disorder. Autosomal dominant form presents in adulthood and affects 1 in 1000 people.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Flank pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpable kidneys",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Cysts in liver/pancreas",
+        "Cerebral aneurysm",
+        "ESRD"
+      ],
+      "emergency_markers": [
+        "Cyst rupture",
+        "Intracerebral hemorrhage from aneurysm"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Mutation in PKD1/PKD2 genes"
+    ],
+    "differentials": [
+      "Medullary sponge kidney",
+      "Acquired cystic kidney disease"
+    ],
+    "investigations": {
+      "important": [
+        "Renal ultrasound",
+        "MRI brain (for aneurysm screening)"
+      ],
+      "additional": [
+        "Genetic testing",
+        "Creatinine",
+        "BP monitoring"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "BP control",
+        "Pain management"
+      ],
+      "definitive": [
+        "Tolvaptan (slows cyst growth)",
+        "Dialysis or transplant in ESRD"
+      ]
+    },
+    "treatment_protocol": "Monitor \u2192 Control complications \u2192 Renal replacement in ESRD"
+  },
+  {
+    "disease": "Renal Tubular Acidosis (RTA)",
+    "epidemiology": "Rare; occurs due to tubular defects in acid handling. Four types, with types I and IV most clinically relevant.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Muscle weakness",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Polyuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Growth retardation (in children)",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Nephrocalcinosis",
+        "CKD",
+        "Bone demineralization"
+      ],
+      "emergency_markers": [
+        "Severe metabolic acidosis"
+      ]
+    },
+    "risk_factors": [
+      "Autoimmune diseases",
+      "Drugs (amphotericin B)",
+      "Genetic defects"
+    ],
+    "differentials": [
+      "Fanconi syndrome",
+      "Diabetic nephropathy",
+      "Chronic diarrhea"
+    ],
+    "investigations": {
+      "important": [
+        "Serum electrolytes",
+        "Urine pH",
+        "Arterial blood gas"
+      ],
+      "additional": [
+        "Serum bicarbonate",
+        "Anion gap",
+        "Ammonium chloride loading test"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Alkali therapy (bicarbonate or citrate)"
+      ],
+      "definitive": [
+        "Treat underlying cause"
+      ]
+    },
+    "treatment_protocol": "Correct acidosis \u2192 Monitor electrolytes \u2192 Treat cause"
+  },
+  {
+    "disease": "Analgesic Nephropathy",
+    "epidemiology": "Chronic renal disease due to long-term use of analgesics (especially phenacetin, NSAIDs). Often affects middle-aged women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Flank pain",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Polyuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Papillary necrosis",
+        "CKD",
+        "Renal failure"
+      ],
+      "emergency_markers": [
+        "Papillary necrosis with acute hematuria"
+      ]
+    },
+    "risk_factors": [
+      "Chronic NSAID use",
+      "Phenacetin-containing analgesics"
+    ],
+    "differentials": [
+      "UTI",
+      "Obstructive uropathy",
+      "Polycystic kidney disease"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis",
+        "CT urogram (for papillary necrosis)"
+      ],
+      "additional": [
+        "Serum creatinine",
+        "Medication history"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Discontinue offending drugs",
+        "Hydration"
+      ],
+      "definitive": [
+        "Renal replacement therapy in advanced stages"
+      ]
+    },
+    "treatment_protocol": "Stop nephrotoxic agents \u2192 Supportive renal care"
+  },
+  {
+    "disease": "Lupus Nephritis",
+    "epidemiology": "Affects up to 60% of systemic lupus erythematosus (SLE) patients. More common and severe in African Americans and Hispanics.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hematuria",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Edema",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "ESRD",
+        "Nephrotic syndrome",
+        "Thrombosis"
+      ],
+      "emergency_markers": [
+        "Rapid rise in creatinine",
+        "Nephritic syndrome with active SLE"
+      ]
+    },
+    "risk_factors": [
+      "Systemic lupus erythematosus",
+      "Female gender",
+      "African or Hispanic ancestry"
+    ],
+    "differentials": [
+      "Membranous nephropathy",
+      "IgA nephropathy",
+      "FSGS"
+    ],
+    "investigations": {
+      "important": [
+        "ANA",
+        "Anti-dsDNA",
+        "Complement levels",
+        "Renal biopsy"
+      ],
+      "additional": [
+        "Urinalysis",
+        "24-hr urine protein",
+        "Serum creatinine"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "ACE inhibitors",
+        "BP control",
+        "Proteinuria reduction"
+      ],
+      "definitive": [
+        "Immunosuppressants (mycophenolate, cyclophosphamide)",
+        "Steroids"
+      ]
+    },
+    "treatment_protocol": "Classify via biopsy \u2192 Immunosuppressive therapy \u2192 Monitor remission"
+  },
+  {
+    "disease": "Post-Streptococcal Glomerulonephritis (PSGN)",
+    "epidemiology": "Follows group A streptococcal infections, especially in children. Occurs 1-3 weeks after pharyngitis or impetigo.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hematuria (cola-colored urine)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Edema",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Oliguria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "AKI",
+        "Hypertensive crisis",
+        "Nephritic syndrome"
+      ],
+      "emergency_markers": [
+        "Hypertension with seizure",
+        "Rapid rise in creatinine"
+      ]
+    },
+    "risk_factors": [
+      "Recent streptococcal infection",
+      "Poor hygiene",
+      "Children in endemic areas"
+    ],
+    "differentials": [
+      "IgA nephropathy",
+      "Lupus nephritis",
+      "HSP nephritis"
+    ],
+    "investigations": {
+      "important": [
+        "ASO titer",
+        "C3 complement level",
+        "Urinalysis"
+      ],
+      "additional": [
+        "Throat culture",
+        "Renal function tests"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Salt and fluid restriction",
+        "Diuretics",
+        "Antihypertensives"
+      ],
+      "definitive": [
+        "Supportive care; antibiotics for active strep infection"
+      ]
+    },
+    "treatment_protocol": "Confirm strep etiology \u2192 Symptomatic treatment \u2192 Monitor renal function"
+  },
+  {
+    "disease": "Membranous Nephropathy",
+    "epidemiology": "Common cause of nephrotic syndrome in adults. Can be idiopathic or secondary to infections, malignancy, drugs.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Edema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Frothy urine",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Thrombosis",
+        "CKD",
+        "ESRD"
+      ],
+      "emergency_markers": [
+        "Severe hypoalbuminemia",
+        "Thrombotic events"
+      ]
+    },
+    "risk_factors": [
+      "Hepatitis B/C",
+      "Malignancy",
+      "SLE",
+      "NSAIDs"
+    ],
+    "differentials": [
+      "MCD",
+      "FSGS",
+      "Amyloidosis"
+    ],
+    "investigations": {
+      "important": [
+        "Renal biopsy",
+        "Serum anti-PLA2R antibodies"
+      ],
+      "additional": [
+        "Urinalysis",
+        "Complement levels",
+        "Screen for malignancy"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "ACE inhibitors",
+        "Statins",
+        "Anticoagulation (if indicated)"
+      ],
+      "definitive": [
+        "Immunosuppressants for high-risk patients"
+      ]
+    },
+    "treatment_protocol": "Risk stratification \u2192 Conservative vs. immunosuppressive therapy"
+  },
+  {
+    "disease": "Hemolytic Uremic Syndrome (HUS)",
+    "epidemiology": "Classic (typical) HUS follows shiga toxin-producing E. coli infection in children. Atypical HUS is complement-mediated and rarer.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Bloody diarrhea",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pallor",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Oliguria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "AKI",
+        "Hemolytic anemia",
+        "Thrombocytopenia"
+      ],
+      "emergency_markers": [
+        "Rapid renal decline",
+        "Neurological symptoms"
+      ]
+    },
+    "risk_factors": [
+      "EHEC infection",
+      "Genetic complement disorders"
+    ],
+    "differentials": [
+      "TTP",
+      "DIC",
+      "Sepsis"
+    ],
+    "investigations": {
+      "important": [
+        "Peripheral smear",
+        "LDH",
+        "Creatinine",
+        "Stool culture"
+      ],
+      "additional": [
+        "Complement levels",
+        "ADAMTS13 activity (if suspecting TTP)"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Dialysis (if needed)",
+        "Avoid antibiotics/antimotility agents"
+      ],
+      "definitive": [
+        "Eculizumab for atypical HUS"
+      ]
+    },
+    "treatment_protocol": "Supportive in typical HUS \u2192 Consider eculizumab in atypical"
+  },
+  {
+    "disease": "IgA Vasculitis Nephritis (HSP Nephritis)",
+    "epidemiology": "IgA vasculitis is the most common vasculitis in children. Renal involvement occurs in up to 50%, presenting with IgA nephropathy.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hematuria",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Edema",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Abdominal pain",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "Nephritic syndrome",
+        "ESRD (rare)"
+      ],
+      "emergency_markers": [
+        "Nephrotic range proteinuria",
+        "Rapidly rising creatinine"
+      ]
+    },
+    "risk_factors": [
+      "Recent infection",
+      "Childhood age",
+      "Genetic predisposition"
+    ],
+    "differentials": [
+      "PSGN",
+      "IgA nephropathy",
+      "Lupus nephritis"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis",
+        "Serum creatinine",
+        "Renal biopsy"
+      ],
+      "additional": [
+        "IgA levels",
+        "C3/C4",
+        "Skin biopsy"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "ACE inhibitors",
+        "Hydration"
+      ],
+      "definitive": [
+        "Steroids for significant proteinuria or worsening renal function"
+      ]
+    },
+    "treatment_protocol": "Supportive care \u2192 Biopsy in severe cases \u2192 Consider steroids"
+  },
+  {
+    "disease": "Diabetic Nephropathy",
+    "epidemiology": "Leading cause of ESRD worldwide. Affects ~20\u201340% of patients with diabetes mellitus.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Proteinuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Edema",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "ESRD",
+        "Cardiovascular disease",
+        "Nephrotic syndrome"
+      ],
+      "emergency_markers": [
+        "Rapid progression of proteinuria",
+        "Sudden decline in eGFR"
+      ]
+    },
+    "risk_factors": [
+      "Poor glycemic control",
+      "Hypertension",
+      "Smoking"
+    ],
+    "differentials": [
+      "Hypertensive nephrosclerosis",
+      "Amyloidosis",
+      "FSGS"
+    ],
+    "investigations": {
+      "important": [
+        "Urine albumin-creatinine ratio",
+        "Serum creatinine",
+        "HbA1c"
+      ],
+      "additional": [
+        "Renal ultrasound",
+        "Retinal examination"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "ACE inhibitors or ARBs",
+        "Glycemic control",
+        "BP management"
+      ],
+      "definitive": [
+        "Dialysis or transplant in ESRD"
+      ]
+    },
+    "treatment_protocol": "Screen annually \u2192 Control risk factors \u2192 Manage CKD progression"
+  },
+  {
+    "disease": "Amyloidosis (Renal)",
+    "epidemiology": "AL and AA amyloidosis can affect kidneys. Renal involvement is common in systemic amyloidosis. More common in older adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Nephrotic syndrome",
+          "order": 1,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Edema",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "ESRD",
+        "Heart failure (if systemic)"
+      ],
+      "emergency_markers": [
+        "Severe hypoalbuminemia",
+        "Refractory proteinuria"
+      ]
+    },
+    "risk_factors": [
+      "Plasma cell dyscrasias",
+      "Chronic inflammatory diseases",
+      "Hereditary amyloidosis"
+    ],
+    "differentials": [
+      "FSGS",
+      "Membranous nephropathy",
+      "Lupus nephritis"
+    ],
+    "investigations": {
+      "important": [
+        "Serum/urine protein electrophoresis",
+        "Renal biopsy with Congo red stain"
+      ],
+      "additional": [
+        "Cardiac MRI",
+        "Fat pad biopsy",
+        "Serum free light chains"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Diuretics",
+        "Salt restriction",
+        "ACE inhibitors"
+      ],
+      "definitive": [
+        "Chemotherapy for AL amyloidosis",
+        "Treat underlying inflammation in AA type"
+      ]
+    },
+    "treatment_protocol": "Confirm amyloid type \u2192 Supportive and disease-specific therapy"
+  },
+  {
+    "disease": "Nephrocalcinosis",
+    "epidemiology": "More common in children with metabolic disorders and adults with hyperparathyroidism. Prevalence ~7% in radiologic series.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Flank pain",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Polyuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Renal stones",
+        "CKD",
+        "Tubular dysfunction"
+      ],
+      "emergency_markers": [
+        "Acute renal colic with obstruction"
+      ]
+    },
+    "risk_factors": [
+      "Hyperparathyroidism",
+      "Renal tubular acidosis",
+      "Vitamin D intoxication"
+    ],
+    "differentials": [
+      "Nephrolithiasis",
+      "Medullary sponge kidney",
+      "Papillary necrosis"
+    ],
+    "investigations": {
+      "important": [
+        "Renal ultrasound",
+        "CT scan",
+        "Serum calcium and phosphate"
+      ],
+      "additional": [
+        "Urine calcium/creatinine ratio",
+        "PTH levels"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Thiazide diuretics"
+      ],
+      "definitive": [
+        "Treat underlying metabolic cause"
+      ]
+    },
+    "treatment_protocol": "Identify metabolic cause \u2192 Control calcium/phosphate \u2192 Monitor renal function"
+  },
+  {
+    "disease": "Ischemic Nephropathy",
+    "epidemiology": "Occurs due to chronic hypoperfusion from renal artery stenosis or systemic atherosclerosis. Common in elderly with cardiovascular disease.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Gradual decline in renal function",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "Flash pulmonary edema",
+        "Refractory hypertension"
+      ],
+      "emergency_markers": [
+        "AKI after ACE inhibitor",
+        "Sudden BP rise with renal dysfunction"
+      ]
+    },
+    "risk_factors": [
+      "Atherosclerosis",
+      "Hypertension",
+      "Diabetes mellitus",
+      "Smoking"
+    ],
+    "differentials": [
+      "Chronic glomerulonephritis",
+      "Renal artery embolism",
+      "Hypertensive nephrosclerosis"
+    ],
+    "investigations": {
+      "important": [
+        "Duplex ultrasound",
+        "CT or MR angiography"
+      ],
+      "additional": [
+        "Serum creatinine",
+        "Plasma renin activity"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Blood pressure control",
+        "Statins",
+        "Antiplatelet therapy"
+      ],
+      "definitive": [
+        "Revascularization in selected cases"
+      ]
+    },
+    "treatment_protocol": "Assess perfusion \u2192 Optimize medical therapy \u2192 Revascularize if needed"
+  },
+  {
+    "disease": "Minimal Change Disease (MCD)",
+    "epidemiology": "Most common cause of nephrotic syndrome in children. Can also occur in adults (~10\u201315% of cases).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Edema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Frothy urine",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Relapsing nephrotic syndrome",
+        "Infections",
+        "Thrombosis"
+      ],
+      "emergency_markers": [
+        "Severe hypoalbuminemia",
+        "Thrombotic event"
+      ]
+    },
+    "risk_factors": [
+      "NSAIDs",
+      "Hodgkin lymphoma",
+      "Allergic reactions"
+    ],
+    "differentials": [
+      "FSGS",
+      "Membranous nephropathy",
+      "Amyloidosis"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis",
+        "Serum albumin",
+        "Renal biopsy (in adults)"
+      ],
+      "additional": [
+        "Lipid profile",
+        "Creatinine",
+        "Complement levels"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Salt restriction",
+        "Diuretics",
+        "ACE inhibitors"
+      ],
+      "definitive": [
+        "High-dose steroids (prednisone)"
+      ]
+    },
+    "treatment_protocol": "Empirical steroids in children \u2192 Biopsy in adults \u2192 Treat & monitor relapse"
+  },
+  {
+    "disease": "Chronic Glomerulonephritis",
+    "epidemiology": "A leading cause of ESRD in developing countries. Can evolve from various glomerular diseases.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypertension",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "ESRD",
+        "Cardiovascular disease"
+      ],
+      "emergency_markers": [
+        "Hypertensive crisis",
+        "Sudden deterioration in renal function"
+      ]
+    },
+    "risk_factors": [
+      "Previous glomerular disease",
+      "Autoimmune diseases",
+      "Genetic factors"
+    ],
+    "differentials": [
+      "Hypertensive nephrosclerosis",
+      "Diabetic nephropathy",
+      "Tubulointerstitial nephritis"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis",
+        "Serum creatinine",
+        "Renal biopsy"
+      ],
+      "additional": [
+        "Ultrasound kidney size",
+        "Autoimmune panel"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "BP control",
+        "Protein restriction",
+        "ACE inhibitors"
+      ],
+      "definitive": [
+        "Dialysis or kidney transplant"
+      ]
+    },
+    "treatment_protocol": "Manage underlying cause \u2192 Delay progression \u2192 Prepare for RRT in ESRD"
+  },
+  {
+    "disease": "Obstructive Uropathy",
+    "epidemiology": "A common cause of postrenal AKI, especially in elderly males with BPH or malignancy.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Flank pain",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Urinary retention",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Oliguria or anuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "AKI",
+        "Hydronephrosis",
+        "UTI"
+      ],
+      "emergency_markers": [
+        "Anuria with hyperkalemia",
+        "Sepsis due to pyonephrosis"
+      ]
+    },
+    "risk_factors": [
+      "Prostatic enlargement",
+      "Pelvic tumors",
+      "Nephrolithiasis"
+    ],
+    "differentials": [
+      "Prerenal AKI",
+      "Intrinsic renal failure",
+      "Neurogenic bladder"
+    ],
+    "investigations": {
+      "important": [
+        "Renal ultrasound",
+        "Bladder scan",
+        "Serum creatinine"
+      ],
+      "additional": [
+        "CT KUB",
+        "Urinalysis"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Electrolyte correction"
+      ],
+      "definitive": [
+        "Relieve obstruction (catheter, stent, surgery)"
+      ]
+    },
+    "treatment_protocol": "Identify obstruction \u2192 Relieve promptly \u2192 Monitor renal recovery"
+  },
+  {
+    "disease": "Hypertensive Nephrosclerosis",
+    "epidemiology": "Common in African descent. A major cause of ESRD in hypertensive patients, especially with poorly controlled BP.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypertension",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Mild proteinuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Slowly progressive CKD",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "ESRD",
+        "Left ventricular hypertrophy"
+      ],
+      "emergency_markers": [
+        "Malignant hypertension",
+        "Sudden renal decompensation"
+      ]
+    },
+    "risk_factors": [
+      "Long-standing hypertension",
+      "African ancestry",
+      "Smoking",
+      "Diabetes"
+    ],
+    "differentials": [
+      "Diabetic nephropathy",
+      "Chronic GN",
+      "Ischemic nephropathy"
+    ],
+    "investigations": {
+      "important": [
+        "BP monitoring",
+        "Serum creatinine",
+        "Urinalysis"
+      ],
+      "additional": [
+        "Renal ultrasound",
+        "Fundoscopy",
+        "ECG"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Strict BP control",
+        "Lifestyle modification"
+      ],
+      "definitive": [
+        "Renal replacement therapy if ESRD"
+      ]
+    },
+    "treatment_protocol": "Aggressive BP control \u2192 Slow progression \u2192 Evaluate for ESRD care"
+  },
+  {
+    "disease": "Nephrotic Syndrome (Unspecified)",
+    "epidemiology": "Syndromic diagnosis; includes proteinuria >3.5g/day, hypoalbuminemia, edema, and hyperlipidemia. Can result from various glomerulopathies.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Generalized edema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Frothy urine",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Thrombosis",
+        "Infections",
+        "CKD"
+      ],
+      "emergency_markers": [
+        "Thromboembolism",
+        "Anasarca with hypotension"
+      ]
+    },
+    "risk_factors": [
+      "Diabetes",
+      "Autoimmune diseases",
+      "Infections",
+      "Medications"
+    ],
+    "differentials": [
+      "FSGS",
+      "MCD",
+      "Membranous nephropathy"
+    ],
+    "investigations": {
+      "important": [
+        "24-hr urine protein",
+        "Serum albumin",
+        "Lipid profile"
+      ],
+      "additional": [
+        "Renal biopsy",
+        "Serologies for underlying disease"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Salt restriction",
+        "Diuretics",
+        "Statins",
+        "Anticoagulation if needed"
+      ],
+      "definitive": [
+        "Treat underlying cause"
+      ]
+    },
+    "treatment_protocol": "Confirm syndrome \u2192 Investigate cause \u2192 Treat underlying disease"
+  },
+  {
+    "disease": "Tubulointerstitial Nephritis",
+    "epidemiology": "Accounts for ~10\u201315% of AKI cases. Caused by drugs, infections, or autoimmune diseases.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Rash",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Arthralgia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Oliguria",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "AKI",
+        "CKD",
+        "Electrolyte abnormalities"
+      ],
+      "emergency_markers": [
+        "Rapid worsening of renal function",
+        "Severe metabolic acidosis"
+      ]
+    },
+    "risk_factors": [
+      "NSAIDs",
+      "PPIs",
+      "Antibiotics",
+      "Infections",
+      "Autoimmune diseases"
+    ],
+    "differentials": [
+      "ATN",
+      "Glomerulonephritis",
+      "Pyelonephritis"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis (WBC casts)",
+        "Serum creatinine",
+        "Eosinophils"
+      ],
+      "additional": [
+        "Renal biopsy",
+        "ANA, ANCA"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Withdraw offending agent",
+        "Hydration"
+      ],
+      "definitive": [
+        "Steroids for severe or persistent cases"
+      ]
+    },
+    "treatment_protocol": "Identify trigger \u2192 Supportive care \u2192 Steroids if no recovery"
+  },
+  {
+    "disease": "Renal Artery Stenosis",
+    "epidemiology": "Atherosclerosis is the most common cause in adults; fibromuscular dysplasia in younger females. Present in ~1\u20135% of hypertensive patients.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Refractory hypertension",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Renal bruit",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Sudden worsening of renal function",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Ischemic nephropathy",
+        "Flash pulmonary edema",
+        "CKD"
+      ],
+      "emergency_markers": [
+        "Sudden rise in creatinine with ACEI",
+        "Acute pulmonary edema"
+      ]
+    },
+    "risk_factors": [
+      "Atherosclerosis",
+      "Smoking",
+      "Hyperlipidemia",
+      "Fibromuscular dysplasia"
+    ],
+    "differentials": [
+      "Essential hypertension",
+      "CKD",
+      "Pheochromocytoma"
+    ],
+    "investigations": {
+      "important": [
+        "Duplex Doppler ultrasound",
+        "CT or MR angiography"
+      ],
+      "additional": [
+        "Renin levels",
+        "Captopril renogram"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "BP control",
+        "Statins",
+        "Antiplatelets"
+      ],
+      "definitive": [
+        "Angioplasty \u00b1 stenting"
+      ]
+    },
+    "treatment_protocol": "Diagnose with imaging \u2192 Optimize BP & lipids \u2192 Revascularize if needed"
+  },
+  {
+    "disease": "Renal Tubular Acidosis (RTA)",
+    "epidemiology": "Uncommon but important cause of non-anion gap metabolic acidosis. Often diagnosed in childhood or secondary to autoimmune disorders.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Growth retardation in children",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Muscle weakness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Polyuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Nephrocalcinosis",
+        "Bone disease",
+        "Electrolyte imbalances"
+      ],
+      "emergency_markers": [
+        "Severe acidosis",
+        "Hypokalemia with arrhythmias"
+      ]
+    },
+    "risk_factors": [
+      "Sjogren syndrome",
+      "Lupus",
+      "Hypercalciuria"
+    ],
+    "differentials": [
+      "Diarrhea",
+      "CKD",
+      "Type 1 diabetes"
+    ],
+    "investigations": {
+      "important": [
+        "ABG",
+        "Serum electrolytes",
+        "Urine pH"
+      ],
+      "additional": [
+        "Ammonium chloride loading test",
+        "Urine anion gap"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Bicarbonate supplementation",
+        "Potassium replacement"
+      ],
+      "definitive": [
+        "Treat underlying autoimmune disease"
+      ]
+    },
+    "treatment_protocol": "Identify type \u2192 Correct acidosis/electrolytes \u2192 Monitor long-term bone/kidney health"
+  },
+  {
+    "disease": "Renal Cell Carcinoma (RCC)",
+    "epidemiology": "Accounts for 90\u201395% of all kidney cancers. Most common in men aged 50\u201370. Associated with smoking and obesity.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hematuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Flank pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abdominal mass",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Metastasis (lung, bone)",
+        "Paraneoplastic syndromes",
+        "Renal vein thrombosis"
+      ],
+      "emergency_markers": [
+        "Gross hematuria with clots",
+        "Acute flank mass with pain"
+      ]
+    },
+    "risk_factors": [
+      "Smoking",
+      "Obesity",
+      "Hypertension",
+      "Von Hippel\u2013Lindau disease"
+    ],
+    "differentials": [
+      "Urothelial carcinoma",
+      "Angiomyolipoma",
+      "Wilms tumor"
+    ],
+    "investigations": {
+      "important": [
+        "CT abdomen with contrast",
+        "Urinalysis"
+      ],
+      "additional": [
+        "MRI",
+        "Renal biopsy if needed"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Analgesia",
+        "Monitor function"
+      ],
+      "definitive": [
+        "Radical or partial nephrectomy",
+        "Immunotherapy or targeted agents"
+      ]
+    },
+    "treatment_protocol": "Stage tumor \u2192 Surgery if resectable \u2192 Systemic therapy if advanced"
+  },
+  {
+    "disease": "Renal Vein Thrombosis",
+    "epidemiology": "Common in nephrotic syndrome and hypercoagulable states. More frequent in adults with membranous nephropathy.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Flank pain",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Decreased renal function",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "AKI",
+        "Pulmonary embolism",
+        "Chronic renal insufficiency"
+      ],
+      "emergency_markers": [
+        "Sudden flank pain + proteinuria",
+        "PE symptoms"
+      ]
+    },
+    "risk_factors": [
+      "Nephrotic syndrome",
+      "Dehydration",
+      "Hypercoagulable disorders"
+    ],
+    "differentials": [
+      "Renal colic",
+      "Pyelonephritis",
+      "RCC"
+    ],
+    "investigations": {
+      "important": [
+        "Doppler ultrasound",
+        "CT/MR venography"
+      ],
+      "additional": [
+        "Coagulation profile",
+        "Urinalysis"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "IV fluids",
+        "Analgesics"
+      ],
+      "definitive": [
+        "Anticoagulation",
+        "Thrombolysis or thrombectomy (rare)"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Anticoagulate \u2192 Monitor for complications"
+  },
+  {
+    "disease": "Alport Syndrome",
+    "epidemiology": "Genetic disorder affecting type IV collagen. X-linked dominant most common. Leads to progressive renal failure, hearing loss, and ocular changes.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hematuria from childhood",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hearing loss",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "ESRD",
+        "Sensorineural deafness"
+      ],
+      "emergency_markers": [
+        "Rapid deterioration of renal function in adolescence"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Male sex in X-linked forms"
+    ],
+    "differentials": [
+      "IgA nephropathy",
+      "Thin basement membrane disease",
+      "FSGS"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis",
+        "Family history",
+        "Genetic testing"
+      ],
+      "additional": [
+        "Hearing test",
+        "Ophthalmology exam",
+        "Renal biopsy"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "ACE inhibitors",
+        "Hearing aids"
+      ],
+      "definitive": [
+        "Kidney transplant in ESRD"
+      ]
+    },
+    "treatment_protocol": "Early detection \u2192 Supportive care \u2192 Transplantation if ESRD"
+  },
+  {
+    "disease": "Fabry Disease",
+    "epidemiology": "Rare X-linked lysosomal storage disorder due to alpha-galactosidase A deficiency. Affects kidneys, heart, and nervous system.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Acral pain",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Angiokeratomas",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "CKD",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "ESRD",
+        "Cardiomyopathy",
+        "Stroke"
+      ],
+      "emergency_markers": [
+        "Sudden neurologic deficits",
+        "Renal crisis"
+      ]
+    },
+    "risk_factors": [
+      "X-linked inheritance",
+      "Family history"
+    ],
+    "differentials": [
+      "Alport syndrome",
+      "Diabetic nephropathy",
+      "Lupus nephritis"
+    ],
+    "investigations": {
+      "important": [
+        "Genetic testing",
+        "Enzyme assay (alpha-galactosidase A)"
+      ],
+      "additional": [
+        "Renal biopsy",
+        "Echocardiogram",
+        "Brain MRI"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "ACE inhibitors",
+        "Pain control"
+      ],
+      "definitive": [
+        "Enzyme replacement therapy"
+      ]
+    },
+    "treatment_protocol": "Diagnose with genetic/enzyme test \u2192 Start enzyme replacement \u2192 Monitor progression"
+  },
+  {
+    "disease": "Membranoproliferative Glomerulonephritis (MPGN)",
+    "epidemiology": "Rare immune complex-mediated GN. Can be idiopathic or secondary to infections, autoimmune disease, or monoclonal gammopathy.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hematuria",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Edema",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "Nephrotic syndrome",
+        "ESRD"
+      ],
+      "emergency_markers": [
+        "Rapid renal deterioration"
+      ]
+    },
+    "risk_factors": [
+      "Hepatitis C",
+      "Lupus",
+      "Cryoglobulinemia"
+    ],
+    "differentials": [
+      "Post-strep GN",
+      "Lupus nephritis",
+      "Membranous nephropathy"
+    ],
+    "investigations": {
+      "important": [
+        "Renal biopsy",
+        "Complement levels"
+      ],
+      "additional": [
+        "Serology for hepatitis C",
+        "Autoimmune panel"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "BP control",
+        "ACE inhibitors"
+      ],
+      "definitive": [
+        "Immunosuppressants",
+        "Treat underlying cause"
+      ]
+    },
+    "treatment_protocol": "Diagnose via biopsy \u2192 Rule out secondary causes \u2192 Immunotherapy as indicated"
+  },
+  {
+    "disease": "Cystinuria",
+    "epidemiology": "Autosomal recessive disorder causing impaired renal reabsorption of cystine, leading to recurrent kidney stones.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Flank pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Recurrent nephrolithiasis",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Obstructive uropathy",
+        "UTI",
+        "CKD"
+      ],
+      "emergency_markers": [
+        "Stone obstruction with infection or AKI"
+      ]
+    },
+    "risk_factors": [
+      "Genetic mutation (SLC3A1 or SLC7A9)"
+    ],
+    "differentials": [
+      "Calcium oxalate stones",
+      "Uric acid stones"
+    ],
+    "investigations": {
+      "important": [
+        "24-hr urine cystine",
+        "Stone analysis"
+      ],
+      "additional": [
+        "Genetic testing",
+        "Urinalysis"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Alkalinization of urine"
+      ],
+      "definitive": [
+        "Chelating agents (tiopronin, penicillamine)"
+      ]
+    },
+    "treatment_protocol": "Increase fluid intake \u2192 Alkalinize urine \u2192 Add chelators for recurrent stones"
+  },
+  {
+    "disease": "Lupus Nephritis",
+    "epidemiology": "Affects ~50% of SLE patients. More common in women and people of African/Asian descent. Major cause of morbidity.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hematuria",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Edema",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "ESRD",
+        "Nephrotic syndrome"
+      ],
+      "emergency_markers": [
+        "Rapidly progressive GN",
+        "Refractory hypertension"
+      ]
+    },
+    "risk_factors": [
+      "SLE",
+      "Female gender",
+      "African/Asian ethnicity"
+    ],
+    "differentials": [
+      "MPGN",
+      "IgA nephropathy",
+      "Minimal change disease"
+    ],
+    "investigations": {
+      "important": [
+        "Renal biopsy",
+        "ANA, anti-dsDNA",
+        "Complement levels"
+      ],
+      "additional": [
+        "Urinalysis",
+        "Kidney function tests"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "ACE inhibitors",
+        "Hydroxychloroquine"
+      ],
+      "definitive": [
+        "Immunosuppressants: corticosteroids, mycophenolate, cyclophosphamide"
+      ]
+    },
+    "treatment_protocol": "Confirm with biopsy \u2192 Classify \u2192 Immunotherapy + maintenance"
+  },
+  {
+    "disease": "Focal Segmental Glomerulosclerosis (FSGS)",
+    "epidemiology": "A leading cause of nephrotic syndrome in adults. Can be primary or secondary to obesity, infections, or drugs.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Edema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "ESRD",
+        "Relapsing nephrotic syndrome"
+      ],
+      "emergency_markers": [
+        "Acute nephrotic crisis",
+        "Anasarca with hypotension"
+      ]
+    },
+    "risk_factors": [
+      "HIV",
+      "Heroin use",
+      "Obesity",
+      "Sickle cell disease"
+    ],
+    "differentials": [
+      "Minimal change disease",
+      "Membranous nephropathy"
+    ],
+    "investigations": {
+      "important": [
+        "Renal biopsy",
+        "Urine protein:creatinine ratio"
+      ],
+      "additional": [
+        "HIV test",
+        "ANA",
+        "Lipid profile"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Salt restriction",
+        "Diuretics",
+        "Statins"
+      ],
+      "definitive": [
+        "Steroids",
+        "Calcineurin inhibitors"
+      ]
+    },
+    "treatment_protocol": "Biopsy diagnosis \u2192 Steroid trial \u2192 Add CNIs if resistant"
+  },
+  {
+    "disease": "Minimal Change Disease (MCD)",
+    "epidemiology": "Most common cause of nephrotic syndrome in children. Can occur in adults. Often follows viral infections or allergic reactions.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Edema (periorbital, pedal)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Nephrotic syndrome",
+        "Infections",
+        "Thromboembolism"
+      ],
+      "emergency_markers": [
+        "Severe anasarca",
+        "Hypovolemia"
+      ]
+    },
+    "risk_factors": [
+      "Recent infections",
+      "NSAIDs",
+      "Hodgkin lymphoma"
+    ],
+    "differentials": [
+      "FSGS",
+      "Membranous nephropathy",
+      "Lupus nephritis"
+    ],
+    "investigations": {
+      "important": [
+        "Urine protein",
+        "Renal biopsy (adults)"
+      ],
+      "additional": [
+        "Serum albumin",
+        "Lipid profile"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Salt restriction",
+        "Diuretics"
+      ],
+      "definitive": [
+        "Corticosteroids (prednisone)"
+      ]
+    },
+    "treatment_protocol": "Start steroids \u2192 Monitor remission \u2192 Taper as appropriate"
+  },
+  {
+    "disease": "Amyloidosis (Renal)",
+    "epidemiology": "Associated with systemic amyloidosis (AL, AA). Often presents with nephrotic-range proteinuria and progressive renal dysfunction.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Edema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "ESRD",
+        "Nephrotic syndrome",
+        "Systemic involvement"
+      ],
+      "emergency_markers": [
+        "Rapid decline in renal function",
+        "Cardiac involvement"
+      ]
+    },
+    "risk_factors": [
+      "Multiple myeloma",
+      "Chronic inflammatory disease",
+      "Tuberculosis"
+    ],
+    "differentials": [
+      "FSGS",
+      "MCD",
+      "Membranous nephropathy"
+    ],
+    "investigations": {
+      "important": [
+        "Renal biopsy with Congo red staining",
+        "Serum/urine electrophoresis"
+      ],
+      "additional": [
+        "Fat pad biopsy",
+        "Cardiac evaluation"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "BP control",
+        "Diuretics"
+      ],
+      "definitive": [
+        "Chemotherapy for AL",
+        "Colchicine for AA"
+      ]
+    },
+    "treatment_protocol": "Confirm amyloid type \u2192 Treat underlying disorder \u2192 Support renal function"
+  },
+  {
+    "disease": "Diabetic Nephropathy",
+    "epidemiology": "Most common cause of CKD and ESRD worldwide. Seen in ~30\u201340% of diabetic patients.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Microalbuminuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Edema",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "ESRD",
+        "Retinopathy, neuropathy"
+      ],
+      "emergency_markers": [
+        "Rapid decline in GFR"
+      ]
+    },
+    "risk_factors": [
+      "Poor glycemic control",
+      "Hypertension",
+      "Obesity"
+    ],
+    "differentials": [
+      "Hypertensive nephrosclerosis",
+      "FSGS",
+      "Amyloidosis"
+    ],
+    "investigations": {
+      "important": [
+        "Urine albumin:creatinine ratio",
+        "eGFR",
+        "HbA1c"
+      ],
+      "additional": [
+        "Fundoscopy",
+        "Serum creatinine"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "ACE inhibitors or ARBs",
+        "Glycemic control"
+      ],
+      "definitive": [
+        "No cure; slow progression with tight metabolic control"
+      ]
+    },
+    "treatment_protocol": "Early detection \u2192 Optimize BP/glucose \u2192 Monitor renal progression"
+  },
+  {
+    "disease": "Hypertensive Nephrosclerosis",
+    "epidemiology": "Common cause of CKD in hypertensive patients, especially in Black populations. Associated with long-standing uncontrolled hypertension.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymptomatic initially",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Slowly progressive renal dysfunction",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "ESRD"
+      ],
+      "emergency_markers": [
+        "Malignant hypertension with AKI"
+      ]
+    },
+    "risk_factors": [
+      "Chronic hypertension",
+      "Black race",
+      "Smoking"
+    ],
+    "differentials": [
+      "Diabetic nephropathy",
+      "IgA nephropathy",
+      "Polycystic kidney disease"
+    ],
+    "investigations": {
+      "important": [
+        "BP monitoring",
+        "eGFR",
+        "Urinalysis"
+      ],
+      "additional": [
+        "Renal ultrasound",
+        "Serum creatinine"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Strict BP control",
+        "Lifestyle modifications"
+      ],
+      "definitive": [
+        "No specific treatment; prevent progression"
+      ]
+    },
+    "treatment_protocol": "Control BP <130/80 \u2192 Monitor renal function \u2192 Manage CV risk factors"
+  },
+  {
+    "disease": "Drug-induced Nephrotoxicity",
+    "epidemiology": "Accounts for 20% of community and hospital-acquired AKI. Caused by NSAIDs, aminoglycosides, contrast agents, etc.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymptomatic rise in creatinine",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Decreased urine output",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "AKI",
+        "CKD",
+        "Electrolyte imbalances"
+      ],
+      "emergency_markers": [
+        "Oliguria with rising creatinine",
+        "Hyperkalemia"
+      ]
+    },
+    "risk_factors": [
+      "Elderly",
+      "CKD",
+      "Dehydration",
+      "Polypharmacy"
+    ],
+    "differentials": [
+      "Prerenal AKI",
+      "Obstructive nephropathy",
+      "Glomerulonephritis"
+    ],
+    "investigations": {
+      "important": [
+        "Medication history",
+        "Serum creatinine",
+        "Urinalysis"
+      ],
+      "additional": [
+        "Urine eosinophils",
+        "Renal imaging"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Stop offending drug",
+        "Hydration"
+      ],
+      "definitive": [
+        "Dialysis if needed"
+      ]
+    },
+    "treatment_protocol": "Identify & discontinue drug \u2192 Supportive care \u2192 Monitor for recovery"
+  },
+  {
+    "disease": "Acute Interstitial Nephritis (AIN)",
+    "epidemiology": "AIN accounts for 10-15% of intrinsic AKI in hospitalized patients. Often drug-induced.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Rash",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Eosinophilia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "AKI",
+        "CKD"
+      ],
+      "emergency_markers": [
+        "Rapid rise in creatinine",
+        "Oliguria"
+      ]
+    },
+    "risk_factors": [
+      "NSAIDs",
+      "Antibiotics (penicillins, cephalosporins)",
+      "PPI use"
+    ],
+    "differentials": [
+      "Pyelonephritis",
+      "Glomerulonephritis",
+      "ATN"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis with WBCs and eosinophils",
+        "Serum creatinine",
+        "Renal biopsy"
+      ],
+      "additional": [
+        "CBC with eosinophil count",
+        "Serology for autoimmune disease"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Stop offending drug",
+        "Hydration"
+      ],
+      "definitive": [
+        "Corticosteroids in severe cases"
+      ]
+    },
+    "treatment_protocol": "Identify cause \u2192 Discontinue agent \u2192 Supportive care \u00b1 steroids"
+  },
+  {
+    "disease": "Analgesic Nephropathy",
+    "epidemiology": "Chronic kidney disease caused by prolonged use of analgesics, especially combination products. More common in middle-aged women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Polyuria",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Flank pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "Renal papillary necrosis",
+        "UTI"
+      ],
+      "emergency_markers": [
+        "Hematuria with obstruction"
+      ]
+    },
+    "risk_factors": [
+      "Chronic NSAID or combination analgesic use"
+    ],
+    "differentials": [
+      "AIN",
+      "Obstructive nephropathy",
+      "Nephrolithiasis"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis",
+        "Imaging (CT, IVP)",
+        "Serum creatinine"
+      ],
+      "additional": [
+        "Renal biopsy (if unclear)",
+        "History of analgesic use"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Stop analgesic",
+        "Hydration"
+      ],
+      "definitive": [
+        "Manage CKD complications"
+      ]
+    },
+    "treatment_protocol": "Discontinue causative drug \u2192 Monitor renal function \u2192 Treat sequelae"
+  },
+  {
+    "disease": "Renal Artery Stenosis (RAS)",
+    "epidemiology": "Atherosclerotic RAS accounts for >90% of cases. Fibromuscular dysplasia more common in young women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Refractory hypertension",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abdominal bruit",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Sudden pulmonary edema",
+          "order": 3,
+          "frequency": "rare",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "Recurrent flash pulmonary edema"
+      ],
+      "emergency_markers": [
+        "Acute rise in creatinine after ACEI",
+        "Pulmonary edema"
+      ]
+    },
+    "risk_factors": [
+      "Atherosclerosis",
+      "Smoking",
+      "Fibromuscular dysplasia"
+    ],
+    "differentials": [
+      "Hypertensive nephrosclerosis",
+      "Coarctation of aorta",
+      "Pheochromocytoma"
+    ],
+    "investigations": {
+      "important": [
+        "Renal Doppler US",
+        "CT/MR angiography"
+      ],
+      "additional": [
+        "Plasma renin levels",
+        "Captopril renography"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "BP control",
+        "Statins"
+      ],
+      "definitive": [
+        "Angioplasty \u00b1 stenting"
+      ]
+    },
+    "treatment_protocol": "Imaging confirmation \u2192 Medical management \u2192 Revascularization if indicated"
+  },
+  {
+    "disease": "Thrombotic Microangiopathy (TMA)",
+    "epidemiology": "Includes HUS, TTP, and secondary causes (e.g., malignancy, pregnancy, drugs). Characterized by microangiopathic hemolytic anemia and thrombocytopenia.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Neurologic changes",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "AKI",
+        "Neurological sequelae",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Thrombocytopenia + MAHA + renal impairment"
+      ]
+    },
+    "risk_factors": [
+      "E. coli infection",
+      "Pregnancy",
+      "Autoimmune disease",
+      "Drugs (e.g., quinine)"
+    ],
+    "differentials": [
+      "DIC",
+      "HELLP syndrome",
+      "Sepsis"
+    ],
+    "investigations": {
+      "important": [
+        "Blood smear",
+        "LDH",
+        "Creatinine",
+        "Platelet count"
+      ],
+      "additional": [
+        "ADAMTS13 activity",
+        "Coombs test"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Plasmapheresis (TTP)",
+        "Fluids"
+      ],
+      "definitive": [
+        "Eculizumab (aHUS)"
+      ]
+    },
+    "treatment_protocol": "Identify cause \u2192 Plasma exchange or eculizumab \u2192 Monitor closely"
+  },
+  {
+    "disease": "Ischemic Nephropathy",
+    "epidemiology": "Progressive loss of renal function due to reduced blood flow, usually from bilateral renal artery stenosis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Progressive renal insufficiency",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Refractory hypertension",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Reduced urine output",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "ESRD",
+        "Hypertensive crisis",
+        "Cardiovascular disease"
+      ],
+      "emergency_markers": [
+        "Pulmonary edema",
+        "Rapid drop in eGFR post-ACEI"
+      ]
+    },
+    "risk_factors": [
+      "Atherosclerosis",
+      "Diabetes",
+      "Hypertension"
+    ],
+    "differentials": [
+      "Renal artery stenosis",
+      "Diabetic nephropathy",
+      "Chronic GN"
+    ],
+    "investigations": {
+      "important": [
+        "Duplex Doppler US",
+        "Renal angiography",
+        "Serum creatinine"
+      ],
+      "additional": [
+        "Urinalysis",
+        "eGFR trend"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Antihypertensives",
+        "Statins",
+        "Lifestyle changes"
+      ],
+      "definitive": [
+        "Revascularization (in selected cases)"
+      ]
+    },
+    "treatment_protocol": "Confirm ischemia \u2192 Conservative treatment \u2192 Consider angioplasty"
+  },
+  {
+    "disease": "Membranoproliferative Glomerulonephritis (MPGN)",
+    "epidemiology": "Rare but serious cause of glomerulonephritis, associated with chronic infections (e.g., HCV), autoimmune disease, and monoclonal gammopathy.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hematuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proteinuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "Nephrotic syndrome"
+      ],
+      "emergency_markers": [
+        "Rapidly progressive renal failure"
+      ]
+    },
+    "risk_factors": [
+      "Hepatitis C",
+      "SLE",
+      "Cryoglobulinemia",
+      "Paraproteinemia"
+    ],
+    "differentials": [
+      "Membranous nephropathy",
+      "IgA nephropathy",
+      "FSGS"
+    ],
+    "investigations": {
+      "important": [
+        "Renal biopsy",
+        "Complement levels (\u2193 C3)",
+        "HCV testing"
+      ],
+      "additional": [
+        "ANA",
+        "Cryoglobulins",
+        "Serum protein electrophoresis"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "BP and proteinuria control",
+        "Immunosuppression"
+      ],
+      "definitive": [
+        "Treat underlying cause (e.g., HCV, immune suppression)"
+      ]
+    },
+    "treatment_protocol": "Evaluate cause \u2192 Control BP/proteinuria \u2192 Immunotherapy if needed"
+  },
+  {
+    "disease": "Renal Vein Thrombosis (RVT)",
+    "epidemiology": "Can occur in nephrotic syndrome, malignancy, dehydration (infants). More common in hypercoagulable states.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Flank pain",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sudden decline in renal function",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Pulmonary embolism",
+        "AKI",
+        "Chronic kidney disease"
+      ],
+      "emergency_markers": [
+        "Severe pain with hematuria",
+        "Sudden oliguria"
+      ]
+    },
+    "risk_factors": [
+      "Nephrotic syndrome",
+      "Malignancy",
+      "Hypercoagulability",
+      "Trauma"
+    ],
+    "differentials": [
+      "Renal colic",
+      "Renal infarction",
+      "Pyelonephritis"
+    ],
+    "investigations": {
+      "important": [
+        "CT or MR venography",
+        "Renal Doppler",
+        "D-dimer"
+      ],
+      "additional": [
+        "Thrombophilia workup",
+        "Urinalysis"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Symptom relief"
+      ],
+      "definitive": [
+        "Anticoagulation",
+        "Thrombolysis in select cases"
+      ]
+    },
+    "treatment_protocol": "Diagnose with imaging \u2192 Start anticoagulation \u2192 Long-term management"
+  },
+  {
+    "disease": "Autosomal Dominant Polycystic Kidney Disease (ADPKD)",
+    "epidemiology": "Common hereditary cause of CKD; affects ~1 in 500 to 1,000 people. Progressive development of renal cysts.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Flank pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "Intracranial aneurysms",
+        "Cyst infections",
+        "Nephrolithiasis"
+      ],
+      "emergency_markers": [
+        "Severe headache with family history of aneurysms",
+        "Hemorrhagic cyst rupture"
+      ]
+    },
+    "risk_factors": [
+      "Family history of ADPKD"
+    ],
+    "differentials": [
+      "Acquired cystic kidney disease",
+      "Simple renal cysts",
+      "Hydronephrosis"
+    ],
+    "investigations": {
+      "important": [
+        "Renal ultrasound",
+        "CT/MRI if unclear"
+      ],
+      "additional": [
+        "Genetic testing",
+        "Creatinine, eGFR",
+        "Urinalysis"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "BP control (ACEi/ARB)",
+        "Pain management"
+      ],
+      "definitive": [
+        "Tolvaptan to slow progression in select patients"
+      ]
+    },
+    "treatment_protocol": "Monitor renal function \u2192 Screen family \u2192 Manage hypertension and complications"
+  },
+  {
+    "disease": "Chronic Interstitial Nephritis",
+    "epidemiology": "Chronic tubulointerstitial injury from long-term NSAIDs, lithium, toxins, or systemic disorders (e.g., Sjogren\u2019s).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Polyuria",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Nocturia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "Electrolyte imbalances",
+        "Anemia"
+      ],
+      "emergency_markers": [
+        "Hyperkalemia",
+        "AKI with fibrosis"
+      ]
+    },
+    "risk_factors": [
+      "NSAIDs",
+      "Lithium",
+      "Lead exposure",
+      "Autoimmune diseases"
+    ],
+    "differentials": [
+      "Obstructive uropathy",
+      "Glomerulonephritis",
+      "Analgesic nephropathy"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis",
+        "Renal ultrasound",
+        "Serum creatinine"
+      ],
+      "additional": [
+        "Renal biopsy",
+        "Serologic tests"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Stop offending agent",
+        "Correct electrolytes"
+      ],
+      "definitive": [
+        "Treat underlying cause"
+      ]
+    },
+    "treatment_protocol": "Identify cause \u2192 Remove offending agent \u2192 Monitor for progression"
+  },
+  {
+    "disease": "Renal Tubular Acidosis (RTA)",
+    "epidemiology": "Group of disorders causing non-anion gap metabolic acidosis. Classified as Type 1 (distal), Type 2 (proximal), or Type 4 (hypoaldosteronism).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Polyuria",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Muscle weakness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Growth retardation (children)",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Nephrocalcinosis",
+        "Hypokalemia",
+        "CKD"
+      ],
+      "emergency_markers": [
+        "Severe acidosis",
+        "Hyperkalemia in Type 4"
+      ]
+    },
+    "risk_factors": [
+      "Autoimmune diseases",
+      "Drugs (amphotericin, ifosfamide)",
+      "Genetic disorders"
+    ],
+    "differentials": [
+      "Diarrhea-induced acidosis",
+      "Fanconi syndrome",
+      "Diabetic nephropathy"
+    ],
+    "investigations": {
+      "important": [
+        "Serum electrolytes",
+        "Urine pH",
+        "Serum bicarbonate"
+      ],
+      "additional": [
+        "Ammonium chloride loading test",
+        "Renal US"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Bicarbonate supplementation",
+        "Potassium management"
+      ],
+      "definitive": [
+        "Treat underlying cause"
+      ]
+    },
+    "treatment_protocol": "Classify type \u2192 Electrolyte correction \u2192 Long-term management"
+  },
+  {
+    "disease": "Acute Cortical Necrosis",
+    "epidemiology": "Rare cause of AKI; accounts for <2% of all AKI. Seen in obstetric complications, sepsis, and snake bites.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Anuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Flank pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Irreversible renal failure",
+        "CKD",
+        "Hypertension"
+      ],
+      "emergency_markers": [
+        "Sudden oliguria/anuria after shock or trauma"
+      ]
+    },
+    "risk_factors": [
+      "Obstetric complications",
+      "Septic shock",
+      "Snake bite",
+      "Hemolytic uremic syndrome"
+    ],
+    "differentials": [
+      "ATN",
+      "Renal artery thrombosis",
+      "Cortical infarction"
+    ],
+    "investigations": {
+      "important": [
+        "CT scan",
+        "Renal biopsy"
+      ],
+      "additional": [
+        "Urinalysis",
+        "Serum creatinine",
+        "Coagulation profile"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Dialysis",
+        "Management of underlying cause"
+      ],
+      "definitive": [
+        "No specific cure; supportive care only"
+      ]
+    },
+    "treatment_protocol": "Identify precipitant \u2192 Supportive care \u2192 Long-term renal follow-up"
+  },
+  {
+    "disease": "Light Chain Cast Nephropathy (Myeloma Kidney)",
+    "epidemiology": "Occurs in ~40% of multiple myeloma patients. Common cause of AKI in myeloma.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Oliguria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bone pain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "AKI",
+        "CKD",
+        "Hypercalcemia"
+      ],
+      "emergency_markers": [
+        "AKI in known/suspected myeloma"
+      ]
+    },
+    "risk_factors": [
+      "Multiple myeloma",
+      "Dehydration",
+      "NSAID use"
+    ],
+    "differentials": [
+      "ATN",
+      "AIN",
+      "Post-renal obstruction"
+    ],
+    "investigations": {
+      "important": [
+        "Serum and urine protein electrophoresis",
+        "Free light chains",
+        "Renal biopsy"
+      ],
+      "additional": [
+        "Calcium levels",
+        "Creatinine",
+        "Immunofixation"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Avoid nephrotoxins"
+      ],
+      "definitive": [
+        "Chemotherapy for myeloma"
+      ]
+    },
+    "treatment_protocol": "Hydrate \u2192 Confirm myeloma \u2192 Treat underlying disease"
+  },
+  {
+    "disease": "Lupus Nephritis",
+    "epidemiology": "Occurs in up to 60% of patients with systemic lupus erythematosus (SLE), especially women of childbearing age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Edema",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hematuria",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "ESRD",
+        "Nephrotic syndrome"
+      ],
+      "emergency_markers": [
+        "Rapidly progressive GN",
+        "Severe proteinuria"
+      ]
+    },
+    "risk_factors": [
+      "Female sex",
+      "African or Asian ethnicity",
+      "SLE"
+    ],
+    "differentials": [
+      "IgA nephropathy",
+      "Membranous nephropathy",
+      "MPGN"
+    ],
+    "investigations": {
+      "important": [
+        "ANA",
+        "Anti-dsDNA",
+        "Renal biopsy",
+        "Complement levels"
+      ],
+      "additional": [
+        "Urinalysis",
+        "24-hour protein",
+        "Serum creatinine"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "BP control",
+        "Diuretics"
+      ],
+      "definitive": [
+        "Immunosuppression with corticosteroids and mycophenolate/cyclophosphamide"
+      ]
+    },
+    "treatment_protocol": "Classify by biopsy \u2192 Start induction + maintenance therapy \u2192 Monitor renal function"
+  },
+  {
+    "disease": "Amyloidosis (Renal)",
+    "epidemiology": "Renal involvement common in systemic amyloidosis (AL or AA type). AL amyloidosis often from plasma cell dyscrasias.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Massive proteinuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Edema",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Nephrotic syndrome",
+        "CKD",
+        "Heart involvement"
+      ],
+      "emergency_markers": [
+        "Sudden decline in GFR",
+        "Severe nephrotic state"
+      ]
+    },
+    "risk_factors": [
+      "Multiple myeloma",
+      "Chronic inflammatory disease",
+      "Tuberculosis"
+    ],
+    "differentials": [
+      "FSGS",
+      "Membranous nephropathy",
+      "Diabetic nephropathy"
+    ],
+    "investigations": {
+      "important": [
+        "Serum/urine electrophoresis",
+        "Renal biopsy with Congo red stain"
+      ],
+      "additional": [
+        "Immunofixation",
+        "Free light chains",
+        "Cardiac biomarkers"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Diuretics",
+        "BP control",
+        "Nutritional support"
+      ],
+      "definitive": [
+        "Chemotherapy or anti-inflammatory treatment depending on type"
+      ]
+    },
+    "treatment_protocol": "Confirm amyloidosis \u2192 Classify type \u2192 Treat underlying disorder"
+  },
+  {
+    "disease": "Uric Acid Nephropathy",
+    "epidemiology": "Occurs in tumor lysis syndrome or in chronic hyperuricemia. Common in hematologic malignancies after chemotherapy.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Oliguria",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nausea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Flank pain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "AKI",
+        "Metabolic disturbances"
+      ],
+      "emergency_markers": [
+        "Rapidly rising creatinine in TLS setting"
+      ]
+    },
+    "risk_factors": [
+      "Hematologic cancers",
+      "High cell turnover",
+      "Chemotherapy"
+    ],
+    "differentials": [
+      "Crystal nephropathy",
+      "Obstructive nephropathy",
+      "AIN"
+    ],
+    "investigations": {
+      "important": [
+        "Serum uric acid",
+        "Creatinine",
+        "Urine uric acid:creatinine ratio"
+      ],
+      "additional": [
+        "Electrolytes",
+        "Urinalysis",
+        "Renal ultrasound"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Urine alkalinization"
+      ],
+      "definitive": [
+        "Rasburicase",
+        "Allopurinol"
+      ]
+    },
+    "treatment_protocol": "Prophylaxis in high-risk patients \u2192 Monitor uric acid \u2192 Treat hyperuricemia"
+  },
+  {
+    "disease": "Bartter Syndrome",
+    "epidemiology": "A rare autosomal recessive renal tubular disorder. Onset often in infancy or childhood.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Polyuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Growth retardation",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Muscle weakness",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Dehydration",
+        "Hypokalemia",
+        "Metabolic alkalosis"
+      ],
+      "emergency_markers": [
+        "Severe hypokalemia"
+      ]
+    },
+    "risk_factors": [
+      "Genetic mutations affecting ion channels (e.g., SLC12A1, KCNJ1)"
+    ],
+    "differentials": [
+      "Gitelman syndrome",
+      "Diuretic abuse",
+      "Liddle syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Serum electrolytes",
+        "Urine chloride",
+        "Renin and aldosterone levels"
+      ],
+      "additional": [
+        "Genetic testing"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Potassium and magnesium supplements",
+        "NSAIDs (e.g., indomethacin)"
+      ],
+      "definitive": [
+        "No cure; lifelong electrolyte and volume management"
+      ]
+    },
+    "treatment_protocol": "Diagnose early \u2192 Manage electrolytes \u2192 Monitor growth and development"
+  },
+  {
+    "disease": "Gitelman Syndrome",
+    "epidemiology": "Inherited autosomal recessive disorder affecting NaCl transport in distal tubule. Often asymptomatic until adolescence/adulthood.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Muscle cramps",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Tetany",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Hypokalemia",
+        "Hypomagnesemia",
+        "Metabolic alkalosis"
+      ],
+      "emergency_markers": [
+        "Severe muscle cramps and tetany"
+      ]
+    },
+    "risk_factors": [
+      "Mutation in SLC12A3 gene"
+    ],
+    "differentials": [
+      "Bartter syndrome",
+      "Diuretic use",
+      "Hypomagnesemia causes"
+    ],
+    "investigations": {
+      "important": [
+        "Serum and urine electrolytes",
+        "Magnesium",
+        "Genetic testing"
+      ],
+      "additional": [
+        "Urine calcium (low)",
+        "Blood gas"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Oral potassium and magnesium",
+        "Salt supplementation"
+      ],
+      "definitive": [
+        "Symptom management; no cure"
+      ]
+    },
+    "treatment_protocol": "Maintain electrolytes \u2192 Symptomatic relief \u2192 Long-term follow-up"
+  },
+  {
+    "disease": "Alport Syndrome",
+    "epidemiology": "Genetic disorder affecting type IV collagen. X-linked is most common. Leads to progressive renal failure, hearing loss, and ocular defects.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hematuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hearing loss",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Progressive renal failure",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "ESRD",
+        "Sensorineural deafness",
+        "Ocular abnormalities"
+      ],
+      "emergency_markers": [
+        "Sudden decline in renal function"
+      ]
+    },
+    "risk_factors": [
+      "Family history of hematuria or ESRD",
+      "Mutations in COL4A3/4/5"
+    ],
+    "differentials": [
+      "IgA nephropathy",
+      "Thin basement membrane disease"
+    ],
+    "investigations": {
+      "important": [
+        "Urinalysis",
+        "Hearing test",
+        "Renal biopsy",
+        "Genetic testing"
+      ],
+      "additional": [
+        "Eye exam",
+        "Family screening"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "ACE inhibitors",
+        "Hearing aids if needed"
+      ],
+      "definitive": [
+        "Kidney transplant in ESRD"
+      ]
+    },
+    "treatment_protocol": "Screen early \u2192 Monitor renal function \u2192 Manage proteinuria \u2192 Transplant if needed"
+  },
+  {
+    "disease": "Fabry Disease (Renal)",
+    "epidemiology": "X-linked lysosomal storage disease. Renal involvement begins in adolescence. Causes progressive CKD.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Proteinuria",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pain crises",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Anhidrosis",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "CKD",
+        "Heart disease",
+        "Stroke"
+      ],
+      "emergency_markers": [
+        "Rapid renal decline in young male with pain"
+      ]
+    },
+    "risk_factors": [
+      "Male sex",
+      "Family history",
+      "Mutation in GLA gene"
+    ],
+    "differentials": [
+      "SLE",
+      "Vasculitis",
+      "Diabetic nephropathy"
+    ],
+    "investigations": {
+      "important": [
+        "Alpha-galactosidase A activity",
+        "Genetic testing"
+      ],
+      "additional": [
+        "Renal biopsy",
+        "Cardiac evaluation"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "ACE inhibitors",
+        "Pain management"
+      ],
+      "definitive": [
+        "Enzyme replacement therapy (ERT)"
+      ]
+    },
+    "treatment_protocol": "Diagnose early \u2192 Start ERT \u2192 Monitor renal and cardiac function"
+  },
+  {
+    "disease": "Nephrocalcinosis",
+    "epidemiology": "Calcium deposition in renal parenchyma. Associated with hyperparathyroidism, distal RTA, and hypervitaminosis D.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymptomatic (often)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "none"
+        },
+        {
+          "symptom": "Flank pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Polyuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Renal stone formation",
+        "CKD"
+      ],
+      "emergency_markers": [
+        "Obstructive uropathy from calcifications"
+      ]
+    },
+    "risk_factors": [
+      "Hyperparathyroidism",
+      "Vitamin D toxicity",
+      "Distal RTA"
+    ],
+    "differentials": [
+      "Nephrolithiasis",
+      "Medullary sponge kidney",
+      "Hypercalcemia"
+    ],
+    "investigations": {
+      "important": [
+        "Renal ultrasound",
+        "Serum calcium, phosphate",
+        "PTH"
+      ],
+      "additional": [
+        "24-hour urinary calcium",
+        "CT abdomen"
+      ]
+    },
+    "specialty": "Nephrology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Correct metabolic abnormalities"
+      ],
+      "definitive": [
+        "Treat underlying condition"
+      ]
+    },
+    "treatment_protocol": "Identify cause \u2192 Control calcium-phosphate metabolism \u2192 Follow up imaging"
+  }
+]

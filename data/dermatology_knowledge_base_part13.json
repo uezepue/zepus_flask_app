@@ -1,0 +1,3892 @@
+[
+  {
+    "disease": "Acne Vulgaris",
+    "epidemiology": "Common skin disorder affecting up to 85% of adolescents. Can persist into adulthood.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Comedones (blackheads/whiteheads)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Papules",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pustules",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nodules or cysts",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Scarring",
+        "Post-inflammatory hyperpigmentation"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Adolescence",
+      "Hormonal changes",
+      "Oily skin",
+      "Genetics",
+      "Certain medications"
+    ],
+    "differentials": [
+      "Rosacea",
+      "Folliculitis",
+      "Keratosis pilaris"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Hormonal profile in resistant or severe cases"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Gentle skin care",
+        "Non-comedogenic products"
+      ],
+      "definitive": [
+        "Topical retinoids",
+        "Benzoyl peroxide",
+        "Oral antibiotics",
+        "Isotretinoin for severe cases"
+      ]
+    },
+    "treatment_protocol": "Mild: Topicals \u2192 Moderate: Add oral antibiotics \u2192 Severe/Nodulocystic: Isotretinoin"
+  },
+  {
+    "disease": "Atopic Dermatitis",
+    "epidemiology": "Chronic inflammatory skin condition affecting up to 20% of children and 3% of adults worldwide.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Pruritus",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Erythema",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Lichenification",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Weeping lesions",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Secondary infection",
+        "Sleep disturbance"
+      ],
+      "emergency_markers": [
+        "Widespread infection",
+        "Eczema herpeticum"
+      ]
+    },
+    "risk_factors": [
+      "Family history of atopy",
+      "Dry skin",
+      "Allergen exposure"
+    ],
+    "differentials": [
+      "Seborrheic dermatitis",
+      "Psoriasis",
+      "Contact dermatitis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Patch testing",
+        "IgE levels"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Emollients",
+        "Avoid triggers"
+      ],
+      "definitive": [
+        "Topical corticosteroids",
+        "Calcineurin inhibitors",
+        "Antihistamines"
+      ]
+    },
+    "treatment_protocol": "Emollients \u2192 Topical steroids for flares \u2192 Immunomodulators if refractory"
+  },
+  {
+    "disease": "Psoriasis Vulgaris",
+    "epidemiology": "Affects 2\u20133% of the population. Peaks in young adults and middle age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Well-demarcated plaques",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Silvery scale",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pruritus",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Joint pain",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Psoriatic arthritis",
+        "Erythroderma",
+        "Psychological distress"
+      ],
+      "emergency_markers": [
+        "Erythrodermic psoriasis"
+      ]
+    },
+    "risk_factors": [
+      "Genetics",
+      "Stress",
+      "Infections",
+      "Certain medications"
+    ],
+    "differentials": [
+      "Eczema",
+      "Tinea corporis",
+      "Seborrheic dermatitis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Skin biopsy",
+        "X-ray for joint involvement"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Moisturizers",
+        "Sunlight exposure"
+      ],
+      "definitive": [
+        "Topical steroids",
+        "Vitamin D analogs",
+        "Phototherapy",
+        "Biologics"
+      ]
+    },
+    "treatment_protocol": "Topicals for mild \u2192 Phototherapy/systemics for moderate/severe"
+  },
+  {
+    "disease": "Seborrheic Dermatitis",
+    "epidemiology": "Common in infants (cradle cap) and adults (especially males). Associated with Parkinson\u2019s disease and HIV.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Greasy scaling",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Erythema",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pruritus",
+          "order": 3,
+          "frequency": "moderate",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Secondary infection",
+        "Psychological stress"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Male gender",
+      "Parkinson\u2019s disease",
+      "HIV infection"
+    ],
+    "differentials": [
+      "Psoriasis",
+      "Tinea capitis",
+      "Contact dermatitis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "HIV testing in severe/refractory cases"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Mild shampoos",
+        "Skin hydration"
+      ],
+      "definitive": [
+        "Antifungal shampoos",
+        "Topical corticosteroids",
+        "Calcineurin inhibitors"
+      ]
+    },
+    "treatment_protocol": "Mild shampoo \u2192 Antifungal + steroid creams \u2192 Maintain with antifungals"
+  },
+  {
+    "disease": "Tinea Corporis",
+    "epidemiology": "Superficial dermatophyte infection of body skin. Common in warm climates and close contact settings.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Annular red plaques",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Central clearing with active edge",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Itching",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Secondary infection",
+        "Spread to other sites"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Hot, humid environments",
+      "Close contact sports",
+      "Poor hygiene"
+    ],
+    "differentials": [
+      "Psoriasis",
+      "Nummular eczema",
+      "Pityriasis rosea"
+    ],
+    "investigations": {
+      "important": [
+        "KOH prep",
+        "Clinical appearance"
+      ],
+      "additional": [
+        "Fungal culture"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Keep skin dry",
+        "Avoid sharing towels"
+      ],
+      "definitive": [
+        "Topical antifungals",
+        "Oral antifungals for extensive cases"
+      ]
+    },
+    "treatment_protocol": "Topical antifungals 2\u20134 weeks \u2192 Oral if refractory/widespread"
+  },
+  {
+    "disease": "Contact Dermatitis",
+    "epidemiology": "Very common. Two types: irritant (80%) and allergic. Affects all ages. Occupational hazard.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Localized erythema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Vesicles/blisters",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Itching or burning",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Chronic dermatitis",
+        "Lichenification"
+      ],
+      "emergency_markers": [
+        "Widespread allergic reaction"
+      ]
+    },
+    "risk_factors": [
+      "Chemical exposure",
+      "Occupational exposure",
+      "Atopy"
+    ],
+    "differentials": [
+      "Eczema",
+      "Psoriasis",
+      "Drug eruption"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Patch testing for allergens"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Avoid triggers",
+        "Cool compresses"
+      ],
+      "definitive": [
+        "Topical steroids",
+        "Oral antihistamines",
+        "Barrier creams"
+      ]
+    },
+    "treatment_protocol": "Identify trigger \u2192 Avoid exposure \u2192 Use topicals for inflammation"
+  },
+  {
+    "disease": "Urticaria",
+    "epidemiology": "Affects 15\u201320% of the population at some point. Acute form most common.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Transient wheals",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Intense itching",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Angioedema",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Anaphylaxis",
+        "Chronic urticaria"
+      ],
+      "emergency_markers": [
+        "Respiratory distress",
+        "Hypotension",
+        "Swelling of lips/tongue"
+      ]
+    },
+    "risk_factors": [
+      "Infections",
+      "Drugs",
+      "Foods",
+      "Autoimmune disease"
+    ],
+    "differentials": [
+      "Drug reaction",
+      "Contact dermatitis",
+      "Erythema multiforme"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Allergy testing",
+        "CBC, ESR"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Cold compresses",
+        "Avoid known triggers"
+      ],
+      "definitive": [
+        "Antihistamines",
+        "Steroids (short course)",
+        "Epinephrine (anaphylaxis)"
+      ]
+    },
+    "treatment_protocol": "Acute: Antihistamines \u2192 Severe: Add steroids or epinephrine as indicated"
+  },
+  {
+    "disease": "Scabies",
+    "epidemiology": "Common parasitic skin infestation. Highly contagious, affects all ages globally.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Intense nocturnal itching",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Burrows in web spaces",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Papules, excoriations",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Secondary bacterial infection",
+        "Crusted scabies"
+      ],
+      "emergency_markers": [
+        "Widespread crusted lesions in immunosuppressed"
+      ]
+    },
+    "risk_factors": [
+      "Crowded living conditions",
+      "Poor hygiene",
+      "Close personal contact"
+    ],
+    "differentials": [
+      "Eczema",
+      "Insect bites",
+      "Lichen planus"
+    ],
+    "investigations": {
+      "important": [
+        "Skin scraping (microscopy)"
+      ],
+      "additional": [
+        "Clinical diagnosis"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Treat contacts",
+        "Launder clothing"
+      ],
+      "definitive": [
+        "Topical permethrin",
+        "Oral ivermectin"
+      ]
+    },
+    "treatment_protocol": "Permethrin cream 8\u201314 hours \u2192 Repeat in 1 week \u2192 Ivermectin for crusted/resistant"
+  },
+  {
+    "disease": "Lichen Planus",
+    "epidemiology": "Uncommon, immune-mediated disorder. Affects middle-aged adults, often idiopathic.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Violaceous papules",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Wickham striae",
+          "order": 2,
+          "frequency": "occasional",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Oral lesions",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Post-inflammatory hyperpigmentation",
+        "Oral discomfort"
+      ],
+      "emergency_markers": [
+        "Erosive mucosal involvement"
+      ]
+    },
+    "risk_factors": [
+      "Hepatitis C",
+      "Certain drugs",
+      "Stress"
+    ],
+    "differentials": [
+      "Psoriasis",
+      "Lichen simplex chronicus",
+      "Drug eruption"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical appearance",
+        "Skin biopsy"
+      ],
+      "additional": [
+        "Hepatitis panel"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Avoid trauma",
+        "Cool compress"
+      ],
+      "definitive": [
+        "Topical corticosteroids",
+        "Antihistamines",
+        "Systemic steroids in severe cases"
+      ]
+    },
+    "treatment_protocol": "Topical steroids \u2192 Systemics if widespread or mucosal"
+  },
+  {
+    "disease": "Pityriasis Rosea",
+    "epidemiology": "Common self-limited eruption. Mostly affects adolescents and young adults. Often seasonal.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Herald patch",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Christmas tree rash on trunk",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Mild pruritus",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Post-inflammatory hyperpigmentation"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Viral illness",
+      "Younger age group"
+    ],
+    "differentials": [
+      "Tinea corporis",
+      "Secondary syphilis",
+      "Drug eruption"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "RPR to exclude syphilis"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Reassurance",
+        "Moisturizers"
+      ],
+      "definitive": [
+        "Topical steroids",
+        "Antihistamines"
+      ]
+    },
+    "treatment_protocol": "Supportive care \u2192 Topicals if symptomatic \u2192 Resolves in 6\u20138 weeks"
+  },
+  {
+    "disease": "Erythema Multiforme",
+    "epidemiology": "Acute hypersensitivity reaction often triggered by infections (HSV, Mycoplasma). Affects young adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Target lesions",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Oral ulcers",
+          "order": 2,
+          "frequency": "occasional",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Progression to Stevens-Johnson syndrome"
+      ],
+      "emergency_markers": [
+        "Mucosal involvement",
+        "Systemic symptoms"
+      ]
+    },
+    "risk_factors": [
+      "Herpes simplex virus",
+      "Medications",
+      "Autoimmune disease"
+    ],
+    "differentials": [
+      "SJS/TEN",
+      "Drug eruption",
+      "Urticaria"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical appearance"
+      ],
+      "additional": [
+        "Biopsy if uncertain",
+        "HSV PCR"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Treat trigger",
+        "Oral care"
+      ],
+      "definitive": [
+        "Topical steroids",
+        "Oral antihistamines",
+        "Antivirals for HSV"
+      ]
+    },
+    "treatment_protocol": "Treat cause \u2192 Symptomatic relief \u2192 Monitor for SJS"
+  },
+  {
+    "disease": "Vitiligo",
+    "epidemiology": "Affects 0.5\u20132% of the population worldwide. Onset usually before age 20.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Depigmented macules and patches",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Symmetrical distribution",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hair depigmentation",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Cosmetic concern",
+        "Psychosocial impact"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history",
+      "Autoimmune diseases"
+    ],
+    "differentials": [
+      "Pityriasis alba",
+      "Tinea versicolor",
+      "Post-inflammatory hypopigmentation"
+    ],
+    "investigations": {
+      "important": [
+        "Wood's lamp examination"
+      ],
+      "additional": [
+        "Thyroid profile",
+        "ANA test"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Sunscreen",
+        "Camouflage makeup"
+      ],
+      "definitive": [
+        "Topical corticosteroids",
+        "Topical calcineurin inhibitors",
+        "Phototherapy"
+      ]
+    },
+    "treatment_protocol": "Topicals \u2192 Phototherapy \u2192 Surgical grafting if stable and refractory"
+  },
+  {
+    "disease": "Basal Cell Carcinoma (BCC)",
+    "epidemiology": "Most common skin cancer. More frequent in fair-skinned individuals over age 50.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Pearly or waxy papule",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Telangiectasia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Ulceration or bleeding",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Local invasion",
+        "Recurrence"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "UV exposure",
+      "Fair skin",
+      "Immunosuppression"
+    ],
+    "differentials": [
+      "Squamous cell carcinoma",
+      "Sebaceous hyperplasia",
+      "Amelanotic melanoma"
+    ],
+    "investigations": {
+      "important": [
+        "Skin biopsy"
+      ],
+      "additional": [
+        "Dermoscopy"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Sun protection",
+        "Regular monitoring"
+      ],
+      "definitive": [
+        "Surgical excision",
+        "Mohs surgery",
+        "Topical imiquimod"
+      ]
+    },
+    "treatment_protocol": "Biopsy \u2192 Surgery or topical agents depending on size/location"
+  },
+  {
+    "disease": "Squamous Cell Carcinoma (SCC)",
+    "epidemiology": "Second most common skin cancer. Higher metastatic potential than BCC.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Scaly erythematous plaque or nodule",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ulceration",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Crusting or bleeding",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Local invasion",
+        "Metastasis"
+      ],
+      "emergency_markers": [
+        "Rapidly growing or deeply invasive lesion"
+      ]
+    },
+    "risk_factors": [
+      "Sun exposure",
+      "Immunosuppression",
+      "Chronic wounds"
+    ],
+    "differentials": [
+      "BCC",
+      "Keratoacanthoma",
+      "Psoriasis"
+    ],
+    "investigations": {
+      "important": [
+        "Skin biopsy"
+      ],
+      "additional": [
+        "CT or MRI if invasion suspected"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Sun protection"
+      ],
+      "definitive": [
+        "Surgical excision",
+        "Radiotherapy",
+        "Mohs micrographic surgery"
+      ]
+    },
+    "treatment_protocol": "Biopsy \u2192 Surgical removal \u2192 Adjuvant therapy if indicated"
+  },
+  {
+    "disease": "Melanoma",
+    "epidemiology": "Most deadly skin cancer. Increasing incidence globally. Early detection is key.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymmetric pigmented lesion",
+          "order": 1,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Irregular border",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Color variation",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Diameter >6 mm",
+          "order": 4,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Evolution over time",
+          "order": 5,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Metastasis",
+        "Death if untreated"
+      ],
+      "emergency_markers": [
+        "Any rapidly evolving pigmented lesion"
+      ]
+    },
+    "risk_factors": [
+      "Fair skin",
+      "UV exposure",
+      "Family history",
+      "Multiple nevi"
+    ],
+    "differentials": [
+      "Dysplastic nevus",
+      "Seborrheic keratosis",
+      "Pigmented BCC"
+    ],
+    "investigations": {
+      "important": [
+        "Excisional biopsy"
+      ],
+      "additional": [
+        "Sentinel lymph node biopsy",
+        "Imaging for staging"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Sun protection"
+      ],
+      "definitive": [
+        "Wide local excision",
+        "Immunotherapy",
+        "Targeted therapy"
+      ]
+    },
+    "treatment_protocol": "Biopsy \u2192 Surgical excision \u2192 Staging \u2192 Adjuvant therapy if advanced"
+  },
+  {
+    "disease": "Rosacea",
+    "epidemiology": "Chronic inflammatory facial disorder. More common in adults 30\u201350 years, especially women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Facial flushing",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Telangiectasia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Papulopustules",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ocular symptoms",
+          "order": 4,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Rhinophyma",
+        "Ocular damage"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Sun exposure",
+      "Hot drinks",
+      "Alcohol",
+      "Spicy foods"
+    ],
+    "differentials": [
+      "Acne",
+      "Seborrheic dermatitis",
+      "Lupus"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Skin biopsy if atypical"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Avoid triggers",
+        "Use sunscreen"
+      ],
+      "definitive": [
+        "Topical metronidazole",
+        "Oral tetracyclines",
+        "Laser therapy"
+      ]
+    },
+    "treatment_protocol": "Avoid triggers \u2192 Topical agents \u2192 Oral antibiotics if needed"
+  },
+  {
+    "disease": "Seborrheic Dermatitis",
+    "epidemiology": "Common chronic inflammatory skin disorder affecting 3-5% of the population. Common in infancy and adulthood.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Greasy scales on erythematous base",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Scalp dandruff",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Facial scaling (nasolabial folds, eyebrows)",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Secondary infection",
+        "Chronic recurrence"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "HIV",
+      "Parkinson\u2019s disease",
+      "Stress"
+    ],
+    "differentials": [
+      "Psoriasis",
+      "Tinea capitis",
+      "Atopic dermatitis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Skin scrapings to rule out tinea"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Gentle cleansing",
+        "Avoid irritants"
+      ],
+      "definitive": [
+        "Topical antifungals (ketoconazole)",
+        "Topical corticosteroids"
+      ]
+    },
+    "treatment_protocol": "Topical antifungals \u2192 Add corticosteroids if inflammation \u2192 Maintenance therapy"
+  },
+  {
+    "disease": "Contact Dermatitis",
+    "epidemiology": "Affects 15\u201320% of people. Two main types: irritant and allergic. Common occupational condition.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Erythema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Vesicles/blisters",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Itching/burning",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Lichenification",
+        "Secondary infection"
+      ],
+      "emergency_markers": [
+        "Severe allergic reactions with systemic symptoms"
+      ]
+    },
+    "risk_factors": [
+      "Exposure to chemicals, soaps",
+      "Allergens",
+      "Occupational hazards"
+    ],
+    "differentials": [
+      "Atopic dermatitis",
+      "Urticaria",
+      "Psoriasis"
+    ],
+    "investigations": {
+      "important": [
+        "Patch testing (for allergic type)"
+      ],
+      "additional": [
+        "Clinical diagnosis"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Avoid triggers",
+        "Cool compresses"
+      ],
+      "definitive": [
+        "Topical corticosteroids",
+        "Antihistamines",
+        "Oral steroids for severe cases"
+      ]
+    },
+    "treatment_protocol": "Avoid irritants \u2192 Topical steroids \u2192 Systemics if extensive"
+  },
+  {
+    "disease": "Psoriasis Vulgaris",
+    "epidemiology": "Affects 2\u20133% globally. Chronic immune-mediated disorder with genetic predisposition.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Well-demarcated erythematous plaques with silvery scales",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Auspitz sign (pinpoint bleeding)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pruritus",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Psoriatic arthritis",
+        "Metabolic syndrome",
+        "Depression"
+      ],
+      "emergency_markers": [
+        "Erythrodermic psoriasis",
+        "Generalized pustular psoriasis"
+      ]
+    },
+    "risk_factors": [
+      "Genetic predisposition",
+      "Stress",
+      "Infections",
+      "Medications"
+    ],
+    "differentials": [
+      "Seborrheic dermatitis",
+      "Lichen planus",
+      "Tinea corporis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Skin biopsy if unclear",
+        "Joint imaging for arthritis"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Moisturizers",
+        "Avoid triggers"
+      ],
+      "definitive": [
+        "Topical steroids",
+        "Vitamin D analogs",
+        "Phototherapy",
+        "Systemics (methotrexate, biologics)"
+      ]
+    },
+    "treatment_protocol": "Topicals \u2192 Phototherapy \u2192 Systemics if severe or refractory"
+  },
+  {
+    "disease": "Pemphigus Vulgaris",
+    "epidemiology": "Rare autoimmune blistering disorder. Affects middle-aged and older adults. Higher in Mediterranean and Jewish populations.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Flaccid blisters",
+          "order": 1,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Oral mucosal erosions",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Painful skin erosions",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Infections",
+        "Electrolyte imbalance",
+        "Death if untreated"
+      ],
+      "emergency_markers": [
+        "Extensive mucocutaneous involvement"
+      ]
+    },
+    "risk_factors": [
+      "Genetic predisposition",
+      "Drugs (penicillamine)",
+      "Autoimmune diseases"
+    ],
+    "differentials": [
+      "Bullous pemphigoid",
+      "Erythema multiforme",
+      "SJS"
+    ],
+    "investigations": {
+      "important": [
+        "Skin biopsy with immunofluorescence"
+      ],
+      "additional": [
+        "ELISA for desmoglein antibodies"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Wound care",
+        "Nutritional support"
+      ],
+      "definitive": [
+        "Systemic corticosteroids",
+        "Immunosuppressants (azathioprine, rituximab)"
+      ]
+    },
+    "treatment_protocol": "Steroids + immunosuppressants \u2192 Monitor for remission"
+  },
+  {
+    "disease": "Tinea Corporis",
+    "epidemiology": "Superficial fungal infection (dermatophytosis) of the body. More common in warm, humid climates.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Annular scaly plaques",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Central clearing with raised border",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pruritus",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Secondary bacterial infection",
+        "Chronicity"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Hot/humid climate",
+      "Close contact with infected person/animal",
+      "Immunosuppression"
+    ],
+    "differentials": [
+      "Nummular eczema",
+      "Psoriasis",
+      "Pityriasis rosea"
+    ],
+    "investigations": {
+      "important": [
+        "KOH prep",
+        "Fungal culture"
+      ],
+      "additional": [
+        "Wood's lamp"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Hygiene",
+        "Drying agents"
+      ],
+      "definitive": [
+        "Topical antifungals (clotrimazole)",
+        "Oral antifungals for extensive cases"
+      ]
+    },
+    "treatment_protocol": "Topical antifungals \u2192 Oral agents if widespread or resistant"
+  },
+  {
+    "disease": "Lichen Planus",
+    "epidemiology": "Chronic inflammatory skin condition affecting 0.5\u20131% of the population. Most common in middle-aged adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Pruritic, purple, polygonal, planar papules and plaques",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Wickham striae (white lines on surface)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Oral mucosal involvement",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Scarring",
+        "Post-inflammatory pigmentation"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Hepatitis C",
+      "Certain drugs (thiazides, antimalarials)",
+      "Stress"
+    ],
+    "differentials": [
+      "Psoriasis",
+      "Lupus erythematosus",
+      "Lichen sclerosus"
+    ],
+    "investigations": {
+      "important": [
+        "Skin biopsy"
+      ],
+      "additional": [
+        "Hepatitis C serology"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Antihistamines",
+        "Avoid triggers"
+      ],
+      "definitive": [
+        "Topical corticosteroids",
+        "Systemic steroids",
+        "Phototherapy"
+      ]
+    },
+    "treatment_protocol": "Topicals \u2192 Systemic steroids \u2192 Phototherapy if widespread"
+  },
+  {
+    "disease": "Scabies",
+    "epidemiology": "Common parasitic skin infestation caused by Sarcoptes scabiei. Highly contagious. Affects all ages globally.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Intense pruritus (worse at night)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Burrows in web spaces, wrists, genitals",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Erythematous papules",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Secondary bacterial infection",
+        "Crusted scabies in immunosuppressed"
+      ],
+      "emergency_markers": [
+        "Crusted scabies"
+      ]
+    },
+    "risk_factors": [
+      "Close contact",
+      "Overcrowding",
+      "Poor hygiene"
+    ],
+    "differentials": [
+      "Eczema",
+      "Insect bites",
+      "Folliculitis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis",
+        "Skin scraping with microscopy"
+      ],
+      "additional": [
+        "Dermoscopy"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Wash all clothing/bedding",
+        "Treat close contacts"
+      ],
+      "definitive": [
+        "Topical permethrin",
+        "Oral ivermectin for severe cases"
+      ]
+    },
+    "treatment_protocol": "Permethrin cream \u2192 Oral ivermectin if severe or crusted"
+  },
+  {
+    "disease": "Urticaria (Hives)",
+    "epidemiology": "Affects up to 20% of individuals at some point. Can be acute (<6 weeks) or chronic (>6 weeks).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Transient wheals (raised, erythematous)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Intense itching",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Angioedema (in some cases)",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Anaphylaxis (rare)",
+        "Sleep disturbance"
+      ],
+      "emergency_markers": [
+        "Airway angioedema",
+        "Hypotension"
+      ]
+    },
+    "risk_factors": [
+      "Infections",
+      "Allergens",
+      "Medications",
+      "Stress"
+    ],
+    "differentials": [
+      "Erythema multiforme",
+      "Drug eruptions",
+      "Autoimmune disorders"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Allergy testing",
+        "CBC, ESR for chronic cases"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Avoid triggers"
+      ],
+      "definitive": [
+        "Oral antihistamines",
+        "Systemic steroids for severe cases",
+        "Omalizumab for chronic refractory cases"
+      ]
+    },
+    "treatment_protocol": "Antihistamines \u2192 Add steroids \u2192 Biologics for chronic refractory cases"
+  },
+  {
+    "disease": "Pityriasis Rosea",
+    "epidemiology": "Common self-limited skin disorder affecting mostly young adults. Thought to be viral in origin.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Herald patch (single large lesion)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Secondary smaller lesions in 'Christmas tree' distribution",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Mild itching",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Post-inflammatory pigmentation"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Unknown\u2014possible viral trigger"
+    ],
+    "differentials": [
+      "Tinea corporis",
+      "Guttate psoriasis",
+      "Drug eruption"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "KOH prep if fungal suspected"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Reassurance",
+        "Antihistamines"
+      ],
+      "definitive": [
+        "Topical corticosteroids (for itching)"
+      ],
+      "treatment_protocol": "Observation \u2192 Symptomatic treatment \u2192 Spontaneous resolution in 6\u20138 weeks"
+    }
+  },
+  {
+    "disease": "Hidradenitis Suppurativa",
+    "epidemiology": "Chronic inflammatory skin condition affecting apocrine gland areas. More common in women and smokers.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Painful nodules in axilla/groin",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sinus tract formation",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Scarring",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Abscesses",
+        "Fistulae",
+        "Restricted mobility"
+      ],
+      "emergency_markers": [
+        "Extensive or infected lesions"
+      ]
+    },
+    "risk_factors": [
+      "Obesity",
+      "Smoking",
+      "Family history"
+    ],
+    "differentials": [
+      "Furunculosis",
+      "Crohn's disease",
+      "Pilonidal disease"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Culture of drainage"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Weight reduction",
+        "Hygiene"
+      ],
+      "definitive": [
+        "Topical clindamycin",
+        "Oral tetracyclines",
+        "Surgical excision",
+        "Biologics (adalimumab)"
+      ]
+    },
+    "treatment_protocol": "Topicals \u2192 Antibiotics \u2192 Surgery or biologics if severe"
+  },
+  {
+    "disease": "Erythema Multiforme",
+    "epidemiology": "Acute, immune-mediated condition often triggered by infections (HSV) or drugs. More common in young adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Target lesions (red with central clearing)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Acral distribution (hands/feet)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Oral mucosal involvement (in major form)",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Progression to Stevens-Johnson syndrome",
+        "Scarring"
+      ],
+      "emergency_markers": [
+        "Extensive mucosal involvement"
+      ]
+    },
+    "risk_factors": [
+      "Herpes simplex virus",
+      "Medications",
+      "Mycoplasma pneumoniae"
+    ],
+    "differentials": [
+      "Urticaria",
+      "SJS/TEN",
+      "Vasculitis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Skin biopsy if unclear"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Antihistamines",
+        "Analgesics",
+        "Skin care"
+      ],
+      "definitive": [
+        "Treat underlying cause (e.g., antivirals for HSV)"
+      ]
+    },
+    "treatment_protocol": "Supportive care + antivirals for recurrent HSV \u2192 Hospitalization if severe"
+  },
+  {
+    "disease": "Vitiligo",
+    "epidemiology": "Affects 0.5\u20132% of the population worldwide. Can begin at any age; peak onset in 2nd and 3rd decades.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Depigmented macules and patches",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Symmetrical distribution",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Koebner phenomenon",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Psychosocial distress",
+        "Sunburn in depigmented areas"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Autoimmune disorders",
+      "Family history",
+      "Skin trauma"
+    ],
+    "differentials": [
+      "Tinea versicolor",
+      "Post-inflammatory hypopigmentation",
+      "Pityriasis alba"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Wood\u2019s lamp examination",
+        "Autoimmune panel"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Sun protection",
+        "Cosmetic camouflage"
+      ],
+      "definitive": [
+        "Topical corticosteroids",
+        "Topical calcineurin inhibitors",
+        "Phototherapy"
+      ]
+    },
+    "treatment_protocol": "Topicals \u2192 Phototherapy \u2192 Surgical repigmentation in selected cases"
+  },
+  {
+    "disease": "Basal Cell Carcinoma (BCC)",
+    "epidemiology": "Most common skin cancer worldwide. Risk increases with age and UV exposure. Rarely metastasizes.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Pearly nodule with telangiectasia",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ulceration with rolled borders",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Slow-growing lesion",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Local tissue destruction"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Chronic sun exposure",
+      "Fair skin",
+      "Immunosuppression",
+      "Radiation"
+    ],
+    "differentials": [
+      "Squamous cell carcinoma",
+      "Sebaceous hyperplasia",
+      "Melanoma"
+    ],
+    "investigations": {
+      "important": [
+        "Skin biopsy"
+      ],
+      "additional": [
+        "Dermatoscopy"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Sun protection"
+      ],
+      "definitive": [
+        "Surgical excision",
+        "Mohs surgery",
+        "Topical imiquimod (selected cases)"
+      ]
+    },
+    "treatment_protocol": "Surgical removal \u2192 Mohs surgery for high-risk sites"
+  },
+  {
+    "disease": "Squamous Cell Carcinoma (SCC)",
+    "epidemiology": "Second most common skin cancer. Can metastasize. Associated with UV exposure and immunosuppression.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hyperkeratotic, scaly nodule",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ulcerated or crusted surface",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Tenderness or bleeding",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Local invasion",
+        "Lymphatic spread"
+      ],
+      "emergency_markers": [
+        "Rapid growth",
+        "Lymphadenopathy"
+      ]
+    },
+    "risk_factors": [
+      "Chronic sun exposure",
+      "Immunosuppression",
+      "Chronic wounds"
+    ],
+    "differentials": [
+      "Keratoacanthoma",
+      "Actinic keratosis",
+      "Basal cell carcinoma"
+    ],
+    "investigations": {
+      "important": [
+        "Skin biopsy"
+      ],
+      "additional": [
+        "Lymph node evaluation"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Sun protection"
+      ],
+      "definitive": [
+        "Surgical excision",
+        "Mohs surgery",
+        "Radiotherapy for inoperable cases"
+      ]
+    },
+    "treatment_protocol": "Surgery \u2192 Mohs if in critical areas \u2192 Adjunctive radiotherapy if advanced"
+  },
+  {
+    "disease": "Melanoma",
+    "epidemiology": "Most dangerous form of skin cancer. Increasing incidence worldwide. High metastatic potential.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymmetric pigmented lesion",
+          "order": 1,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Irregular borders, color variation",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Rapid change in size or color",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Metastasis",
+        "Death if untreated"
+      ],
+      "emergency_markers": [
+        "Ulceration",
+        "Nodal or visceral spread"
+      ]
+    },
+    "risk_factors": [
+      "UV exposure",
+      "Family history",
+      "Dysplastic nevi",
+      "Fair skin"
+    ],
+    "differentials": [
+      "Seborrheic keratosis",
+      "Pigmented BCC",
+      "Lentigo"
+    ],
+    "investigations": {
+      "important": [
+        "Excisional biopsy with margins"
+      ],
+      "additional": [
+        "Sentinel lymph node biopsy",
+        "Imaging if metastasis suspected"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Regular skin checks",
+        "Sun protection"
+      ],
+      "definitive": [
+        "Wide local excision",
+        "Immunotherapy for advanced cases",
+        "Targeted therapy (BRAF inhibitors)"
+      ]
+    },
+    "treatment_protocol": "Excision \u2192 Staging \u2192 Immunotherapy/targeted therapy for metastatic disease"
+  },
+  {
+    "disease": "Contact Dermatitis",
+    "epidemiology": "Common inflammatory skin condition due to exposure to irritants or allergens. Affects all age groups.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Erythema and edema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Vesiculation and oozing",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Crusting and scaling",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Secondary infection",
+        "Chronic lichenification"
+      ],
+      "emergency_markers": [
+        "Extensive skin involvement",
+        "Superinfection"
+      ]
+    },
+    "risk_factors": [
+      "Occupation",
+      "Frequent hand washing",
+      "Cosmetics",
+      "Nickel"
+    ],
+    "differentials": [
+      "Atopic dermatitis",
+      "Psoriasis",
+      "Tinea"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Patch testing (for allergens)"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Avoid triggers",
+        "Emollients"
+      ],
+      "definitive": [
+        "Topical corticosteroids",
+        "Systemic steroids if severe"
+      ]
+    },
+    "treatment_protocol": "Avoid trigger \u2192 Topical steroids \u2192 Systemic if widespread"
+  },
+  {
+    "disease": "Seborrheic Dermatitis",
+    "epidemiology": "Affects 3\u20135% of the population. Associated with Malassezia yeast. Common in infants and adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Greasy, yellowish scales",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Erythema of affected areas",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pruritus",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Secondary infection",
+        "Chronicity"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "HIV/AIDS",
+      "Parkinson\u2019s disease",
+      "Stress",
+      "Oily skin"
+    ],
+    "differentials": [
+      "Psoriasis",
+      "Atopic dermatitis",
+      "Tinea"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Skin scrapings (to rule out fungi)"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Gentle cleansing",
+        "Avoid triggers"
+      ],
+      "definitive": [
+        "Antifungal shampoos (ketoconazole)",
+        "Topical corticosteroids"
+      ]
+    },
+    "treatment_protocol": "Antifungal shampoo \u2192 Add steroid cream for inflammation"
+  },
+  {
+    "disease": "Cutaneous Lupus Erythematosus",
+    "epidemiology": "Seen in up to 20% of patients with systemic lupus erythematosus (SLE). Can also be isolated.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Discoid plaques with scale",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Photosensitivity",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Atrophic scarring",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Scarring",
+        "Progression to SLE"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "UV exposure",
+      "Genetic predisposition",
+      "Female sex"
+    ],
+    "differentials": [
+      "Psoriasis",
+      "Tinea",
+      "Seborrheic dermatitis"
+    ],
+    "investigations": {
+      "important": [
+        "Skin biopsy",
+        "ANA testing"
+      ],
+      "additional": [
+        "dsDNA, complement levels"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Sun protection"
+      ],
+      "definitive": [
+        "Topical corticosteroids",
+        "Antimalarials (hydroxychloroquine)"
+      ]
+    },
+    "treatment_protocol": "Topicals \u2192 Systemic antimalarials if persistent"
+  },
+  {
+    "disease": "Dermatitis Herpetiformis",
+    "epidemiology": "Rare, autoimmune blistering disorder associated with celiac disease. More common in men.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Intensely pruritic grouped vesicles",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Elbows, knees, buttocks",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Excoriations from scratching",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Secondary infection",
+        "Malabsorption"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Celiac disease",
+      "Gluten ingestion"
+    ],
+    "differentials": [
+      "Scabies",
+      "Eczema",
+      "Bullous pemphigoid"
+    ],
+    "investigations": {
+      "important": [
+        "Skin biopsy with direct immunofluorescence"
+      ],
+      "additional": [
+        "Anti-tTG, anti-endomysial antibodies"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Gluten-free diet"
+      ],
+      "definitive": [
+        "Dapsone",
+        "Topical steroids"
+      ]
+    },
+    "treatment_protocol": "Dapsone \u2192 Add gluten-free diet \u2192 Steroids if needed"
+  },
+  {
+    "disease": "Bullous Pemphigoid",
+    "epidemiology": "Autoimmune blistering disorder primarily in elderly. Incidence increasing with age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Tense blisters on erythematous base",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Pruritus",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Erosions after rupture",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Infection",
+        "Sepsis in widespread cases"
+      ],
+      "emergency_markers": [
+        "Widespread blistering",
+        "Signs of infection"
+      ]
+    },
+    "risk_factors": [
+      "Age > 60",
+      "Neurologic disease",
+      "Certain medications"
+    ],
+    "differentials": [
+      "Pemphigus vulgaris",
+      "Bullous drug eruption",
+      "Dermatitis herpetiformis"
+    ],
+    "investigations": {
+      "important": [
+        "Skin biopsy",
+        "Direct immunofluorescence"
+      ],
+      "additional": [
+        "Anti-BP180/BP230 antibodies"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Wound care",
+        "Prevent infection"
+      ],
+      "definitive": [
+        "High-potency topical steroids",
+        "Oral steroids",
+        "Immunosuppressants"
+      ]
+    },
+    "treatment_protocol": "Topical steroids \u2192 Oral/systemic therapy if severe"
+  },
+  {
+    "disease": "Pemphigus Vulgaris",
+    "epidemiology": "Rare autoimmune blistering disorder, more common in middle-aged and elderly. Associated with high morbidity.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Flaccid bullae that rupture easily",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Painful erosions especially in the mouth",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Nikolsky's sign positive",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Secondary infection",
+        "Sepsis",
+        "Electrolyte imbalance"
+      ],
+      "emergency_markers": [
+        "Extensive mucocutaneous involvement"
+      ]
+    },
+    "risk_factors": [
+      "Middle age",
+      "Autoimmune conditions",
+      "Certain drugs (e.g., penicillamine)"
+    ],
+    "differentials": [
+      "Bullous pemphigoid",
+      "SJS/TEN",
+      "Herpetic gingivostomatitis"
+    ],
+    "investigations": {
+      "important": [
+        "Skin biopsy",
+        "Direct immunofluorescence"
+      ],
+      "additional": [
+        "Anti-desmoglein 1 and 3 antibodies"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Wound care",
+        "Infection prevention"
+      ],
+      "definitive": [
+        "Systemic corticosteroids",
+        "Immunosuppressants",
+        "Rituximab"
+      ]
+    },
+    "treatment_protocol": "Systemic steroids \u2192 Add immunosuppressants \u2192 Biologic agents (rituximab) in severe cases"
+  },
+  {
+    "disease": "Tinea Corporis",
+    "epidemiology": "Common superficial fungal infection of the skin. Affects all age groups; more prevalent in warm climates.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Annular erythematous plaques with central clearing",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Scaling at advancing edges",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pruritus",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Secondary bacterial infection"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Hot, humid environments",
+      "Close contact",
+      "Immunosuppression"
+    ],
+    "differentials": [
+      "Eczema",
+      "Psoriasis",
+      "Nummular dermatitis"
+    ],
+    "investigations": {
+      "important": [
+        "KOH preparation"
+      ],
+      "additional": [
+        "Fungal culture"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Keep skin dry",
+        "Avoid sharing personal items"
+      ],
+      "definitive": [
+        "Topical antifungals (clotrimazole)",
+        "Oral antifungals if extensive"
+      ]
+    },
+    "treatment_protocol": "Topical antifungals \u2192 Oral antifungals for widespread cases"
+  },
+  {
+    "disease": "Tinea Capitis",
+    "epidemiology": "Fungal infection of the scalp, most common in children. Spread via direct contact or fomites.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Scaly patches of alopecia",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Black dots or broken hairs",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Kerion (boggy inflammatory mass)",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Permanent alopecia",
+        "Secondary bacterial infection"
+      ],
+      "emergency_markers": [
+        "Kerion with fever"
+      ]
+    },
+    "risk_factors": [
+      "Crowded conditions",
+      "Poor hygiene",
+      "Close contact"
+    ],
+    "differentials": [
+      "Alopecia areata",
+      "Seborrheic dermatitis",
+      "Psoriasis"
+    ],
+    "investigations": {
+      "important": [
+        "KOH mount",
+        "Wood\u2019s lamp"
+      ],
+      "additional": [
+        "Fungal culture"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Avoid sharing combs",
+        "Maintain hygiene"
+      ],
+      "definitive": [
+        "Oral antifungals (griseofulvin, terbinafine)"
+      ]
+    },
+    "treatment_protocol": "Oral antifungals for 4\u20136 weeks \u2192 Follow-up with mycological cure"
+  },
+  {
+    "disease": "Scabies",
+    "epidemiology": "Highly contagious parasitic infestation caused by Sarcoptes scabiei. Affects people of all ages worldwide.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Intense nocturnal pruritus",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Burrows in interdigital spaces, wrists, genitalia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Papules, nodules, and excoriations",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Secondary infection",
+        "Post-scabetic pruritus"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Crowded living conditions",
+      "Close contact",
+      "Institutional settings"
+    ],
+    "differentials": [
+      "Eczema",
+      "Bed bug bites",
+      "Lice infestation"
+    ],
+    "investigations": {
+      "important": [
+        "Skin scraping and microscopy"
+      ],
+      "additional": [
+        "Clinical diagnosis"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Treat all close contacts",
+        "Environmental decontamination"
+      ],
+      "definitive": [
+        "Topical permethrin 5%",
+        "Oral ivermectin (severe cases)"
+      ]
+    },
+    "treatment_protocol": "Topical permethrin overnight \u2192 Repeat in 1 week \u2192 Add oral ivermectin if needed"
+  },
+  {
+    "disease": "Pityriasis Rosea",
+    "epidemiology": "Common, self-limiting rash, possibly viral. Most frequent in adolescents and young adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Herald patch (solitary oval lesion)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Secondary widespread eruption in \u2018Christmas tree\u2019 pattern",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Mild itching",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Recent viral infection",
+      "Spring/fall seasons"
+    ],
+    "differentials": [
+      "Tinea corporis",
+      "Secondary syphilis",
+      "Drug eruption"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "VDRL if suspicion of syphilis"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Reassurance",
+        "Moisturizers",
+        "Antihistamines"
+      ],
+      "definitive": [
+        "Topical steroids (for pruritus)"
+      ]
+    },
+    "treatment_protocol": "Supportive care \u2192 Resolves in 6\u20138 weeks"
+  },
+  {
+    "disease": "Vitiligo",
+    "epidemiology": "Affects about 1% of the global population. Autoimmune destruction of melanocytes.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Depigmented macules/patches",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Symmetrical distribution",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Often starts on face, hands, and genitals",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Psychological distress",
+        "Sunburn"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history",
+      "Autoimmune diseases",
+      "Stress"
+    ],
+    "differentials": [
+      "Pityriasis alba",
+      "Tinea versicolor",
+      "Chemical leukoderma"
+    ],
+    "investigations": {
+      "important": [
+        "Wood\u2019s lamp examination"
+      ],
+      "additional": [
+        "Thyroid profile",
+        "ANA"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Sun protection",
+        "Cosmetic camouflage"
+      ],
+      "definitive": [
+        "Topical corticosteroids",
+        "Tacrolimus",
+        "Phototherapy"
+      ]
+    },
+    "treatment_protocol": "Topicals \u2192 Add phototherapy if widespread"
+  },
+  {
+    "disease": "Alopecia Areata",
+    "epidemiology": "Autoimmune condition causing patchy hair loss. Lifetime risk ~2%.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Sudden onset of round patches of hair loss",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Exclamation mark hairs",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Nail pitting (in some cases)",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Chronic course",
+        "Psychological impact"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history",
+      "Other autoimmune diseases",
+      "Stress"
+    ],
+    "differentials": [
+      "Tinea capitis",
+      "Trichotillomania",
+      "Telogen effluvium"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Thyroid profile",
+        "ANA",
+        "Ferritin"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Reassurance",
+        "Wigs if needed"
+      ],
+      "definitive": [
+        "Topical/intralesional steroids",
+        "Minoxidil",
+        "JAK inhibitors (for severe cases)"
+      ]
+    },
+    "treatment_protocol": "Steroids \u2192 Add minoxidil \u2192 Consider systemic immunosuppressants"
+  },
+  {
+    "disease": "Hidradenitis Suppurativa",
+    "epidemiology": "Chronic, relapsing inflammatory disease of apocrine gland-bearing areas. More common in women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Painful nodules in axillae/groin",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abscesses and sinus tract formation",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Scarring and foul-smelling discharge",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Scarring",
+        "Fistulae",
+        "Squamous cell carcinoma (rare)"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Obesity",
+      "Smoking",
+      "Family history"
+    ],
+    "differentials": [
+      "Furunculosis",
+      "Cutaneous Crohn\u2019s",
+      "Infected epidermal cysts"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Culture of discharge",
+        "Biopsy if uncertain"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Weight reduction",
+        "Loose clothing",
+        "Hygiene"
+      ],
+      "definitive": [
+        "Oral antibiotics",
+        "Biologics (adalimumab)",
+        "Surgical excision"
+      ]
+    },
+    "treatment_protocol": "Antibiotics \u2192 Add biologics if chronic \u2192 Surgery for advanced disease"
+  },
+  {
+    "disease": "Molluscum Contagiosum",
+    "epidemiology": "Viral skin infection caused by poxvirus. Common in children, immunosuppressed, and sexually active adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Flesh-colored dome-shaped papules with central umbilication",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "May appear in clusters",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Occasional inflammation",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Secondary infection",
+        "Scarring from treatment"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Close contact",
+      "Atopic dermatitis",
+      "Immunosuppression"
+    ],
+    "differentials": [
+      "Warts",
+      "Folliculitis",
+      "Keratoacanthoma"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Biopsy if uncertain"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Reassurance (self-limiting)"
+      ],
+      "definitive": [
+        "Cryotherapy",
+        "Curettage",
+        "Topical cantharidin"
+      ]
+    },
+    "treatment_protocol": "Observe if few lesions \u2192 Treat if widespread or cosmetically concerning"
+  },
+  {
+    "disease": "Cherry Angioma",
+    "epidemiology": "Very common benign vascular growth. Increases with age.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Small red-to-purple papules",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Typically on trunk",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Asymptomatic",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Bleeding if traumatized"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Age",
+      "Pregnancy",
+      "Genetic predisposition"
+    ],
+    "differentials": [
+      "Pyogenic granuloma",
+      "Spider angioma",
+      "Petechiae"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Dermoscopy"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "No treatment needed unless symptomatic"
+      ],
+      "definitive": [
+        "Laser therapy",
+        "Electrocautery"
+      ]
+    },
+    "treatment_protocol": "Leave alone if asymptomatic \u2192 Elective removal for cosmetic reasons"
+  },
+  {
+    "disease": "Cutaneous Lupus Erythematosus (CLE)",
+    "epidemiology": "Occurs in ~5% of systemic lupus erythematosus (SLE) patients. Can also occur independently.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Erythematous plaques with scaling",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Photosensitivity",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Scarring and pigment changes",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Scarring",
+        "Progression to SLE"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Female sex",
+      "UV exposure",
+      "Family history"
+    ],
+    "differentials": [
+      "Psoriasis",
+      "Tinea corporis",
+      "Seborrheic dermatitis"
+    ],
+    "investigations": {
+      "important": [
+        "Skin biopsy",
+        "ANA",
+        "Anti-dsDNA"
+      ],
+      "additional": [
+        "Phototesting"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Sun protection",
+        "Avoid triggers"
+      ],
+      "definitive": [
+        "Topical steroids",
+        "Hydroxychloroquine",
+        "Systemic immunosuppressants"
+      ]
+    },
+    "treatment_protocol": "Topicals \u2192 Add antimalarials \u2192 Systemic therapy for refractory cases"
+  },
+  {
+    "disease": "Basal Cell Carcinoma (BCC)",
+    "epidemiology": "Most common skin cancer. Strongly linked to chronic sun exposure.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Pearly or translucent papule",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Telangiectasia over lesion",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Ulceration with rolled border",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Local tissue destruction",
+        "Recurrence"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Sun exposure",
+      "Fair skin",
+      "Immunosuppression"
+    ],
+    "differentials": [
+      "Sebaceous hyperplasia",
+      "Actinic keratosis",
+      "Squamous cell carcinoma"
+    ],
+    "investigations": {
+      "important": [
+        "Skin biopsy"
+      ],
+      "additional": [
+        "Dermatoscopy"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Sun protection"
+      ],
+      "definitive": [
+        "Surgical excision",
+        "Mohs surgery",
+        "Topical imiquimod (superficial)"
+      ]
+    },
+    "treatment_protocol": "Surgical excision \u2192 Mohs for high-risk sites \u2192 Topicals for superficial BCC"
+  },
+  {
+    "disease": "Squamous Cell Carcinoma (SCC)",
+    "epidemiology": "Second most common skin cancer. Can arise from actinic keratosis or chronic wounds.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Firm, hyperkeratotic papule or nodule",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Ulcerated or crusted lesion",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bleeding or pain",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Metastasis",
+        "Recurrence"
+      ],
+      "emergency_markers": [
+        "Rapid growth",
+        "Lymphadenopathy"
+      ]
+    },
+    "risk_factors": [
+      "Chronic sun exposure",
+      "HPV infection",
+      "Immunosuppression"
+    ],
+    "differentials": [
+      "Actinic keratosis",
+      "Keratoacanthoma",
+      "Basal cell carcinoma"
+    ],
+    "investigations": {
+      "important": [
+        "Biopsy",
+        "Imaging for advanced lesions"
+      ],
+      "additional": [
+        "HPV testing"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Sun protection",
+        "Follow-up for recurrence"
+      ],
+      "definitive": [
+        "Surgical excision",
+        "Radiotherapy",
+        "Systemic therapy for metastasis"
+      ]
+    },
+    "treatment_protocol": "Excision \u2192 Radiation if non-surgical \u2192 Systemic if metastatic"
+  },
+  {
+    "disease": "Melanoma",
+    "epidemiology": "Most dangerous skin cancer. Accounts for ~75% of skin cancer deaths despite being less common.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymmetrical pigmented lesion",
+          "order": 1,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Irregular borders, color variation",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Rapid change in size or symptoms",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Metastasis",
+        "Death if late diagnosis"
+      ],
+      "emergency_markers": [
+        "Ulceration",
+        "Regional lymphadenopathy"
+      ]
+    },
+    "risk_factors": [
+      "Fair skin",
+      "Sunburns",
+      "Family history",
+      "Multiple nevi"
+    ],
+    "differentials": [
+      "Seborrheic keratosis",
+      "Pigmented BCC",
+      "Nevus"
+    ],
+    "investigations": {
+      "important": [
+        "Excisional biopsy",
+        "Sentinel lymph node biopsy"
+      ],
+      "additional": [
+        "BRAF mutation testing"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Sun protection",
+        "Skin surveillance"
+      ],
+      "definitive": [
+        "Wide local excision",
+        "Immunotherapy",
+        "Targeted therapy"
+      ]
+    },
+    "treatment_protocol": "Excision \u2192 Stage \u2192 Add immunotherapy/targeted therapy as needed"
+  },
+  {
+    "disease": "Urticaria",
+    "epidemiology": "Affects up to 20% of people at some point. Chronic urticaria is more common in adults and women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Transient wheals with erythema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Pruritus",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Angioedema (in some cases)",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Sleep disturbance",
+        "Anaphylaxis (rare)"
+      ],
+      "emergency_markers": [
+        "Angioedema with airway compromise"
+      ]
+    },
+    "risk_factors": [
+      "Infections",
+      "Food allergies",
+      "Autoimmune disease",
+      "Stress"
+    ],
+    "differentials": [
+      "Erythema multiforme",
+      "Drug eruption",
+      "Scabies"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "CBC, ESR, thyroid function (chronic cases)"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Avoid triggers",
+        "Cool compress"
+      ],
+      "definitive": [
+        "Antihistamines",
+        "Steroids (short term)",
+        "Omalizumab (chronic/refractory)"
+      ]
+    },
+    "treatment_protocol": "Antihistamines \u2192 Add steroids \u2192 Biologics for refractory"
+  },
+  {
+    "disease": "Dermatitis Herpetiformis",
+    "epidemiology": "Strongly associated with celiac disease. Prevalence ~11.2 per 100,000 in Western countries.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Intensely pruritic papulovesicular eruption",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Typically on elbows, knees, buttocks, and scalp",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Excoriations due to scratching",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Secondary bacterial infection",
+        "Chronic course"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Celiac disease",
+      "HLA-DQ2/DQ8 positivity",
+      "Family history"
+    ],
+    "differentials": [
+      "Eczema",
+      "Scabies",
+      "Linear IgA dermatosis"
+    ],
+    "investigations": {
+      "important": [
+        "Skin biopsy with direct immunofluorescence"
+      ],
+      "additional": [
+        "Serum anti-TTG and anti-endomysial antibodies"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Gluten-free diet"
+      ],
+      "definitive": [
+        "Dapsone",
+        "Topical corticosteroids"
+      ]
+    },
+    "treatment_protocol": "Dapsone + gluten-free diet \u2192 Topicals for local relief"
+  },
+  {
+    "disease": "Pityriasis Rosea",
+    "epidemiology": "Self-limiting condition seen mostly in adolescents and young adults. Possible viral etiology (HHV-6/7).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Herald patch (solitary pink scaly lesion)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Generalized secondary eruption in 'Christmas tree' pattern",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Mild itching",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Post-inflammatory hyperpigmentation"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Viral infections",
+      "Seasonal changes"
+    ],
+    "differentials": [
+      "Tinea corporis",
+      "Guttate psoriasis",
+      "Drug eruption"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "KOH prep (to rule out fungus)"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Reassurance",
+        "Emollients"
+      ],
+      "definitive": [
+        "Antihistamines",
+        "Topical steroids for pruritus"
+      ]
+    },
+    "treatment_protocol": "Supportive \u2192 Topicals for symptomatic relief"
+  },
+  {
+    "disease": "Drug Eruption (Exanthematous)",
+    "epidemiology": "Most common type of drug rash. Occurs in up to 2% of hospitalized patients.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Symmetric widespread erythematous maculopapular rash",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Typically starts 5\u201314 days after drug initiation",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Possible low-grade fever",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Progression to severe drug reactions (e.g., DRESS, SJS)"
+      ],
+      "emergency_markers": [
+        "Widespread blistering",
+        "Mucosal involvement"
+      ]
+    },
+    "risk_factors": [
+      "Antibiotics",
+      "Anticonvulsants",
+      "Allopurinol"
+    ],
+    "differentials": [
+      "Viral exanthem",
+      "Erythema multiforme",
+      "Urticaria"
+    ],
+    "investigations": {
+      "important": [
+        "Drug history",
+        "Clinical evaluation"
+      ],
+      "additional": [
+        "CBC, LFTs if systemic symptoms"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Stop offending drug",
+        "Emollients"
+      ],
+      "definitive": [
+        "Antihistamines",
+        "Systemic steroids for severe reactions"
+      ]
+    },
+    "treatment_protocol": "Withdraw drug \u2192 Antihistamines \u2192 Steroids if severe"
+  },
+  {
+    "disease": "Scabies",
+    "epidemiology": "Highly contagious mite infestation. Affects over 200 million people globally.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Intense nocturnal pruritus",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Burrows in web spaces, wrists, axillae",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Excoriations and secondary infection",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Impetigo",
+        "Crusted scabies in immunocompromised"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Crowded living",
+      "Poor hygiene",
+      "Close contact"
+    ],
+    "differentials": [
+      "Eczema",
+      "Insect bites",
+      "Folliculitis"
+    ],
+    "investigations": {
+      "important": [
+        "Skin scraping for mites/eggs"
+      ],
+      "additional": [
+        "Dermatoscopy"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Treat close contacts",
+        "Launder bedding/clothes"
+      ],
+      "definitive": [
+        "Permethrin 5% cream",
+        "Oral ivermectin"
+      ]
+    },
+    "treatment_protocol": "Topical permethrin \u2192 Oral ivermectin for severe/crusted"
+  },
+  {
+    "disease": "Seborrheic Dermatitis",
+    "epidemiology": "Common chronic inflammatory skin disorder. Associated with Malassezia yeast. Affects ~5% of population.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Greasy yellow scales on erythematous base",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Common sites: scalp, nasolabial folds, eyebrows",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Mild itching",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Secondary infection",
+        "Psychosocial impact"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "HIV",
+      "Parkinson\u2019s disease",
+      "Oily skin"
+    ],
+    "differentials": [
+      "Psoriasis",
+      "Atopic dermatitis",
+      "Tinea capitis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "KOH prep to rule out fungal infection"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Avoid irritants",
+        "Gentle cleansing"
+      ],
+      "definitive": [
+        "Antifungal shampoo (ketoconazole)",
+        "Low-potency topical steroids"
+      ]
+    },
+    "treatment_protocol": "Antifungal shampoo \u2192 Topical steroids for flare control"
+  },
+  {
+    "disease": "Molluscum Contagiosum",
+    "epidemiology": "Viral infection (poxvirus), common in children and immunocompromised. Spread by direct contact.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Small, firm, dome-shaped papules with central umbilication",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Mild pruritus or inflammation",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Secondary eczema around lesions",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Secondary infection",
+        "Spread to others"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Children",
+      "Atopic dermatitis",
+      "Immunosuppression",
+      "Sexual contact (in adults)"
+    ],
+    "differentials": [
+      "Viral warts",
+      "Basal cell carcinoma",
+      "Folliculitis"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Dermatoscopy",
+        "Skin biopsy (rarely)"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Reassurance (self-limiting)",
+        "Avoid scratching"
+      ],
+      "definitive": [
+        "Cryotherapy",
+        "Curettage",
+        "Topical imiquimod"
+      ]
+    },
+    "treatment_protocol": "Observation \u2192 Destructive therapy for cosmetic/contagious cases"
+  },
+  {
+    "disease": "Erythema Nodosum",
+    "epidemiology": "Hypersensitivity reaction to various triggers. Most common in women aged 20\u201340.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Painful, red nodules over shins",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever and malaise",
+          "order": 2,
+          "frequency": "occasional",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Arthralgia",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Recurrence"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Streptococcal infection",
+      "Sarcoidosis",
+      "Tuberculosis",
+      "Pregnancy",
+      "Drugs (OCPs, sulfa)"
+    ],
+    "differentials": [
+      "Cellulitis",
+      "Vasculitis",
+      "Deep fungal infection"
+    ],
+    "investigations": {
+      "important": [
+        "Throat swab",
+        "CXR",
+        "ESR/CRP"
+      ],
+      "additional": [
+        "TB screening",
+        "ASO titre"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Rest",
+        "Leg elevation",
+        "NSAIDs"
+      ],
+      "definitive": [
+        "Treat underlying cause"
+      ]
+    },
+    "treatment_protocol": "Supportive care \u2192 Identify and treat trigger"
+  },
+  {
+    "disease": "Vitiligo",
+    "epidemiology": "Autoimmune destruction of melanocytes. Affects 0.5\u20132% of population worldwide.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Depigmented, well-demarcated macules or patches",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Symmetrical distribution",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Progressive spread",
+          "order": 3,
+          "frequency": "occasional",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Psychosocial impact",
+        "Sunburn"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Autoimmune diseases",
+      "Family history"
+    ],
+    "differentials": [
+      "Pityriasis alba",
+      "Tinea versicolor",
+      "Post-inflammatory hypopigmentation"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis",
+        "Wood\u2019s lamp examination"
+      ],
+      "additional": [
+        "Thyroid function tests",
+        "ANA"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Sun protection",
+        "Camouflage cosmetics"
+      ],
+      "definitive": [
+        "Topical steroids",
+        "Calcineurin inhibitors",
+        "Phototherapy"
+      ]
+    },
+    "treatment_protocol": "Topicals \u2192 Phototherapy \u2192 Surgical grafting in refractory"
+  },
+  {
+    "disease": "Tinea Corporis (Ringworm)",
+    "epidemiology": "Superficial dermatophyte infection of the body. Common in warm, humid climates.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Annular, erythematous plaque with central clearing",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Scaling and pruritus",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Expanding lesion with raised border",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Secondary bacterial infection",
+        "Widespread dissemination in immunocompromised"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Close contact",
+      "Sweating",
+      "Poor hygiene",
+      "Pets"
+    ],
+    "differentials": [
+      "Nummular eczema",
+      "Psoriasis",
+      "Pityriasis rosea"
+    ],
+    "investigations": {
+      "important": [
+        "KOH preparation"
+      ],
+      "additional": [
+        "Fungal culture"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Avoid moisture",
+        "Loose clothing"
+      ],
+      "definitive": [
+        "Topical antifungals (clotrimazole)",
+        "Oral terbinafine for extensive disease"
+      ]
+    },
+    "treatment_protocol": "Topicals \u2192 Add oral antifungals if widespread or resistant"
+  },
+  {
+    "disease": "Hidradenitis Suppurativa",
+    "epidemiology": "Chronic inflammatory skin condition affecting apocrine gland areas. More common in women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Painful nodules in axillae/groin",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abscesses and sinus tract formation",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Scarring and foul-smelling discharge",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Scarring",
+        "Superinfection",
+        "Restricted mobility"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Obesity",
+      "Smoking",
+      "Family history",
+      "Hormonal factors"
+    ],
+    "differentials": [
+      "Furunculosis",
+      "Crohn\u2019s disease",
+      "Lymphogranuloma venereum"
+    ],
+    "investigations": {
+      "important": [
+        "Clinical diagnosis"
+      ],
+      "additional": [
+        "Swab for culture",
+        "Ultrasound for tract mapping"
+      ]
+    },
+    "specialty": "Dermatology",
+    "treatment": {
+      "supportive": [
+        "Weight loss",
+        "Hygiene"
+      ],
+      "definitive": [
+        "Antibiotics",
+        "Biologics (adalimumab)",
+        "Surgical excision"
+      ]
+    },
+    "treatment_protocol": "Antibiotics \u2192 Add biologics \u2192 Surgery for severe/recurrent"
+  }
+]

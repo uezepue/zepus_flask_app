@@ -1,0 +1,5016 @@
+[
+  {
+    "disease": "Type 1 Diabetes Mellitus",
+    "epidemiology": "Autoimmune destruction of pancreatic beta cells. Commonly presents in children and young adults. Incidence: ~15 per 100,000/year in children.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Polyuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Polydipsia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Weight loss",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Diabetic ketoacidosis",
+        "Retinopathy",
+        "Nephropathy"
+      ],
+      "emergency_markers": [
+        "DKA symptoms: nausea, vomiting, abdominal pain, confusion"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Autoimmune diseases",
+      "Viral infections"
+    ],
+    "differentials": [
+      "Type 2 DM",
+      "Diabetes insipidus",
+      "Cushing syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Fasting blood glucose",
+        "HbA1c",
+        "C-peptide",
+        "Islet autoantibodies"
+      ],
+      "additional": [
+        "Urine ketones",
+        "Electrolytes"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Dietary education",
+        "Blood glucose monitoring"
+      ],
+      "definitive": [
+        "Insulin therapy"
+      ]
+    },
+    "treatment_protocol": "Start insulin \u2192 Educate on hypoglycemia \u2192 Monitor HbA1c regularly"
+  },
+  {
+    "disease": "Type 2 Diabetes Mellitus",
+    "epidemiology": "Most common type of diabetes; associated with obesity, insulin resistance, and sedentary lifestyle. Prevalence rising globally.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Blurred vision",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Polyuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Recurrent infections",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Retinopathy",
+        "Nephropathy",
+        "Neuropathy",
+        "Macrovascular disease"
+      ],
+      "emergency_markers": [
+        "Hyperosmolar hyperglycemic state (HHS)"
+      ]
+    },
+    "risk_factors": [
+      "Obesity",
+      "Family history",
+      "Sedentary lifestyle",
+      "HTN"
+    ],
+    "differentials": [
+      "Type 1 DM",
+      "Cushing's syndrome",
+      "Acromegaly"
+    ],
+    "investigations": {
+      "important": [
+        "Fasting glucose",
+        "HbA1c",
+        "OGTT"
+      ],
+      "additional": [
+        "Lipid profile",
+        "Urine albumin/creatinine ratio"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Lifestyle modification",
+        "Diet and exercise"
+      ],
+      "definitive": [
+        "Metformin",
+        "Other oral/injectable agents"
+      ]
+    },
+    "treatment_protocol": "Start metformin \u2192 Add agents as needed \u2192 Monitor complications"
+  },
+  {
+    "disease": "Graves' Disease",
+    "epidemiology": "Most common cause of hyperthyroidism. Autoimmune; more frequent in women aged 20\u201340.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Weight loss",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Heat intolerance",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Goitre",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Thyroid storm",
+        "Osteoporosis",
+        "Atrial fibrillation"
+      ],
+      "emergency_markers": [
+        "Fever, confusion, tachycardia in thyroid storm"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Smoking",
+      "Stress"
+    ],
+    "differentials": [
+      "Toxic multinodular goitre",
+      "Thyroiditis",
+      "Functional adenoma"
+    ],
+    "investigations": {
+      "important": [
+        "TSH",
+        "Free T4",
+        "T3",
+        "TRAb"
+      ],
+      "additional": [
+        "Thyroid scan",
+        "Ultrasound"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Beta-blockers"
+      ],
+      "definitive": [
+        "Carbimazole/PTU",
+        "RAI ablation",
+        "Surgery"
+      ]
+    },
+    "treatment_protocol": "Confirm hyperthyroidism \u2192 Start anti-thyroid drugs \u2192 Consider RAI or surgery"
+  },
+  {
+    "disease": "Hashimoto's Thyroiditis",
+    "epidemiology": "Most common cause of hypothyroidism in iodine-sufficient regions. Autoimmune. More common in women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cold intolerance",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Constipation",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dry skin",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Goitre",
+        "Myxedema coma",
+        "Infertility"
+      ],
+      "emergency_markers": [
+        "Altered mental status, hypothermia (myxedema coma)"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Other autoimmune diseases"
+    ],
+    "differentials": [
+      "Central hypothyroidism",
+      "Postpartum thyroiditis"
+    ],
+    "investigations": {
+      "important": [
+        "TSH",
+        "Free T4",
+        "Anti-TPO antibodies"
+      ],
+      "additional": [
+        "Thyroid ultrasound"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Symptomatic relief"
+      ],
+      "definitive": [
+        "Levothyroxine replacement"
+      ]
+    },
+    "treatment_protocol": "Diagnose with TSH + antibodies \u2192 Start thyroxine \u2192 Monitor TSH"
+  },
+  {
+    "disease": "Cushing's Syndrome",
+    "epidemiology": "Due to excess cortisol; can be ACTH-dependent (pituitary/adrenal tumor) or exogenous. Rare, but important to diagnose.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Weight gain (central)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Moon face",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Buffalo hump",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Muscle weakness",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "HTN",
+        "DM",
+        "Osteoporosis",
+        "Psychosis"
+      ],
+      "emergency_markers": [
+        "Severe hypertension, psychosis, infections"
+      ]
+    },
+    "risk_factors": [
+      "Chronic steroid use",
+      "Pituitary tumors",
+      "Adrenal adenoma"
+    ],
+    "differentials": [
+      "PCOS",
+      "Metabolic syndrome",
+      "Depression"
+    ],
+    "investigations": {
+      "important": [
+        "24h urinary cortisol",
+        "Low-dose dexamethasone suppression",
+        "Late-night salivary cortisol"
+      ],
+      "additional": [
+        "ACTH levels",
+        "Pituitary MRI",
+        "Adrenal CT"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Treat complications (e.g., HTN, DM)"
+      ],
+      "definitive": [
+        "Surgical removal of tumor",
+        "Taper steroids if exogenous"
+      ]
+    },
+    "treatment_protocol": "Confirm hypercortisolism \u2192 Localize source \u2192 Treat cause"
+  },
+  {
+    "disease": "Addison's Disease",
+    "epidemiology": "Primary adrenal insufficiency; autoimmune etiology most common in developed countries; affects 1 in 100,000 people.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hyperpigmentation",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Weight loss",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypotension",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Adrenal crisis",
+        "Hyponatremia",
+        "Hyperkalemia"
+      ],
+      "emergency_markers": [
+        "Shock",
+        "Severe hypotension",
+        "Vomiting"
+      ]
+    },
+    "risk_factors": [
+      "Autoimmune disease",
+      "TB",
+      "Metastatic cancer",
+      "Fungal infections"
+    ],
+    "differentials": [
+      "Secondary adrenal insufficiency",
+      "Hypothyroidism",
+      "Anorexia nervosa"
+    ],
+    "investigations": {
+      "important": [
+        "Morning cortisol",
+        "ACTH stimulation test",
+        "Electrolytes"
+      ],
+      "additional": [
+        "Autoantibodies",
+        "Adrenal imaging"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Electrolyte correction"
+      ],
+      "definitive": [
+        "Hydrocortisone",
+        "Fludrocortisone"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Replace glucocorticoids/mineralocorticoids \u2192 Educate on stress dosing"
+  },
+  {
+    "disease": "Pheochromocytoma",
+    "epidemiology": "Catecholamine-producing tumor of adrenal medulla; rare but important cause of secondary hypertension.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Episodic headache",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sweating",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Hypertensive crisis",
+        "Cardiac arrhythmias",
+        "Stroke"
+      ],
+      "emergency_markers": [
+        "Hypertensive emergency with classic triad"
+      ]
+    },
+    "risk_factors": [
+      "MEN 2 syndrome",
+      "Neurofibromatosis",
+      "VHL disease"
+    ],
+    "differentials": [
+      "Essential hypertension",
+      "Thyrotoxicosis",
+      "Anxiety"
+    ],
+    "investigations": {
+      "important": [
+        "Plasma metanephrines",
+        "24h urinary catecholamines"
+      ],
+      "additional": [
+        "Abdominal CT/MRI",
+        "MIBG scan"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Alpha blockade (phenoxybenzamine)"
+      ],
+      "definitive": [
+        "Surgical tumor resection"
+      ]
+    },
+    "treatment_protocol": "Alpha-blockade \u2192 Beta-blockade \u2192 Surgery \u2192 Monitor recurrence"
+  },
+  {
+    "disease": "Acromegaly",
+    "epidemiology": "Excess growth hormone (GH), usually due to pituitary adenoma; prevalence ~60 per million.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Enlarged hands and feet",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Coarse facial features",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Headaches",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Visual disturbances",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "DM",
+        "Sleep apnea",
+        "Cardiomyopathy",
+        "Colonic polyps"
+      ],
+      "emergency_markers": [
+        "Pituitary apoplexy symptoms (headache + vision loss + vomiting)"
+      ]
+    },
+    "risk_factors": [
+      "Pituitary adenoma",
+      "MEN1"
+    ],
+    "differentials": [
+      "Paget\u2019s disease",
+      "Marfan syndrome",
+      "Hypothyroidism"
+    ],
+    "investigations": {
+      "important": [
+        "IGF-1",
+        "Oral glucose suppression test",
+        "Pituitary MRI"
+      ],
+      "additional": [
+        "GH levels",
+        "Visual field testing"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Symptom control"
+      ],
+      "definitive": [
+        "Transsphenoidal surgery",
+        "Octreotide",
+        "Radiotherapy"
+      ]
+    },
+    "treatment_protocol": "Confirm GH excess \u2192 MRI \u2192 Surgery \u2192 Monitor IGF-1 levels"
+  },
+  {
+    "disease": "Hyperparathyroidism",
+    "epidemiology": "Primary form most common in postmenopausal women; secondary common in CKD; tertiary occurs after prolonged secondary.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Bone pain",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Kidney stones",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abdominal discomfort",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Osteoporosis",
+        "Nephrolithiasis",
+        "Pancreatitis",
+        "Neuropsychiatric symptoms"
+      ],
+      "emergency_markers": [
+        "Hypercalcemic crisis"
+      ]
+    },
+    "risk_factors": [
+      "MEN1 and MEN2A",
+      "Lithium use",
+      "CKD"
+    ],
+    "differentials": [
+      "Malignancy-associated hypercalcemia",
+      "Vitamin D intoxication"
+    ],
+    "investigations": {
+      "important": [
+        "Serum calcium",
+        "PTH",
+        "Phosphorus"
+      ],
+      "additional": [
+        "DEXA scan",
+        "Neck ultrasound",
+        "Sestamibi scan"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Bisphosphonates"
+      ],
+      "definitive": [
+        "Parathyroidectomy"
+      ]
+    },
+    "treatment_protocol": "Confirm elevated calcium + PTH \u2192 Imaging \u2192 Surgery if symptomatic or criteria met"
+  },
+  {
+    "disease": "Diabetes Insipidus",
+    "epidemiology": "Can be central (ADH deficiency) or nephrogenic (renal resistance); rare. Central form more common.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Polyuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Polydipsia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Nocturia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dehydration",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Dehydration",
+        "Hypernatremia"
+      ],
+      "emergency_markers": [
+        "Severe hypernatremia with confusion/coma"
+      ]
+    },
+    "risk_factors": [
+      "Head trauma",
+      "Pituitary surgery",
+      "Lithium use",
+      "Genetic mutations"
+    ],
+    "differentials": [
+      "Diabetes mellitus",
+      "Psychogenic polydipsia"
+    ],
+    "investigations": {
+      "important": [
+        "Water deprivation test",
+        "Serum sodium",
+        "Urine osmolality"
+      ],
+      "additional": [
+        "MRI of pituitary",
+        "ADH levels"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Fluids and electrolyte monitoring"
+      ],
+      "definitive": [
+        "Desmopressin for central DI",
+        "Thiazides/NSAIDs for nephrogenic DI"
+      ]
+    },
+    "treatment_protocol": "Differentiate type via water deprivation \u2192 Start appropriate therapy"
+  },
+  {
+    "disease": "Hypoparathyroidism",
+    "epidemiology": "Most commonly caused by surgical removal of parathyroid glands; rare inherited forms also exist.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Muscle cramps",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Paresthesias",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Tetany",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Seizures",
+          "order": 4,
+          "frequency": "rare",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Hypocalcemia",
+        "Cardiac arrhythmias",
+        "Seizures"
+      ],
+      "emergency_markers": [
+        "Tetany",
+        "Seizures",
+        "Stridor"
+      ]
+    },
+    "risk_factors": [
+      "Neck surgery",
+      "Autoimmune disease",
+      "Genetic syndromes"
+    ],
+    "differentials": [
+      "Vitamin D deficiency",
+      "Pseudohypoparathyroidism"
+    ],
+    "investigations": {
+      "important": [
+        "Serum calcium",
+        "Phosphate",
+        "PTH"
+      ],
+      "additional": [
+        "Magnesium",
+        "ECG"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Calcium and vitamin D supplementation"
+      ],
+      "definitive": [
+        "Recombinant PTH therapy (if needed)"
+      ]
+    },
+    "treatment_protocol": "Correct calcium \u2192 Monitor electrolytes \u2192 Consider PTH replacement"
+  },
+  {
+    "disease": "Pituitary Adenoma",
+    "epidemiology": "Common benign tumors of the pituitary gland; may be functional or non-functional; incidence ~1 in 1000.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Visual field defects",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hormonal imbalance symptoms",
+          "order": 3,
+          "frequency": "varies",
+          "severity": "varies"
+        }
+      ],
+      "complications": [
+        "Hypopituitarism",
+        "Pituitary apoplexy"
+      ],
+      "emergency_markers": [
+        "Sudden headache + vision loss = apoplexy"
+      ]
+    },
+    "risk_factors": [
+      "MEN1",
+      "Familial pituitary tumor syndromes"
+    ],
+    "differentials": [
+      "Craniopharyngioma",
+      "Meningioma",
+      "Metastasis"
+    ],
+    "investigations": {
+      "important": [
+        "MRI of pituitary",
+        "Hormonal panel"
+      ],
+      "additional": [
+        "Visual field testing"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Hormonal replacement as needed"
+      ],
+      "definitive": [
+        "Surgical resection",
+        "Dopamine agonists for prolactinomas"
+      ]
+    },
+    "treatment_protocol": "Classify tumor \u2192 Surgery if compressive \u2192 Medical treatment for secreting tumors"
+  },
+  {
+    "disease": "Thyroid Storm",
+    "epidemiology": "Life-threatening complication of untreated or poorly controlled hyperthyroidism. Rare but critical.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Tachycardia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Delirium",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Vomiting/diarrhea",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Arrhythmia",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Fever, AMS, tachycardia in known hyperthyroidism"
+      ]
+    },
+    "risk_factors": [
+      "Graves' disease",
+      "Infection",
+      "Surgery",
+      "Noncompliance with meds"
+    ],
+    "differentials": [
+      "Sepsis",
+      "Neuroleptic malignant syndrome",
+      "Heat stroke"
+    ],
+    "investigations": {
+      "important": [
+        "TSH",
+        "Free T4",
+        "LFTs"
+      ],
+      "additional": [
+        "Blood cultures",
+        "Chest X-ray"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Cooling, IV fluids"
+      ],
+      "definitive": [
+        "Propranolol, PTU, corticosteroids, iodine"
+      ]
+    },
+    "treatment_protocol": "Supportive care \u2192 Inhibit hormone synthesis \u2192 Prevent peripheral conversion"
+  },
+  {
+    "disease": "Myxedema Coma",
+    "epidemiology": "Rare, life-threatening manifestation of severe hypothyroidism. Seen in elderly or untreated patients.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypothermia",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Bradycardia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Altered mental status",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Hypotension",
+          "order": 4,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Respiratory failure",
+        "Cardiac arrest"
+      ],
+      "emergency_markers": [
+        "AMS, hypothermia, hypotension in hypothyroid"
+      ]
+    },
+    "risk_factors": [
+      "Severe untreated hypothyroidism",
+      "Infection",
+      "Cold exposure",
+      "Sedatives"
+    ],
+    "differentials": [
+      "Sepsis",
+      "Adrenal crisis",
+      "Stroke"
+    ],
+    "investigations": {
+      "important": [
+        "TSH",
+        "Free T4",
+        "Cortisol"
+      ],
+      "additional": [
+        "Electrolytes",
+        "ABG"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "IV fluids, warming"
+      ],
+      "definitive": [
+        "IV levothyroxine + hydrocortisone"
+      ]
+    },
+    "treatment_protocol": "Suspect based on clinical picture \u2192 Start IV thyroxine + steroids immediately"
+  },
+  {
+    "disease": "Hyperaldosteronism",
+    "epidemiology": "Most often due to adrenal adenoma (Conn's syndrome) or bilateral adrenal hyperplasia; cause of secondary hypertension.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypertension",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Muscle weakness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Polyuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Hypokalemia",
+        "Metabolic alkalosis",
+        "Cardiovascular disease"
+      ],
+      "emergency_markers": [
+        "Severe hypokalemia with arrhythmia or paralysis"
+      ]
+    },
+    "risk_factors": [
+      "HTN at young age",
+      "Adrenal adenoma",
+      "Genetics"
+    ],
+    "differentials": [
+      "Essential HTN",
+      "Cushing syndrome",
+      "Renal artery stenosis"
+    ],
+    "investigations": {
+      "important": [
+        "Plasma aldosterone-renin ratio (ARR)",
+        "Serum electrolytes"
+      ],
+      "additional": [
+        "CT abdomen",
+        "Adrenal vein sampling"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Potassium supplementation"
+      ],
+      "definitive": [
+        "Surgical removal (if adenoma)",
+        "Spironolactone (if hyperplasia)"
+      ]
+    },
+    "treatment_protocol": "Screen with ARR \u2192 Confirm \u2192 Treat surgically or medically"
+  },
+  {
+    "disease": "Multiple Endocrine Neoplasia Type 1 (MEN1)",
+    "epidemiology": "Autosomal dominant disorder involving tumors in parathyroid, pancreas, and pituitary. Incidence: ~1 in 30,000.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypercalcemia symptoms (bone pain, stones)",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Recurrent peptic ulcers",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypoglycemic episodes",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Pituitary hormone excess",
+          "order": 4,
+          "frequency": "varies",
+          "severity": "varies"
+        }
+      ],
+      "complications": [
+        "Nephrolithiasis",
+        "Peptic ulcers",
+        "Hypoglycemia",
+        "Pituitary dysfunction"
+      ],
+      "emergency_markers": [
+        "Severe hypoglycemia",
+        "GI bleeding"
+      ]
+    },
+    "risk_factors": [
+      "Family history of MEN1 mutation"
+    ],
+    "differentials": [
+      "MEN2A",
+      "Sporadic endocrine tumors"
+    ],
+    "investigations": {
+      "important": [
+        "Genetic testing (MEN1 gene)",
+        "Serum calcium",
+        "PTH",
+        "Gastrin",
+        "Prolactin"
+      ],
+      "additional": [
+        "MRI pituitary",
+        "CT abdomen"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Hormonal therapy",
+        "Surveillance"
+      ],
+      "definitive": [
+        "Surgical resection of tumors"
+      ]
+    },
+    "treatment_protocol": "Genetic confirmation \u2192 Screening of associated tumors \u2192 Treat individually"
+  },
+  {
+    "disease": "Multiple Endocrine Neoplasia Type 2A (MEN2A)",
+    "epidemiology": "Autosomal dominant disorder with medullary thyroid cancer, pheochromocytoma, and hyperparathyroidism. RET mutation positive.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Neck mass",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bone pain or nephrolithiasis",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "MTC metastasis",
+        "Adrenal crisis",
+        "Parathyroid dysfunction"
+      ],
+      "emergency_markers": [
+        "Pheochromocytoma crisis",
+        "Airway obstruction"
+      ]
+    },
+    "risk_factors": [
+      "RET gene mutation",
+      "Family history"
+    ],
+    "differentials": [
+      "MEN1",
+      "Sporadic endocrine tumors"
+    ],
+    "investigations": {
+      "important": [
+        "RET genetic testing",
+        "Calcitonin",
+        "Catecholamines"
+      ],
+      "additional": [
+        "Neck ultrasound",
+        "CT/MRI abdomen"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Manage HTN",
+        "Calcium replacement"
+      ],
+      "definitive": [
+        "Prophylactic thyroidectomy",
+        "Adrenalectomy",
+        "Parathyroidectomy"
+      ]
+    },
+    "treatment_protocol": "Screen mutation \u2192 Remove thyroid early \u2192 Monitor and treat other components"
+  },
+  {
+    "disease": "Congenital Adrenal Hyperplasia (CAH)",
+    "epidemiology": "Autosomal recessive disorder of adrenal steroid synthesis. 21-hydroxylase deficiency accounts for ~95% of cases.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Salt-wasting crisis (vomiting, dehydration)",
+          "order": 1,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Ambiguous genitalia (females)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Early puberty (males)",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Adrenal crisis",
+        "Short stature",
+        "Infertility"
+      ],
+      "emergency_markers": [
+        "Shock in neonate",
+        "Electrolyte abnormalities"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Consanguinity"
+    ],
+    "differentials": [
+      "Adrenal insufficiency",
+      "Disorders of sex development"
+    ],
+    "investigations": {
+      "important": [
+        "17-OH progesterone",
+        "Electrolytes",
+        "ACTH"
+      ],
+      "additional": [
+        "Genetic testing",
+        "Pelvic ultrasound"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Salt and fluid replacement"
+      ],
+      "definitive": [
+        "Hydrocortisone and fludrocortisone"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Replace hormones \u2192 Monitor growth and puberty"
+  },
+  {
+    "disease": "Klinefelter Syndrome",
+    "epidemiology": "Genetic condition in males (47,XXY karyotype); affects 1 in 500\u20131,000 males. Common cause of male hypogonadism.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Delayed puberty",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Gynecomastia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Infertility",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Osteoporosis",
+        "Diabetes",
+        "Psychosocial issues"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Maternal age",
+      "Genetic mutation"
+    ],
+    "differentials": [
+      "Constitutional delay",
+      "Other causes of hypogonadism"
+    ],
+    "investigations": {
+      "important": [
+        "Karyotype analysis",
+        "Testosterone",
+        "LH/FSH"
+      ],
+      "additional": [
+        "Bone density scan"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Speech and educational support"
+      ],
+      "definitive": [
+        "Testosterone replacement"
+      ]
+    },
+    "treatment_protocol": "Confirm with karyotype \u2192 Start testosterone in adolescence \u2192 Monitor bone and fertility"
+  },
+  {
+    "disease": "Turner Syndrome",
+    "epidemiology": "Monosomy X (45,X) in females. Affects ~1 in 2,500 live female births. Causes primary ovarian failure.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Short stature",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Webbed neck",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Delayed puberty",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Amenorrhea",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Infertility",
+        "Cardiac anomalies",
+        "Hearing loss"
+      ],
+      "emergency_markers": [
+        "Coarctation of aorta or congenital heart defects in infancy"
+      ]
+    },
+    "risk_factors": [
+      "Random chromosomal nondisjunction"
+    ],
+    "differentials": [
+      "Constitutional growth delay",
+      "Noonan syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Karyotype",
+        "Echocardiogram",
+        "LH/FSH"
+      ],
+      "additional": [
+        "Pelvic ultrasound",
+        "Hearing test"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Growth hormone"
+      ],
+      "definitive": [
+        "Estrogen replacement",
+        "Cardiac surgery if needed"
+      ]
+    },
+    "treatment_protocol": "Diagnose early \u2192 Start GH \u2192 Add estrogen in adolescence"
+  },
+  {
+    "disease": "Androgen Insensitivity Syndrome (AIS)",
+    "epidemiology": "X-linked recessive condition affecting 1 in 20,000 to 64,000 male births; complete or partial androgen resistance.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Primary amenorrhea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Lack of pubic/axillary hair",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Female external genitalia",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Undescended testes",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Infertility",
+        "Gonadal tumors"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history of AIS"
+    ],
+    "differentials": [
+      "M\u00fcllerian agenesis",
+      "Turner syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Karyotype (46,XY)",
+        "Testosterone",
+        "LH/FSH"
+      ],
+      "additional": [
+        "Pelvic ultrasound",
+        "Androgen receptor gene testing"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Psychological support",
+        "Hormonal therapy post-gonadectomy"
+      ],
+      "definitive": [
+        "Gonadectomy after puberty"
+      ]
+    },
+    "treatment_protocol": "Diagnose with karyotype + phenotype \u2192 Monitor \u2192 Gonadectomy post-puberty"
+  },
+  {
+    "disease": "Sheehan Syndrome",
+    "epidemiology": "Postpartum pituitary infarction due to massive hemorrhage; more common in low-resource settings.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Failure to lactate",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Amenorrhea",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypotension",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Hypopituitarism",
+        "Adrenal crisis"
+      ],
+      "emergency_markers": [
+        "Severe hypotension in postpartum woman with lactation failure"
+      ]
+    },
+    "risk_factors": [
+      "Severe postpartum hemorrhage",
+      "Prolonged labor"
+    ],
+    "differentials": [
+      "Postpartum depression",
+      "Adrenal insufficiency"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain",
+        "Hormonal panel"
+      ],
+      "additional": [
+        "ACTH stimulation test"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Fluid resuscitation"
+      ],
+      "definitive": [
+        "Lifelong hormone replacement (thyroid, cortisol, estrogen)"
+      ]
+    },
+    "treatment_protocol": "Suspect in postpartum hemorrhage \u2192 Confirm with MRI and labs \u2192 Start hormones"
+  },
+  {
+    "disease": "Insulinoma",
+    "epidemiology": "Rare pancreatic beta-cell tumor; most common functional pancreatic neuroendocrine tumor; incidence ~1-4/million/year.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Recurrent hypoglycemia",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Confusion",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Diaphoresis",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Seizures",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Seizures",
+        "Neuroglycopenia"
+      ],
+      "emergency_markers": [
+        "Hypoglycemia + symptoms relieved by glucose"
+      ]
+    },
+    "risk_factors": [
+      "MEN1 syndrome"
+    ],
+    "differentials": [
+      "Factitious hypoglycemia",
+      "Adrenal insufficiency"
+    ],
+    "investigations": {
+      "important": [
+        "Fasting glucose",
+        "Insulin",
+        "C-peptide",
+        "Proinsulin"
+      ],
+      "additional": [
+        "72-hour fast",
+        "CT/MRI abdomen",
+        "Endoscopic ultrasound"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Glucose infusion"
+      ],
+      "definitive": [
+        "Surgical removal of tumor"
+      ]
+    },
+    "treatment_protocol": "Confirm endogenous hyperinsulinism \u2192 Localize tumor \u2192 Surgical excision"
+  },
+  {
+    "disease": "Nonfunctioning Pituitary Adenoma",
+    "epidemiology": "Most common type of pituitary tumor; does not secrete hormones; presents due to mass effect.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Visual field defect",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Hypopituitarism",
+        "Pituitary apoplexy"
+      ],
+      "emergency_markers": [
+        "Sudden headache + visual loss = apoplexy"
+      ]
+    },
+    "risk_factors": [
+      "Aging",
+      "Familial isolated pituitary adenoma"
+    ],
+    "differentials": [
+      "Craniopharyngioma",
+      "Meningioma"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain",
+        "Pituitary hormone profile"
+      ],
+      "additional": [
+        "Visual field testing"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Hormone replacement"
+      ],
+      "definitive": [
+        "Transsphenoidal surgery"
+      ]
+    },
+    "treatment_protocol": "Imaging \u2192 Surgical resection if symptomatic or growing \u2192 Monitor hormone levels"
+  },
+  {
+    "disease": "Hypopituitarism",
+    "epidemiology": "Partial or complete deficiency of anterior pituitary hormones; causes include tumors, Sheehan\u2019s, trauma, infection.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Cold intolerance",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Loss of libido",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Amenorrhea",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Adrenal crisis",
+        "Infertility"
+      ],
+      "emergency_markers": [
+        "Severe hypotension, hyponatremia, and hypoglycemia"
+      ]
+    },
+    "risk_factors": [
+      "Pituitary tumors",
+      "Postpartum hemorrhage",
+      "Radiation",
+      "Head trauma"
+    ],
+    "differentials": [
+      "Depression",
+      "Primary hypothyroidism",
+      "Chronic fatigue syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Cortisol",
+        "TSH",
+        "LH/FSH",
+        "Prolactin",
+        "GH"
+      ],
+      "additional": [
+        "MRI pituitary"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Electrolyte correction"
+      ],
+      "definitive": [
+        "Hormone replacement (thyroid, cortisol, sex steroids, GH)"
+      ]
+    },
+    "treatment_protocol": "Confirm hormone deficiencies \u2192 Replace hormones accordingly \u2192 Monitor response"
+  },
+  {
+    "disease": "Pheochromocytoma",
+    "epidemiology": "Rare catecholamine-secreting tumor, mostly from adrenal medulla. Incidence: 2\u20138 cases/million/year.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Paroxysmal hypertension",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Headache",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sweating",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Hypertensive crisis",
+        "Arrhythmia",
+        "Stroke"
+      ],
+      "emergency_markers": [
+        "Paroxysmal HTN with classic triad"
+      ]
+    },
+    "risk_factors": [
+      "MEN2 syndrome",
+      "Neurofibromatosis type 1",
+      "VHL disease"
+    ],
+    "differentials": [
+      "Anxiety disorder",
+      "Hyperthyroidism",
+      "Carcinoid syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Plasma metanephrines",
+        "24-hr urine catecholamines"
+      ],
+      "additional": [
+        "CT/MRI abdomen",
+        "MIBG scan"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Alpha-blockers pre-op (phenoxybenzamine)"
+      ],
+      "definitive": [
+        "Surgical excision"
+      ]
+    },
+    "treatment_protocol": "Control BP with alpha-blockers \u2192 Surgery \u2192 Follow up for recurrence"
+  },
+  {
+    "disease": "Primary Hyperparathyroidism",
+    "epidemiology": "Most common cause of hypercalcemia in outpatients. Incidence increases with age; more common in women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Bone pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Nephrolithiasis",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abdominal pain",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Osteoporosis",
+        "Kidney stones",
+        "Pancreatitis"
+      ],
+      "emergency_markers": [
+        "Severe hypercalcemia with altered mental status"
+      ]
+    },
+    "risk_factors": [
+      "Parathyroid adenoma",
+      "MEN1/MEN2A",
+      "Lithium use"
+    ],
+    "differentials": [
+      "Malignancy-related hypercalcemia",
+      "Sarcoidosis"
+    ],
+    "investigations": {
+      "important": [
+        "Serum calcium",
+        "PTH",
+        "Vitamin D"
+      ],
+      "additional": [
+        "DEXA scan",
+        "24-hr urinary calcium"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Hydration",
+        "Bisphosphonates for bone protection"
+      ],
+      "definitive": [
+        "Parathyroidectomy"
+      ]
+    },
+    "treatment_protocol": "Evaluate calcium and PTH \u2192 Imaging \u2192 Surgery for definitive cure"
+  },
+  {
+    "disease": "Adrenal Insufficiency (Addison's Disease)",
+    "epidemiology": "Primary adrenal failure. Rare, prevalence: ~100 per million. Often autoimmune in origin.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hyperpigmentation",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypotension",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Weight loss",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Adrenal crisis",
+        "Electrolyte imbalances"
+      ],
+      "emergency_markers": [
+        "Shock with hyponatremia and hyperkalemia"
+      ]
+    },
+    "risk_factors": [
+      "Autoimmune disease",
+      "Tuberculosis",
+      "Adrenal hemorrhage"
+    ],
+    "differentials": [
+      "Chronic fatigue",
+      "Depression",
+      "Hypothyroidism"
+    ],
+    "investigations": {
+      "important": [
+        "ACTH stimulation test",
+        "Morning cortisol",
+        "Electrolytes"
+      ],
+      "additional": [
+        "Autoimmune antibody panel",
+        "CT adrenals"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "IV fluids in crisis"
+      ],
+      "definitive": [
+        "Hydrocortisone + fludrocortisone replacement"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Start steroids \u2192 Educate patient on stress dosing"
+  },
+  {
+    "disease": "Diabetes Insipidus (Central)",
+    "epidemiology": "Rare disorder of ADH deficiency. Can be idiopathic or due to trauma, tumors, or surgery.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Polyuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Polydipsia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Nocturia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dehydration",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Severe dehydration",
+        "Hypernatremia"
+      ],
+      "emergency_markers": [
+        "Hypernatremia with confusion/coma"
+      ]
+    },
+    "risk_factors": [
+      "Neurosurgery",
+      "Head trauma",
+      "Craniopharyngioma"
+    ],
+    "differentials": [
+      "Psychogenic polydipsia",
+      "Nephrogenic DI",
+      "Uncontrolled diabetes mellitus"
+    ],
+    "investigations": {
+      "important": [
+        "Water deprivation test",
+        "Serum sodium",
+        "Urine osmolality"
+      ],
+      "additional": [
+        "MRI brain"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Water intake"
+      ],
+      "definitive": [
+        "Desmopressin (DDAVP)"
+      ]
+    },
+    "treatment_protocol": "Water deprivation \u2192 Desmopressin response test \u2192 Treat with DDAVP"
+  },
+  {
+    "disease": "Diabetes Insipidus (Nephrogenic)",
+    "epidemiology": "Caused by renal resistance to ADH. May be congenital or acquired (lithium, hypercalcemia).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Polyuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Polydipsia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Growth retardation (in children)",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Dehydration",
+        "Hypernatremia",
+        "Developmental delay"
+      ],
+      "emergency_markers": [
+        "Severe dehydration and hypernatremia in infants/children"
+      ]
+    },
+    "risk_factors": [
+      "Chronic lithium therapy",
+      "Hypercalcemia",
+      "Genetic mutations"
+    ],
+    "differentials": [
+      "Central DI",
+      "Psychogenic polydipsia"
+    ],
+    "investigations": {
+      "important": [
+        "Water deprivation test",
+        "Urine osmolality",
+        "Desmopressin trial"
+      ],
+      "additional": [
+        "Serum calcium",
+        "Renal function tests"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Ensure adequate hydration"
+      ],
+      "definitive": [
+        "Thiazide diuretics",
+        "Low-sodium, low-protein diet"
+      ]
+    },
+    "treatment_protocol": "Differentiate from central DI \u2192 Start thiazides \u2192 Monitor electrolytes"
+  },
+  {
+    "disease": "Hyperaldosteronism (Primary)",
+    "epidemiology": "Excess aldosterone production due to adrenal adenoma or hyperplasia. Affects ~5\u201310% of hypertensive patients.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypertension",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Muscle weakness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Polyuria",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Hypokalemia",
+        "Metabolic alkalosis",
+        "Cardiovascular disease"
+      ],
+      "emergency_markers": [
+        "Severe hypokalemia with arrhythmias"
+      ]
+    },
+    "risk_factors": [
+      "Adrenal adenoma",
+      "Bilateral adrenal hyperplasia"
+    ],
+    "differentials": [
+      "Essential hypertension",
+      "Cushing syndrome",
+      "Renovascular HTN"
+    ],
+    "investigations": {
+      "important": [
+        "Plasma aldosterone-renin ratio (ARR)",
+        "Serum potassium"
+      ],
+      "additional": [
+        "CT adrenal glands",
+        "Adrenal vein sampling"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Potassium replacement"
+      ],
+      "definitive": [
+        "Spironolactone or adrenalectomy"
+      ]
+    },
+    "treatment_protocol": "Confirm with ARR \u2192 Imaging \u2192 Surgery (unilateral) or medical therapy (bilateral)"
+  },
+  {
+    "disease": "Hypoaldosteronism",
+    "epidemiology": "Deficiency of aldosterone or resistance to its action; common in elderly diabetics or those on RAAS blockers.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hyperkalemia",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Mild hypotension",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Arrhythmias",
+        "Weakness"
+      ],
+      "emergency_markers": [
+        "Severe hyperkalemia"
+      ]
+    },
+    "risk_factors": [
+      "Diabetes",
+      "ACE inhibitors",
+      "NSAIDs",
+      "Addison\u2019s disease"
+    ],
+    "differentials": [
+      "Adrenal insufficiency",
+      "Pseudohypoaldosteronism"
+    ],
+    "investigations": {
+      "important": [
+        "Serum potassium",
+        "Plasma aldosterone",
+        "Plasma renin activity"
+      ],
+      "additional": [
+        "ACTH stimulation test"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Correct electrolytes"
+      ],
+      "definitive": [
+        "Fludrocortisone replacement"
+      ]
+    },
+    "treatment_protocol": "Diagnose \u2192 Manage potassium \u2192 Replace mineralocorticoid if needed"
+  },
+  {
+    "disease": "Familial Hypocalciuric Hypercalcemia (FHH)",
+    "epidemiology": "Benign inherited condition with lifelong mild hypercalcemia due to CaSR gene mutation.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Usually asymptomatic",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "none"
+        },
+        {
+          "symptom": "Mild fatigue",
+          "order": 2,
+          "frequency": "rare",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "None typically"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history of hypercalcemia"
+    ],
+    "differentials": [
+      "Primary hyperparathyroidism"
+    ],
+    "investigations": {
+      "important": [
+        "Serum calcium",
+        "PTH",
+        "24-hr urine calcium (low)"
+      ],
+      "additional": [
+        "Genetic testing for CaSR mutation"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Monitoring"
+      ],
+      "definitive": [
+        "No treatment needed"
+      ]
+    },
+    "treatment_protocol": "Differentiate from PHPT \u2192 Avoid unnecessary surgery"
+  },
+  {
+    "disease": "Thyroid Eye Disease (Graves\u2019 Orbitopathy)",
+    "epidemiology": "Autoimmune inflammation of orbital tissues seen in ~25\u201350% of patients with Graves\u2019 disease.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Proptosis",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Diplopia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Eye irritation",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Vision loss (late)",
+          "order": 4,
+          "frequency": "rare",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Corneal ulceration",
+        "Optic neuropathy"
+      ],
+      "emergency_markers": [
+        "Decreased visual acuity, afferent pupillary defect"
+      ]
+    },
+    "risk_factors": [
+      "Graves' disease",
+      "Smoking"
+    ],
+    "differentials": [
+      "Orbital pseudotumor",
+      "Orbital cellulitis"
+    ],
+    "investigations": {
+      "important": [
+        "Thyroid function tests",
+        "Orbital CT/MRI"
+      ],
+      "additional": [
+        "Anti-TSH receptor antibodies"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Lubricating eye drops",
+        "Smoking cessation"
+      ],
+      "definitive": [
+        "Steroids, orbital decompression"
+      ]
+    },
+    "treatment_protocol": "Treat underlying thyroid disease \u2192 Manage orbitopathy severity"
+  },
+  {
+    "disease": "Riedel\u2019s Thyroiditis",
+    "epidemiology": "Rare chronic fibrosing thyroiditis; part of IgG4-related disease spectrum. More common in middle-aged women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Painless hard thyroid mass",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Dysphagia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hoarseness",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Airway compression",
+        "Hypothyroidism"
+      ],
+      "emergency_markers": [
+        "Airway obstruction symptoms"
+      ]
+    },
+    "risk_factors": [
+      "Autoimmune disorders",
+      "IgG4-related disease"
+    ],
+    "differentials": [
+      "Thyroid cancer",
+      "Subacute thyroiditis"
+    ],
+    "investigations": {
+      "important": [
+        "Thyroid function tests",
+        "Thyroid ultrasound"
+      ],
+      "additional": [
+        "Core biopsy",
+        "IgG4 staining"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Thyroid hormone replacement"
+      ],
+      "definitive": [
+        "Steroids",
+        "Surgical decompression if needed"
+      ]
+    },
+    "treatment_protocol": "Biopsy to confirm \u2192 Start steroids \u2192 Decompress surgically if needed"
+  },
+  {
+    "disease": "Graves' Disease",
+    "epidemiology": "Most common cause of hyperthyroidism. Peak incidence in women aged 20\u201340 years.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Weight loss",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Heat intolerance",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Goitre",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Atrial fibrillation",
+        "Osteoporosis",
+        "Thyroid storm"
+      ],
+      "emergency_markers": [
+        "Thyroid storm symptoms"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Smoking",
+      "Other autoimmune disorders"
+    ],
+    "differentials": [
+      "Toxic multinodular goitre",
+      "Thyroiditis"
+    ],
+    "investigations": {
+      "important": [
+        "TSH, Free T4, T3",
+        "TSH receptor antibodies"
+      ],
+      "additional": [
+        "Thyroid uptake scan",
+        "Thyroid ultrasound"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Beta-blockers for symptom control"
+      ],
+      "definitive": [
+        "Antithyroid drugs",
+        "Radioiodine therapy",
+        "Surgery"
+      ]
+    },
+    "treatment_protocol": "Confirm hyperthyroidism \u2192 Antithyroid drugs \u2192 Definitive therapy (RAI or surgery)"
+  },
+  {
+    "disease": "Hashimoto\u2019s Thyroiditis",
+    "epidemiology": "Most common cause of hypothyroidism in iodine-sufficient areas. Affects women more frequently (10:1).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Cold intolerance",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Weight gain",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Constipation",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Myxedema",
+        "Goitre",
+        "Lymphoma"
+      ],
+      "emergency_markers": [
+        "Myxedema coma"
+      ]
+    },
+    "risk_factors": [
+      "Autoimmune diseases",
+      "Family history"
+    ],
+    "differentials": [
+      "Primary hypothyroidism",
+      "Iodine deficiency"
+    ],
+    "investigations": {
+      "important": [
+        "TSH, Free T4",
+        "Anti-TPO antibodies"
+      ],
+      "additional": [
+        "Thyroid ultrasound"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Monitor thyroid function"
+      ],
+      "definitive": [
+        "Levothyroxine"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Start thyroid hormone replacement \u2192 Monitor TSH"
+  },
+  {
+    "disease": "Subacute Thyroiditis (De Quervain's)",
+    "epidemiology": "Self-limiting thyroid inflammation often post-viral. More common in middle-aged women.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Painful neck swelling",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fever",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Transient hyperthyroid symptoms",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypothyroid phase",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Transient hypothyroidism",
+        "Persistent hypothyroidism"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Recent viral infection"
+    ],
+    "differentials": [
+      "Graves' disease",
+      "Hashimoto\u2019s",
+      "Suppurative thyroiditis"
+    ],
+    "investigations": {
+      "important": [
+        "ESR",
+        "TSH, T4",
+        "Thyroid uptake scan (low)"
+      ],
+      "additional": [
+        "Thyroid ultrasound"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "NSAIDs",
+        "Beta-blockers for symptoms"
+      ],
+      "definitive": [
+        "Prednisone if severe"
+      ]
+    },
+    "treatment_protocol": "Symptom control \u2192 Steroids if needed \u2192 Monitor recovery"
+  },
+  {
+    "disease": "Thyroid Storm",
+    "epidemiology": "Life-threatening complication of untreated or poorly controlled hyperthyroidism. High mortality if untreated.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "High fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Tachycardia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Altered mental status",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "GI symptoms",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Arrhythmia",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Severe hyperthyroid symptoms with systemic decompensation"
+      ]
+    },
+    "risk_factors": [
+      "Untreated Graves\u2019",
+      "Infection",
+      "Surgery",
+      "Childbirth"
+    ],
+    "differentials": [
+      "Sepsis",
+      "Neuroleptic malignant syndrome",
+      "Pheochromocytoma"
+    ],
+    "investigations": {
+      "important": [
+        "TSH, T3, T4",
+        "Liver enzymes"
+      ],
+      "additional": [
+        "ECG",
+        "Echocardiogram"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Cooling, IV fluids"
+      ],
+      "definitive": [
+        "PTU, Beta-blockers, Steroids, Iodine"
+      ]
+    },
+    "treatment_protocol": "Urgent ICU care \u2192 Antithyroid meds \u2192 Supportive therapy"
+  },
+  {
+    "disease": "Myxedema Coma",
+    "epidemiology": "Rare, life-threatening decompensated hypothyroidism. Occurs mostly in elderly women with longstanding disease.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypothermia",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Bradycardia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Altered mental status",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Hypotension",
+          "order": 4,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Coma",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Severe hypothyroidism with altered consciousness"
+      ]
+    },
+    "risk_factors": [
+      "Longstanding hypothyroidism",
+      "Infection",
+      "Cold exposure",
+      "Sedatives"
+    ],
+    "differentials": [
+      "Sepsis",
+      "Adrenal crisis",
+      "Stroke"
+    ],
+    "investigations": {
+      "important": [
+        "TSH, Free T4",
+        "Electrolytes"
+      ],
+      "additional": [
+        "ABG",
+        "Cortisol"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "IV fluids, Warming"
+      ],
+      "definitive": [
+        "IV levothyroxine + hydrocortisone"
+      ]
+    },
+    "treatment_protocol": "ICU \u2192 IV thyroid + steroids \u2192 Correct electrolytes"
+  },
+  {
+    "disease": "Congenital Adrenal Hyperplasia (CAH)",
+    "epidemiology": "Autosomal recessive disorder due to enzyme deficiencies (most commonly 21-hydroxylase). Incidence: 1 in 15,000 births.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Ambiguous genitalia (females)",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Salt wasting",
+          "order": 2,
+          "frequency": "common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Early virilization",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Failure to thrive",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Shock",
+        "Electrolyte disturbances",
+        "Infertility"
+      ],
+      "emergency_markers": [
+        "Salt-wasting crisis in infancy"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Consanguinity"
+    ],
+    "differentials": [
+      "Androgen-secreting tumors",
+      "Disorders of sexual differentiation"
+    ],
+    "investigations": {
+      "important": [
+        "17-OH progesterone",
+        "Electrolytes",
+        "ACTH"
+      ],
+      "additional": [
+        "Genetic testing",
+        "Pelvic ultrasound"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "IV fluids, Electrolyte correction"
+      ],
+      "definitive": [
+        "Glucocorticoid and mineralocorticoid replacement"
+      ]
+    },
+    "treatment_protocol": "Diagnose biochemically \u2192 Replace steroids \u2192 Monitor growth and electrolytes"
+  },
+  {
+    "disease": "Cushing\u2019s Syndrome",
+    "epidemiology": "Due to excess cortisol. Endogenous (ACTH-secreting pituitary adenoma or adrenal tumor) or exogenous (steroids).",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Weight gain (central)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Moon face, buffalo hump",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Purple striae",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Proximal muscle weakness",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Osteoporosis",
+        "Diabetes",
+        "Hypertension",
+        "Immunosuppression"
+      ],
+      "emergency_markers": [
+        "Severe infections"
+      ]
+    },
+    "risk_factors": [
+      "Chronic steroid use",
+      "Pituitary/adrenal tumors"
+    ],
+    "differentials": [
+      "Metabolic syndrome",
+      "PCOS",
+      "Depression"
+    ],
+    "investigations": {
+      "important": [
+        "24hr urinary free cortisol",
+        "Low-dose dexamethasone test"
+      ],
+      "additional": [
+        "ACTH level",
+        "MRI pituitary",
+        "CT adrenals"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Treat complications (diabetes, HTN)"
+      ],
+      "definitive": [
+        "Surgical resection of tumor",
+        "Taper steroids"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Identify cause \u2192 Surgery or steroid taper"
+  },
+  {
+    "disease": "Hyperprolactinemia",
+    "epidemiology": "Excess prolactin often due to pituitary adenoma. Also caused by medications or hypothyroidism.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Galactorrhea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Amenorrhea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Infertility",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Decreased libido",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Osteopenia",
+        "Vision loss (macroadenoma)"
+      ],
+      "emergency_markers": [
+        "Visual field loss from pituitary mass"
+      ]
+    },
+    "risk_factors": [
+      "Dopamine antagonist drugs",
+      "Pituitary adenoma",
+      "Primary hypothyroidism"
+    ],
+    "differentials": [
+      "Pregnancy",
+      "PCOS",
+      "Hypothyroidism"
+    ],
+    "investigations": {
+      "important": [
+        "Serum prolactin",
+        "TSH",
+        "Pregnancy test"
+      ],
+      "additional": [
+        "MRI brain"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Treat underlying cause"
+      ],
+      "definitive": [
+        "Dopamine agonists (e.g., cabergoline)",
+        "Surgery if resistant"
+      ]
+    },
+    "treatment_protocol": "Rule out secondary causes \u2192 Treat tumor medically or surgically"
+  },
+  {
+    "disease": "Hypopituitarism",
+    "epidemiology": "Deficiency of one or more pituitary hormones. Caused by pituitary tumors, trauma, surgery, or infarction.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fatigue",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypogonadism",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cold intolerance",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypoglycemia",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Infertility",
+        "Adrenal crisis"
+      ],
+      "emergency_markers": [
+        "Shock from adrenal insufficiency"
+      ]
+    },
+    "risk_factors": [
+      "Pituitary surgery",
+      "Radiotherapy",
+      "Sheehan\u2019s syndrome"
+    ],
+    "differentials": [
+      "Primary hypothyroidism",
+      "Addison's",
+      "Chronic fatigue syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Pituitary hormone panel",
+        "MRI pituitary"
+      ],
+      "additional": [
+        "Stimulation tests (cosyntropin, insulin tolerance)"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Stress dose steroids during illness"
+      ],
+      "definitive": [
+        "Hormone replacement (thyroxine, steroids, sex hormones, GH)"
+      ]
+    },
+    "treatment_protocol": "Diagnose hormone deficiencies \u2192 Replace in correct order \u2192 Monitor regularly"
+  },
+  {
+    "disease": "Sheehan\u2019s Syndrome",
+    "epidemiology": "Postpartum pituitary necrosis due to severe blood loss. Rare but serious cause of hypopituitarism.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Failure to lactate postpartum",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Amenorrhea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Cold intolerance",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Adrenal crisis",
+        "Infertility",
+        "Permanent hormone deficiency"
+      ],
+      "emergency_markers": [
+        "Adrenal crisis signs postpartum"
+      ]
+    },
+    "risk_factors": [
+      "Postpartum hemorrhage",
+      "Prolonged labor"
+    ],
+    "differentials": [
+      "Postpartum depression",
+      "Thyroid disease",
+      "Anemia"
+    ],
+    "investigations": {
+      "important": [
+        "Pituitary hormone levels",
+        "MRI pituitary"
+      ],
+      "additional": [
+        "Stimulation tests"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Treat adrenal insufficiency"
+      ],
+      "definitive": [
+        "Hormone replacement for all deficient hormones"
+      ]
+    },
+    "treatment_protocol": "Suspect in postpartum shock \u2192 Confirm low hormones \u2192 Replace accordingly"
+  },
+  {
+    "disease": "Multiple Endocrine Neoplasia Type 1 (MEN 1)",
+    "epidemiology": "Autosomal dominant disorder with tumors in parathyroid, pancreas, and pituitary. Rare, incidence ~1 in 30,000.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypercalcemia (from parathyroid hyperplasia)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Peptic ulcers (gastrinoma)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Visual disturbances (pituitary tumors)",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Nephrolithiasis",
+        "Recurrent peptic ulcer disease",
+        "Hypopituitarism"
+      ],
+      "emergency_markers": [
+        "Severe hypercalcemia",
+        "GI bleeding from ulcers"
+      ]
+    },
+    "risk_factors": [
+      "Family history of MEN 1",
+      "MEN1 gene mutation"
+    ],
+    "differentials": [
+      "MEN 2",
+      "Isolated endocrine tumors"
+    ],
+    "investigations": {
+      "important": [
+        "Calcium, PTH",
+        "Fasting gastrin",
+        "Prolactin",
+        "Genetic testing (MEN1)"
+      ],
+      "additional": [
+        "Pituitary MRI",
+        "Pancreatic imaging"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Symptom-specific care"
+      ],
+      "definitive": [
+        "Surgical resection of tumors",
+        "Medical management of hormone excess"
+      ]
+    },
+    "treatment_protocol": "Screen family \u2192 Surveillance \u2192 Treat each tumor appropriately"
+  },
+  {
+    "disease": "Multiple Endocrine Neoplasia Type 2A (MEN 2A)",
+    "epidemiology": "Autosomal dominant syndrome with medullary thyroid cancer, pheochromocytoma, and hyperparathyroidism.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Neck mass (thyroid)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypertension",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypercalcemia",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Metastatic medullary thyroid carcinoma",
+        "Hypertensive crises"
+      ],
+      "emergency_markers": [
+        "Hypertensive crisis from pheochromocytoma"
+      ]
+    },
+    "risk_factors": [
+      "RET proto-oncogene mutation",
+      "Family history"
+    ],
+    "differentials": [
+      "Sporadic medullary carcinoma",
+      "Essential hypertension"
+    ],
+    "investigations": {
+      "important": [
+        "Calcitonin",
+        "Plasma metanephrines",
+        "Calcium, PTH"
+      ],
+      "additional": [
+        "RET gene testing",
+        "Neck ultrasound",
+        "Adrenal imaging"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Alpha-blockade for pheochromocytoma"
+      ],
+      "definitive": [
+        "Prophylactic thyroidectomy",
+        "Adrenalectomy"
+      ]
+    },
+    "treatment_protocol": "RET testing \u2192 Thyroidectomy \u2192 Treat pheochromocytoma and hyperparathyroidism"
+  },
+  {
+    "disease": "Insulinoma",
+    "epidemiology": "Rare pancreatic neuroendocrine tumor secreting insulin. Incidence: ~4 per million/year. Most are benign.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Recurrent hypoglycemia",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Confusion",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sweating, tremors",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Relief with glucose",
+          "order": 4,
+          "frequency": "very common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Seizures",
+        "Loss of consciousness"
+      ],
+      "emergency_markers": [
+        "Severe hypoglycemia"
+      ]
+    },
+    "risk_factors": [
+      "MEN 1 syndrome"
+    ],
+    "differentials": [
+      "Factitious hypoglycemia",
+      "Insulin overdose",
+      "Adrenal insufficiency"
+    ],
+    "investigations": {
+      "important": [
+        "72-hour fasting test",
+        "Insulin, C-peptide",
+        "Proinsulin"
+      ],
+      "additional": [
+        "Abdominal CT/MRI",
+        "Endoscopic ultrasound"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Frequent small meals"
+      ],
+      "definitive": [
+        "Surgical resection"
+      ]
+    },
+    "treatment_protocol": "Confirm endogenous insulin \u2192 Localize tumor \u2192 Surgery"
+  },
+  {
+    "disease": "Glucagonoma",
+    "epidemiology": "Rare pancreatic neuroendocrine tumor producing glucagon. Often malignant. Usually in older adults.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Necrolytic migratory erythema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Weight loss",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Diabetes",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Diarrhea",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Hyperglycemia",
+        "Malignancy",
+        "Deep vein thrombosis"
+      ],
+      "emergency_markers": [
+        "Severe malnutrition or thromboembolic events"
+      ]
+    },
+    "risk_factors": [
+      "MEN 1",
+      "Pancreatic tumor syndromes"
+    ],
+    "differentials": [
+      "Psoriasis",
+      "Diabetes",
+      "Zinc deficiency"
+    ],
+    "investigations": {
+      "important": [
+        "Serum glucagon",
+        "Fasting glucose"
+      ],
+      "additional": [
+        "Abdominal imaging",
+        "Skin biopsy"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Nutritional support"
+      ],
+      "definitive": [
+        "Surgical resection",
+        "Somatostatin analogs"
+      ]
+    },
+    "treatment_protocol": "Diagnose biochemically \u2192 Localize tumor \u2192 Surgery \u00b1 medical therapy"
+  },
+  {
+    "disease": "Somatostatinoma",
+    "epidemiology": "Very rare neuroendocrine tumor secreting somatostatin. Usually malignant and located in pancreas or duodenum.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Diabetes",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Gallstones",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Steatorrhea",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Weight loss",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Malnutrition",
+        "Biliary obstruction"
+      ],
+      "emergency_markers": [
+        "Severe diarrhea or cachexia"
+      ]
+    },
+    "risk_factors": [
+      "MEN 1",
+      "Neuroendocrine tumor syndromes"
+    ],
+    "differentials": [
+      "Pancreatic cancer",
+      "Celiac disease",
+      "Zollinger-Ellison syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Plasma somatostatin",
+        "CT abdomen",
+        "Octreotide scan"
+      ],
+      "additional": [
+        "Biopsy for histology"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Nutritional replacement"
+      ],
+      "definitive": [
+        "Surgical resection",
+        "Somatostatin analogs"
+      ]
+    },
+    "treatment_protocol": "Biochemical confirmation \u2192 Imaging \u2192 Resection"
+  },
+  {
+    "disease": "Carcinoid Syndrome",
+    "epidemiology": "Occurs in patients with carcinoid tumors (neuroendocrine), usually after liver metastases. Incidence ~1\u20132 per 100,000/year.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Flushing",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Diarrhea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Wheezing",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Heart valve lesions",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Carcinoid heart disease",
+        "Niacin deficiency"
+      ],
+      "emergency_markers": [
+        "Carcinoid crisis during surgery"
+      ]
+    },
+    "risk_factors": [
+      "Midgut carcinoid tumors with liver metastasis"
+    ],
+    "differentials": [
+      "IBS",
+      "Flushing syndromes",
+      "Asthma"
+    ],
+    "investigations": {
+      "important": [
+        "24-hour urinary 5-HIAA",
+        "Serum chromogranin A"
+      ],
+      "additional": [
+        "CT/MRI abdomen",
+        "Octreotide scan"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Antidiarrheals, bronchodilators"
+      ],
+      "definitive": [
+        "Somatostatin analogs",
+        "Surgical debulking"
+      ]
+    },
+    "treatment_protocol": "Biochemical confirmation \u2192 Imaging \u2192 Medical therapy \u00b1 surgery"
+  },
+  {
+    "disease": "Pheochromocytoma",
+    "epidemiology": "Rare catecholamine-secreting tumor from adrenal medulla. Accounts for <0.2% of hypertension cases.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Paroxysmal hypertension",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Headache",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Palpitations",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sweating",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Hypertensive crisis",
+        "Cardiac arrhythmia"
+      ],
+      "emergency_markers": [
+        "Sudden severe hypertension with crisis features"
+      ]
+    },
+    "risk_factors": [
+      "MEN 2",
+      "Von Hippel-Lindau disease",
+      "Neurofibromatosis"
+    ],
+    "differentials": [
+      "Anxiety disorders",
+      "Essential hypertension"
+    ],
+    "investigations": {
+      "important": [
+        "Plasma free metanephrines",
+        "24hr urinary catecholamines"
+      ],
+      "additional": [
+        "CT/MRI adrenals",
+        "MIBG scan"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Alpha-blockade pre-op"
+      ],
+      "definitive": [
+        "Surgical resection"
+      ]
+    },
+    "treatment_protocol": "Biochemical diagnosis \u2192 Alpha-blockade \u2192 Surgery"
+  },
+  {
+    "disease": "Diabetes Insipidus",
+    "epidemiology": "Characterized by ADH deficiency (central) or renal resistance (nephrogenic). Rare condition.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Polyuria",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Polydipsia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Nocturia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Dehydration",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Hypernatremia",
+        "Dehydration"
+      ],
+      "emergency_markers": [
+        "Severe dehydration, hypernatremia"
+      ]
+    },
+    "risk_factors": [
+      "Head trauma",
+      "Pituitary surgery",
+      "Lithium use"
+    ],
+    "differentials": [
+      "Diabetes mellitus",
+      "Primary polydipsia"
+    ],
+    "investigations": {
+      "important": [
+        "Water deprivation test",
+        "Serum/urine osmolality"
+      ],
+      "additional": [
+        "MRI brain (pituitary)"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Hydration"
+      ],
+      "definitive": [
+        "Desmopressin (central)",
+        "Thiazide diuretics (nephrogenic)"
+      ]
+    },
+    "treatment_protocol": "Differentiate central vs nephrogenic \u2192 Treat accordingly"
+  },
+  {
+    "disease": "SIADH (Syndrome of Inappropriate ADH Secretion)",
+    "epidemiology": "Common cause of hyponatremia in hospitalized patients. Associated with CNS disorders, malignancy, and drugs.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Nausea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Confusion",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Seizures",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Severe hyponatremia",
+        "Seizures",
+        "Cerebral edema"
+      ],
+      "emergency_markers": [
+        "Seizures due to hyponatremia"
+      ]
+    },
+    "risk_factors": [
+      "CNS trauma",
+      "Small cell lung cancer",
+      "SSRIs, carbamazepine"
+    ],
+    "differentials": [
+      "Hypothyroidism",
+      "Adrenal insufficiency"
+    ],
+    "investigations": {
+      "important": [
+        "Serum sodium, osmolality",
+        "Urine sodium/osmolality"
+      ],
+      "additional": [
+        "Cortisol, TSH",
+        "Imaging for malignancy"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Fluid restriction"
+      ],
+      "definitive": [
+        "Hypertonic saline if severe",
+        "Treat underlying cause"
+      ]
+    },
+    "treatment_protocol": "Identify cause \u2192 Fluid restriction \u2192 Correct sodium slowly"
+  },
+  {
+    "disease": "Zollinger-Ellison Syndrome",
+    "epidemiology": "Gastrin-secreting tumor (gastrinoma), usually in pancreas or duodenum. Associated with MEN 1.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Refractory peptic ulcers",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abdominal pain",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Diarrhea",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Heartburn",
+          "order": 4,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "GI bleeding",
+        "Strictures",
+        "Metastasis"
+      ],
+      "emergency_markers": [
+        "Severe ulcer perforation or bleeding"
+      ]
+    },
+    "risk_factors": [
+      "MEN 1",
+      "Gastrinoma"
+    ],
+    "differentials": [
+      "Peptic ulcer disease",
+      "Gastroesophageal reflux",
+      "IBS"
+    ],
+    "investigations": {
+      "important": [
+        "Fasting serum gastrin",
+        "Secretin stimulation test"
+      ],
+      "additional": [
+        "Endoscopy",
+        "CT/MRI abdomen"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "High-dose PPIs"
+      ],
+      "definitive": [
+        "Surgical resection if localized"
+      ]
+    },
+    "treatment_protocol": "Confirm gastrinoma \u2192 Control acid \u2192 Localize and resect"
+  },
+  {
+    "disease": "Lipoid Congenital Adrenal Hyperplasia",
+    "epidemiology": "A rare and severe form of congenital adrenal hyperplasia caused by mutations in the StAR gene, leading to impaired steroidogenesis.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Salt-wasting crisis in infancy",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Hyponatremia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hyperkalemia",
+          "order": 3,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypoglycemia",
+          "order": 4,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Adrenal insufficiency",
+        "Failure to thrive",
+        "Shock"
+      ],
+      "emergency_markers": [
+        "Severe dehydration and hypotension in neonates"
+      ]
+    },
+    "risk_factors": [
+      "Consanguinity",
+      "Family history of genetic disorders"
+    ],
+    "differentials": [
+      "21-hydroxylase deficiency",
+      "Salt-wasting nephropathies"
+    ],
+    "investigations": {
+      "important": [
+        "Serum cortisol",
+        "ACTH",
+        "Electrolytes"
+      ],
+      "additional": [
+        "Genetic testing for StAR mutations"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Fluid resuscitation",
+        "Electrolyte correction"
+      ],
+      "definitive": [
+        "Lifelong glucocorticoid and mineralocorticoid replacement"
+      ]
+    },
+    "treatment_protocol": "Identify adrenal crisis \u2192 Hormonal assays \u2192 Confirm genetically \u2192 Hormone replacement"
+  },
+  {
+    "disease": "Familial Hypocalciuric Hypercalcemia (FHH)",
+    "epidemiology": "Benign autosomal dominant disorder caused by mutations in the calcium-sensing receptor (CaSR). Often confused with primary hyperparathyroidism.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Asymptomatic hypercalcemia",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Constipation",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "None significant"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history of hypercalcemia"
+    ],
+    "differentials": [
+      "Primary hyperparathyroidism"
+    ],
+    "investigations": {
+      "important": [
+        "Serum calcium",
+        "PTH",
+        "24-hour urinary calcium (low)"
+      ],
+      "additional": [
+        "Genetic testing (CaSR gene)"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Monitoring"
+      ],
+      "definitive": [
+        "None required"
+      ]
+    },
+    "treatment_protocol": "Differentiate from hyperparathyroidism \u2192 Avoid unnecessary surgery"
+  },
+  {
+    "disease": "McCune-Albright Syndrome",
+    "epidemiology": "Rare genetic disorder involving GNAS gene mutations leading to endocrine hyperfunction, fibrous dysplasia, and caf\u00e9-au-lait spots.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Precocious puberty",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Caf\u00e9-au-lait spots",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Polyostotic fibrous dysplasia",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Endocrinopathies",
+        "Fractures",
+        "Deformities"
+      ],
+      "emergency_markers": [
+        "Fractures or endocrine crises"
+      ]
+    },
+    "risk_factors": [
+      "Sporadic mutations (non-inherited)"
+    ],
+    "differentials": [
+      "Neurofibromatosis",
+      "Precocious puberty syndromes"
+    ],
+    "investigations": {
+      "important": [
+        "Hormone levels (estradiol, TSH)",
+        "X-rays for bone lesions"
+      ],
+      "additional": [
+        "Genetic testing for GNAS mutations"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Pain control, physical therapy"
+      ],
+      "definitive": [
+        "Hormonal suppression",
+        "Orthopedic management"
+      ]
+    },
+    "treatment_protocol": "Multidisciplinary approach \u2192 Monitor growth/hormones \u2192 Manage complications"
+  },
+  {
+    "disease": "Paget\u2019s Disease of Bone",
+    "epidemiology": "Common in older adults, especially of European descent. Characterized by abnormal bone remodeling.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Bone pain",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bone deformities",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hearing loss (skull involvement)",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Fractures",
+        "Osteoarthritis",
+        "High-output cardiac failure"
+      ],
+      "emergency_markers": [
+        "Pathological fractures"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "Age >50",
+      "European ancestry"
+    ],
+    "differentials": [
+      "Osteomalacia",
+      "Bone metastasis",
+      "Multiple myeloma"
+    ],
+    "investigations": {
+      "important": [
+        "Serum alkaline phosphatase (high)",
+        "X-rays"
+      ],
+      "additional": [
+        "Bone scan"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Pain control"
+      ],
+      "definitive": [
+        "Bisphosphonates (e.g., zoledronate)"
+      ]
+    },
+    "treatment_protocol": "Diagnose with labs/imaging \u2192 Treat with bisphosphonates \u2192 Monitor bone turnover"
+  },
+  {
+    "disease": "Rickets (Nutritional)",
+    "epidemiology": "Vitamin D deficiency causing defective bone mineralization in children. Common in developing countries.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Delayed milestones",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Bone pain, deformities (bowing)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Craniotabes, rachitic rosary",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Growth retardation",
+        "Skeletal deformities"
+      ],
+      "emergency_markers": [
+        "Severe hypocalcemia causing seizures"
+      ]
+    },
+    "risk_factors": [
+      "Vitamin D deficiency",
+      "Exclusive breastfeeding without supplementation",
+      "Dark skin",
+      "Lack of sunlight"
+    ],
+    "differentials": [
+      "Hypophosphatemic rickets",
+      "Osteogenesis imperfecta"
+    ],
+    "investigations": {
+      "important": [
+        "Serum calcium, phosphate, ALP, vitamin D"
+      ],
+      "additional": [
+        "X-rays of wrists and knees"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Nutritional counseling"
+      ],
+      "definitive": [
+        "Vitamin D and calcium supplementation"
+      ]
+    },
+    "treatment_protocol": "Correct deficiency \u2192 Monitor biochemistry \u2192 Prevent deformities"
+  },
+  {
+    "disease": "Hyperaldosteronism (Conn's Syndrome)",
+    "epidemiology": "Caused by adrenal adenoma or bilateral adrenal hyperplasia. Accounts for ~5\u201310% of hypertension cases.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypertension",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Muscle weakness",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Polyuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Paresthesia",
+          "order": 4,
+          "frequency": "less common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Hypokalemia",
+        "Cardiovascular complications"
+      ],
+      "emergency_markers": [
+        "Severe hypokalemia with arrhythmias"
+      ]
+    },
+    "risk_factors": [
+      "Resistant hypertension",
+      "Family history"
+    ],
+    "differentials": [
+      "Essential hypertension",
+      "Renal artery stenosis"
+    ],
+    "investigations": {
+      "important": [
+        "Plasma aldosterone-to-renin ratio",
+        "Serum potassium"
+      ],
+      "additional": [
+        "Adrenal CT",
+        "Adrenal vein sampling"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Potassium supplementation"
+      ],
+      "definitive": [
+        "Spironolactone (if hyperplasia)",
+        "Adrenalectomy (if adenoma)"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Localize lesion \u2192 Treat appropriately"
+  },
+  {
+    "disease": "Hypoaldosteronism",
+    "epidemiology": "Deficiency of aldosterone secretion or action. Can be due to primary adrenal disease or hyporeninemic hypoaldosteronism.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hyperkalemia",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Hypotension",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Cardiac arrhythmias",
+        "Metabolic acidosis"
+      ],
+      "emergency_markers": [
+        "Severe hyperkalemia"
+      ]
+    },
+    "risk_factors": [
+      "Diabetes",
+      "NSAIDs",
+      "ACE inhibitors"
+    ],
+    "differentials": [
+      "Addison\u2019s disease",
+      "Renal failure"
+    ],
+    "investigations": {
+      "important": [
+        "Serum potassium",
+        "Plasma renin and aldosterone"
+      ],
+      "additional": [
+        "ACTH stimulation test"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Salt supplementation"
+      ],
+      "definitive": [
+        "Fludrocortisone"
+      ]
+    },
+    "treatment_protocol": "Evaluate potassium \u2192 Confirm diagnosis \u2192 Replace mineralocorticoid"
+  },
+  {
+    "disease": "Adrenocortical Carcinoma",
+    "epidemiology": "Rare, aggressive tumor with bimodal age distribution. May secrete cortisol, androgens, estrogens, or aldosterone.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Rapid virilization/feminization",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Cushingoid features",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Abdominal mass",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Metastasis",
+        "Adrenal insufficiency post-surgery"
+      ],
+      "emergency_markers": [
+        "Adrenal crisis"
+      ]
+    },
+    "risk_factors": [
+      "Li-Fraumeni syndrome",
+      "Beckwith-Wiedemann syndrome"
+    ],
+    "differentials": [
+      "Adrenal adenoma",
+      "Pheochromocytoma"
+    ],
+    "investigations": {
+      "important": [
+        "CT/MRI adrenal",
+        "Serum cortisol, DHEAS"
+      ],
+      "additional": [
+        "24-hour urine steroid profile",
+        "Biopsy (if metastatic)"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Manage hormone excess"
+      ],
+      "definitive": [
+        "Surgical resection",
+        "Mitotane for advanced disease"
+      ]
+    },
+    "treatment_protocol": "Confirm tumor \u2192 Hormone workup \u2192 Surgery \u00b1 chemo"
+  },
+  {
+    "disease": "Kallmann Syndrome",
+    "epidemiology": "Genetic disorder causing hypogonadotropic hypogonadism and anosmia. More common in males.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Delayed puberty",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Anosmia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Infertility",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Infertility",
+        "Osteopenia"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "Family history",
+      "KAL1 gene mutation"
+    ],
+    "differentials": [
+      "Constitutional delay",
+      "Isolated GnRH deficiency"
+    ],
+    "investigations": {
+      "important": [
+        "LH, FSH, testosterone/estradiol",
+        "MRI brain"
+      ],
+      "additional": [
+        "Olfactory testing",
+        "Genetic testing"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Counseling"
+      ],
+      "definitive": [
+        "Hormone replacement therapy",
+        "GnRH or gonadotropins for fertility"
+      ]
+    },
+    "treatment_protocol": "Confirm hormone deficiency \u2192 Imaging \u2192 Replace hormones"
+  },
+  {
+    "disease": "Androgen Insensitivity Syndrome",
+    "epidemiology": "X-linked recessive disorder in genetic males (46,XY) with resistance to androgens. Complete form results in female phenotype.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Primary amenorrhea",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Female external genitalia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Absent uterus",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Infertility",
+        "Gonadal tumors"
+      ],
+      "emergency_markers": []
+    },
+    "risk_factors": [
+      "AR gene mutation",
+      "Family history"
+    ],
+    "differentials": [
+      "M\u00fcllerian agenesis",
+      "Turner syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "Karyotyping (46,XY)",
+        "Serum testosterone, LH"
+      ],
+      "additional": [
+        "Pelvic ultrasound",
+        "Androgen receptor testing"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Psychological support"
+      ],
+      "definitive": [
+        "Gonadectomy after puberty",
+        "Estrogen replacement"
+      ]
+    },
+    "treatment_protocol": "Confirm diagnosis \u2192 Manage hormones \u2192 Remove gonads post-puberty"
+  },
+  {
+    "disease": "Multiple Endocrine Neoplasia Type 1 (MEN 1)",
+    "epidemiology": "Autosomal dominant disorder involving tumors of parathyroid, pancreas, and pituitary. Incidence: ~1 in 30,000.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Hypercalcemia (parathyroid tumor)",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Peptic ulcers (gastrinoma)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Visual disturbances (pituitary tumor)",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Kidney stones",
+        "GI bleeding",
+        "Hormonal crises"
+      ],
+      "emergency_markers": [
+        "Severe hypercalcemia",
+        "Pituitary apoplexy"
+      ]
+    },
+    "risk_factors": [
+      "Family history",
+      "MEN1 gene mutation"
+    ],
+    "differentials": [
+      "Sporadic endocrine tumors",
+      "MEN 2"
+    ],
+    "investigations": {
+      "important": [
+        "Serum calcium, PTH",
+        "Gastrin, prolactin"
+      ],
+      "additional": [
+        "Genetic testing",
+        "Imaging for tumor localization"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Manage electrolyte disturbances"
+      ],
+      "definitive": [
+        "Surgical resection of tumors",
+        "Medical management of hormone excess"
+      ]
+    },
+    "treatment_protocol": "Screen at-risk individuals \u2192 Monitor biochemistry \u2192 Treat surgically or medically"
+  },
+  {
+    "disease": "Multiple Endocrine Neoplasia Type 2 (MEN 2)",
+    "epidemiology": "Genetic syndrome with medullary thyroid carcinoma, pheochromocytoma, and parathyroid tumors. Caused by RET mutation.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Thyroid mass",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypertension (pheochromocytoma)",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Hypercalcemia (parathyroid)",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Thyroid cancer",
+        "Hypertensive crisis"
+      ],
+      "emergency_markers": [
+        "Adrenal crisis",
+        "MTC metastasis"
+      ]
+    },
+    "risk_factors": [
+      "RET proto-oncogene mutation",
+      "Family history"
+    ],
+    "differentials": [
+      "Sporadic medullary carcinoma",
+      "MEN 1"
+    ],
+    "investigations": {
+      "important": [
+        "Serum calcitonin",
+        "Plasma metanephrines"
+      ],
+      "additional": [
+        "RET genetic testing",
+        "Thyroid US, CT abdomen"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Alpha-blockade for pheochromocytoma"
+      ],
+      "definitive": [
+        "Prophylactic thyroidectomy",
+        "Surgical resection of tumors"
+      ]
+    },
+    "treatment_protocol": "Genetic screening \u2192 Monitor markers \u2192 Prophylactic treatment"
+  },
+  {
+    "disease": "Sheehan's Syndrome",
+    "epidemiology": "Postpartum pituitary necrosis due to severe hypotension/hemorrhage. More common in resource-limited settings.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Failure to lactate",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Amenorrhea",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Panhypopituitarism",
+        "Adrenal crisis"
+      ],
+      "emergency_markers": [
+        "Hypotension, shock"
+      ]
+    },
+    "risk_factors": [
+      "Postpartum hemorrhage",
+      "Severe hypotension during labor"
+    ],
+    "differentials": [
+      "Lymphocytic hypophysitis",
+      "Postpartum thyroiditis"
+    ],
+    "investigations": {
+      "important": [
+        "Hormonal panel (TSH, ACTH, LH, FSH)",
+        "MRI pituitary"
+      ],
+      "additional": [
+        "Electrolytes, cortisol"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Fluids, stress-dose steroids"
+      ],
+      "definitive": [
+        "Hormone replacement (thyroxine, hydrocortisone, estrogen)"
+      ]
+    },
+    "treatment_protocol": "Stabilize acute crisis \u2192 Hormonal replacement \u2192 Long-term follow-up"
+  },
+  {
+    "disease": "Empty Sella Syndrome",
+    "epidemiology": "Radiologic finding where sella turcica is partially or completely filled with CSF. May be incidental or cause hypopituitarism.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Headache",
+          "order": 1,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Visual field defects",
+          "order": 2,
+          "frequency": "less common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Fatigue",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Hypopituitarism",
+        "Infertility"
+      ],
+      "emergency_markers": [
+        "Pituitary apoplexy"
+      ]
+    },
+    "risk_factors": [
+      "Idiopathic",
+      "Pituitary surgery or radiation",
+      "Obesity"
+    ],
+    "differentials": [
+      "Pituitary adenoma",
+      "Sheehan syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "MRI brain",
+        "Pituitary hormonal profile"
+      ],
+      "additional": [
+        "Visual field testing"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Observation if asymptomatic"
+      ],
+      "definitive": [
+        "Hormone replacement if symptomatic"
+      ]
+    },
+    "treatment_protocol": "MRI diagnosis \u2192 Monitor or replace hormones"
+  },
+  {
+    "disease": "Hypoparathyroidism",
+    "epidemiology": "Rare disorder usually due to surgical removal of parathyroid glands or autoimmune destruction.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Paresthesias",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Muscle cramps",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Seizures",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Tetany",
+        "Cardiac arrhythmias"
+      ],
+      "emergency_markers": [
+        "Severe hypocalcemia"
+      ]
+    },
+    "risk_factors": [
+      "Thyroid/parathyroid surgery",
+      "Autoimmune diseases"
+    ],
+    "differentials": [
+      "Vitamin D deficiency",
+      "Pseudohypoparathyroidism"
+    ],
+    "investigations": {
+      "important": [
+        "Serum calcium, phosphate, PTH"
+      ],
+      "additional": [
+        "ECG for QT prolongation"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "IV calcium gluconate in emergency"
+      ],
+      "definitive": [
+        "Calcium and vitamin D supplementation"
+      ]
+    },
+    "treatment_protocol": "Identify cause \u2192 Correct calcium \u2192 Long-term supplementation"
+  },
+  {
+    "disease": "Pseudohypoparathyroidism",
+    "epidemiology": "A rare genetic disorder characterized by resistance to PTH, leading to hypocalcemia and hyperphosphatemia despite high PTH levels.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Muscle cramps",
+          "order": 1,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Paresthesia",
+          "order": 2,
+          "frequency": "common",
+          "severity": "mild"
+        },
+        {
+          "symptom": "Seizures",
+          "order": 3,
+          "frequency": "less common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Developmental delay",
+        "Short stature",
+        "Round face"
+      ],
+      "emergency_markers": [
+        "Hypocalcemic tetany"
+      ]
+    },
+    "risk_factors": [
+      "Familial/genetic inheritance (GNAS mutation)"
+    ],
+    "differentials": [
+      "Hypoparathyroidism",
+      "Vitamin D deficiency"
+    ],
+    "investigations": {
+      "important": [
+        "Serum calcium, phosphate, PTH"
+      ],
+      "additional": [
+        "Genetic testing"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Seizure management"
+      ],
+      "definitive": [
+        "Calcium and active vitamin D supplementation"
+      ]
+    },
+    "treatment_protocol": "Identify biochemical profile \u2192 Confirm diagnosis \u2192 Replace calcium/vitamin D"
+  },
+  {
+    "disease": "Insulinoma",
+    "epidemiology": "Rare pancreatic beta-cell tumor causing endogenous hyperinsulinemia and hypoglycemia. Most common functional pancreatic neuroendocrine tumor.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Recurrent hypoglycemia",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Confusion",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Sweating",
+          "order": 3,
+          "frequency": "common",
+          "severity": "mild"
+        }
+      ],
+      "complications": [
+        "Seizures",
+        "Loss of consciousness"
+      ],
+      "emergency_markers": [
+        "Hypoglycemic coma"
+      ]
+    },
+    "risk_factors": [
+      "MEN1 syndrome"
+    ],
+    "differentials": [
+      "Factitious hypoglycemia",
+      "Adrenal insufficiency"
+    ],
+    "investigations": {
+      "important": [
+        "72-hour fasting test",
+        "Serum insulin, C-peptide"
+      ],
+      "additional": [
+        "CT/MRI pancreas",
+        "Endoscopic ultrasound"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Frequent carbohydrate intake"
+      ],
+      "definitive": [
+        "Surgical resection"
+      ]
+    },
+    "treatment_protocol": "Confirm biochemical diagnosis \u2192 Localize tumor \u2192 Surgical excision"
+  },
+  {
+    "disease": "Thyroid Storm",
+    "epidemiology": "Life-threatening complication of untreated/undertreated hyperthyroidism. Precipitated by stress, surgery, or infection.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Fever",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Tachycardia",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Delirium",
+          "order": 3,
+          "frequency": "common",
+          "severity": "severe"
+        }
+      ],
+      "complications": [
+        "Heart failure",
+        "Shock",
+        "Death"
+      ],
+      "emergency_markers": [
+        "High fever + altered sensorium + arrhythmia"
+      ]
+    },
+    "risk_factors": [
+      "Untreated hyperthyroidism",
+      "Surgery",
+      "Sepsis"
+    ],
+    "differentials": [
+      "Sepsis",
+      "Neuroleptic malignant syndrome"
+    ],
+    "investigations": {
+      "important": [
+        "TSH, free T4",
+        "Liver enzymes"
+      ],
+      "additional": [
+        "Electrolytes, ECG"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "IV fluids, cooling"
+      ],
+      "definitive": [
+        "Beta-blockers, antithyroid drugs, steroids"
+      ]
+    },
+    "treatment_protocol": "Stabilize patient \u2192 Antithyroid therapy \u2192 Treat trigger"
+  },
+  {
+    "disease": "Hyperosmolar Hyperglycemic State (HHS)",
+    "epidemiology": "Acute metabolic complication of type 2 diabetes. Common in elderly with infections or poor fluid intake.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Profound dehydration",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Altered mental status",
+          "order": 2,
+          "frequency": "very common",
+          "severity": "severe"
+        },
+        {
+          "symptom": "Polyuria",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Seizures",
+        "Thromboembolism",
+        "Death"
+      ],
+      "emergency_markers": [
+        "Serum glucose >600 mg/dL + osmolality >320 mOsm/kg"
+      ]
+    },
+    "risk_factors": [
+      "Elderly",
+      "Poorly controlled diabetes",
+      "Infection"
+    ],
+    "differentials": [
+      "DKA",
+      "Sepsis",
+      "Stroke"
+    ],
+    "investigations": {
+      "important": [
+        "Blood glucose",
+        "Serum osmolality",
+        "Electrolytes"
+      ],
+      "additional": [
+        "Urinalysis",
+        "ABG"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Aggressive IV fluid resuscitation"
+      ],
+      "definitive": [
+        "Insulin therapy",
+        "Electrolyte correction"
+      ]
+    },
+    "treatment_protocol": "Stabilize fluid/electrolytes \u2192 Insulin infusion \u2192 Identify triggers"
+  },
+  {
+    "disease": "Glucagonoma",
+    "epidemiology": "Rare alpha-cell tumor of pancreas. Presents with characteristic rash and diabetes. Often malignant.",
+    "symptoms": {
+      "timeline": [
+        {
+          "symptom": "Necrolytic migratory erythema",
+          "order": 1,
+          "frequency": "very common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Diabetes mellitus",
+          "order": 2,
+          "frequency": "common",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "Weight loss",
+          "order": 3,
+          "frequency": "common",
+          "severity": "moderate"
+        }
+      ],
+      "complications": [
+        "Venous thrombosis",
+        "Depression",
+        "Cachexia"
+      ],
+      "emergency_markers": [
+        "Severe hyperglycemia + rash"
+      ]
+    },
+    "risk_factors": [
+      "MEN1 syndrome",
+      "Familial neuroendocrine tumors"
+    ],
+    "differentials": [
+      "Psoriasis",
+      "Zinc deficiency",
+      "Pellagra"
+    ],
+    "investigations": {
+      "important": [
+        "Serum glucagon",
+        "CT/MRI abdomen"
+      ],
+      "additional": [
+        "Biopsy",
+        "Chromogranin A"
+      ]
+    },
+    "specialty": "Endocrinology",
+    "treatment": {
+      "supportive": [
+        "Nutritional support",
+        "Octreotide"
+      ],
+      "definitive": [
+        "Surgical resection"
+      ]
+    },
+    "treatment_protocol": "Confirm with labs/imaging \u2192 Manage symptoms \u2192 Tumor resection"
+  }
+]
