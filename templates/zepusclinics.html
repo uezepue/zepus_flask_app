@@ -154,15 +154,22 @@
   const form = event.target;
   const formData = new FormData(form);
   const data = Object.fromEntries(formData.entries());
+
   fetch(`/${type}-register`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(data)
   })
   .then(res => res.json())
-  .then(response => alert(`${type.charAt(0).toUpperCase() + type.slice(1)} registered successfully!`))
+  .then(response => {
+    alert(`${type.charAt(0).toUpperCase() + type.slice(1)} registered successfully!`);
+    if (type === 'patient') {
+      window.location.href = '/chat';
+    }
+  })
   .catch(error => alert('Error: ' + error.message));
 }
+
 </script>
 </head>
 <body>
@@ -211,7 +218,8 @@
     <p class="intro-text">AI-powered triage, verified specialists, seamless online and offline consultations, and a smart referral system—all in one platform.</p>
     
     <div class="cta-buttons">
-      <a onclick="showForm('register')">Proceed to Create Profile</a>
+      <a onclick="showForm('register')">Chat with Dr Zepus AI</a>
+
       
     </div>
   </section>

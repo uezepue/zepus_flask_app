@@ -4,6 +4,28 @@ import os
 import json
 
 app = Flask(__name__)
+@app.route('/')
+def home():
+    return render_template('zepusclinics.html')
+
+@app.route('/chat')
+def chatbot():
+    return render_template('chat.html')  # Make sure 'chat.html' exists in /templates
+
+@app.route('/patient-register', methods=['POST'])
+def patient_register():
+    data = request.get_json()
+    # Store data or log it
+    return jsonify({'status': 'success'})
+
+@app.route('/doctor-register', methods=['POST'])
+def doctor_register():
+    data = request.get_json()
+    # Store data or log it
+    return jsonify({'status': 'success'})
+
+
+
 
 # Global disease cache
 merged_disease_data = None
