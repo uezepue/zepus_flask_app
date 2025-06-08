@@ -254,25 +254,29 @@ elif step == "analysis":
             response = "Your symptoms may be serious. Please proceed to the nearest emergency center."
         else:
             session["urgency"] = "non-emergency"
-            response = f"This doesn’t appear to be an emergency. Based on my analysis: {session['diagnosis_summary']}. How would you prefer to consult —      
-            online, in person, home visit, or government hospital?"                 
+            response = (
+                f"This doesn’t appear to be an emergency. "
+                f"Based on my analysis: {session['diagnosis_summary']}. "
+                "How would you prefer to consult — online, in-person, home visit, or government hospital referral?"
+            )
+        
             session["step"] = "consult_mode"
 
-    elif step == "consult_mode":
-        session["consultation_mode"] = message
-        if "government" in message:
-            session["step"] = "govt_name"
-            response = "Please provide the name of the government hospital you prefer."
-        else:
-            response = f"Thank you. You’ll be connected with a suitable specialist via {message}."
-            session["step"] = "done"
-
-    elif step == "govt_name":
-        session["govt_hospital"] = message
-        response = f"Thank you. We will refer you to {message} for further care."
+elif step == "consult_mode":
+    session["consultation_mode"] = message
+    if "government" in message:
+        session["step"] = "govt_name"
+        response = "Please provide the name of the government hospital you prefer."
+    else:
+        response = f"Thank you. You’ll be connected with a suitable specialist via {message}."
         session["step"] = "done"
 
-    else:
-        response = "This session is complete. Type 'restart' to begin again."
+elif step == "govt_name":
+    session["govt_hospital"] = message
+    response = f"Thank you. We will refer you to {message} for further care."
+    session["step"] = "done"
 
-    return jsonify({"response": response, "session": session})
+else:
+    response = "This session is complete. Type 'restart' to begin again."
+
+return jsonify({"response": response, "session": session})
