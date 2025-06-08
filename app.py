@@ -219,48 +219,48 @@ def triage():
         session["step"] = "analysis"
 
     elif step == "analysis":
-        keywords = session["mapped_symptoms"]
-        likely_conditions = []
-        for disease in diseases:
-            if "symptoms" in disease:
-                timeline = disease["symptoms"].get("timeline", [])
-                disease_symptoms = [s["symptom"].lower() for s in timeline]
-                match_score = len(set(keywords) & set(disease_symptoms))
-                complications = disease["symptoms"].get("complications", [])
-                emergencies = disease["symptoms"].get("emergency_markers", [])
-                if match_score >= 2:
-                    likely_conditions.append({
-                        "disease": disease["disease"],
-                        "match_score": match_score,
-                        "specialty": disease.get("specialty", "General"),
-                        "complications": complications,
-                        "emergency": any(e in keywords for e in emergencies),
-                        "description": disease.get("description", "")
-                    })
-        likely_conditions.sort(key=lambda x: -x["match_score"])
-        session["likely_conditions"] = likely_conditions[:3]
-        session["step"] = "urgency"
+    keywords = session["mapped_symptoms"]
+    likely_conditions = []
+    for disease in diseases:
+        if "symptoms" in disease:
+            timeline = disease["symptoms"].get("timeline", [])
+            disease_symptoms = [s["symptom"].lower() for s in timeline]
+            match_score = len(set(keywords) & set(disease_symptoms))
+            complications = disease["symptoms"].get("complications", [])
+            emergencies = disease["symptoms"].get("emergency_markers", [])
+            if match_score >= 2:
+                likely_conditions.append({
+                    "disease": disease["disease"],
+                    "match_score": match_score,
+                    "specialty": disease.get("specialty", "General"),
+                    "complications": complications,
+                    "emergency": any(e in keywords for e in emergencies),
+                    "description": disease.get("description", "")
+                })
+    likely_conditions.sort(key=lambda x: -x["match_score"])
+    session["likely_conditions"] = likely_conditions[:3]
 
-if likely_conditions:
-    hints = ". ".join([f"Possibly related to {d['specialty'].lower()} issues" for d in likely_conditions])
-    session["diagnosis_summary"] = hints
-    response = f"Your symptoms suggest something that may need attention. {hints}. I’ll now check if it's urgent."
+    if likely_conditions:
+        hints = ". ".join([f"Possibly related to {d['specialty'].lower()} issues" for d in likely_conditions])
+        session["diagnosis_summary"] = hints
+        response = f"Your symptoms suggest something that may need attention. {hints}. I’ll now check if it's urgent."
 
-    # OPTIONAL: Add LLM reasoning
-    try:
-        llm_reasoning = requests.post(
-            f"{LLM_URL}/api/generate",
-            json={"model": "mistral", "prompt": f"The patient has these symptoms: {keywords}. What should I consider as differentials?"},
-            timeout=20
-        )
-        reasoning = llm_reasoning.json().get("response", "")
-        response += " Here’s what I’m also considering: " + reasoning
-    except:
-        pass
-else:
-    response = f"I couldn’t match your symptoms to a specific condition yet, but let’s assess urgency."
+        # OPTIONAL: Add LLM reasoning
+        try:
+            llm_reasoning = requests.post(
+                f"{LLM_URL}/api/generate",
+                json={"model": "mistral", "prompt": f"The patient has these symptoms: {keywords}. What should I consider as differentials?"},
+                timeout=20
+            )
+            reasoning = llm_reasoning.json().get("response", "")
+            response += " Here’s what I’m also considering: " + reasoning
+        except:
+            pass
+    else:
+        response = "I couldn’t match your symptoms to a specific condition yet, but let’s assess urgency."
 
-    elif step == "urgency":
+    session["step"] = "urgency"
+
         emergencies = ["loss of consciousness", "shortness of breath", "chest pain", "heavy bleeding"]
         if any(e in session["mapped_symptoms"] for e in emergencies):
             session["urgency"] = "emergency"
