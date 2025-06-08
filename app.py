@@ -279,4 +279,4 @@ elif step == "govt_name":
 else:
     response = "This session is complete. Type 'restart' to begin again."
 
-return jsonify({"response": response, "session": session})
+    return jsonify({"response": response, "session": session})
