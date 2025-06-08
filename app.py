@@ -218,7 +218,7 @@ def triage():
         response = "Got it. Let me analyze your symptoms."
         session["step"] = "analysis"
 
-    elif step == "analysis":
+elif step == "analysis":
     keywords = session["mapped_symptoms"]
     likely_conditions = []
     for disease in diseases:
@@ -245,7 +245,6 @@ def triage():
         session["diagnosis_summary"] = hints
         response = f"Your symptoms suggest something that may need attention. {hints}. I’ll now check if it's urgent."
 
-        # OPTIONAL: Add LLM reasoning
         try:
             llm_reasoning = requests.post(
                 f"{LLM_URL}/api/generate",
