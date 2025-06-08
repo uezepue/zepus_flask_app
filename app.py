@@ -241,11 +241,12 @@ def triage():
         session["likely_conditions"] = likely_conditions[:3]
         session["step"] = "urgency"
 
-        if likely_conditions:
+if likely_conditions:
     hints = ". ".join([f"Possibly related to {d['specialty'].lower()} issues" for d in likely_conditions])
     session["diagnosis_summary"] = hints
+    response = f"Your symptoms suggest something that may need attention. {hints}. I’ll now check if it's urgent."
 
-    # 👇 OPTIONAL LLM REASONING BLOCK
+    # OPTIONAL: Add LLM reasoning
     try:
         llm_reasoning = requests.post(
             f"{LLM_URL}/api/generate",
@@ -253,14 +254,11 @@ def triage():
             timeout=20
         )
         reasoning = llm_reasoning.json().get("response", "")
-        extra = f" Here’s what I’m also considering: {reasoning}"
+        response += " Here’s what I’m also considering: " + reasoning
     except:
-        extra = ""
-
-    response = f"Your symptoms suggest something that may need attention. {hints}.{extra} I’ll now check if it's urgent."
-
-        else:
-            response = f"I couldn’t match your symptoms to a specific condition yet, but let’s assess urgency."
+        pass
+else:
+    response = f"I couldn’t match your symptoms to a specific condition yet, but let’s assess urgency."
 
     elif step == "urgency":
         emergencies = ["loss of consciousness", "shortness of breath", "chest pain", "heavy bleeding"]
