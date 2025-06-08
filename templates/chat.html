@@ -8,6 +8,13 @@
 </head>
 <body>
   <header>Zepus Clinics – Talk to Dr Zepus</header>
+<div style="text-align:center; margin-top: 10px;">
+  <label>
+    <input type="checkbox" id="chatModeToggle" />
+    Switch to Free Chat with Dr Zepus (LLM)
+  </label>
+</div>
+
 
   <div id="chat-container">
     <div id="chat-box"></div>
@@ -139,5 +146,24 @@
     };
   }
   </script>
+<script>
+document.getElementById("send-btn").addEventListener("click", () => {
+  const userInput = document.getElementById("user-input").value;
+
+  fetch("/llm-chat", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ message: userInput })
+  })
+  .then(res => res.json())
+  .then(data => {
+    const chatBox = document.getElementById("chat-box");
+    chatBox.innerHTML += `<div><strong>You:</strong> ${userInput}</div>`;
+    chatBox.innerHTML += `<div><strong>Dr. Zepus:</strong> ${data.response}</div>`;
+    document.getElementById("user-input").value = "";
+  });
+});
+</script>
+
 </body>
 </html>

@@ -25,6 +25,30 @@ def doctor_register():
     return jsonify({'status': 'success'})
 
 
+import requests
+
+# Replace with your actual Cloudflare tunnel URL (from `cloudflared tunnel`)
+LLM_URL = "https://pool-gale-foto-winston.trycloudflare.com"
+
+@app.route("/llm-chat", methods=["POST"])
+def llm_chat():
+    data = request.get_json()
+    user_input = data.get("message", "")
+
+    try:
+        response = requests.post(
+            f"{LLM_URL}/api/generate",
+            json={"model": "mistral", "prompt": user_input},
+            timeout=20
+        )
+        llm_reply = response.json().get("response", "Sorry, no response received.")
+    except Exception as e:
+        llm_reply = f"LLM unavailable: {str(e)}"
+
+    return jsonify({"response": llm_reply})
+
+
+
 
 
 # Global disease cache
@@ -218,9 +242,23 @@ def triage():
         session["step"] = "urgency"
 
         if likely_conditions:
-            hints = ". ".join([f"Possibly related to {d['specialty'].lower()} issues" for d in likely_conditions])
-            session["diagnosis_summary"] = hints
-            response = f"Your symptoms suggest something that may need attention. {hints}. I’ll now check if it's urgent."
+    hints = ". ".join([f"Possibly related to {d['specialty'].lower()} issues" for d in likely_conditions])
+    session["diagnosis_summary"] = hints
+
+    # 👇 OPTIONAL LLM REASONING BLOCK
+    try:
+        llm_reasoning = requests.post(
+            f"{LLM_URL}/api/generate",
+            json={"model": "mistral", "prompt": f"The patient has these symptoms: {keywords}. What should I consider as differentials?"},
+            timeout=20
+        )
+        reasoning = llm_reasoning.json().get("response", "")
+        extra = f" Here’s what I’m also considering: {reasoning}"
+    except:
+        extra = ""
+
+    response = f"Your symptoms suggest something that may need attention. {hints}.{extra} I’ll now check if it's urgent."
+
         else:
             response = f"I couldn’t match your symptoms to a specific condition yet, but let’s assess urgency."
 
