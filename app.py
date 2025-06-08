@@ -246,7 +246,7 @@ elif step == "analysis":
     else:
         response = "I couldn’t match your symptoms to a specific condition yet, but let’s assess urgency."
 
-    session["step"] = "urgency"
+        session["step"] = "urgency"
         emergencies = ["loss of consciousness", "shortness of breath", "chest pain", "heavy bleeding"]
 
         if any(e in session["mapped_symptoms"] for e in emergencies):
