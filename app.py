@@ -197,26 +197,14 @@ def triage():
     step = session.get("step")
     response = ""
 
-    if step == "intro":
-        response = f"Hello {session['name']}, I’m Dr Zepus, your virtual assistant. Tell me how you're feeling today."
-        session["step"] = "main_complaint"
+if step == "initial":
+    response = "Welcome. Please tell me your main symptoms."
+    session["step"] = "symptoms"
 
-    elif step == "main_complaint":
-        session["symptoms"].append(message)
-        extracted = extract_symptoms_from_text(message, symptom_dictionary)
-        session["mapped_symptoms"].extend(extracted)
-        response = f"Thanks for sharing. Are there any other symptoms you're experiencing? Please list them, or say 'no'."
-        session["step"] = "associated_symptoms"
-
-    elif step == "associated_symptoms":
-        if message != "no":
-            assoc = [m.strip() for m in message.split(",")]
-            session["associated"].extend(assoc)
-            for m in assoc:
-                extracted = extract_symptoms_from_text(m, symptom_dictionary)
-                session["mapped_symptoms"].extend(extracted)
-        response = "Got it. Let me analyze your symptoms."
-        session["step"] = "analysis"
+elif step == "symptoms":
+    # collect and map symptoms...
+    session["step"] = "analysis"
+    response = "Thanks. I’ll analyze what you've told me."
 
 elif step == "analysis":
     keywords = session["mapped_symptoms"]
@@ -266,7 +254,8 @@ elif step == "analysis":
             response = "Your symptoms may be serious. Please proceed to the nearest emergency center."
         else:
             session["urgency"] = "non-emergency"
-            response = f"This doesn’t appear to be an emergency. Based on my analysis: {session['diagnosis_summary']}. How would you prefer to consult — online, in person, home visit, or government hospital?"
+            response = f"This doesn’t appear to be an emergency. Based on my analysis: {session['diagnosis_summary']}. How would you prefer to consult —      
+            online, in person, home visit, or government hospital?"                 
             session["step"] = "consult_mode"
 
     elif step == "consult_mode":
