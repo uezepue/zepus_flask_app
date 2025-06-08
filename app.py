@@ -28,7 +28,7 @@ def doctor_register():
 import requests
 
 # Replace with your actual Cloudflare tunnel URL (from `cloudflared tunnel`)
-LLM_URL = "https://pool-gale-foto-winston.trycloudflare.com"
+LLM_URL = "https://served-post-routine-surround.trycloudflare.com"
 
 @app.route("/llm-chat", methods=["POST"])
 def llm_chat():
