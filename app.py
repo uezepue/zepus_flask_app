@@ -25,7 +25,7 @@ def doctor_register():
     data = request.get_json()
     return jsonify({'status': 'success'})
 
-LLM_URL = "https://served-post-routine-surround.trycloudflare.com"
+LLM_URL = "https://karen-stream-onion-kennedy.trycloudflare.com" 
 
 @app.route("/llm-chat", methods=["POST"])
 def llm_chat():
