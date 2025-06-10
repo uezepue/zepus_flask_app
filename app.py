@@ -25,7 +25,7 @@ def doctor_register():
     data = request.get_json()
     return jsonify({'status': 'success'})
 
-LLM_URL = "https://llm.zepusclinics.com"
+LLM_URL = "http://localhost:11434"
 
 @app.route("/llm-chat", methods=["POST"])
 def llm_chat():
