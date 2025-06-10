@@ -187,3 +187,7 @@ def triage():
         response = "This session is complete. Type 'restart' to begin again."
 
     return jsonify({"response": response, "session": session})
+
+# --- FINAL BLOCK TO ENABLE EXTERNAL ACCESS THROUGH CLOUDFLARE ---
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8000, debug=True)
