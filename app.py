@@ -33,11 +33,19 @@ def llm_chat():
     user_input = data.get("message", "")
     try:
         response = requests.post(
-            f"{LLM_URL}/api/generate",
-            json={"model": "mistral", "prompt": user_input},
-            timeout=20
-        )
-        llm_reply = response.json().get("response", "Sorry, no response received.")
+    f"{LLM_URL}/api/chat",
+    json={
+        "model": "mistral",
+        "messages": [
+            {"role": "system", "content": "You are a helpful medical triage assistant."},
+            {"role": "user", "content": user_input}
+        ]
+    },
+    timeout=20
+)
+
+llm_reply = response.json().get("message", {}).get("content", "Sorry, no response received.")
+
     except Exception as e:
         llm_reply = f"LLM unavailable: {str(e)}"
     return jsonify({"response": llm_reply})
