@@ -43,7 +43,8 @@ def llm_chat():
             },
             timeout=20
         )
-        llm_reply = response.json()["message"]["content"]
+        result = response.json()
+        llm_reply = result.get("message", {}).get("content", "Sorry, no response received.")
     except Exception as e:
         llm_reply = f"LLM unavailable: {str(e)}"
     return jsonify({"response": llm_reply})
@@ -157,10 +158,11 @@ def triage():
                     },
                     timeout=20
                 )
-                reasoning = response_llm.json()["message"]["content"]
+                result = response_llm.json()
+                reasoning = result.get("message", {}).get("content", "No reasoning received.")
                 response += " Here’s what I’m also considering: " + reasoning
-            except:
-                pass
+            except Exception as e:
+                response += f" Unable to generate differentials: {str(e)}"
 
             session["step"] = "urgency"
         else:
