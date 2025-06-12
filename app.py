@@ -38,11 +38,12 @@ def llm_chat():
                 "messages": [
                     {"role": "system", "content": "You are a helpful medical triage assistant."},
                     {"role": "user", "content": user_input}
-                ]
+                ],
+                "stream": False
             },
             timeout=20
         )
-        llm_reply = response.json().get("message", {}).get("content", "Sorry, no response received.")
+        llm_reply = response.json()["message"]["content"]
     except Exception as e:
         llm_reply = f"LLM unavailable: {str(e)}"
     return jsonify({"response": llm_reply})
@@ -151,11 +152,12 @@ def triage():
                         "messages": [
                             {"role": "system", "content": "You are a helpful medical triage assistant."},
                             {"role": "user", "content": f"The patient has these symptoms: {keywords}. What should I consider as differentials?"}
-                        ]
+                        ],
+                        "stream": False
                     },
                     timeout=20
                 )
-                reasoning = response_llm.json().get("message", {}).get("content", "")
+                reasoning = response_llm.json()["message"]["content"]
                 response += " Here’s what I’m also considering: " + reasoning
             except:
                 pass
