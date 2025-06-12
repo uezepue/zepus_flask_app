@@ -1,4 +1,3 @@
-# --- SMART TRIAGE CHATBOT v3 ---
 from flask import Flask, request, jsonify, render_template
 import os
 import json
@@ -13,7 +12,7 @@ def home():
 
 @app.route('/chat')
 def chatbot():
-    return render_template('chat.html')  # Make sure 'chat.html' exists in /templates
+    return render_template('chat.html')
 
 @app.route('/patient-register', methods=['POST'])
 def patient_register():
@@ -33,19 +32,17 @@ def llm_chat():
     user_input = data.get("message", "")
     try:
         response = requests.post(
-    f"{LLM_URL}/api/chat",
-    json={
-        "model": "mistral",
-        "messages": [
-            {"role": "system", "content": "You are a helpful medical triage assistant."},
-            {"role": "user", "content": user_input}
-        ]
-    },
-    timeout=20
-)
-
-llm_reply = response.json().get("message", {}).get("content", "Sorry, no response received.")
-
+            f"{LLM_URL}/api/chat",
+            json={
+                "model": "mistral",
+                "messages": [
+                    {"role": "system", "content": "You are a helpful medical triage assistant."},
+                    {"role": "user", "content": user_input}
+                ]
+            },
+            timeout=20
+        )
+        llm_reply = response.json().get("message", {}).get("content", "Sorry, no response received.")
     except Exception as e:
         llm_reply = f"LLM unavailable: {str(e)}"
     return jsonify({"response": llm_reply})
@@ -70,15 +67,13 @@ def load_and_cache_merged_disease_data(data_folder="data"):
         merged_disease_data = merged
     return merged_disease_data
 
-# Symptom dictionary
 with open("symptom_dictionary.json", "r") as f:
     symptom_dictionary = json.load(f)
 
 symptom_dictionary.update({
     "lightheaded": "dizziness",
     "can't walk straight": "imbalance",
-    "passing out": "syncope",
-    # (continued)... add all your extended expressions here
+    "passing out": "syncope"
 })
 
 def extract_symptoms_from_text(text, dictionary):
@@ -147,16 +142,24 @@ def triage():
             hints = ". ".join([f"Possibly related to {d['specialty'].lower()} issues" for d in likely_conditions])
             session["diagnosis_summary"] = hints
             response = f"Your symptoms suggest something that may need attention. {hints}. I’ll now check if it's urgent."
+
             try:
-                llm_reasoning = requests.post(
-                    f"{LLM_URL}/api/generate",
-                    json={"model": "mistral", "prompt": f"The patient has these symptoms: {keywords}. What should I consider as differentials?"},
+                response_llm = requests.post(
+                    f"{LLM_URL}/api/chat",
+                    json={
+                        "model": "mistral",
+                        "messages": [
+                            {"role": "system", "content": "You are a helpful medical triage assistant."},
+                            {"role": "user", "content": f"The patient has these symptoms: {keywords}. What should I consider as differentials?"}
+                        ]
+                    },
                     timeout=20
                 )
-                reasoning = llm_reasoning.json().get("response", "")
+                reasoning = response_llm.json().get("message", {}).get("content", "")
                 response += " Here’s what I’m also considering: " + reasoning
             except:
                 pass
+
             session["step"] = "urgency"
         else:
             response = "I couldn’t match your symptoms to a specific condition yet, but let’s assess urgency."
@@ -196,6 +199,5 @@ def triage():
 
     return jsonify({"response": response, "session": session})
 
-# --- FINAL BLOCK TO ENABLE EXTERNAL ACCESS THROUGH CLOUDFLARE ---
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000, debug=True)
