@@ -25,6 +25,7 @@ def doctor_register():
     return jsonify({'status': 'success'})
 
 LLM_URL = "https://llm.zepusclinics.com"
+HEADERS = {"Content-Type": "application/json", "Accept": "application/json"}
 
 @app.route("/llm-chat", methods=["POST"])
 def llm_chat():
@@ -33,6 +34,7 @@ def llm_chat():
     try:
         response = requests.post(
             f"{LLM_URL}/api/chat",
+            headers=HEADERS,
             json={
                 "model": "mistral",
                 "messages": [
@@ -148,6 +150,7 @@ def triage():
             try:
                 response_llm = requests.post(
                     f"{LLM_URL}/api/chat",
+                    headers=HEADERS,
                     json={
                         "model": "mistral",
                         "messages": [
@@ -205,3 +208,4 @@ def triage():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000, debug=True)
+
