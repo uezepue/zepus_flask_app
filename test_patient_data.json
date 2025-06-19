@@ -1,0 +1,12 @@
+{
+  "name": "John Doe",
+  "age": 32,
+  "sex": "Male",
+  "occupation": "Engineer",
+  "address": "123 Main St",
+  "city": "Lagos",
+  "country": "Nigeria",
+  "phone": "08012345678",
+  "email": "johndoe@example.com",
+  "password": "password123"
+}

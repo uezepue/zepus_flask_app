@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="dashboard-container">
+
+    <h2>Welcome, Dr. {{ doctor.name }} 👨‍⚕️</h2>
+
+    <h3>Your Appointments</h3>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Patient</th>
+                <th>Type</th>
+                <th>Mode</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for appt in appointments %}
+                <tr>
+                    <td>{{ appt.patient.name }}</td>
+                    <td>{{ appt.appointment_type }}</td>
+                    <td>{{ appt.consultation_mode }}</td>
+                    <td>{{ appt.status }}</td>
+                    <td>
+                        {% if appt.status == 'paid' %}
+                            <button onclick="startConsultation({{ appt.id }})">Start Consultation</button>
+                        {% else %}
+                            Waiting for Payment
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</div>
+
+<script>
+async function startConsultation(appointmentId) {
+    const res = await fetch("/start-consultation", {
+        method: "POST",
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ appointment_id: appointmentId })
+    });
+
+    const data = await res.json();
+    if (data.status === "success") {
+        alert("Consultation started.");
+        const sessionId = data.session_id;
+        window.location.href = `/consultation/${sessionId}/doctor`;
+    } else {
+        alert("Failed to start consultation.");
+    }
+}
+</script>
+
+{% endblock %}

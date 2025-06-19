@@ -1,169 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Zepus Clinics Chatbot</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="chat.css">
+    <meta charset="UTF-8">
+    <title>Zepus AI Triage Chat</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f0f2f5;
+        }
+
+        header {
+            background: #075e54;
+            padding: 15px;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #chat-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            height: 80vh;
+        }
+
+        #chat-box {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            display: flex;
+        }
+
+        .user {
+            justify-content: flex-end;
+        }
+
+        .ai {
+            justify-content: flex-start;
+        }
+
+        .user .bubble {
+            background: #DCF8C6;
+            color: black;
+            padding: 10px 15px;
+            border-radius: 20px 20px 0 20px;
+            max-width: 70%;
+        }
+
+        .ai .bubble {
+            background: #e4e6eb;
+            color: black;
+            padding: 10px 15px;
+            border-radius: 20px 20px 20px 0;
+            max-width: 70%;
+        }
+
+        #input-container {
+            display: flex;
+            border-top: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        #user-input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            font-size: 16px;
+            background: #f0f0f0;
+        }
+
+        #send-btn {
+            background: #075e54;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            margin-left: 10px;
+            border-radius: 50%;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-  <header>Zepus Clinics – Talk to Dr Zepus</header>
-<div style="text-align:center; margin-top: 10px;">
-  <label>
-    <input type="checkbox" id="chatModeToggle" />
-    Switch to Free Chat with Dr Zepus (LLM)
-  </label>
-</div>
+<header>Zepus AI Triage Chat</header>
 
-
-  <div id="chat-container">
+<div id="chat-container">
     <div id="chat-box"></div>
 
     <div id="input-container">
-      <input type="text" id="user-input" placeholder="Type your message..." />
-      <button id="send-btn">Send</button>
-      <button onclick="startRecognition()">🎤 Speak</button>
+        <input type="text" id="user-input" placeholder="Type your symptom..."/>
+        <button id="send-btn">Send</button>
     </div>
-  </div>
+</div>
 
-  <script>
-  const chatBox = document.getElementById('chat-box');
-  const userInput = document.getElementById('user-input');
-  const sendBtn = document.getElementById('send-btn');
+<script>
+    const chatBox = document.getElementById('chat-box');
+    const userInput = document.getElementById('user-input');
+    const sendBtn = document.getElementById('send-btn');
+    let session = {};
 
-  let session = {};  // Keeps track of the triage conversation
-
-  function scrollToBottom() {
-    chatBox.scrollTo({
-      top: chatBox.scrollHeight,
-      behavior: "smooth"
-    });
-  }
-
-  function addMessage(text, sender) {
-    const messageDiv = document.createElement('div');
-    messageDiv.classList.add('message', sender);
-
-    const avatar = document.createElement('div');
-    avatar.classList.add('avatar');
-
-    const bubble = document.createElement('div');
-    bubble.classList.add('bubble');
-    bubble.textContent = text;
-
-    messageDiv.appendChild(avatar);
-    messageDiv.appendChild(bubble);
-    chatBox.appendChild(messageDiv);
-    scrollToBottom();
-  }
-
-  function addTypingIndicator() {
-    const typingDiv = document.createElement('div');
-    typingDiv.classList.add('message', 'bot');
-    typingDiv.id = 'typing-indicator';
-
-    const avatar = document.createElement('div');
-    avatar.classList.add('avatar');
-
-    const bubble = document.createElement('div');
-    bubble.classList.add('bubble');
-    bubble.textContent = 'Dr Zepus is thinking...';
-
-    typingDiv.appendChild(avatar);
-    typingDiv.appendChild(bubble);
-    chatBox.appendChild(typingDiv);
-    scrollToBottom();
-  }
-
-  function removeTypingIndicator() {
-    const typing = document.getElementById('typing-indicator');
-    if (typing) typing.remove();
-  }
-
-  async function sendMessageToBot(text) {
-    addMessage(text, 'user');
-    userInput.value = '';
-    userInput.disabled = true;
-    sendBtn.disabled = true;
-
-    addTypingIndicator();
-
-    try {
-      const response = await fetch('/triage', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          message: text,
-          session: session
-        })
-      });
-
-      const data = await response.json();
-      session = data.session || {}; // update session state
-      removeTypingIndicator();
-      addMessage(data.response, 'bot');
-    } catch (err) {
-      removeTypingIndicator();
-      addMessage("Oops! Something went wrong while connecting to Dr Zepus.", 'bot');
+    function appendMessage(sender, message) {
+        const div = document.createElement('div');
+        div.classList.add('message', sender);
+        div.innerHTML = `<div class="bubble">${message}</div>`;
+        chatBox.appendChild(div);
+        chatBox.scrollTop = chatBox.scrollHeight;
     }
 
-    userInput.disabled = false;
-    sendBtn.disabled = false;
-    userInput.focus();
-  }
+    async function sendMessage() {
+        const message = userInput.value.trim();
+        if (!message) return;
+        appendMessage('user', message);
+        userInput.value = '';
 
-  sendBtn.addEventListener('click', () => {
-    const text = userInput.value.trim();
-    if (text) sendMessageToBot(text);
-  });
+        const response = await fetch('/triage', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({message: message, session: session})
+        });
+        const data = await response.json();
+        session = data.session;
+        appendMessage('ai', data.response);
+    }
 
-  userInput.addEventListener('keypress', (e) => {
-    if (e.key === 'Enter') sendBtn.click();
-  });
+    sendBtn.addEventListener('click', sendMessage);
+    userInput.addEventListener('keypress', e => {
+        if (e.key === 'Enter') sendMessage();
+    });
 
-  // Start the triage flow immediately on page load
-  window.onload = () => {
-    sendMessageToBot('');
-  };
-
-  // 🎤 Web Speech API for voice input
-  function startRecognition() {
-    const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
-    recognition.lang = 'en-US';
-    recognition.interimResults = false;
-    recognition.maxAlternatives = 1;
-
-    recognition.start();
-
-    recognition.onresult = (event) => {
-      const speechResult = event.results[0][0].transcript;
-      userInput.value = speechResult;
-      sendBtn.click();
+    // Initialize conversation
+    window.onload = () => {
+        fetch('/triage', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({message: '', session: {}})})
+            .then(res => res.json())
+            .then(data => {
+                session = data.session;
+                appendMessage('ai', data.response);
+            });
     };
-
-    recognition.onerror = (event) => {
-      alert('Voice recognition error: ' + event.error);
-    };
-  }
-  </script>
-<script>
-document.getElementById("send-btn").addEventListener("click", () => {
-  const userInput = document.getElementById("user-input").value;
-
-  fetch("/llm-chat", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ message: userInput })
-  })
-  .then(res => res.json())
-  .then(data => {
-    const chatBox = document.getElementById("chat-box");
-    chatBox.innerHTML += `<div><strong>You:</strong> ${userInput}</div>`;
-    chatBox.innerHTML += `<div><strong>Dr. Zepus:</strong> ${data.response}</div>`;
-    document.getElementById("user-input").value = "";
-  });
-});
 </script>
-
 </body>
 </html>

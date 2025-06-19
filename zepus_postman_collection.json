@@ -1,0 +1,56 @@
+{
+  "info": {
+    "name": "Zepus Master Postman Collection",
+    "_postman_id": "1a23b456-789c-4def-0123-456789abcdef",
+    "description": "Postman collection for full Zepus API testing",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Patient Register",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"John Doe\",\n  \"age\": 32,\n  \"sex\": \"Male\",\n  \"occupation\": \"Engineer\",\n  \"address\": \"123 Main St\",\n  \"city\": \"Lagos\",\n  \"country\": \"Nigeria\",\n  \"phone\": \"08012345678\",\n  \"email\": \"johndoe@example.com\",\n  \"password\": \"password123\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/patient-register",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["patient-register"]
+        }
+      }
+    },
+    {
+      "name": "Doctor Register",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Dr. Smith\",\n  \"specialty\": \"Cardiology\",\n  \"bio\": \"Experienced Cardiologist\",\n  \"phone\": \"08098765432\",\n  \"email\": \"drsmith@example.com\",\n  \"consultation_fee\": 100.0,\n  \"password\": \"docpassword\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/doctor-register",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["doctor-register"]
+        }
+      }
+    }
+  ]
+}

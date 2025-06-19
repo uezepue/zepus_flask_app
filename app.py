@@ -1,211 +1,259 @@
-from flask import Flask, request, jsonify, render_template
-import os
-import json
+from flask import Flask, request, jsonify, render_template, session, redirect, url_for, send_from_directory
+from flask_sqlalchemy import SQLAlchemy
+from flask_bcrypt import Bcrypt
+from datetime import datetime
 import requests
-import difflib
+import os
 
+# Initialize Flask app
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.secret_key = "zepus_secret_key"
+
+# Initialize extensions
+db = SQLAlchemy(app)
+bcrypt = Bcrypt(app)
+
+os.makedirs('generated_documents', exist_ok=True)
+
+# ====================================================
+# DATABASE MODELS
+# ====================================================
+
+class Patient(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100))
+    age = db.Column(db.Integer)
+    sex = db.Column(db.String(10))
+    occupation = db.Column(db.String(100))
+    address = db.Column(db.String(200))
+    city = db.Column(db.String(100))
+    country = db.Column(db.String(100))
+    phone = db.Column(db.String(20))
+    email = db.Column(db.String(100), unique=True)
+    password_hash = db.Column(db.String(128))
+
+    def set_password(self, password):
+        self.password_hash = bcrypt.generate_password_hash(password).decode('utf-8')
+
+    def check_password(self, password):
+        return bcrypt.check_password_hash(self.password_hash, password)
+
+
+class Doctor(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100))
+    specialty = db.Column(db.String(100))
+    bio = db.Column(db.Text)
+    phone = db.Column(db.String(20))
+    email = db.Column(db.String(100), unique=True)
+    password_hash = db.Column(db.String(128))
+    consultation_fee = db.Column(db.Float)
+
+    def set_password(self, password):
+        self.password_hash = bcrypt.generate_password_hash(password).decode('utf-8')
+
+    def check_password(self, password):
+        return bcrypt.check_password_hash(self.password_hash, password)
+
+
+class Appointment(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    patient_id = db.Column(db.Integer, db.ForeignKey('patient.id'))
+    doctor_id = db.Column(db.Integer, db.ForeignKey('doctor.id'))
+    appointment_type = db.Column(db.String(50))
+    consultation_mode = db.Column(db.String(50))
+    status = db.Column(db.String(50), default="pending")
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+
+
+class Payment(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    appointment_id = db.Column(db.Integer, db.ForeignKey('appointment.id'))
+    amount = db.Column(db.Float)
+    payment_method = db.Column(db.String(50))
+    payment_reference = db.Column(db.String(100))
+    status = db.Column(db.String(20), default="pending")
+    paid_at = db.Column(db.DateTime, default=datetime.utcnow)
+
+
+class ConsultationSession(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    patient_id = db.Column(db.Integer, db.ForeignKey('patient.id'))
+    doctor_id = db.Column(db.Integer, db.ForeignKey('doctor.id'))
+    appointment_id = db.Column(db.Integer, db.ForeignKey('appointment.id'))
+    session_start = db.Column(db.DateTime, default=datetime.utcnow)
+    session_end = db.Column(db.DateTime)
+    session_summary = db.Column(db.Text)
+    status = db.Column(db.String(50), default="ongoing")
+
+class Message(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    session_id = db.Column(db.Integer, db.ForeignKey('consultation_session.id'))
+    sender = db.Column(db.String(50))
+    message = db.Column(db.Text)
+    timestamp = db.Column(db.DateTime, default=datetime.utcnow)
+
+# ====================================================
+# ROUTES: AUTH + DASHBOARDS
+# ====================================================
+
+@app.context_processor
+def inject_now():
+    return {'now': datetime.now()}
 
 @app.route('/')
-def home():
-    return render_template('zepusclinics.html')
+def homepage():
+    return render_template('login.html')
 
-@app.route('/chat')
-def chatbot():
-    return render_template('chat.html')
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        email = request.form['email']
+        password = request.form['password']
+        doctor = Doctor.query.filter_by(email=email).first()
+        patient = Patient.query.filter_by(email=email).first()
+
+        if doctor and doctor.check_password(password):
+            session['user_type'] = 'doctor'
+            session['doctor_id'] = doctor.id
+            return redirect(url_for('doctor_dashboard'))
+
+        if patient and patient.check_password(password):
+            session['user_type'] = 'patient'
+            session['patient_id'] = patient.id
+            return redirect(url_for('patient_dashboard'))
+        return "Invalid credentials!"
+
+    return render_template('login.html')
+
+@app.route('/patient-dashboard')
+def patient_dashboard():
+    patient_id = session.get('patient_id')
+    patient = Patient.query.get(patient_id)
+    doctors = Doctor.query.all()
+    appointments = Appointment.query.filter_by(patient_id=patient_id).all()
+    return render_template('patient_dashboard.html', doctors=doctors, appointments=appointments)
+
+@app.route('/doctor-dashboard')
+def doctor_dashboard():
+    doctor_id = session.get('doctor_id')
+    doctor = Doctor.query.get(doctor_id)
+    appointments = Appointment.query.filter_by(doctor_id=doctor_id).all()
+    return render_template('doctor_dashboard.html', appointments=appointments)
+
+# ====================================================
+# TRIAGE CHAT ROUTE
+# ====================================================
+@app.route('/triage-chat')
+def triage_chat():
+    return render_template('triage_chat.html')
+
+# ====================================================
+# PATIENT / DOCTOR REGISTRATION API
+# ====================================================
 
 @app.route('/patient-register', methods=['POST'])
 def patient_register():
     data = request.get_json()
-    return jsonify({'status': 'success'})
+    if Patient.query.filter_by(email=data['email']).first():
+        return jsonify({'status': 'fail', 'message': 'Email already exists'})
+    patient = Patient(**{k: data[k] for k in ['name', 'age', 'sex', 'occupation', 'address', 'city', 'country', 'phone', 'email']})
+    patient.set_password(data['password'])
+    db.session.add(patient)
+    db.session.commit()
+    return jsonify({'status': 'success', 'message': 'Patient registered'})
 
 @app.route('/doctor-register', methods=['POST'])
 def doctor_register():
     data = request.get_json()
-    return jsonify({'status': 'success'})
+    if Doctor.query.filter_by(email=data['email']).first():
+        return jsonify({'status': 'fail', 'message': 'Email already exists'})
+    doctor = Doctor(**{k: data[k] for k in ['name', 'specialty', 'bio', 'phone', 'email', 'consultation_fee']})
+    doctor.set_password(data['password'])
+    db.session.add(doctor)
+    db.session.commit()
+    return jsonify({'status': 'success', 'message': 'Doctor registered'})
 
-LLM_URL = "https://llm.zepusclinics.com"
-HEADERS = {"Content-Type": "application/json", "Accept": "application/json"}
+# ====================================================
+# APPOINTMENT, PAYMENT & CONSULTATION
+# ====================================================
 
-@app.route("/llm-chat", methods=["POST"])
-def llm_chat():
+@app.route('/book-appointment', methods=['POST'])
+def book_appointment():
     data = request.get_json()
-    user_input = data.get("message", "")
-    try:
-        response = requests.post(
-            f"{LLM_URL}/api/chat",
-            headers=HEADERS,
-            json={
-                "model": "mistral",
-                "messages": [
-                    {"role": "system", "content": "You are a helpful medical triage assistant."},
-                    {"role": "user", "content": user_input}
-                ],
-                "stream": False
-            },
-            timeout=20
-        )
-        result = response.json()
-        llm_reply = result.get("message", {}).get("content", "Sorry, no response received.")
-    except Exception as e:
-        llm_reply = f"LLM unavailable: {str(e)}"
-    return jsonify({"response": llm_reply})
+    appointment = Appointment(**data)
+    db.session.add(appointment)
+    db.session.commit()
+    return jsonify({'status': 'success', 'appointment_id': appointment.id})
 
-# Cache disease data
-merged_disease_data = None
+@app.route('/make-payment', methods=['POST'])
+def make_payment():
+    data = request.get_json()
+    appointment = Appointment.query.get(data['appointment_id'])
+    doctor = Doctor.query.get(appointment.doctor_id)
+    payment = Payment(appointment_id=appointment.id, amount=doctor.consultation_fee, status='paid', payment_method=data['payment_method'], payment_reference="ZEPUS-PAY-123456")
+    db.session.add(payment)
+    appointment.status = 'paid'
+    db.session.commit()
+    return jsonify({'status': 'success', 'amount': doctor.consultation_fee})
 
-def load_and_cache_merged_disease_data(data_folder="data"):
-    global merged_disease_data
-    if merged_disease_data is None:
-        merged = []
-        for filename in os.listdir(data_folder):
-            if filename.endswith(".json"):
-                file_path = os.path.join(data_folder, filename)
-                try:
-                    with open(file_path, "r") as f:
-                        data = json.load(f)
-                        if isinstance(data, list):
-                            merged.extend(data)
-                except Exception as e:
-                    print(f"Error loading {filename}: {e}")
-        merged_disease_data = merged
-    return merged_disease_data
+@app.route('/start-consultation', methods=['POST'])
+def start_consultation():
+    data = request.get_json()
+    appointment = Appointment.query.get(data['appointment_id'])
+    if appointment.status != 'paid':
+        return jsonify({'status': 'fail', 'message': 'Payment required'})
+    session_obj = ConsultationSession(patient_id=appointment.patient_id, doctor_id=appointment.doctor_id, appointment_id=appointment.id)
+    db.session.add(session_obj)
+    db.session.commit()
+    return jsonify({'status': 'success', 'session_id': session_obj.id})
 
-with open("symptom_dictionary.json", "r") as f:
-    symptom_dictionary = json.load(f)
+# ====================================================
+# AI TRIAGE LOGIC WITH FULL AUTOPILOT FLOW
+# ====================================================
+LLM_URL = "http://localhost:11434"
+HEADERS = {"Content-Type": "application/json", "Accept": "application/json"}
+TRIAGE_PROMPT = """
+You are Dr. Zepus AI, a highly empathetic digital medical assistant. As soon as the patient connects, you should greet them politely, introduce yourself once, and immediately request their name. Then collect their age, gender, and occupation. Afterward, proceed step-by-step with triage using very simple language. Avoid medical jargons. Do not give diagnosis directly. Avoid repeating introductions. Ask one question at a time. Always wait for the patient's reply before proceeding. Avoid open-ended questions when you can give options or yes/no alternatives. Keep it conversational, empathetic and patient-centered.
+"""
 
-symptom_dictionary.update({
-    "lightheaded": "dizziness",
-    "can't walk straight": "imbalance",
-    "passing out": "syncope"
-})
-
-def extract_symptoms_from_text(text, dictionary):
-    found = []
-    lowered = text.lower()
-    for phrase in dictionary:
-        if phrase in lowered:
-            found.append(dictionary[phrase])
-    if not found:
-        for phrase in dictionary:
-            if difflib.get_close_matches(phrase, [lowered], cutoff=0.8):
-                found.append(dictionary[phrase])
-    return found or [text]
-
-@app.route("/triage", methods=["POST"])
+@app.route('/triage', methods=['POST'])
 def triage():
     data = request.get_json()
-    session = data.get("session", {})
-    message = data.get("message", "").strip().lower()
-    diseases = load_and_cache_merged_disease_data()
+    session_data = data.get("session", {})
+    message = data.get("message", "").strip()
 
-    if not session.get("initialized"):
-        session.update({
-            "name": "John", "age": 35, "sex": "Male", "location": "Lagos", "country": "Nigeria",
-            "occupation": "Teacher", "step": "initial", "symptoms": [], "associated": [],
-            "mapped_symptoms": [], "likely_conditions": [], "diagnosis_summary": "",
-            "urgency": "unknown", "initialized": True
+    if not session_data.get("initialized"):
+        session_data.update({
+            "step": "processing",
+            "conversation": [{"role": "system", "content": TRIAGE_PROMPT}],
+            "initialized": True
         })
-
-    step = session.get("step")
-    response = ""
-
-    if step == "initial":
-        response = "Welcome. Please tell me your main symptoms."
-        session["step"] = "symptoms"
-
-    elif step == "symptoms":
-        extracted = extract_symptoms_from_text(message, symptom_dictionary)
-        session["mapped_symptoms"] = extracted
-        session["step"] = "analysis"
-        response = "Thanks. I’ll analyze what you've told me."
-
-    elif step == "analysis":
-        keywords = session["mapped_symptoms"]
-        likely_conditions = []
-        for disease in diseases:
-            if "symptoms" in disease:
-                timeline = disease["symptoms"].get("timeline", [])
-                disease_symptoms = [s["symptom"].lower() for s in timeline]
-                match_score = len(set(keywords) & set(disease_symptoms))
-                complications = disease["symptoms"].get("complications", [])
-                emergencies = disease["symptoms"].get("emergency_markers", [])
-                if match_score >= 2:
-                    likely_conditions.append({
-                        "disease": disease["disease"],
-                        "match_score": match_score,
-                        "specialty": disease.get("specialty", "General"),
-                        "complications": complications,
-                        "emergency": any(e in keywords for e in emergencies),
-                        "description": disease.get("description", "")
-                    })
-        likely_conditions.sort(key=lambda x: -x["match_score"])
-        session["likely_conditions"] = likely_conditions[:3]
-
-        if likely_conditions:
-            hints = ". ".join([f"Possibly related to {d['specialty'].lower()} issues" for d in likely_conditions])
-            session["diagnosis_summary"] = hints
-            response = f"Your symptoms suggest something that may need attention. {hints}. I’ll now check if it's urgent."
-
-            try:
-                response_llm = requests.post(
-                    f"{LLM_URL}/api/chat",
-                    headers=HEADERS,
-                    json={
-                        "model": "mistral",
-                        "messages": [
-                            {"role": "system", "content": "You are a helpful medical triage assistant."},
-                            {"role": "user", "content": f"The patient has these symptoms: {keywords}. What should I consider as differentials?"}
-                        ],
-                        "stream": False
-                    },
-                    timeout=20
-                )
-                result = response_llm.json()
-                reasoning = result.get("message", {}).get("content", "No reasoning received.")
-                response += " Here’s what I’m also considering: " + reasoning
-            except Exception as e:
-                response += f" Unable to generate differentials: {str(e)}"
-
-            session["step"] = "urgency"
-        else:
-            response = "I couldn’t match your symptoms to a specific condition yet, but let’s assess urgency."
-            session["step"] = "urgency"
-
-    elif step == "urgency":
-        emergencies = ["loss of consciousness", "shortness of breath", "chest pain", "heavy bleeding"]
-        if any(e in session["mapped_symptoms"] for e in emergencies):
-            session["urgency"] = "emergency"
-            response = "Your symptoms may be serious. Please proceed to the nearest emergency center."
-            session["step"] = "done"
-        else:
-            session["urgency"] = "non-emergency"
-            response = (
-                f"This doesn’t appear to be an emergency. "
-                f"Based on my analysis: {session['diagnosis_summary']}. "
-                "How would you prefer to consult — online, in-person, home visit, or government hospital referral?"
-            )
-            session["step"] = "consult_mode"
-
-    elif step == "consult_mode":
-        session["consultation_mode"] = message
-        if "government" in message:
-            session["step"] = "govt_name"
-            response = "Please provide the name of the government hospital you prefer."
-        else:
-            response = f"Thank you. You’ll be connected with a suitable specialist via {message}."
-            session["step"] = "done"
-
-    elif step == "govt_name":
-        session["govt_hospital"] = message
-        response = f"Thank you. We will refer you to {message} for further care."
-        session["step"] = "done"
-
+        response = "Hello! I am Dr. Zepus AI. May I know your name, please?"
     else:
-        response = "This session is complete. Type 'restart' to begin again."
+        session_data["conversation"].append({"role": "user", "content": message})
+        try:
+            response_llm = requests.post(
+                f"{LLM_URL}/api/chat",
+                headers=HEADERS,
+                json={"model": "meditron:7b", "messages": session_data["conversation"], "stream": False},
+                timeout=60
+            )
+            result = response_llm.json()
+            reply = result.get("message", {}).get("content", "No response received.")
+            session_data["conversation"].append({"role": "assistant", "content": reply})
+            response = reply
+        except Exception as e:
+            response = f"LLM unavailable: {str(e)}"
+    return jsonify({"response": response, "session": session_data})
 
-    return jsonify({"response": response, "session": session})
+# ====================================================
+# START THE SERVER
+# ====================================================
+with app.app_context():
+    db.create_all()
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000, debug=True)
-
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=5055)
