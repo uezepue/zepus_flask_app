@@ -1,22 +1,94 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zepus Clinics – Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f9ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
 
-{% block content %}
-<div class="login-container">
-    <h2>Login to Zepus Clinics</h2>
-    <form method="POST" action="{{ url_for('login') }}">
-        <div class="form-group">
-            <label>Email:</label>
-            <input type="email" name="email" required placeholder="Enter your email">
-        </div>
+    .login-container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
+    }
 
-        <div class="form-group">
-            <label>Password:</label>
-            <input type="password" name="password" required placeholder="Enter your password">
-        </div>
+    .login-container h2 {
+      color: #0077b6;
+      text-align: center;
+      margin-bottom: 20px;
+    }
 
-        <button type="submit">Login</button>
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-sizing: border-box;
+    }
+
+    button {
+      width: 100%;
+      background-color: #0077b6;
+      color: white;
+      padding: 14px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #005f91;
+    }
+
+    .register-link {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .register-link a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+
+    .register-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <h2>Welcome to Zepus Clinics</h2>
+    <form action="/login" method="POST">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required placeholder="Enter your username">
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required placeholder="Enter your password">
+
+      <button type="submit">Login</button>
     </form>
+    <div class="register-link">
+      Don't have an account? <a href="/register">Register here</a>
+    </div>
+  </div>
 
-    <p class="register-note">New user? Please register through your app's registration interface.</p>
-</div>
-{% endblock %}
+</body>
+</html>
+

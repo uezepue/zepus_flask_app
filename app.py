@@ -4,12 +4,16 @@ from flask_bcrypt import Bcrypt
 from datetime import datetime
 import requests
 import os
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Initialize Flask app
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URI', 'sqlite:///zepus.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.secret_key = "zepus_secret_key"
+app.secret_key = os.getenv('SECRET_KEY', 'zepus_secret_key')
 
 # Initialize extensions
 db = SQLAlchemy(app)
@@ -213,7 +217,7 @@ def start_consultation():
 # ====================================================
 # AI TRIAGE LOGIC WITH FULL AUTOPILOT FLOW
 # ====================================================
-LLM_URL = "http://localhost:11434"
+LLM_URL = os.getenv("LLM_URL", "http://localhost:11434")
 HEADERS = {"Content-Type": "application/json", "Accept": "application/json"}
 TRIAGE_PROMPT = """
 You are Dr. Zepus AI, a highly empathetic digital medical assistant. As soon as the patient connects, you should greet them politely, introduce yourself once, and immediately request their name. Then collect their age, gender, and occupation. Afterward, proceed step-by-step with triage using very simple language. Avoid medical jargons. Do not give diagnosis directly. Avoid repeating introductions. Ask one question at a time. Always wait for the patient's reply before proceeding. Avoid open-ended questions when you can give options or yes/no alternatives. Keep it conversational, empathetic and patient-centered.
