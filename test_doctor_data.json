@@ -1,9 +1,0 @@
-{
-  "name": "Dr. Smith",
-  "specialty": "Cardiology",
-  "bio": "Experienced Cardiologist",
-  "phone": "08098765432",
-  "email": "drsmith@example.com",
-  "consultation_fee": 100.0,
-  "password": "docpassword"
-}

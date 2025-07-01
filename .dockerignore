@@ -1,0 +1,44 @@
+# Python cache and virtualenv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Environment and secret files
+.env
+.env.*
+
+# Uploads and runtime-generated files
+doctor_verification_uploads/
+generated_documents/
+*.db
+*.sqlite3
+
+# LLM models (too large for Docker image)
+ollama_models/
+runpod_models/
+models_cache/
+
+# Git and editor files
+.git
+.gitignore
+.github/
+.vscode/
+.idea/
+
+# Frontend files (if using React or another JS framework)
+node_modules/
+build/
+
+# System and temporary files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.log
+*.swp
+*.tmp
+*.bak
+*.pot
+*.mo
+

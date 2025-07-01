@@ -1,0 +1,40 @@
+// App.jsx
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// Patient Components
+import PatientDashboard from './components/PatientDashboard';
+import PatientChatRoom from './components/PatientChatRoom';
+import PatientRegistration from './components/PatientRegistration';
+
+// Doctor Components
+import DoctorDashboard from './components/DoctorDashboard';
+import DoctorChatRoom from './components/DoctorChatRoom';
+import DoctorRegistration from './components/DoctorRegistration';
+
+// Home Page
+import Home from './components/Home';
+
+export default function App() {
+  return (
+    <Router>
+      <Routes>
+        {/* Homepage */}
+        <Route path="/" element={<Home />} />
+
+        {/* Patient Routes */}
+        <Route path="/dashboard" element={<PatientDashboard />} />
+        <Route path="/chatroom" element={<PatientChatRoom />} />
+        <Route path="/register/patient" element={<PatientRegistration />} />
+
+        {/* Doctor Routes */}
+        <Route path="/doctor/dashboard" element={<DoctorDashboard />} />
+        <Route path="/doctor/chatroom" element={<DoctorChatRoom />} />
+        <Route path="/register/doctor" element={<DoctorRegistration />} />
+
+        {/* 404 Fallback */}
+        <Route path="*" element={<h2>404 - Page Not Found</h2>} />
+      </Routes>
+    </Router>
+  );
+}
