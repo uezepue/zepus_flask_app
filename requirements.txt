@@ -10,3 +10,4 @@ weasyprint==61.2
 cffi==1.16.0
 gunicorn
 python-dotenv==1.0.1
+Flask-Login==0.6.3
