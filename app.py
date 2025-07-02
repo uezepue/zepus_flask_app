@@ -9,7 +9,7 @@ from models import db, bcrypt
 from routes.doctors_routes import doctor_bp
 from routes.patients_routes import patient_bp
 from routes.admin_routes import admin_bp
-from routes.admin.ledger_routes import ledger_bp
+from routes.ledger_routes import ledger_bp
 from routes.bank_routes import bank_bp
 from routes.security_routes import security_bp
 from routes.support_routes import support_bp
