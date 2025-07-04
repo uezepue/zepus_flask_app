@@ -19,8 +19,8 @@ from routes.notifications_routes import notifications_bp
 from routes.settings_routes import settings_bp
 from routes.analytics_routes import analytics_bp
 
-# Define the path to the React build folder
-REACT_BUILD_DIR = os.path.join(os.path.dirname(__file__), 'admin_frontend', 'build')
+# ✅ Updated path to the unified React frontend build output
+REACT_BUILD_DIR = os.path.join(os.path.dirname(__file__), 'client_frontend', 'static')
 
 # Initialize Flask app
 app = Flask(__name__, static_folder=REACT_BUILD_DIR, static_url_path='')
@@ -44,11 +44,11 @@ app.register_blueprint(notifications_bp)
 app.register_blueprint(settings_bp)
 app.register_blueprint(analytics_bp)
 
-# Create tables if they don't exist
+# Auto-create database tables
 with app.app_context():
     db.create_all()
 
-# Serve React frontend and static assets
+# ✅ Serve the React frontend and static assets
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve_react(path):
@@ -57,6 +57,6 @@ def serve_react(path):
         return send_from_directory(REACT_BUILD_DIR, path)
     return send_from_directory(REACT_BUILD_DIR, 'index.html')
 
-# Run the app
+# Run the Flask app
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5055)
