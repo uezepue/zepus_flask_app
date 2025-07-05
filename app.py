@@ -1,8 +1,9 @@
+# app.py
+
 from flask import Flask, send_from_directory
 import os
 from config import Config
 from models import db, bcrypt
-from flask_cors import CORS
 
 # Import blueprints
 from routes.doctors_routes import doctor_bp
@@ -18,15 +19,11 @@ from routes.notifications_routes import notifications_bp
 from routes.settings_routes import settings_bp
 from routes.analytics_routes import analytics_bp
 
-# Path to the built React frontend
-REACT_BUILD_DIR = os.path.join(os.path.dirname(__file__), 'client_frontend', 'dist')
+# ✅ Point to React build output directory
+REACT_BUILD_DIR = os.path.join(os.path.dirname(__file__), 'client_frontend', 'static')
 
-# Initialize Flask app
-app = Flask(__name__, static_folder=REACT_BUILD_DIR, static_url_path='/')
+app = Flask(__name__, static_folder=None)  # Don't serve static by default
 app.config.from_object(Config)
-
-# Enable CORS for all routes (optional, needed for APIs from different domains)
-CORS(app)
 
 # Initialize extensions
 db.init_app(app)
@@ -46,19 +43,19 @@ app.register_blueprint(notifications_bp)
 app.register_blueprint(settings_bp)
 app.register_blueprint(analytics_bp)
 
-# Auto-create tables on first run
+# Auto-create tables
 with app.app_context():
     db.create_all()
 
-# Serve React frontend
+# ✅ Serve frontend and fallback to index.html
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve_react(path):
     full_path = os.path.join(REACT_BUILD_DIR, path)
-    if path and os.path.exists(full_path):
+    if path != "" and os.path.exists(full_path):
         return send_from_directory(REACT_BUILD_DIR, path)
     return send_from_directory(REACT_BUILD_DIR, 'index.html')
 
-# For local testing (Render uses gunicorn instead)
+# ✅ Run the app
 if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0', port=5055)
+    app.run(debug=True, host='0.0.0.0', port=5055)
