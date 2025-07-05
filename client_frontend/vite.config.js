@@ -5,14 +5,14 @@ import path from 'path';
 export default defineConfig({
   plugins: [react()],
   root: 'src',
-  base: '/',
+  base: '/', // Ensures correct asset paths
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
     },
   },
   build: {
-    outDir: '../static',
+    outDir: '../static', // Flask serves from client_frontend/static
     emptyOutDir: true,
     rollupOptions: {
       input: path.resolve(__dirname, 'src/index.html'),
@@ -21,7 +21,7 @@ export default defineConfig({
   server: {
     port: 5173,
     proxy: {
-      '/api': 'http://localhost:5055',
+      '/api': 'http://localhost:5055', // Dev proxy to Flask API
     },
   },
 });
