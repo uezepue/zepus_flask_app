@@ -38,13 +38,17 @@ class Patient(db.Model):
             "last_name": self.last_name,
             "age": self.age,
             "email": self.email,
-            "wallet_balance": 0.00  # Placeholder if no wallet system exists
+            "wallet_balance": 0.00
         }
 
 class Doctor(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100))
+    dob = db.Column(db.String(20))
+    age = db.Column(db.Integer)
+    sex = db.Column(db.String(10))
     specialty = db.Column(db.String(100))
+    qualification = db.Column(db.String(100))
     bio = db.Column(db.Text)
     phone = db.Column(db.String(20))
     email = db.Column(db.String(100), unique=True)
@@ -52,6 +56,13 @@ class Doctor(db.Model):
     consultation_fee = db.Column(db.Float)
     is_verified = db.Column(db.Boolean, default=False)
     status = db.Column(db.String(20), default='pending')
+    address_line = db.Column(db.String(200))
+    city = db.Column(db.String(100))
+    state = db.Column(db.String(100))
+    lga = db.Column(db.String(100))
+    state_of_origin = db.Column(db.String(100))
+    email_verification_token = db.Column(db.String(128), nullable=True)
+    email_verified = db.Column(db.Boolean, default=False)
 
     license_path = db.Column(db.String(200), nullable=True)
     gov_id_path = db.Column(db.String(200), nullable=True)
@@ -143,9 +154,9 @@ class FollowUpMessage(db.Model):
     timestamp = db.Column(db.DateTime, default=datetime.utcnow)
     read_status = db.Column(db.String(10), default='unread')
 
-class LedgerEntry(db.Model):  # Represents Transactions
+class LedgerEntry(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    type = db.Column(db.String(10), nullable=False)  # 'credit' or 'debit'
+    type = db.Column(db.String(10), nullable=False)
     amount = db.Column(db.Float, nullable=False)
     source = db.Column(db.String(50), nullable=False)
     description = db.Column(db.Text)
@@ -182,7 +193,7 @@ class SupportTicket(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     subject = db.Column(db.String(150))
     message = db.Column(db.Text)
-    user_type = db.Column(db.String(20))  # 'doctor' or 'patient'
+    user_type = db.Column(db.String(20))
     user_id = db.Column(db.Integer)
     status = db.Column(db.String(20), default='open')
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
@@ -212,7 +223,7 @@ class BroadcastMessage(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(150), nullable=False)
     body = db.Column(db.Text, nullable=False)
-    target_group = db.Column(db.String(20), nullable=False)  # 'doctors', 'patients', or 'all'
+    target_group = db.Column(db.String(20), nullable=False)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
     def to_dict(self):

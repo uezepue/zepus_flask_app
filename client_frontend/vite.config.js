@@ -20,6 +20,11 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': 'http://localhost:5055',
+      '/socket.io': {
+        target: 'http://localhost:5055',
+        ws: true,               // <-- WebSocket support
+        changeOrigin: true,
+      },
     },
   },
 })

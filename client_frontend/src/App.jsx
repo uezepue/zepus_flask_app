@@ -1,5 +1,4 @@
-// client_frontend/src/App.jsx
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // ⬇️ Client Pages
@@ -8,8 +7,10 @@ import PatientRegistration from './pages/PatientRegistration';
 import DoctorRegistration from './pages/DoctorRegistration';
 import PatientDashboard from './pages/PatientDashboard';
 import DoctorDashboard from './pages/DoctorDashboard';
-import PatientChatRoom from './pages/PatientChatRoom';
+import PatientChatRoom from './pages/PatientChatRoom';       // 🔄 Renamed: Live Chat with Doctor
+import TriageBotRoom from './pages/TriageBotRoom';           // ✅ New: AI Triage Bot
 import DoctorChatRoom from './pages/DoctorChatRoom';
+import VerifyDocuments from './pages/VerifyDocuments';
 
 // ⬇️ Admin Modules
 import AdminPortal from './modules/AdminPortal';
@@ -26,7 +27,19 @@ import SystemStatus from './modules/SystemStatus';
 import TriageLogs from './modules/TriageLogs';
 import VerifyDoctors from './modules/VerifyDoctors';
 
+// ⬇️ Auth Guard
+import ProtectedRoute from './components/ProtectedRoute';
+
 export default function App() {
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    fetch('/api/check-auth')
+      .then(res => res.json())
+      .then(data => setUser(data.user || null))
+      .catch(() => setUser(null));
+  }, []);
+
   return (
     <Router>
       <Routes>
@@ -37,7 +50,16 @@ export default function App() {
         <Route path="/dashboard/patient" element={<PatientDashboard />} />
         <Route path="/dashboard/doctor" element={<DoctorDashboard />} />
         <Route path="/dashboard/patient/chat" element={<PatientChatRoom />} />
+        <Route path="/dashboard/patient/triage-bot" element={<TriageBotRoom />} />
         <Route path="/dashboard/doctor/chat" element={<DoctorChatRoom />} />
+        <Route
+          path="/doctor/verify-documents"
+          element={
+            <ProtectedRoute user={user} allowedRole="doctor">
+              <VerifyDocuments />
+            </ProtectedRoute>
+          }
+        />
 
         {/* 🔐 Admin Routes */}
         <Route path="/admin" element={<AdminPortal />} />

@@ -22,13 +22,13 @@ export default function DoctorDashboard() {
       })
       .catch(err => {
         console.error(err);
-        setError('Failed to load doctor dashboard. Please check that the /api/doctor/dashboard endpoint exists and returns correct data.');
+        setError('❌ Failed to load dashboard. Ensure /api/doctor/dashboard is working.');
       });
   }, []);
 
   const handleLogout = async () => {
     try {
-      await fetch('/api/logout', { method: 'GET' });
+      await fetch('/api/logout');
       navigate('/');
     } catch (err) {
       console.error('Logout failed:', err);
@@ -38,37 +38,58 @@ export default function DoctorDashboard() {
   if (error) return <div className="error">{error}</div>;
   if (!doctor) return <div>Loading...</div>;
 
+  const statusText = doctor.status?.charAt(0).toUpperCase() + doctor.status?.slice(1);
+  const waitingCount = appointments.filter(appt => appt.status === 'waiting' || appt.status === 'pending').length;
+
   return (
     <div>
       <header className="top-bar">
         <div>ZEPUS Clinics – Doctor Dashboard</div>
         <div>
-          <a href="/">Home</a> | <a href="#">My Profile</a> | 
-          <button onClick={handleLogout} style={{ background: 'none', border: 'none', color: '#0077b6', cursor: 'pointer', paddingLeft: '8px' }}>
+          <a href="/">Home</a> | <span>My Profile</span> | 
+          <button onClick={handleLogout} style={{ background: 'none', border: 'none', color: '#0077b6', cursor: 'pointer', marginLeft: '10px' }}>
             Logout
           </button>
         </div>
       </header>
 
+      {waitingCount > 0 && (
+        <div className="bg-yellow-100 text-yellow-800 px-4 py-2 text-center font-semibold">
+          🛎️ You have {waitingCount} patient{waitingCount > 1 ? 's' : ''} waiting for your consultation.
+        </div>
+      )}
+
       {(doctor.status === 'pending' || doctor.status === 'flagged' || doctor.status === 'expired') && (
         <div className="banner">
-          ⚠️ Your account is <strong>{doctor.status.charAt(0).toUpperCase() + doctor.status.slice(1)}</strong>.&nbsp;
-          {doctor.status === 'flagged' && 'Please correct issues with your documents and re-submit for verification.'}
-          {doctor.status === 'expired' && 'Some documents have expired. Please re-upload updated versions.'}
-          {doctor.status === 'pending' && 'Your account is pending admin approval.'}
+          ⚠️ Your account is <strong>{statusText}</strong>.&nbsp;
+          {{
+            'flagged': 'Please re-submit valid documents.',
+            'expired': 'Some documents have expired. Please upload updated versions.',
+            'pending': 'Awaiting admin approval.'
+          }[doctor.status]}
         </div>
       )}
 
       <div className="container">
         <aside>
           <ul>
-            <li><Link to="/doctor/dashboard">🏠 Dashboard Home</Link></li>
-            <li><a href="#">🗓️ Appointments</a></li>
-            <li><a href="#">🧑‍⚕️ My Patients</a></li>
+            <li><Link to="/doctor/dashboard">🏠 Dashboard</Link></li>
+            <li><Link to="/doctor/verify-documents">📑 Upload Documents</Link></li>
+            <li>
+              <a href="#">
+                🗓️ Appointments
+                {waitingCount > 0 && (
+                  <span className="ml-2 inline-block bg-red-600 text-white text-xs font-bold px-2 py-0.5 rounded-full">
+                    {waitingCount}
+                  </span>
+                )}
+              </a>
+            </li>
+            <li><a href="#">🧑‍⚕️ Patients</a></li>
             <li><a href="#">📋 Notes</a></li>
             <li><a href="#">💊 Prescriptions</a></li>
-            <li><a href="#">📂 Uploaded Results</a></li>
-            <li><a href="#">📨 Follow-Up Messages</a></li>
+            <li><a href="#">📂 Results</a></li>
+            <li><a href="#">📨 Follow-Ups</a></li>
             <li><a href="#">💼 Earnings</a></li>
             <li><a href="#">📣 Broadcasts</a></li>
             <li><a href="#">⚙️ Settings</a></li>
@@ -79,43 +100,28 @@ export default function DoctorDashboard() {
         <main>
           <div className="card">
             <h2>Welcome, Dr. {doctor.name}</h2>
-            <p>Specialty: {doctor.specialty}</p>
-            <p>Status: <strong>{doctor.status.charAt(0).toUpperCase() + doctor.status.slice(1)}</strong></p>
-            <p>Verification: {doctor.is_verified ? '✅ Verified' : '❌ Not Verified'}</p>
-            <p>Consultation Fee: ${doctor.consultation_fee?.toFixed(2) || '0.00'}</p>
+            <p><strong>Specialty:</strong> {doctor.specialty || 'Not provided'}</p>
+            <p><strong>Status:</strong> {statusText}</p>
+            <p><strong>Verification:</strong> {doctor.is_verified ? '✅ Verified' : '❌ Not Verified'}</p>
+            <p><strong>Consultation Fee:</strong> ${doctor.consultation_fee?.toFixed(2) || '0.00'}</p>
           </div>
-
-          {(doctor.status === 'flagged' || doctor.status === 'expired' || doctor.status === 'pending') && (
-            <div className="card">
-              <h3>📑 Upload or Re-Upload Documents</h3>
-              <form action="/doctor/verify-documents" method="POST" encType="multipart/form-data">
-                <label>Medical License:</label><input type="file" name="license" /><br /><br />
-                <label>Government ID:</label><input type="file" name="gov_id" /><br /><br />
-                <label>Specialty Certificate:</label><input type="file" name="specialty_cert" /><br /><br />
-                <label>Passport Photo:</label><input type="file" name="photo" /><br /><br />
-                <label>CV:</label><input type="file" name="cv" /><br /><br />
-                <label><input type="checkbox" name="confirm" /> I confirm that my documents are valid</label><br /><br />
-                <button type="submit">Submit Documents</button>
-              </form>
-            </div>
-          )}
 
           {doctor.is_verified && (
             <>
               <div className="card">
                 <h3>📅 Today’s Appointments</h3>
-                <p>You have {appointments.length} appointments today.</p>
+                <p>You have <strong>{appointments.length}</strong> appointments.</p>
               </div>
 
               <div className="card">
-                <h3>📣 Latest Admin Broadcast</h3>
+                <h3>📣 Latest Broadcast</h3>
                 {broadcast ? (
                   <>
-                    <strong>{broadcast.title}</strong>
+                    <h4>{broadcast.title}</h4>
                     <p>{broadcast.body}</p>
                     <small>Posted on {broadcast.created_at}</small>
                   </>
-                ) : <p>No recent broadcasts.</p>}
+                ) : <p>No new broadcasts.</p>}
               </div>
             </>
           )}

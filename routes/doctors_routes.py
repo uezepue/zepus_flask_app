@@ -1,19 +1,90 @@
-from flask import Blueprint, render_template, request, session, redirect, url_for, jsonify
+from flask import Blueprint, request, session, redirect, url_for, jsonify, render_template
 from models import db, Doctor, Appointment, FollowUpMessage, BroadcastMessage
 from werkzeug.utils import secure_filename
 from datetime import datetime
-import os
-
+import os, secrets
+import smtplib
+from email.mime.text import MIMEText
 from flask_login import login_required, current_user
 
 doctor_bp = Blueprint('doctor_bp', __name__)
 
-@doctor_bp.context_processor
-def inject_now():
-    return {'now': datetime.now()}
+# === UTILS ===
+def generate_token():
+    return secrets.token_hex(24)
+
+def send_email(to, subject, html):
+    msg = MIMEText(html, 'html')
+    msg['Subject'] = subject
+    msg['From'] = os.environ.get('SMTP_SENDER', 'noreply@zepusclinics.com')
+    msg['To'] = to
+
+    try:
+        with smtplib.SMTP(os.environ.get('SMTP_SERVER', 'smtp.mailtrap.io'), int(os.environ.get('SMTP_PORT', 587))) as server:
+            server.starttls()
+            server.login(os.environ.get('SMTP_USER'), os.environ.get('SMTP_PASS'))
+            server.sendmail(msg['From'], [to], msg.as_string())
+    except Exception as e:
+        print(f"Error sending email: {e}")
+
+# ================
+# React: Register
+# ================
+@doctor_bp.route('/api/doctor/register', methods=['POST'])
+def register_doctor():
+    data = request.get_json()
+
+    if Doctor.query.filter_by(email=data['email']).first():
+        return jsonify({"status": "fail", "message": "Email already registered"}), 400
+
+    token = generate_token()
+    doctor = Doctor(
+        name=data['name'],
+        dob=data['dob'],
+        age=data['age'],
+        sex=data['sex'],
+        specialty=data['specialty'],
+        qualification=data['qualification'],
+        bio=data['bio'],
+        phone=data['phone'],
+        email=data['email'],
+        address_line=data['address_line'],
+        city=data['city'],
+        state=data['state'],
+        lga=data['lga'],
+        state_of_origin=data['state_of_origin'],
+        email_verification_token=token
+    )
+    doctor.set_password(data['password'])
+    db.session.add(doctor)
+    db.session.commit()
+
+    confirm_url = f"{request.host_url}api/doctor/confirm/{token}"
+    send_email(
+        doctor.email,
+        "Confirm your ZEPUS Clinics Email",
+        f"<p>Dear Dr. {doctor.name},</p><p>Please <a href='{confirm_url}'>click here to confirm your email</a>.</p><p>Thank you.</p>"
+    )
+
+    return jsonify({"status": "success", "message": "Registration successful. Please confirm your email."})
+
+# ==========================
+# Email Confirmation Route
+# ==========================
+@doctor_bp.route('/api/doctor/confirm/<token>', methods=['GET'])
+def confirm_doctor_email(token):
+    doctor = Doctor.query.filter_by(email_verification_token=token).first()
+    if not doctor:
+        return jsonify({"status": "fail", "message": "Invalid or expired token"}), 400
+
+    doctor.email_verified = True
+    doctor.email_verification_token = None
+    db.session.commit()
+
+    return render_template("email_confirmed.html", user_type="Doctor", name=doctor.name)
 
 # ======================
-# Doctor Dashboard Route
+# Dashboard (HTML View)
 # ======================
 @doctor_bp.route('/doctor-dashboard')
 def doctor_dashboard():
@@ -23,8 +94,6 @@ def doctor_dashboard():
 
     doctor = Doctor.query.get(doctor_id)
     appointments = Appointment.query.filter_by(doctor_id=doctor_id).all()
-
-    # Get latest relevant broadcast
     latest_broadcast = BroadcastMessage.query.filter(
         (BroadcastMessage.target_group == 'doctors') | (BroadcastMessage.target_group == 'all')
     ).order_by(BroadcastMessage.created_at.desc()).first()
@@ -66,8 +135,7 @@ def upload_documents():
     doctor.cv_path = save_file('cv')
 
     db.session.commit()
-
-    return render_template('doctor_dashboard.html', doctor=doctor, verified=False, message="Documents submitted successfully. Awaiting admin approval.")
+    return render_template('doctor_dashboard.html', doctor=doctor, verified=False, message="Documents submitted successfully.")
 
 # ====================
 # Send Follow-up Note
@@ -121,11 +189,7 @@ def api_doctor_chat():
 
     data = request.get_json()
     message = data.get("message", "").strip()
-
     if not message:
         return jsonify({"reply": "Empty message received"}), 400
 
-    # Placeholder logic for testing (can be replaced with LLM or patient routing)
-    response = f"📨 Auto-reply: Message '{message}' received successfully."
-
-    return jsonify({"reply": response})
+    return jsonify({"reply": f"📨 Auto-reply: Message '{message}' received successfully."})

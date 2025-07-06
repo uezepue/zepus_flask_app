@@ -1,6 +1,5 @@
-# app.py
-
 from flask import Flask, send_from_directory
+from flask_socketio import SocketIO
 import os
 from config import Config
 from models import db, bcrypt
@@ -19,9 +18,11 @@ from routes.notifications_routes import notifications_bp
 from routes.settings_routes import settings_bp
 from routes.analytics_routes import analytics_bp
 
-# ✅ Correct Vite build folder: client_frontend/static
-REACT_BUILD_DIR = os.path.join(os.path.dirname(__file__), 'client_frontend', 'static')
+# Setup frontend path
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+REACT_BUILD_DIR = os.path.join(BASE_DIR, 'client_frontend', 'static')
 
+# Initialize Flask app
 app = Flask(
     __name__,
     static_folder=os.path.join(REACT_BUILD_DIR, 'assets'),
@@ -32,6 +33,9 @@ app.config.from_object(Config)
 # Initialize extensions
 db.init_app(app)
 bcrypt.init_app(app)
+
+# Initialize SocketIO
+socketio = SocketIO(app, cors_allowed_origins="*")  # Allow all origins for dev
 
 # Register blueprints
 app.register_blueprint(doctor_bp)
@@ -51,15 +55,16 @@ app.register_blueprint(analytics_bp)
 with app.app_context():
     db.create_all()
 
-# ✅ Serve React frontend correctly
+# Serve frontend
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve_react(path):
-    file_path = os.path.join(REACT_BUILD_DIR, path)
-    if path and os.path.exists(file_path):
+    target_file = os.path.join(REACT_BUILD_DIR, path)
+    if path != '' and os.path.exists(target_file):
         return send_from_directory(REACT_BUILD_DIR, path)
     return send_from_directory(REACT_BUILD_DIR, 'index.html')
 
-# Run server
+
+# Run with SocketIO
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5055)
+    socketio.run(app, debug=True, host='0.0.0.0', port=5055)

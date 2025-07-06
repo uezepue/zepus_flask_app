@@ -1,14 +1,17 @@
-// Home.jsx
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
+  const [geoWarning, setGeoWarning] = useState(false);
+
   useEffect(() => {
     const loadGeoDetection = async () => {
       try {
         const res = await fetch("https://ipapi.co/json");
         const data = await res.json();
-        if (data.country_name !== "YourExpectedCountry") {
-          alert("VPN or location spoofing detected. Services may be limited.");
+        const allowedCountries = ["Nigeria", "Ghana", "Kenya", "South Africa", "Egypt"];
+        if (!allowedCountries.includes(data.country_name)) {
+          setGeoWarning(true);
         }
       } catch (err) {
         console.error("Geo detection failed", err);
@@ -34,19 +37,24 @@ export default function Home() {
 
   return (
     <div>
+      {geoWarning && (
+        <div className="bg-yellow-100 text-yellow-900 text-center p-2 text-sm">
+          ⚠️ Your location appears outside our supported regions. Some features may be restricted.
+        </div>
+      )}
+
       <header>
         <div className="logo">ZEPUS Clinics</div>
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><Link to="/">Home</Link></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#consult">Consult a Doctor</a></li>
+            <li><a href="#consult">Consult</a></li>
             <li><a href="#faqs">FAQs</a></li>
             <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="/login">Login</a></li>
-            <li><a href="/register" className="cta">Sign Up</a></li>
+            <li><Link to="/login">Login</Link></li>
+            <li><Link to="/register" className="cta">Sign Up</Link></li>
           </ul>
         </nav>
       </header>
@@ -54,8 +62,8 @@ export default function Home() {
       <section className="hero">
         <h1>Africa's Smartest AI Medical Assistant</h1>
         <p>Get triaged by AI, consult real doctors online or at nearby clinics in minutes.</p>
-        <a href="/Patient_registration.html" className="btn-primary">Start Chat with Dr Zepus</a>
-        <a href="/doctor/register" className="btn-secondary">Register as a Doctor</a>
+        <Link to="/Patient_registration.html" className="btn-primary">Start Chat with Dr Zepus</Link>
+        <Link to="/doctor/register" className="btn-secondary">Register as a Doctor</Link>
       </section>
 
       <section id="services" className="features">
@@ -109,13 +117,26 @@ export default function Home() {
       </section>
 
       <div className="floating-chat">
-        <a href="/Patient_registration.html">💬 Chat with Dr Zepus</a>
+        <Link to="/Patient_registration.html">💬 Chat with Dr Zepus</Link>
       </div>
 
       <section className="newsletter">
         <h2>Get Weekly Health Tips</h2>
         <p>Delivered straight to your inbox by Dr Zepus.</p>
-        <form action="/subscribe" method="post">
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            const email = e.target.email.value;
+            fetch("/subscribe", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ email })
+            })
+              .then((res) => res.json())
+              .then((data) => alert(data.message || "Subscribed successfully"))
+              .catch(() => alert("Failed to subscribe"));
+          }}
+        >
           <input type="email" name="email" placeholder="Your email address" required />
           <button type="submit">Subscribe</button>
         </form>
@@ -123,9 +144,9 @@ export default function Home() {
 
       <footer>
         <div className="footer-links">
-          <a href="/about">About Us</a>
-          <a href="/privacy">Privacy Policy</a>
-          <a href="/terms">Terms of Service</a>
+          <Link to="/about">About Us</Link>
+          <Link to="/privacy">Privacy Policy</Link>
+          <Link to="/terms">Terms of Service</Link>
           <a href="mailto:support@zepusclinics.com">Contact</a>
         </div>
         <div className="social-media">

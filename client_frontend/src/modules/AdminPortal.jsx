@@ -9,7 +9,7 @@ import {
 } from 'lucide-react';
 
 import AdminAnalytics from './AdminAnalytics';
-import AdminAuditLogs from './AdminAuditLogs';
+import AuditLogs from './AuditLogs';
 import AdminBroadcasts from './AdminBroadcasts';
 import AdminDoctors from './AdminDoctors';
 import AdminPatients from './AdminPatients';
@@ -111,7 +111,7 @@ export default function AdminPortal() {
         </TabsList>
 
         {canAccess('analytics') && <TabsContent value="analytics"><AdminAnalytics /></TabsContent>}
-        {canAccess('auditlogs') && <TabsContent value="auditlogs"><AdminAuditLogs /></TabsContent>}
+        {canAccess('auditlogs') && <TabsContent value="auditlogs"><AuditLogs /></TabsContent>}
         {canAccess('broadcasts') && <TabsContent value="broadcasts"><AdminBroadcasts /></TabsContent>}
         {canAccess('doctors') && <TabsContent value="doctors"><AdminDoctors /></TabsContent>}
         {canAccess('patients') && <TabsContent value="patients"><AdminPatients /></TabsContent>}

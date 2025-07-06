@@ -4,7 +4,12 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Select, SelectItem, SelectContent } from "@/components/ui/select";
+import {
+  Select,
+  SelectItem,
+  SelectContent,
+  SelectTrigger
+} from "@/components/ui/select";
 
 export default function AdminBroadcasts() {
   const [title, setTitle] = useState("");
@@ -15,7 +20,11 @@ export default function AdminBroadcasts() {
   const loadBroadcasts = () => {
     fetch("/api/admin/broadcast/all")
       .then((res) => res.json())
-      .then((data) => setMessages(data));
+      .then((data) => setMessages(data))
+      .catch(() => {
+        alert("Failed to load broadcast messages.");
+        setMessages([]);
+      });
   };
 
   useEffect(() => {
@@ -36,6 +45,9 @@ export default function AdminBroadcasts() {
         setBody("");
         setGroup("all");
         loadBroadcasts();
+      })
+      .catch(() => {
+        alert("Failed to send broadcast. Please try again.");
       });
   };
 
@@ -43,21 +55,37 @@ export default function AdminBroadcasts() {
     <div className="p-4 max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold text-center mb-6">Broadcast Manager</h1>
 
-      <form onSubmit={handleSubmit} className="bg-white shadow p-6 rounded-xl mb-10">
-        <Label className="block mb-1">Title</Label>
-        <Input value={title} onChange={(e) => setTitle(e.target.value)} required className="mb-4" />
+      <form onSubmit={handleSubmit} className="bg-white shadow p-6 rounded-xl mb-10 space-y-4">
+        <div>
+          <Label className="block mb-1">Title</Label>
+          <Input
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
+            required
+          />
+        </div>
 
-        <Label className="block mb-1">Message</Label>
-        <Textarea rows={5} value={body} onChange={(e) => setBody(e.target.value)} required className="mb-4" />
+        <div>
+          <Label className="block mb-1">Message</Label>
+          <Textarea
+            rows={5}
+            value={body}
+            onChange={(e) => setBody(e.target.value)}
+            required
+          />
+        </div>
 
-        <Label className="block mb-1">Target Group</Label>
-        <Select value={group} onValueChange={setGroup} className="mb-4">
-          <SelectContent>
-            <SelectItem value="all">All Users</SelectItem>
-            <SelectItem value="doctors">Doctors Only</SelectItem>
-            <SelectItem value="patients">Patients Only</SelectItem>
-          </SelectContent>
-        </Select>
+        <div>
+          <Label className="block mb-1">Target Group</Label>
+          <Select value={group} onValueChange={setGroup}>
+            <SelectTrigger>{group}</SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all">All Users</SelectItem>
+              <SelectItem value="doctors">Doctors Only</SelectItem>
+              <SelectItem value="patients">Patients Only</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
 
         <Button type="submit" className="w-full">Send Broadcast</Button>
       </form>
@@ -68,7 +96,9 @@ export default function AdminBroadcasts() {
             <CardContent className="p-4">
               <h2 className="font-semibold text-lg text-blue-700">{msg.title}</h2>
               <p className="text-gray-700 mt-1">{msg.body}</p>
-              <p className="text-sm text-gray-500 mt-2">Target: {msg.group.toUpperCase()} | {msg.timestamp}</p>
+              <p className="text-sm text-gray-500 mt-2">
+                Target: {msg.group?.toUpperCase()} | {new Date(msg.timestamp).toLocaleString()}
+              </p>
             </CardContent>
           </Card>
         ))}
