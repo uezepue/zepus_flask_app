@@ -19,15 +19,12 @@ from routes.notifications_routes import notifications_bp
 from routes.settings_routes import settings_bp
 from routes.analytics_routes import analytics_bp
 
-# ✅ Correct path to Vite build output
+# Vite build directory
 REACT_BUILD_DIR = os.path.join(os.path.dirname(__file__), 'client_frontend', 'dist')
 
-# ✅ Point Flask to serve static from /assets
-app = Flask(
-    __name__,
-    static_folder=os.path.join(REACT_BUILD_DIR, 'assets'),
-    template_folder=REACT_BUILD_DIR
-)
+# ✅ Correct static_folder is the Vite dist folder, not just /assets
+app = Flask(__name__, static_folder=REACT_BUILD_DIR, static_url_path='')
+
 app.config.from_object(Config)
 
 # Initialize extensions
@@ -52,15 +49,15 @@ app.register_blueprint(analytics_bp)
 with app.app_context():
     db.create_all()
 
-# ✅ Serve React frontend for all non-API routes
+# ✅ Serve React frontend
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve_react(path):
-    full_path = os.path.join(REACT_BUILD_DIR, path)
-    if path != "" and os.path.exists(full_path):
+    file_path = os.path.join(REACT_BUILD_DIR, path)
+    if path != '' and os.path.exists(file_path):
         return send_from_directory(REACT_BUILD_DIR, path)
     return send_from_directory(REACT_BUILD_DIR, 'index.html')
 
-# ✅ Run app in development
+# Run app
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5055)
