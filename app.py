@@ -79,11 +79,6 @@ def serve_admin(path):
     else:
         return send_from_directory(ADMIN_BUILD_DIR, 'index.html')
 
-# Run the app
-if __name__ == '__main__':
-    socketio.run(app, debug=True)
-    return send_from_directory(REACT_BUILD_DIR, 'index.html')
-
-# Run with SocketIO
+# Run the app (locally or via Gunicorn)
 if __name__ == '__main__':
     socketio.run(app, debug=True, host='0.0.0.0', port=5055)
