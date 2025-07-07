@@ -1,6 +1,9 @@
 from flask import Flask, send_from_directory
-from flask_socketio import SocketIO
 import os
+import eventlet
+eventlet.monkey_patch()
+
+from flask_socketio import SocketIO
 from config import Config
 from models import db, bcrypt
 
@@ -18,15 +21,16 @@ from routes.notifications_routes import notifications_bp
 from routes.settings_routes import settings_bp
 from routes.analytics_routes import analytics_bp
 
-# Setup frontend path
+# Setup frontend paths
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-REACT_BUILD_DIR = os.path.join(BASE_DIR, 'client_frontend', 'static')
+CLIENT_BUILD_DIR = os.path.join(BASE_DIR, 'client_frontend', 'static')
+ADMIN_BUILD_DIR = os.path.join(BASE_DIR, 'admin_frontend', 'static')
 
 # Initialize Flask app
 app = Flask(
     __name__,
-    static_folder=os.path.join(REACT_BUILD_DIR, 'assets'),
-    template_folder=REACT_BUILD_DIR
+    static_folder=os.path.join(CLIENT_BUILD_DIR, 'assets'),
+    template_folder=CLIENT_BUILD_DIR
 )
 app.config.from_object(Config)
 
@@ -35,7 +39,7 @@ db.init_app(app)
 bcrypt.init_app(app)
 
 # Initialize SocketIO
-socketio = SocketIO(app, cors_allowed_origins="*")  # Allow all origins for dev
+socketio = SocketIO(app, cors_allowed_origins="*", async_mode="eventlet")
 
 # Register blueprints
 app.register_blueprint(doctor_bp)
@@ -55,15 +59,30 @@ app.register_blueprint(analytics_bp)
 with app.app_context():
     db.create_all()
 
-# Serve frontend
+# Serve client frontend
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
-def serve_react(path):
-    target_file = os.path.join(REACT_BUILD_DIR, path)
+def serve_client(path):
+    target_file = os.path.join(CLIENT_BUILD_DIR, path)
     if path != '' and os.path.exists(target_file):
-        return send_from_directory(REACT_BUILD_DIR, path)
-    return send_from_directory(REACT_BUILD_DIR, 'index.html')
+        return send_from_directory(CLIENT_BUILD_DIR, path)
+    else:
+        return send_from_directory(CLIENT_BUILD_DIR, 'index.html')
 
+# Serve admin frontend
+@app.route('/admin', defaults={'path': ''})
+@app.route('/admin/<path:path>')
+def serve_admin(path):
+    target_file = os.path.join(ADMIN_BUILD_DIR, path)
+    if path != '' and os.path.exists(target_file):
+        return send_from_directory(ADMIN_BUILD_DIR, path)
+    else:
+        return send_from_directory(ADMIN_BUILD_DIR, 'index.html')
+
+# Run the app
+if __name__ == '__main__':
+    socketio.run(app, debug=True)
+    return send_from_directory(REACT_BUILD_DIR, 'index.html')
 
 # Run with SocketIO
 if __name__ == '__main__':
