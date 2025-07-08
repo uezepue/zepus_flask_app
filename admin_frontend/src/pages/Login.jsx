@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/FormStyles.css';
 
-export default function Login() {
+export default function AdminLogin() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -24,7 +24,15 @@ export default function Login() {
       const data = await res.json();
 
       if (res.ok) {
-        navigate('/dashboard');
+        if (data.role === 'admin') {
+          // Optionally store admin info
+          localStorage.setItem('admin', JSON.stringify(data));
+
+          // Redirect to admin dashboard
+          navigate('/dashboard');
+        } else {
+          setError('Unauthorized. Please use the client login page.');
+        }
       } else {
         setError(data.message || 'Login failed. Check your credentials.');
       }

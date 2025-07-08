@@ -24,12 +24,18 @@ export default function Login() {
       const data = await res.json();
 
       if (res.ok) {
-        if (data.role === 'doctor') {
+        const role = data.role;
+        localStorage.setItem('role', role);
+        if (data.token) {
+          localStorage.setItem('token', data.token);
+        }
+
+        if (role === 'doctor') {
           navigate('/doctor/dashboard');
-        } else if (data.role === 'admin') {
-          navigate('/admin');
+        } else if (role === 'patient') {
+          navigate('/patient/dashboard');
         } else {
-          navigate('/dashboard');
+          setError('Unauthorized role. Please login via the correct portal.');
         }
       } else {
         setError(data.message || 'Login failed. Check your credentials.');
