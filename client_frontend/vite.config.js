@@ -6,14 +6,14 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   root: './src',
-  base: '',
+  base: '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
     },
   },
   build: {
-    outDir: '../static',
+    outDir: '../client_frontend/static',  // Ensure output is inside client folder
     emptyOutDir: true,
   },
   server: {
@@ -22,9 +22,9 @@ export default defineConfig({
       '/api': 'http://localhost:5055',
       '/socket.io': {
         target: 'http://localhost:5055',
-        ws: true,               // <-- WebSocket support
+        ws: true,
         changeOrigin: true,
       },
     },
   },
-})
+});

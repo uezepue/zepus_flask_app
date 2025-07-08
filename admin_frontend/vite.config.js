@@ -1,22 +1,26 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import path from 'path';
+// vite.config.js
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  root: '.', // 👈 Ensures it reads from root (where index.html lives)
-  base: '',
+  root: './src',
+  base: '/admin/',  // Ensures paths like /admin/assets/... work correctly
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
     },
   },
   build: {
-    outDir: 'static',        // Output goes to admin_frontend/static
+    outDir: '../admin_frontend/static',  // Keeps admin build isolated
     emptyOutDir: true,
+    rollupOptions: {
+      input: path.resolve(__dirname, 'src/index.html'),  // entry point
+    },
   },
   server: {
-    port: 5174,              // ⬅️ Use a different dev port from client to avoid conflict
+    port: 5174,
     proxy: {
       '/api': 'http://localhost:5055',
       '/socket.io': {

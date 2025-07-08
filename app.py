@@ -26,7 +26,7 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 CLIENT_BUILD_DIR = os.path.join(BASE_DIR, 'client_frontend', 'static')
 ADMIN_BUILD_DIR = os.path.join(BASE_DIR, 'admin_frontend', 'static')
 
-# Initialize Flask app (no static_folder or template_folder here)
+# Initialize Flask app
 app = Flask(__name__)
 app.config.from_object(Config)
 
@@ -55,7 +55,7 @@ app.register_blueprint(analytics_bp)
 with app.app_context():
     db.create_all()
 
-# Serve admin frontend
+# ✅ Serve admin frontend first
 @app.route('/admin', defaults={'path': ''})
 @app.route('/admin/<path:path>')
 def serve_admin(path):
@@ -64,14 +64,10 @@ def serve_admin(path):
         return send_from_directory(ADMIN_BUILD_DIR, path)
     return send_from_directory(ADMIN_BUILD_DIR, 'index.html')
 
-# Serve client frontend
+# ✅ Serve client frontend last
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve_client(path):
-    # If someone tries /admin/* but hits this route, send them to admin instead
-    if path.startswith('admin'):
-        return send_from_directory(ADMIN_BUILD_DIR, 'index.html')
-
     target_file = os.path.join(CLIENT_BUILD_DIR, path)
     if path and os.path.exists(target_file):
         return send_from_directory(CLIENT_BUILD_DIR, path)
