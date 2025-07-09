@@ -8,23 +8,31 @@ export default function LogoutButton() {
     try {
       const res = await fetch('/api/logout', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' }
+        headers: { 'Content-Type': 'application/json' },
       });
 
+      // Always clear client-side session
+      localStorage.removeItem('user'); // or 'patient' / 'doctor' / 'admin'
+
       if (res.ok) {
-        // Optionally clear client-side state here
-        navigate('/');
+        navigate('/login');
       } else {
-        alert('Logout failed.');
+        alert('Logout failed. You have been logged out locally.');
+        navigate('/login');
       }
     } catch (error) {
       console.error('Logout error:', error);
-      alert('Network error. Try again.');
+      alert('⚠️ Network error. Logging out locally.');
+      localStorage.removeItem('user'); // fallback cleanup
+      navigate('/login');
     }
   };
 
   return (
-    <button onClick={handleLogout} className="logout-button">
+    <button
+      onClick={handleLogout}
+      className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700"
+    >
       Logout
     </button>
   );

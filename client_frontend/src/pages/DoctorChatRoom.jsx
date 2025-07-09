@@ -11,12 +11,15 @@ export default function DoctorChatRoom() {
   const [currentPatient, setCurrentPatient] = useState(null);
   const chatEndRef = useRef(null);
 
+  const doctor = JSON.parse(localStorage.getItem('user')); // ✅ Use logged-in doctor data
+  const doctorId = doctor?.id || 1;
+
   const scrollToBottom = () => {
     chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
   useEffect(() => {
-    socket.emit('doctor_join', { doctor_id: 1 }); // replace with real doctor ID from session
+    socket.emit('doctor_join', { doctor_id: doctorId });
 
     socket.on('chat_message', (data) => {
       setMessages(prev => [...prev, { sender: 'Patient', text: data.message }]);
@@ -25,7 +28,7 @@ export default function DoctorChatRoom() {
     socket.on('next_patient', (data) => {
       if (data.patient_id) {
         setCurrentPatient(data.patient_id);
-        setMessages(prev => [...prev, { sender: 'System', text: `Patient ${data.patient_id} is now connected.` }]);
+        setMessages(prev => [...prev, { sender: 'System', text: `👤 Patient ${data.patient_id} is now connected.` }]);
       } else if (data.msg) {
         setMessages(prev => [...prev, { sender: 'System', text: data.msg }]);
       }
@@ -35,7 +38,7 @@ export default function DoctorChatRoom() {
       socket.off('chat_message');
       socket.off('next_patient');
     };
-  }, []);
+  }, [doctorId]);
 
   useEffect(() => {
     scrollToBottom();
@@ -46,12 +49,13 @@ export default function DoctorChatRoom() {
     if (!trimmed || !currentPatient) return;
 
     setInput('');
+    setError(null);
     setMessages(prev => [...prev, { sender: 'Dr. You', text: trimmed }]);
 
     try {
       socket.emit('doctor_message', {
         patient_id: currentPatient,
-        message: trimmed
+        message: trimmed,
       });
     } catch (err) {
       console.error(err);
@@ -61,7 +65,8 @@ export default function DoctorChatRoom() {
   };
 
   const getNextPatient = () => {
-    socket.emit('next_patient', { doctor_id: 1 }); // replace with real doctor ID from session
+    socket.emit('next_patient', { doctor_id: doctorId });
+    setError(null);
   };
 
   return (
@@ -75,13 +80,19 @@ export default function DoctorChatRoom() {
         <button onClick={getNextPatient} className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
           📣 See Next Patient
         </button>
-        <span className="text-gray-700">{currentPatient ? `Chatting with Patient ${currentPatient}` : 'No patient in session'}</span>
+        <span className="text-gray-700">
+          {currentPatient ? `Chatting with Patient ${currentPatient}` : 'No patient in session'}
+        </span>
       </div>
 
       <div className="h-96 overflow-y-auto border p-4 rounded bg-gray-50" id="chat-box">
         {messages.map((msg, i) => (
           <div key={i} className={`mb-2 ${msg.sender === 'Dr. You' ? 'text-right' : 'text-left'}`}>
-            <div className={`inline-block p-2 rounded-lg ${msg.sender === 'Dr. You' ? 'bg-blue-100 text-blue-900' : msg.sender === 'Patient' ? 'bg-green-100 text-green-900' : 'bg-gray-300 text-gray-800'}`}>
+            <div className={`inline-block px-3 py-2 rounded-lg max-w-sm break-words ${
+              msg.sender === 'Dr. You' ? 'bg-blue-100 text-blue-900' :
+              msg.sender === 'Patient' ? 'bg-green-100 text-green-900' :
+              'bg-gray-300 text-gray-800'
+            }`}>
               <strong>{msg.sender}:</strong> {msg.text}
             </div>
           </div>
@@ -89,7 +100,7 @@ export default function DoctorChatRoom() {
         <div ref={chatEndRef} />
       </div>
 
-      {error && <p className="text-red-600 mt-2">{error}</p>}
+      {error && <p className="text-red-600 mt-2 text-sm">{error}</p>}
 
       <div className="flex mt-4 gap-2">
         <input
@@ -100,12 +111,17 @@ export default function DoctorChatRoom() {
           onKeyDown={e => e.key === 'Enter' && sendMessage()}
           className="flex-grow p-2 border border-gray-300 rounded-md"
         />
-        <button onClick={sendMessage} className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send</button>
+        <button
+          onClick={sendMessage}
+          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+        >
+          Send
+        </button>
       </div>
 
       <div className="mt-6 text-sm text-gray-600">
-        📞 Upcoming Features: Audio & Video Call buttons
-        {/* Future buttons for audio/video */}
+        📞 Upcoming Features: Audio & Video Call buttons here.
+        {/* Future: Add <button>Video</button> and <button>Audio</button> */}
       </div>
     </div>
   );

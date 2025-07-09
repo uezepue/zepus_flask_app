@@ -1,4 +1,3 @@
-// VerifyDocuments.jsx
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -10,9 +9,8 @@ export default function VerifyDocuments() {
     photo: null,
     cv: null,
   });
-  const [info, setInfo] = useState({
-    folio_number: '',
-  });
+
+  const [info, setInfo] = useState({ folio_number: '' });
   const [confirm, setConfirm] = useState(false);
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
@@ -52,48 +50,76 @@ export default function VerifyDocuments() {
 
       const data = await res.json();
       if (res.ok && data.status === 'success') {
-        setSuccess('Documents uploaded successfully.');
+        setSuccess('✅ Documents uploaded successfully.');
         setTimeout(() => navigate('/doctor/dashboard'), 2000);
       } else {
-        setError(data.message || 'Upload failed.');
+        setError(data.message || '❌ Upload failed.');
       }
     } catch (err) {
       console.error(err);
-      setError('An error occurred during upload.');
+      setError('❌ An error occurred during upload.');
     }
   };
 
   return (
-    <div className="form-container">
-      <h2>Doctor Verification – Document Upload</h2>
-      {error && <p className="text-red-600">{error}</p>}
-      {success && <p className="text-green-600">{success}</p>}
+    <div className="max-w-xl mx-auto mt-10 bg-white p-6 rounded shadow-md">
+      <h2 className="text-2xl font-semibold text-center text-blue-800 mb-6">🩺 Doctor Verification</h2>
 
-      <form onSubmit={handleSubmit} encType="multipart/form-data">
-        <label>MDCN Folio Number</label>
-        <input name="folio_number" placeholder="Enter your MDCN folio number" required value={info.folio_number} onChange={handleInfoChange} />
+      {error && <p className="text-red-600 mb-4 text-center">{error}</p>}
+      {success && <p className="text-green-600 mb-4 text-center">{success}</p>}
 
-        <label>Medical License</label>
-        <input type="file" name="license" required onChange={handleFileChange} />
+      <form onSubmit={handleSubmit} encType="multipart/form-data" className="space-y-4">
+        <div>
+          <label className="block font-medium mb-1">MDCN Folio Number</label>
+          <input
+            name="folio_number"
+            type="text"
+            required
+            placeholder="Enter your MDCN folio number"
+            value={info.folio_number}
+            onChange={handleInfoChange}
+            className="w-full p-2 border border-gray-300 rounded"
+          />
+        </div>
 
-        <label>Government ID</label>
-        <input type="file" name="gov_id" required onChange={handleFileChange} />
+        <div>
+          <label className="block font-medium mb-1">Medical License</label>
+          <input type="file" name="license" required onChange={handleFileChange} className="w-full" />
+        </div>
 
-        <label>Specialty Certificate</label>
-        <input type="file" name="specialty_cert" required onChange={handleFileChange} />
+        <div>
+          <label className="block font-medium mb-1">Government ID</label>
+          <input type="file" name="gov_id" required onChange={handleFileChange} className="w-full" />
+        </div>
 
-        <label>Passport Photo</label>
-        <input type="file" name="photo" required onChange={handleFileChange} />
+        <div>
+          <label className="block font-medium mb-1">Specialty Certificate</label>
+          <input type="file" name="specialty_cert" required onChange={handleFileChange} className="w-full" />
+        </div>
 
-        <label>Curriculum Vitae (CV)</label>
-        <input type="file" name="cv" required onChange={handleFileChange} />
+        <div>
+          <label className="block font-medium mb-1">Passport Photo</label>
+          <input type="file" name="photo" required onChange={handleFileChange} className="w-full" />
+        </div>
 
-        <label className="mt-4">
-          <input type="checkbox" checked={confirm} onChange={(e) => setConfirm(e.target.checked)} />{' '}
-          I confirm that my uploaded documents are valid
-        </label>
+        <div>
+          <label className="block font-medium mb-1">Curriculum Vitae (CV)</label>
+          <input type="file" name="cv" required onChange={handleFileChange} className="w-full" />
+        </div>
 
-        <button type="submit" className="btn-primary mt-4">Submit Documents</button>
+        <div className="mt-4">
+          <label className="inline-flex items-center">
+            <input type="checkbox" checked={confirm} onChange={e => setConfirm(e.target.checked)} className="mr-2" />
+            I confirm that my uploaded documents are valid.
+          </label>
+        </div>
+
+        <button
+          type="submit"
+          className="w-full bg-blue-700 hover:bg-blue-800 text-white py-2 px-4 rounded mt-4"
+        >
+          Submit Documents
+        </button>
       </form>
     </div>
   );
