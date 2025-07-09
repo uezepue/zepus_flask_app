@@ -55,7 +55,7 @@ app.register_blueprint(analytics_bp)
 with app.app_context():
     db.create_all()
 
-# ✅ Serve admin frontend first
+# ✅ Serve admin frontend
 @app.route('/admin', defaults={'path': ''})
 @app.route('/admin/<path:path>')
 def serve_admin(path):
@@ -64,10 +64,12 @@ def serve_admin(path):
         return send_from_directory(ADMIN_BUILD_DIR, path)
     return send_from_directory(ADMIN_BUILD_DIR, 'index.html')
 
-# ✅ Serve client frontend last
+# ✅ Serve client frontend (guard against /admin)
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve_client(path):
+    if path.startswith('admin'):
+        return send_from_directory(ADMIN_BUILD_DIR, 'index.html')
     target_file = os.path.join(CLIENT_BUILD_DIR, path)
     if path and os.path.exists(target_file):
         return send_from_directory(CLIENT_BUILD_DIR, path)
