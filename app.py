@@ -55,9 +55,12 @@ app.register_blueprint(analytics_bp)
 with app.app_context():
     db.create_all()
 
-# ✅ Serve static files for admin
+# =============================
+# 🚧 ADMIN STATIC ROUTES
+# =============================
+
 @app.route('/admin/assets/<path:filename>')
-def admin_static(filename):
+def admin_assets(filename):
     return send_from_directory(os.path.join(ADMIN_BUILD_DIR, 'assets'), filename)
 
 @app.route('/admin/<path:path>')
@@ -68,17 +71,23 @@ def serve_admin(path):
         return send_from_directory(ADMIN_BUILD_DIR, path)
     return send_from_directory(ADMIN_BUILD_DIR, 'index.html')
 
-# ✅ Serve static files for client
+
+# =============================
+# 🧑‍⚕️ CLIENT STATIC ROUTES
+# =============================
+
 @app.route('/assets/<path:filename>')
-def client_static(filename):
+def client_assets(filename):
     return send_from_directory(os.path.join(CLIENT_BUILD_DIR, 'assets'), filename)
 
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve_client(path):
-    if path and os.path.exists(os.path.join(CLIENT_BUILD_DIR, path)):
+    file_path = os.path.join(CLIENT_BUILD_DIR, path)
+    if path and os.path.exists(file_path):
         return send_from_directory(CLIENT_BUILD_DIR, path)
     return send_from_directory(CLIENT_BUILD_DIR, 'index.html')
+
 
 # Run the app
 if __name__ == '__main__':

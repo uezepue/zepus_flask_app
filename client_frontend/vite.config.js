@@ -6,15 +6,18 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   root: './src',
-  base: '/',
+  base: '/', // correct for root path (client frontend served at '/')
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
     },
   },
   build: {
-    outDir: '../client_frontend/static',  // Ensure output is inside client folder
+    outDir: '../client_frontend/static', // must match Flask serve path
     emptyOutDir: true,
+    rollupOptions: {
+      input: path.resolve(__dirname, 'src/index.html'), // ensure correct entry
+    },
   },
   server: {
     port: 5173,

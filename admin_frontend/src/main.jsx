@@ -1,10 +1,17 @@
+// admin_frontend/src/main.jsx
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
-// Mount the app into the <div id="root"> inside index.html
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+try {
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(
+    <BrowserRouter basename="/admin">
+      <App />
+    </BrowserRouter>
+  );
+} catch (error) {
+  console.error('🔥 Admin React failed to render:', error);
+}

@@ -5,18 +5,18 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  root: './src',
-  base: '/admin/',  // Ensures paths like /admin/assets/... work correctly
+  root: './src', // Entry point for Vite dev and build
+  base: '/admin/', // Ensures correct asset paths for deployment
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
     },
   },
   build: {
-    outDir: '../admin_frontend/static',  // Keeps admin build isolated
+    outDir: '../static', // Outputs to admin_frontend/static
     emptyOutDir: true,
     rollupOptions: {
-      input: path.resolve(__dirname, 'src/index.html'),  // entry point
+      input: path.resolve(__dirname, 'src/index.html'), // Required when custom root is used
     },
   },
   server: {
