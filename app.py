@@ -23,18 +23,14 @@ from routes.analytics_routes import analytics_bp
 
 # Setup frontend paths
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-CLIENT_BUILD_DIR = os.path.join(BASE_DIR, 'client_frontend', 'static')
-ADMIN_BUILD_DIR = os.path.join(BASE_DIR, 'admin_frontend', 'static')
+CLIENT_STATIC = os.path.join(BASE_DIR, 'client_frontend', 'static')
+ADMIN_STATIC = os.path.join(BASE_DIR, 'admin_frontend', 'static')
 
-# Initialize Flask app
-app = Flask(__name__)
+app = Flask(__name__, static_folder=None)
 app.config.from_object(Config)
 
-# Initialize extensions
 db.init_app(app)
 bcrypt.init_app(app)
-
-# Initialize SocketIO
 socketio = SocketIO(app, cors_allowed_origins="*", async_mode="eventlet")
 
 # Register blueprints
@@ -55,40 +51,27 @@ app.register_blueprint(analytics_bp)
 with app.app_context():
     db.create_all()
 
-# =============================
-# 🚧 ADMIN STATIC ROUTES
-# =============================
-
-@app.route('/admin/assets/<path:filename>')
-def admin_assets(filename):
-    return send_from_directory(os.path.join(ADMIN_BUILD_DIR, 'assets'), filename)
-
-@app.route('/admin/<path:path>')
+# ✅ Serve Admin static files
 @app.route('/admin', defaults={'path': ''})
+@app.route('/admin/<path:path>')
 def serve_admin(path):
-    file_path = os.path.join(ADMIN_BUILD_DIR, path)
-    if path and os.path.exists(file_path):
-        return send_from_directory(ADMIN_BUILD_DIR, path)
-    return send_from_directory(ADMIN_BUILD_DIR, 'index.html')
+    full_path = os.path.join(ADMIN_STATIC, path)
+    if path and os.path.exists(full_path):
+        return send_from_directory(ADMIN_STATIC, path)
+    return send_from_directory(ADMIN_STATIC, 'index.html')
 
-
-# =============================
-# 🧑‍⚕️ CLIENT STATIC ROUTES
-# =============================
-
-@app.route('/assets/<path:filename>')
-def client_assets(filename):
-    return send_from_directory(os.path.join(CLIENT_BUILD_DIR, 'assets'), filename)
-
+# ✅ Serve Client static files
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve_client(path):
-    file_path = os.path.join(CLIENT_BUILD_DIR, path)
-    if path and os.path.exists(file_path):
-        return send_from_directory(CLIENT_BUILD_DIR, path)
-    return send_from_directory(CLIENT_BUILD_DIR, 'index.html')
+    # Prevent admin route from leaking here
+    if path.startswith('admin'):
+        return send_from_directory(ADMIN_STATIC, 'index.html')
 
+    full_path = os.path.join(CLIENT_STATIC, path)
+    if path and os.path.exists(full_path):
+        return send_from_directory(CLIENT_STATIC, path)
+    return send_from_directory(CLIENT_STATIC, 'index.html')
 
-# Run the app
 if __name__ == '__main__':
     socketio.run(app, debug=True, host='0.0.0.0', port=5055)
