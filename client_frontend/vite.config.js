@@ -1,23 +1,20 @@
-// vite.config.js
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import path from 'path'
+// client_frontend/vite.config.js
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  root: './src',
-  base: '/',  // ✅ leave this as-is for client app served at root
+  root: '.',  // ✅ Use project root, not ./src
+  base: '/',  // ✅ Serve at root
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
     },
   },
   build: {
-    outDir: '../static',  // ✅ Correct: places output into client_frontend/static
+    outDir: 'static',  // ✅ Output folder for Flask to serve
     emptyOutDir: true,
-    rollupOptions: {
-      input: path.resolve(__dirname, 'src/index.html'),
-    },
   },
   server: {
     port: 5173,

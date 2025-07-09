@@ -1,11 +1,16 @@
-from flask import Flask, send_from_directory
 import os
+import logging
+from flask import Flask, send_from_directory
 import eventlet
 eventlet.monkey_patch()
 
 from flask_socketio import SocketIO
+from flask.cli import with_appcontext
 from config import Config
 from models import db, bcrypt
+
+# CLI seed script
+from script.seed_test_users import seed_test_users
 
 # Import blueprints
 from routes.doctors_routes import doctor_bp
@@ -21,14 +26,18 @@ from routes.notifications_routes import notifications_bp
 from routes.settings_routes import settings_bp
 from routes.analytics_routes import analytics_bp
 
-# Setup frontend paths
+from mimetypes import guess_type
+
+# Setup base paths
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 CLIENT_STATIC = os.path.join(BASE_DIR, 'client_frontend', 'static')
 ADMIN_STATIC = os.path.join(BASE_DIR, 'admin_frontend', 'static')
 
+# Initialize Flask
 app = Flask(__name__, static_folder=None)
 app.config.from_object(Config)
 
+# Initialize extensions
 db.init_app(app)
 bcrypt.init_app(app)
 socketio = SocketIO(app, cors_allowed_origins="*", async_mode="eventlet")
@@ -51,27 +60,34 @@ app.register_blueprint(analytics_bp)
 with app.app_context():
     db.create_all()
 
+# Register custom CLI commands
+app.cli.add_command(seed_test_users)
+
 # ✅ Serve Admin static files
 @app.route('/admin', defaults={'path': ''})
 @app.route('/admin/<path:path>')
 def serve_admin(path):
     full_path = os.path.join(ADMIN_STATIC, path)
     if path and os.path.exists(full_path):
-        return send_from_directory(ADMIN_STATIC, path)
+        mime, _ = guess_type(full_path)
+        return send_from_directory(ADMIN_STATIC, path, mimetype=mime)
     return send_from_directory(ADMIN_STATIC, 'index.html')
 
 # ✅ Serve Client static files
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve_client(path):
-    # Prevent admin route from leaking here
+    # Prevent admin paths from falling through
     if path.startswith('admin'):
         return send_from_directory(ADMIN_STATIC, 'index.html')
 
     full_path = os.path.join(CLIENT_STATIC, path)
     if path and os.path.exists(full_path):
-        return send_from_directory(CLIENT_STATIC, path)
+        mime, _ = guess_type(full_path)
+        return send_from_directory(CLIENT_STATIC, path, mimetype=mime)
     return send_from_directory(CLIENT_STATIC, 'index.html')
 
+# ✅ Entry point
 if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO)
     socketio.run(app, debug=True, host='0.0.0.0', port=5055)

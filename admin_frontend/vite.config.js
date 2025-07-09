@@ -1,23 +1,20 @@
-// vite.config.js
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import path from 'path'
+// admin_frontend/vite.config.js
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  root: './src', // Entry point for Vite dev and build
-  base: '/admin/', // Ensures correct asset paths for deployment
+  root: '.',  // ✅ Use the actual root of admin_frontend
+  base: '/admin/',  // ✅ Required for correct routing under /admin
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
     },
   },
   build: {
-    outDir: '../static', // Outputs to admin_frontend/static
+    outDir: 'static',  // ✅ Outputs to admin_frontend/static
     emptyOutDir: true,
-    rollupOptions: {
-      input: path.resolve(__dirname, 'src/index.html'), // Required when custom root is used
-    },
   },
   server: {
     port: 5174,
