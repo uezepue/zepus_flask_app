@@ -1,6 +1,6 @@
 import React from 'react';
-import Home from './pages/Home';
+import TriageBotRoom from './pages/TriageBotRoom';
 
 export default function App() {
-  return <Home />;
+  return <TriageBotRoom />;
 }
