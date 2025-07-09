@@ -55,23 +55,28 @@ app.register_blueprint(analytics_bp)
 with app.app_context():
     db.create_all()
 
-# ✅ Serve admin frontend
-@app.route('/admin', defaults={'path': ''})
+# ✅ Serve static files for admin
+@app.route('/admin/assets/<path:filename>')
+def admin_static(filename):
+    return send_from_directory(os.path.join(ADMIN_BUILD_DIR, 'assets'), filename)
+
 @app.route('/admin/<path:path>')
+@app.route('/admin', defaults={'path': ''})
 def serve_admin(path):
-    target_file = os.path.join(ADMIN_BUILD_DIR, path)
-    if path and os.path.exists(target_file):
+    file_path = os.path.join(ADMIN_BUILD_DIR, path)
+    if path and os.path.exists(file_path):
         return send_from_directory(ADMIN_BUILD_DIR, path)
     return send_from_directory(ADMIN_BUILD_DIR, 'index.html')
 
-# ✅ Serve client frontend (guard against /admin)
+# ✅ Serve static files for client
+@app.route('/assets/<path:filename>')
+def client_static(filename):
+    return send_from_directory(os.path.join(CLIENT_BUILD_DIR, 'assets'), filename)
+
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve_client(path):
-    if path.startswith('admin'):
-        return send_from_directory(ADMIN_BUILD_DIR, 'index.html')
-    target_file = os.path.join(CLIENT_BUILD_DIR, path)
-    if path and os.path.exists(target_file):
+    if path and os.path.exists(os.path.join(CLIENT_BUILD_DIR, path)):
         return send_from_directory(CLIENT_BUILD_DIR, path)
     return send_from_directory(CLIENT_BUILD_DIR, 'index.html')
 
