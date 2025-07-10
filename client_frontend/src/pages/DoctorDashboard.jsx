@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 
 export default function DoctorDashboard() {
   const [doctor, setDoctor] = useState(null);
@@ -37,145 +36,141 @@ export default function DoctorDashboard() {
   };
 
   if (error) {
-    return <div className="text-red-600 text-center mt-10">{error}</div>;
+    return (
+      <div className="alert alert-error mt-10 w-11/12 mx-auto justify-center">{error}</div>
+    );
   }
 
   if (!doctor) {
-    return <div className="text-center mt-10 text-blue-800">Loading Doctor Dashboard...</div>;
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <span className="loading loading-spinner loading-lg text-primary"></span>
+      </div>
+    );
   }
 
   const statusText = doctor.status?.charAt(0).toUpperCase() + doctor.status?.slice(1);
   const waitingCount = appointments.filter(a => ['waiting', 'pending'].includes(a.status)).length;
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="flex justify-between items-center bg-blue-800 text-white px-6 py-4 shadow-md">
-        <h1 className="text-xl font-bold">ZEPUS Clinics – Doctor Dashboard</h1>
-        <div className="space-x-4">
-          <Link to="/" className="hover:underline">Home</Link>
-          <span>Welcome, Dr. {doctor.name}</span>
-          <button onClick={handleLogout} className="hover:underline text-red-200">Logout</button>
+    <div className="min-h-screen bg-base-200">
+      {/* Navbar */}
+      <div className="navbar bg-base-100 shadow-md px-6">
+        <div className="flex-1 text-xl font-bold text-primary">
+          ZEPUS Clinics – Doctor Dashboard
         </div>
-      </header>
+        <div className="flex gap-4">
+          <span className="text-sm">Welcome, Dr. {doctor.name}</span>
+          <Link to="/" className="btn btn-sm btn-outline">Home</Link>
+          <button onClick={handleLogout} className="btn btn-sm btn-error">Logout</button>
+        </div>
+      </div>
 
-      {/* Warning Alerts */}
+      {/* Alerts */}
       {waitingCount > 0 && (
-        <div className="bg-yellow-100 text-yellow-800 px-6 py-3 text-center font-semibold">
+        <div className="alert alert-warning mt-4 mx-6">
           🛎️ {waitingCount} patient{waitingCount > 1 ? 's' : ''} waiting for consultation.
         </div>
       )}
 
       {['pending', 'flagged', 'expired'].includes(doctor.status) && (
-        <div className="bg-red-100 text-red-800 px-6 py-3 text-center">
+        <div className="alert alert-error mx-6 mt-4">
           ⚠️ Your account is <strong>{statusText}</strong>.{' '}
-          {{
-            flagged: 'Please re-submit valid documents.',
-            expired: 'Some documents have expired. Please upload updated versions.',
-            pending: 'Awaiting admin approval.',
-          }[doctor.status]}
+          {doctor.status === 'flagged' && 'Please re-submit valid documents.'}
+          {doctor.status === 'expired' && 'Some documents have expired. Please upload updated versions.'}
+          {doctor.status === 'pending' && 'Awaiting admin approval.'}
         </div>
       )}
 
-      {/* Tabs Section */}
+      {/* Tabs */}
       <div className="p-6">
-        <Tabs defaultValue="overview" className="w-full">
-          <TabsList className="flex flex-wrap gap-2 mb-4">
-            <TabsTrigger value="overview">🏠 Overview</TabsTrigger>
-            <TabsTrigger value="appointments">📅 Appointments</TabsTrigger>
-            <TabsTrigger value="broadcasts">📣 Broadcasts</TabsTrigger>
-            <TabsTrigger value="patients">🧑‍🤝‍🧑 Patients</TabsTrigger>
-            <TabsTrigger value="notes">📝 Notes</TabsTrigger>
-            <TabsTrigger value="prescriptions">💊 Prescriptions</TabsTrigger>
-            <TabsTrigger value="earnings">💼 Earnings</TabsTrigger>
-            <TabsTrigger value="settings">⚙️ Settings</TabsTrigger>
-          </TabsList>
+        <div role="tablist" className="tabs tabs-boxed mb-4 flex-wrap">
+          {[
+            ['overview', '🏠 Overview'],
+            ['appointments', '📅 Appointments'],
+            ['broadcasts', '📣 Broadcasts'],
+            ['patients', '🧑‍🤝‍🧑 Patients'],
+            ['notes', '📝 Notes'],
+            ['prescriptions', '💊 Prescriptions'],
+            ['earnings', '💼 Earnings'],
+            ['settings', '⚙️ Settings'],
+          ].map(([value, label]) => (
+            <input key={value}
+              type="radio"
+              name="dashboard-tabs"
+              role="tab"
+              className="tab"
+              aria-label={label}
+              checked={value === 'overview'}
+              onChange={() => {}}
+            />
+          ))}
+        </div>
 
-          {/* Tab: Overview */}
-          <TabsContent value="overview">
-            <div className="bg-white p-6 rounded shadow">
-              <h2 className="text-xl font-semibold mb-2">👨‍⚕️ Doctor Profile</h2>
-              <p><strong>Specialty:</strong> {doctor.specialty || 'Not provided'}</p>
-              <p><strong>Status:</strong> {statusText}</p>
-              <p><strong>Verification:</strong> {doctor.is_verified ? '✅ Verified' : '❌ Not Verified'}</p>
-              <p><strong>Consultation Fee:</strong> ₦{doctor.consultation_fee?.toLocaleString() || '0.00'}</p>
-            </div>
-          </TabsContent>
+        {/* Overview */}
+        <div className="card bg-base-100 shadow mb-6">
+          <div className="card-body">
+            <h2 className="card-title">👨‍⚕️ Doctor Profile</h2>
+            <p><strong>Specialty:</strong> {doctor.specialty || 'Not provided'}</p>
+            <p><strong>Status:</strong> {statusText}</p>
+            <p><strong>Verification:</strong> {doctor.is_verified ? '✅ Verified' : '❌ Not Verified'}</p>
+            <p><strong>Consultation Fee:</strong> ₦{doctor.consultation_fee?.toLocaleString() || '0.00'}</p>
+          </div>
+        </div>
 
-          {/* Tab: Appointments */}
-          <TabsContent value="appointments">
-            <div className="bg-white p-6 rounded shadow">
-              <h2 className="text-xl font-semibold mb-3">📅 Today’s Appointments</h2>
-              {appointments.length > 0 ? (
-                <ul className="space-y-2">
-                  {appointments.map((appt, idx) => (
-                    <li key={idx} className="border-b py-2">
-                      {appt.patient} – {appt.status} – {appt.appointment_type} ({appt.consultation_mode})
-                    </li>
-                  ))}
-                </ul>
-              ) : (
-                <p>No appointments today.</p>
-              )}
-            </div>
-          </TabsContent>
+        {/* Appointments */}
+        <div className="card bg-base-100 shadow mb-6">
+          <div className="card-body">
+            <h2 className="card-title">📅 Today’s Appointments</h2>
+            {appointments.length > 0 ? (
+              <ul className="divide-y">
+                {appointments.map((appt, i) => (
+                  <li key={i} className="py-2">
+                    <div className="flex justify-between">
+                      <span>{appt.patient}</span>
+                      <span className="badge badge-outline">{appt.status}</span>
+                    </div>
+                    <div className="text-sm text-gray-500">{appt.appointment_type} • {appt.consultation_mode}</div>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p>No appointments today.</p>
+            )}
+          </div>
+        </div>
 
-          {/* Tab: Broadcasts */}
-          <TabsContent value="broadcasts">
-            <div className="bg-white p-6 rounded shadow">
-              <h2 className="text-xl font-semibold mb-2">📣 Latest Broadcast</h2>
-              {broadcast ? (
-                <>
-                  <h4 className="text-lg font-bold">{broadcast.title}</h4>
-                  <p className="mt-1">{broadcast.body}</p>
-                  <small className="text-gray-500">Posted on {new Date(broadcast.created_at).toLocaleDateString()}</small>
-                </>
-              ) : (
-                <p>No new broadcasts.</p>
-              )}
-            </div>
-          </TabsContent>
+        {/* Broadcast */}
+        <div className="card bg-base-100 shadow mb-6">
+          <div className="card-body">
+            <h2 className="card-title">📣 Latest Broadcast</h2>
+            {broadcast ? (
+              <>
+                <h3 className="text-lg font-semibold">{broadcast.title}</h3>
+                <p>{broadcast.body}</p>
+                <small className="text-gray-500">Posted on {new Date(broadcast.created_at).toLocaleDateString()}</small>
+              </>
+            ) : (
+              <p>No new broadcasts.</p>
+            )}
+          </div>
+        </div>
 
-          {/* Tab: Patients */}
-          <TabsContent value="patients">
-            <div className="bg-white p-6 rounded shadow">
-              <h2 className="text-xl font-semibold mb-2">🧑‍🤝‍🧑 Patients</h2>
-              <p>Coming soon: Your patient list, recent interactions, and referrals.</p>
+        {/* Coming Soon Sections */}
+        {[
+          ['🧑‍🤝‍🧑 Patients', 'Your patient list, recent interactions, and referrals.'],
+          ['📝 Notes', 'Case notes, clinical summaries, and SOAP templates.'],
+          ['💊 Prescriptions', 'Drug templates, repeat prescriptions, and pharmacy linkage.'],
+          ['💼 Earnings', 'Consultation earnings, withdrawal requests, and ledger breakdown.'],
+          ['⚙️ Settings', 'Account preferences, password reset, availability settings.'],
+        ].map(([title, text], idx) => (
+          <div key={idx} className="card bg-base-100 shadow mb-4">
+            <div className="card-body">
+              <h2 className="card-title">{title}</h2>
+              <p className="text-gray-600">Coming soon: {text}</p>
             </div>
-          </TabsContent>
-
-          {/* Tab: Notes */}
-          <TabsContent value="notes">
-            <div className="bg-white p-6 rounded shadow">
-              <h2 className="text-xl font-semibold mb-2">📝 Notes</h2>
-              <p>Coming soon: Case notes, clinical summaries, and SOAP templates.</p>
-            </div>
-          </TabsContent>
-
-          {/* Tab: Prescriptions */}
-          <TabsContent value="prescriptions">
-            <div className="bg-white p-6 rounded shadow">
-              <h2 className="text-xl font-semibold mb-2">💊 Prescriptions</h2>
-              <p>Coming soon: Drug templates, repeat prescriptions, and pharmacy linkage.</p>
-            </div>
-          </TabsContent>
-
-          {/* Tab: Earnings */}
-          <TabsContent value="earnings">
-            <div className="bg-white p-6 rounded shadow">
-              <h2 className="text-xl font-semibold mb-2">💼 Earnings</h2>
-              <p>Coming soon: Consultation earnings, withdrawal requests, and ledger breakdown.</p>
-            </div>
-          </TabsContent>
-
-          {/* Tab: Settings */}
-          <TabsContent value="settings">
-            <div className="bg-white p-6 rounded shadow">
-              <h2 className="text-xl font-semibold mb-2">⚙️ Settings</h2>
-              <p>Coming soon: Account preferences, password reset, availability settings.</p>
-            </div>
-          </TabsContent>
-        </Tabs>
+          </div>
+        ))}
       </div>
     </div>
   );

@@ -71,66 +71,68 @@ export default function DoctorRegistration() {
   };
 
   return (
-    <div className="max-w-2xl mx-auto mt-10 bg-white p-6 rounded-xl shadow">
-      <h2 className="text-2xl font-bold mb-6 text-center text-blue-800">Register as a Doctor</h2>
+    <div className="max-w-3xl mx-auto mt-10 p-6">
+      <div className="card bg-base-100 shadow-xl p-6">
+        <h2 className="text-2xl font-bold text-center text-primary mb-4">👨‍⚕️ Register as a Doctor</h2>
 
-      {error && <p className="text-red-600 text-sm text-center mb-2">{error}</p>}
-      {success && <p className="text-green-600 text-sm text-center mb-2">{success}</p>}
+        {error && <div className="alert alert-error mb-4">{error}</div>}
+        {success && <div className="alert alert-success mb-4">{success}</div>}
 
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <input name="name" placeholder="Full Name" required className="w-full p-3 border border-gray-300 rounded-md" onChange={handleChange} />
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <input name="name" placeholder="Full Name" required className="input input-bordered w-full" onChange={handleChange} />
 
-        <div className="flex gap-4">
-          <input name="dob" type="date" required className="w-1/2 p-3 border border-gray-300 rounded-md" onChange={handleChange} />
-          <input name="age" value={formData.age} readOnly placeholder="Age" className="w-1/2 p-3 bg-gray-100 border border-gray-200 rounded-md" />
-        </div>
+          <div className="flex gap-4">
+            <input name="dob" type="date" required className="input input-bordered w-1/2" onChange={handleChange} />
+            <input name="age" value={formData.age} readOnly placeholder="Age" className="input input-disabled w-1/2" />
+          </div>
 
-        <select name="sex" required value={formData.sex} className="w-full p-3 border border-gray-300 rounded-md" onChange={handleChange}>
-          <option value="">Select Sex</option>
-          <option>Male</option>
-          <option>Female</option>
-          <option>Other</option>
-        </select>
+          <select name="sex" required value={formData.sex} className="select select-bordered w-full" onChange={handleChange}>
+            <option value="">Select Sex</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+          </select>
 
-        <input name="specialty" placeholder="Specialty" required className="w-full p-3 border border-gray-300 rounded-md" onChange={handleChange} />
-        <input name="qualification" placeholder="Qualification (e.g. MBBS, FWACS)" required className="w-full p-3 border border-gray-300 rounded-md" onChange={handleChange} />
-        <textarea name="bio" rows="3" placeholder="Short Bio" className="w-full p-3 border border-gray-300 rounded-md" onChange={handleChange}></textarea>
-        <input name="phone" placeholder="Phone Number" required className="w-full p-3 border border-gray-300 rounded-md" onChange={handleChange} />
-        <input name="email" type="email" placeholder="Email" required className="w-full p-3 border border-gray-300 rounded-md" onChange={handleChange} />
+          <input name="specialty" placeholder="Specialty" required className="input input-bordered w-full" onChange={handleChange} />
+          <input name="qualification" placeholder="Qualification (e.g. MBBS, FWACS)" required className="input input-bordered w-full" onChange={handleChange} />
+          <textarea name="bio" rows="3" placeholder="Short Bio" className="textarea textarea-bordered w-full" onChange={handleChange}></textarea>
+          <input name="phone" placeholder="Phone Number" required className="input input-bordered w-full" onChange={handleChange} />
+          <input name="email" type="email" placeholder="Email" required className="input input-bordered w-full" onChange={handleChange} />
 
-        <div className="flex gap-4">
-          <input name="password" type="password" placeholder="Password" required className="w-1/2 p-3 border border-gray-300 rounded-md" onChange={handleChange} />
-          <input name="confirmPassword" type="password" placeholder="Confirm Password" required className="w-1/2 p-3 border border-gray-300 rounded-md" onChange={handleChange} />
-        </div>
+          <div className="flex gap-4">
+            <input name="password" type="password" placeholder="Password" required className="input input-bordered w-1/2" onChange={handleChange} />
+            <input name="confirmPassword" type="password" placeholder="Confirm Password" required className="input input-bordered w-1/2" onChange={handleChange} />
+          </div>
 
-        <input name="address_line" placeholder="Residential Address" required className="w-full p-3 border border-gray-300 rounded-md" onChange={handleChange} />
-        <input name="city" placeholder="City" required className="w-full p-3 border border-gray-300 rounded-md" onChange={handleChange} />
+          <input name="address_line" placeholder="Residential Address" required className="input input-bordered w-full" onChange={handleChange} />
+          <input name="city" placeholder="City" required className="input input-bordered w-full" onChange={handleChange} />
 
-        <select name="state" required value={formData.state} className="w-full p-3 border border-gray-300 rounded-md" onChange={handleChange}>
-          <option value="">Select State</option>
-          {statesAndLgas.map((s, idx) => (
-            <option key={idx} value={s.state}>{s.state}</option>
-          ))}
-        </select>
+          <select name="state" required value={formData.state} className="select select-bordered w-full" onChange={handleChange}>
+            <option value="">Select State</option>
+            {statesAndLgas.map((s, idx) => (
+              <option key={idx} value={s.state}>{s.state}</option>
+            ))}
+          </select>
 
-        <select name="lga" required value={formData.lga} className="w-full p-3 border border-gray-300 rounded-md" onChange={handleChange}>
-          <option value="">Select LGA</option>
-          {lgaOptions.map((lga, idx) => (
-            <option key={idx} value={lga}>{lga}</option>
-          ))}
-        </select>
+          <select name="lga" required value={formData.lga} className="select select-bordered w-full" onChange={handleChange}>
+            <option value="">Select LGA</option>
+            {lgaOptions.map((lga, idx) => (
+              <option key={idx} value={lga}>{lga}</option>
+            ))}
+          </select>
 
-        <select name="state_of_origin" required value={formData.state_of_origin} className="w-full p-3 border border-gray-300 rounded-md" onChange={handleChange}>
-          <option value="">State of Origin</option>
-          {statesAndLgas.map((s, idx) => (
-            <option key={idx} value={s.state}>{s.state}</option>
-          ))}
-        </select>
+          <select name="state_of_origin" required value={formData.state_of_origin} className="select select-bordered w-full" onChange={handleChange}>
+            <option value="">State of Origin</option>
+            {statesAndLgas.map((s, idx) => (
+              <option key={idx} value={s.state}>{s.state}</option>
+            ))}
+          </select>
 
-        <button type="submit" disabled={loading} className="w-full bg-blue-700 hover:bg-blue-800 text-white py-2 px-4 rounded mt-2">
-          {loading ? 'Registering...' : 'Register'}
-        </button>
-      </form>
+          <button type="submit" disabled={loading} className={`btn btn-primary w-full ${loading ? 'loading' : ''}`}>
+            {loading ? 'Registering...' : 'Register'}
+          </button>
+        </form>
+      </div>
     </div>
   );
 }
