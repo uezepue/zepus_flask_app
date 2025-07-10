@@ -1,33 +1,38 @@
-import React, { useState } from 'react';
+import React, { useState, cloneElement, Children } from 'react';
 
-export function Tabs({ defaultValue, children, className }) {
-  const [active, setActive] = useState(defaultValue);
-  const triggers = [];
-  const contents = [];
-
-  React.Children.forEach(children, child => {
-    if (child.type.displayName === 'TabsTrigger') {
-      triggers.push(React.cloneElement(child, { active, setActive }));
-    } else if (child.type.displayName === 'TabsContent') {
-      contents.push(React.cloneElement(child, { active }));
-    }
-  });
-
+// Tabs parent
+export function Tabs({ children, defaultValue }) {
+  const [activeTab, setActiveTab] = useState(defaultValue);
   return (
-    <div className={className}>
-      <div className="flex gap-2 border-b mb-4">{triggers}</div>
-      <div>{contents}</div>
+    <div>
+      {Children.map(children, child =>
+        cloneElement(child, { activeTab, setActiveTab })
+      )}
     </div>
   );
 }
 
-export function TabsTrigger({ value, children, active, setActive }) {
-  const isActive = active === value;
+// Tabs list (header row of triggers)
+export function TabsList({ children, activeTab, setActiveTab }) {
+  return (
+    <div className="flex space-x-2 border-b border-gray-300 mb-4">
+      {Children.map(children, child =>
+        cloneElement(child, { activeTab, setActiveTab })
+      )}
+    </div>
+  );
+}
+
+// Tab trigger (each clickable button)
+export function TabsTrigger({ value, activeTab, setActiveTab, children }) {
+  const isActive = activeTab === value;
   return (
     <button
-      onClick={() => setActive(value)}
-      className={`px-4 py-2 rounded-t font-medium ${
-        isActive ? 'bg-white border border-b-0 text-blue-600' : 'bg-gray-200 text-gray-700'
+      onClick={() => setActiveTab(value)}
+      className={`px-4 py-2 text-sm font-medium border-b-2 ${
+        isActive
+          ? 'border-blue-600 text-blue-700'
+          : 'border-transparent text-gray-500 hover:text-blue-600'
       }`}
     >
       {children}
@@ -35,11 +40,8 @@ export function TabsTrigger({ value, children, active, setActive }) {
   );
 }
 
-export function TabsContent({ value, active, children }) {
-  if (value !== active) return null;
-  return <div className="bg-white border p-4 rounded-b shadow">{children}</div>;
+// Tab content (shows when matching activeTab)
+export function TabsContent({ value, activeTab, children }) {
+  if (value !== activeTab) return null;
+  return <div className="mt-4">{children}</div>;
 }
-
-Tabs.displayName = 'Tabs';
-TabsTrigger.displayName = 'TabsTrigger';
-TabsContent.displayName = 'TabsContent';
