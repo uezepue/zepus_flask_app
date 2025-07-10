@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
@@ -22,120 +22,118 @@ import ProtectedRoute from './components/ProtectedRoute';
 
 export default function App() {
   return (
-    <Router>
-      <Routes>
-        {/* 🔐 Admin Login */}
-        <Route path="/" element={<Login />} />
+    <Routes>
+      {/* 🔐 Admin Login */}
+      <Route path="/" element={<Login />} />
 
-        {/* ✅ Protected Admin Pages */}
-        <Route
-          path="/dashboard"
-          element={
-            <ProtectedRoute>
-              <Dashboard />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/doctors"
-          element={
-            <ProtectedRoute>
-              <AdminDoctors />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/patients"
-          element={
-            <ProtectedRoute>
-              <AdminPatients />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/broadcasts"
-          element={
-            <ProtectedRoute>
-              <AdminBroadcasts />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/settings"
-          element={
-            <ProtectedRoute>
-              <AdminSettings />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/analytics"
-          element={
-            <ProtectedRoute>
-              <AdminAnalytics />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/audit"
-          element={
-            <ProtectedRoute>
-              <AuditLogs />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/finance"
-          element={
-            <ProtectedRoute>
-              <FinanceLedger />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/security"
-          element={
-            <ProtectedRoute>
-              <Security />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/support"
-          element={
-            <ProtectedRoute>
-              <Support />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/system-status"
-          element={
-            <ProtectedRoute>
-              <SystemStatus />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/triage"
-          element={
-            <ProtectedRoute>
-              <TriageLogs />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/verify-doctors"
-          element={
-            <ProtectedRoute>
-              <VerifyDoctors />
-            </ProtectedRoute>
-          }
-        />
+      {/* ✅ Protected Admin Pages */}
+      <Route
+        path="/dashboard"
+        element={
+          <ProtectedRoute>
+            <Dashboard />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/doctors"
+        element={
+          <ProtectedRoute>
+            <AdminDoctors />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/patients"
+        element={
+          <ProtectedRoute>
+            <AdminPatients />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/broadcasts"
+        element={
+          <ProtectedRoute>
+            <AdminBroadcasts />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/settings"
+        element={
+          <ProtectedRoute>
+            <AdminSettings />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/analytics"
+        element={
+          <ProtectedRoute>
+            <AdminAnalytics />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/audit"
+        element={
+          <ProtectedRoute>
+            <AuditLogs />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/finance"
+        element={
+          <ProtectedRoute>
+            <FinanceLedger />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/security"
+        element={
+          <ProtectedRoute>
+            <Security />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/support"
+        element={
+          <ProtectedRoute>
+            <Support />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/system-status"
+        element={
+          <ProtectedRoute>
+            <SystemStatus />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/triage"
+        element={
+          <ProtectedRoute>
+            <TriageLogs />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/verify-doctors"
+        element={
+          <ProtectedRoute>
+            <VerifyDoctors />
+          </ProtectedRoute>
+        }
+      />
 
-        {/* ❌ Fallback */}
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </Router>
+      {/* ❌ Fallback */}
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 }
