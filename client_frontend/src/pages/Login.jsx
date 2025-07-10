@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export default function Login() {
@@ -7,6 +7,14 @@ export default function Login() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
+
+  // ✅ Redirect logged-in users away from login page
+  useEffect(() => {
+    const role = localStorage.getItem('role');
+    if (role === 'patient') navigate('/patient/dashboard');
+    else if (role === 'doctor') navigate('/doctor/dashboard');
+    else if (role === 'admin') navigate('/admin');
+  }, [navigate]);
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -17,7 +25,7 @@ export default function Login() {
       const res = await fetch('/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        credentials: 'include', // ✅ Enables Flask session cookies
+        credentials: 'include', // ✅ Enables session cookies
         body: JSON.stringify({
           email: email.trim().toLowerCase(),
           password,
@@ -31,21 +39,23 @@ export default function Login() {
         const { role, token, user } = data;
         const roleNormalized = role?.toLowerCase();
 
-        // ✅ Save to localStorage
+        // ✅ Store auth info in localStorage
         localStorage.setItem('role', roleNormalized);
         if (token) localStorage.setItem('token', token);
         localStorage.setItem('user', JSON.stringify(user || { role: roleNormalized }));
 
-        // ✅ Role-based redirection
-        if (roleNormalized === 'doctor') {
-          navigate('/doctor/dashboard');
-        } else if (roleNormalized === 'patient') {
-          navigate('/patient/dashboard');
-        } else if (roleNormalized === 'admin') {
-          navigate('/admin'); // optional: adjust if needed
-        } else {
-          setError('Unauthorized role. Please login via the correct portal.');
-        }
+        // ✅ Redirect based on role
+        setTimeout(() => {
+          if (roleNormalized === 'doctor') {
+            navigate('/doctor/dashboard');
+          } else if (roleNormalized === 'patient') {
+            navigate('/patient/dashboard');
+          } else if (roleNormalized === 'admin') {
+            navigate('/admin');
+          } else {
+            setError('Unauthorized role. Please login via the correct portal.');
+          }
+        }, 0);
       } else {
         setError(data?.message || 'Login failed. Check your credentials.');
       }

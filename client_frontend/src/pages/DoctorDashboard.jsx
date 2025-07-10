@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
+import TopNav from '../components/TopNav';
 
 export default function DoctorDashboard() {
   const [doctor, setDoctor] = useState(null);
@@ -22,14 +23,15 @@ export default function DoctorDashboard() {
       })
       .catch(err => {
         console.error(err);
-        setError('❌ Failed to load dashboard. Ensure /api/doctor/dashboard is working.');
+        setError('❌ Failed to load dashboard. Please check your network or try again.');
       });
   }, []);
 
   const handleLogout = async () => {
     try {
       await fetch('/api/logout');
-      navigate('/');
+      localStorage.clear();
+      navigate('/login');
     } catch (err) {
       console.error('Logout failed:', err);
     }
@@ -40,7 +42,11 @@ export default function DoctorDashboard() {
   }
 
   if (!doctor) {
-    return <div className="text-center mt-10 text-blue-800">Loading Doctor Dashboard...</div>;
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <div className="text-blue-800 text-lg animate-pulse">Loading Doctor Dashboard...</div>
+      </div>
+    );
   }
 
   const statusText = doctor.status?.charAt(0).toUpperCase() + doctor.status?.slice(1);
@@ -48,24 +54,14 @@ export default function DoctorDashboard() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="flex justify-between items-center bg-blue-800 text-white px-6 py-4 shadow-md">
-        <h1 className="text-xl font-bold">ZEPUS Clinics – Doctor Dashboard</h1>
-        <div className="space-x-4">
-          <Link to="/" className="hover:underline">Home</Link>
-          <span>My Profile</span>
-          <button onClick={handleLogout} className="hover:underline text-red-200">Logout</button>
-        </div>
-      </header>
+      <TopNav />
 
-      {/* Alert */}
+      {/* Alerts */}
       {waitingCount > 0 && (
         <div className="bg-yellow-100 text-yellow-800 px-6 py-3 text-center font-semibold">
           🛎️ {waitingCount} patient{waitingCount > 1 ? 's' : ''} waiting for consultation.
         </div>
       )}
-
-      {/* Status Warning */}
       {['pending', 'flagged', 'expired'].includes(doctor.status) && (
         <div className="bg-red-100 text-red-800 px-6 py-3 text-center">
           ⚠️ Your account is <strong>{statusText}</strong>.{' '}
@@ -77,30 +73,36 @@ export default function DoctorDashboard() {
         </div>
       )}
 
-      {/* Content */}
+      {/* Main Dashboard Layout */}
       <div className="flex">
         {/* Sidebar */}
-        <aside className="w-64 bg-white border-r p-4 min-h-screen space-y-2">
-          <ul className="space-y-2">
-            <li><Link to="/doctor/dashboard" className="block hover:text-blue-600">🏠 Dashboard</Link></li>
-            <li><Link to="/doctor/verify-documents" className="block hover:text-blue-600">📑 Upload Documents</Link></li>
+        <aside className="w-64 bg-white border-r p-4 min-h-screen">
+          <ul className="space-y-3 text-gray-800">
+            <li><Link to="/doctor/dashboard" className="hover:text-blue-600">🏠 Dashboard</Link></li>
+            <li><Link to="/doctor/verify-documents" className="hover:text-blue-600">📑 Upload Documents</Link></li>
             <li className="flex justify-between items-center">
-              <a href="#" className="block hover:text-blue-600">🗓️ Appointments</a>
+              <span className="hover:text-blue-600 cursor-pointer">🗓️ Appointments</span>
               {waitingCount > 0 && (
-                <span className="bg-red-600 text-white text-xs px-2 py-0.5 rounded-full">
-                  {waitingCount}
-                </span>
+                <span className="bg-red-600 text-white text-xs px-2 rounded-full">{waitingCount}</span>
               )}
             </li>
-            <li><a href="#" className="block hover:text-blue-600">🧑‍⚕️ Patients</a></li>
-            <li><a href="#" className="block hover:text-blue-600">📋 Notes</a></li>
-            <li><a href="#" className="block hover:text-blue-600">💊 Prescriptions</a></li>
-            <li><a href="#" className="block hover:text-blue-600">📂 Results</a></li>
-            <li><a href="#" className="block hover:text-blue-600">📨 Follow-Ups</a></li>
-            <li><a href="#" className="block hover:text-blue-600">💼 Earnings</a></li>
-            <li><a href="#" className="block hover:text-blue-600">📣 Broadcasts</a></li>
-            <li><a href="#" className="block hover:text-blue-600">⚙️ Settings</a></li>
-            <li><Link to="/doctor/chatroom" className="block hover:text-blue-600">💬 Chatroom</Link></li>
+            <li><span className="hover:text-blue-600 cursor-pointer">🧑‍⚕️ Patients</span></li>
+            <li><span className="hover:text-blue-600 cursor-pointer">📋 Notes</span></li>
+            <li><span className="hover:text-blue-600 cursor-pointer">💊 Prescriptions</span></li>
+            <li><span className="hover:text-blue-600 cursor-pointer">📂 Results</span></li>
+            <li><span className="hover:text-blue-600 cursor-pointer">📨 Follow-Ups</span></li>
+            <li><span className="hover:text-blue-600 cursor-pointer">💼 Earnings</span></li>
+            <li><span className="hover:text-blue-600 cursor-pointer">📣 Broadcasts</span></li>
+            <li><span className="hover:text-blue-600 cursor-pointer">⚙️ Settings</span></li>
+            <li><Link to="/doctor/chatroom" className="hover:text-blue-600">💬 Chatroom</Link></li>
+            <li>
+              <button
+                onClick={handleLogout}
+                className="text-red-600 hover:underline mt-4 w-full text-left"
+              >
+                🚪 Logout
+              </button>
+            </li>
           </ul>
         </aside>
 
@@ -118,7 +120,17 @@ export default function DoctorDashboard() {
             <>
               <div className="bg-white p-6 rounded shadow-md">
                 <h3 className="text-lg font-semibold mb-2">📅 Today’s Appointments</h3>
-                <p>You have <strong>{appointments.length}</strong> appointment{appointments.length !== 1 ? 's' : ''} today.</p>
+                {appointments.length > 0 ? (
+                  <ul className="space-y-2">
+                    {appointments.map((appt, i) => (
+                      <li key={i} className="border-b py-2">
+                        {appt.time} with <strong>{appt.patient}</strong> ({appt.status})
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p>No appointments for today.</p>
+                )}
               </div>
 
               <div className="bg-white p-6 rounded shadow-md">
@@ -127,7 +139,7 @@ export default function DoctorDashboard() {
                   <>
                     <h4 className="text-md font-bold">{broadcast.title}</h4>
                     <p className="mt-1">{broadcast.body}</p>
-                    <small className="text-gray-500">Posted on {new Date(broadcast.created_at).toLocaleDateString()}</small>
+                    <small className="text-gray-500">Posted {new Date(broadcast.created_at).toLocaleDateString()}</small>
                   </>
                 ) : (
                   <p>No new broadcasts.</p>
