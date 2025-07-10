@@ -5,6 +5,7 @@ import VerifyDocuments from './pages/VerifyDocuments';
 import DoctorChatRoom from './pages/DoctorChatRoom';
 import PatientChatRoom from './pages/PatientChatRoom';
 import TriageBotRoom from './pages/TriageBotRoom';
+import DoctorRegistration from './pages/DoctorRegistration';
 
 export default function App() {
   return <Home />;
@@ -13,4 +14,5 @@ export default function App() {
   return <DoctorChatRoom />;
   return <PatientChatRoom />;
   return <TriageBotRoom />;
+  return <DoctorRegistration />;
 }
