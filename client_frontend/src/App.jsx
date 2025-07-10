@@ -7,6 +7,7 @@ import PatientChatRoom from './pages/PatientChatRoom';
 import TriageBotRoom from './pages/TriageBotRoom';
 import DoctorRegistration from './pages/DoctorRegistration';
 import PatientRegistration from './pages/PatientRegistration';
+import DoctorDashboard from './pages/DoctorDashboard';
 
 export default function App() {
   return <Home />;
@@ -17,4 +18,5 @@ export default function App() {
   return <TriageBotRoom />;
   return <DoctorRegistration />;
   return <PatientRegistration />;
+  return <DoctorDashboard />;
 }
