@@ -8,6 +8,7 @@ import TriageBotRoom from './pages/TriageBotRoom';
 import DoctorRegistration from './pages/DoctorRegistration';
 import PatientRegistration from './pages/PatientRegistration';
 import DoctorDashboard from './pages/DoctorDashboard';
+import PatientDashboard from './pages/PatientDashboard';
 
 export default function App() {
   return <Home />;
@@ -19,4 +20,5 @@ export default function App() {
   return <DoctorRegistration />;
   return <PatientRegistration />;
   return <DoctorDashboard />;
+  return <PatientDashboard />;
 }
