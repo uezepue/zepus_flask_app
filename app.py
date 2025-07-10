@@ -25,6 +25,7 @@ from routes.audit_routes import audit_bp
 from routes.notifications_routes import notifications_bp
 from routes.settings_routes import settings_bp
 from routes.analytics_routes import analytics_bp
+from routes.auth_routes import auth_bp
 
 from mimetypes import guess_type
 
@@ -55,6 +56,8 @@ app.register_blueprint(audit_bp)
 app.register_blueprint(notifications_bp)
 app.register_blueprint(settings_bp)
 app.register_blueprint(analytics_bp)
+app.register_blueprint(auth_bp)
+
 
 # Auto-create tables
 with app.app_context():
