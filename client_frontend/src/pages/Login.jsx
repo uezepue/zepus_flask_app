@@ -17,23 +17,32 @@ export default function Login() {
       const res = await fetch('/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email: email.trim().toLowerCase(), password }),
+        credentials: 'include', // ✅ Enables Flask session cookies
+        body: JSON.stringify({
+          email: email.trim().toLowerCase(),
+          password,
+        }),
       });
 
       const data = await res.json();
+      console.log('LOGIN RESPONSE:', data); // ✅ Debug
 
       if (res.ok) {
         const { role, token, user } = data;
+        const roleNormalized = role?.toLowerCase();
 
-        // Store full user for ProtectedRoute checks
-        localStorage.setItem('role', role);
-        localStorage.setItem('token', token);
-        localStorage.setItem('user', JSON.stringify(user || { role }));
+        // ✅ Save to localStorage
+        localStorage.setItem('role', roleNormalized);
+        if (token) localStorage.setItem('token', token);
+        localStorage.setItem('user', JSON.stringify(user || { role: roleNormalized }));
 
-        if (role === 'doctor') {
+        // ✅ Role-based redirection
+        if (roleNormalized === 'doctor') {
           navigate('/doctor/dashboard');
-        } else if (role === 'patient') {
+        } else if (roleNormalized === 'patient') {
           navigate('/patient/dashboard');
+        } else if (roleNormalized === 'admin') {
+          navigate('/admin'); // optional: adjust if needed
         } else {
           setError('Unauthorized role. Please login via the correct portal.');
         }
