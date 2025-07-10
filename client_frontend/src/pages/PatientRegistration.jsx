@@ -11,6 +11,7 @@ export default function PatientRegistration() {
   const [availableLGAs, setAvailableLGAs] = useState([]);
   const [success, setSuccess] = useState('');
   const [error, setError] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
     if (formData.dob) {
@@ -39,9 +40,11 @@ export default function PatientRegistration() {
     e.preventDefault();
     setError('');
     setSuccess('');
+    setIsSubmitting(true);
 
     if (formData.password !== formData.confirmPassword) {
       setError('Passwords do not match');
+      setIsSubmitting(false);
       return;
     }
 
@@ -64,6 +67,8 @@ export default function PatientRegistration() {
     } catch (err) {
       console.error(err);
       setError('Error occurred during registration');
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -128,7 +133,13 @@ export default function PatientRegistration() {
           <input name="confirmPassword" type="password" placeholder="Confirm Password" required onChange={handleChange} className="p-3 border border-gray-300 rounded-md" />
         </div>
 
-        <button type="submit" className="w-full bg-blue-700 hover:bg-blue-800 text-white py-2 px-4 rounded">Register</button>
+        <button
+          type="submit"
+          disabled={isSubmitting}
+          className={`w-full ${isSubmitting ? 'bg-blue-300' : 'bg-blue-700 hover:bg-blue-800'} text-white py-2 px-4 rounded`}
+        >
+          {isSubmitting ? 'Registering...' : 'Register'}
+        </button>
       </form>
     </div>
   );

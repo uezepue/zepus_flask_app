@@ -1,4 +1,3 @@
-// client_frontend/src/pages/DoctorRegistration.jsx
 import React, { useState, useEffect } from 'react';
 import statesAndLgas from '../data/statesAndLgas.json';
 
@@ -6,7 +5,7 @@ export default function DoctorRegistration() {
   const [formData, setFormData] = useState({
     name: '', dob: '', age: '', sex: '', specialty: '', qualification: '',
     bio: '', phone: '', email: '', password: '', confirmPassword: '',
-    address_line: '', city: '', state: '', lga: '', state_of_origin: '',
+    address_line: '', city: '', state: '', lga: '', state_of_origin: ''
   });
 
   const [lgaOptions, setLgaOptions] = useState([]);
@@ -14,7 +13,6 @@ export default function DoctorRegistration() {
   const [success, setSuccess] = useState('');
   const [error, setError] = useState('');
 
-  // Age calculation from DOB
   useEffect(() => {
     if (formData.dob) {
       const birthDate = new Date(formData.dob);
@@ -26,14 +24,17 @@ export default function DoctorRegistration() {
     }
   }, [formData.dob]);
 
-  // Update LGA options when state changes
   useEffect(() => {
     const selected = statesAndLgas.find(s => s.state === formData.state);
     setLgaOptions(selected ? selected.lgas : []);
+    if (!selected?.lgas.includes(formData.lga)) {
+      setFormData(prev => ({ ...prev, lga: '' }));
+    }
   }, [formData.state]);
 
-  const handleChange = e =>
+  const handleChange = e => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
 
   const handleSubmit = async e => {
     e.preventDefault();
@@ -42,7 +43,7 @@ export default function DoctorRegistration() {
     setLoading(true);
 
     if (formData.password !== formData.confirmPassword) {
-      setError('Passwords do not match');
+      setError('❌ Passwords do not match');
       setLoading(false);
       return;
     }
@@ -55,18 +56,17 @@ export default function DoctorRegistration() {
       });
 
       const data = await res.json();
-      setLoading(false);
-
       if (res.ok && data.status === 'success') {
-        setSuccess('Registration successful! Please check your email to verify your account.');
+        setSuccess('✅ Registration successful! Please check your email to verify.');
         setTimeout(() => window.location.href = '/login', 3000);
       } else {
-        setError(data.message || 'Registration failed');
+        setError(data.message || '❌ Registration failed');
       }
     } catch (err) {
       console.error(err);
+      setError('❌ An error occurred during registration');
+    } finally {
       setLoading(false);
-      setError('An error occurred during registration');
     }
   };
 
