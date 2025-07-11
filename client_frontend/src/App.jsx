@@ -11,18 +11,20 @@ import PatientChatRoom from './pages/PatientChatRoom';
 import DoctorChatRoom from './pages/DoctorChatRoom';
 import TriageBotRoom from './pages/TriageBotRoom';
 import VerifyDocuments from './pages/VerifyDocuments';
+import NotFound from './pages/NotFound'; // ✅ Import the custom 404 page
 
 import ProtectedRoute from './components/ProtectedRoute';
 
 export default function App() {
   return (
     <Routes>
+      {/* Public Routes */}
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register/patient" element={<PatientRegistration />} />
       <Route path="/register/doctor" element={<DoctorRegistration />} />
 
-      {/* Patient Routes (Protected) */}
+      {/* Protected Patient Routes */}
       <Route
         path="/patient/dashboard"
         element={
@@ -48,7 +50,7 @@ export default function App() {
         }
       />
 
-      {/* Doctor Routes (Protected) */}
+      {/* Protected Doctor Routes */}
       <Route
         path="/doctor/dashboard"
         element={
@@ -74,15 +76,8 @@ export default function App() {
         }
       />
 
-      {/* Fallback */}
-      <Route
-        path="*"
-        element={
-          <h1 className="p-6 text-red-600 text-center">
-            404 - Page Not Found
-          </h1>
-        }
-      />
+      {/* Fallback 404 Route */}
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }

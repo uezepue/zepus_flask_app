@@ -1,35 +1,62 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaHeartbeat, FaRobot, FaMapMarkerAlt } from 'react-icons/fa';
+import doctorImage from '../../assets/doctor.png'; // make sure image exists
 
 export default function Hero() {
   return (
-    <section
-      id="hero"
-      className="min-h-[80vh] flex flex-col justify-center items-center px-4 text-center bg-gradient-to-br from-blue-100 to-white dark:from-gray-900 dark:to-black"
-      data-aos="fade-up"
-    >
-      <h1 className="text-4xl md:text-5xl font-extrabold text-blue-800 dark:text-white mb-4 leading-tight">
-        Africa&apos;s Smartest <br className="hidden md:block" />
-        AI Medical Assistant
-      </h1>
+    <section className="w-full bg-white text-gray-900 py-16">
+      <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center px-6 gap-10">
+        {/* Text Content */}
+        <div className="w-full md:w-1/2 space-y-6">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight">
+            Your Health,<br /> Our Priority
+          </h1>
+          <p className="text-lg text-gray-700">
+            Quality care for individuals and families.
+          </p>
 
-      <p className="text-lg md:text-xl max-w-2xl text-gray-700 dark:text-gray-300 mb-8">
-        Get triaged by AI, consult real doctors online or at nearby clinics in minutes.
-      </p>
+          <Link
+            to="/get-started"
+            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl font-medium hover:bg-blue-700 transition"
+          >
+            Get Started
+          </Link>
 
-      <div className="flex flex-col sm:flex-row justify-center gap-4">
-        <Link
-          to="/triage-bot"
-          className="btn btn-success btn-lg text-white animate-pulse"
-        >
-          🤖 Start Chat with Dr Zepus
-        </Link>
-        <Link
-          to="/register/doctor"
-          className="btn btn-outline btn-lg"
-        >
-          🩺 Register as a Doctor
-        </Link>
+          {/* Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+            <div className="flex items-start gap-3 bg-white shadow-md p-4 rounded-xl">
+              <FaHeartbeat className="text-blue-600 text-xl mt-1" />
+              <div>
+                <h3 className="font-semibold text-sm">Our Services</h3>
+                <p className="text-xs text-gray-600">Comprehensive medical care</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3 bg-white shadow-md p-4 rounded-xl">
+              <FaRobot className="text-blue-600 text-xl mt-1" />
+              <div>
+                <h3 className="font-semibold text-sm">AI Triage Bot</h3>
+                <p className="text-xs text-gray-600">Fast online symptom checker</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3 bg-white shadow-md p-4 rounded-xl">
+              <FaMapMarkerAlt className="text-blue-600 text-xl mt-1" />
+              <div>
+                <h3 className="font-semibold text-sm">Care Zone Map</h3>
+                <p className="text-xs text-gray-600">Find clinics near you</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Image */}
+        <div className="w-full md:w-1/2 flex justify-center">
+          <img
+            src={doctorImage}
+            alt="Smiling doctor with tablet"
+            className="w-80 h-auto object-cover rounded-2xl shadow-md"
+          />
+        </div>
       </div>
     </section>
   );
