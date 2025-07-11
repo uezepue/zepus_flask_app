@@ -7,6 +7,8 @@ import smtplib
 from email.mime.text import MIMEText
 from flask_login import login_required, current_user
 
+
+
 doctor_bp = Blueprint('doctor_bp', __name__)
 
 # === UTILS ===
@@ -32,41 +34,53 @@ def send_email(to, subject, html):
 # ================
 @doctor_bp.route('/api/doctor/register', methods=['POST'])
 def register_doctor():
-    data = request.get_json()
+    try:
+        data = request.get_json()
+        required_fields = [
+            'name', 'dob', 'age', 'sex', 'specialty', 'qualification', 'bio',
+            'phone', 'email', 'password', 'address_line', 'city', 'state', 'lga', 'state_of_origin'
+        ]
+        missing = [field for field in required_fields if not data.get(field)]
+        if missing:
+            return jsonify({'status': 'fail', 'message': f'Missing fields: {", ".join(missing)}'}), 400
 
-    if Doctor.query.filter_by(email=data['email']).first():
-        return jsonify({"status": "fail", "message": "Email already registered"}), 400
+        if Doctor.query.filter_by(email=data['email']).first():
+            return jsonify({"status": "fail", "message": "Email already registered"}), 400
 
-    token = generate_token()
-    doctor = Doctor(
-        name=data['name'],
-        dob=data['dob'],
-        age=data['age'],
-        sex=data['sex'],
-        specialty=data['specialty'],
-        qualification=data['qualification'],
-        bio=data['bio'],
-        phone=data['phone'],
-        email=data['email'],
-        address_line=data['address_line'],
-        city=data['city'],
-        state=data['state'],
-        lga=data['lga'],
-        state_of_origin=data['state_of_origin'],
-        email_verification_token=token
-    )
-    doctor.set_password(data['password'])
-    db.session.add(doctor)
-    db.session.commit()
+        token = generate_token()
+        doctor = Doctor(
+            name=data.get('name'),
+            dob=data.get('dob'),
+            age=data.get('age'),
+            sex=data.get('sex'),
+            specialty=data.get('specialty'),
+            qualification=data.get('qualification'),
+            bio=data.get('bio'),
+            phone=data.get('phone'),
+            email=data.get('email'),
+            address_line=data.get('address_line'),
+            city=data.get('city'),
+            state=data.get('state'),
+            lga=data.get('lga'),
+            state_of_origin=data.get('state_of_origin'),
+            email_verification_token=token
+        )
+        doctor.set_password(data.get('password'))
+        db.session.add(doctor)
+        db.session.commit()
 
-    confirm_url = f"{request.host_url}api/doctor/confirm/{token}"
-    send_email(
-        doctor.email,
-        "Confirm your ZEPUS Clinics Email",
-        f"<p>Dear Dr. {doctor.name},</p><p>Please <a href='{confirm_url}'>click here to confirm your email</a>.</p><p>Thank you.</p>"
-    )
+        confirm_url = f"{request.host_url}api/doctor/confirm/{token}"
+        send_email(
+            doctor.email,
+            "Confirm your ZEPUS Clinics Email",
+            f"<p>Dear Dr. {doctor.name},</p><p>Please <a href='{confirm_url}'>click here to confirm your email</a>.</p><p>Thank you.</p>"
+        )
 
-    return jsonify({"status": "success", "message": "Registration successful. Please confirm your email."})
+        return jsonify({"status": "success", "message": "Registration successful. Please confirm your email."})
+
+    except Exception as e:
+        print(f"❌ Doctor registration failed: {e}")
+        return jsonify({'status': 'error', 'message': 'Internal server error'}), 500
 
 # ==========================
 # Email Confirmation Route

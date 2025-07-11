@@ -1,5 +1,3 @@
-# routes/patients_routes.py
-
 from flask import Blueprint, render_template, request, session, redirect, url_for, jsonify
 from models import db, Patient, Appointment, Doctor, LedgerEntry, BroadcastMessage, FollowUpMessage
 from werkzeug.utils import secure_filename
@@ -39,29 +37,45 @@ def dashboard():
 
 @patient_bp.route('/register', methods=['POST'])
 def register():
-    data = request.get_json()
-    if Patient.query.filter_by(email=data['email']).first():
-        return jsonify({'status': 'fail', 'message': 'Email already exists'})
+    try:
+        data = request.get_json()
 
-    patient = Patient(
-        first_name=data.get('first_name'),
-        last_name=data.get('last_name'),
-        age=data.get('age'),
-        dob=data.get('dob'),
-        sex=data.get('sex'),
-        occupation=data.get('occupation'),
-        marital_status=data.get('marital_status'),
-        address=data.get('address'),
-        city=data.get('city'),
-        country=data.get('country'),
-        tribe=data.get('tribe'),
-        race=data.get('race'),
-        religion=data.get('religion'),
-        phone=data.get('phone', ''),
-        email=data.get('email'),
-        email_verified=True
-    )
-    patient.set_password(data['password'])
-    db.session.add(patient)
-    db.session.commit()
-    return jsonify({'status': 'success', 'message': 'Patient registered'})
+        required_fields = ['first_name', 'last_name', 'dob', 'sex', 'email', 'password']
+        missing = [f for f in required_fields if not data.get(f)]
+        if missing:
+            return jsonify({'status': 'fail', 'message': f'Missing: {", ".join(missing)}'}), 400
+
+        if Patient.query.filter_by(email=data.get('email')).first():
+            return jsonify({'status': 'fail', 'message': 'Email already exists'}), 409
+
+        patient = Patient(
+            first_name=data.get('first_name'),
+            last_name=data.get('last_name'),
+            age=data.get('age'),
+            dob=data.get('dob'),
+            sex=data.get('sex'),
+            occupation=data.get('occupation'),
+            marital_status=data.get('marital_status'),
+            address=data.get('address') or data.get('address_line'),  # Accept either
+            city=data.get('city'),
+            country=data.get('country', 'Nigeria'),
+            tribe=data.get('tribe'),
+            race=data.get('race'),
+            religion=data.get('religion'),
+            phone=data.get('phone', ''),
+            email=data.get('email'),
+            email_verified=True
+        )
+        patient.set_password(data.get('password'))
+
+        db.session.add(patient)
+        db.session.commit()
+
+        # Log registration to audit log
+        print(f"✅ Patient registered: {patient.email}")
+
+        return jsonify({'status': 'success', 'message': 'Patient registered'}), 201
+
+    except Exception as e:
+        print("❌ Registration error:", e)
+        return jsonify({'status': 'error', 'message': 'Internal server error'}), 500
