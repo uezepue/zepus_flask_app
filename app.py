@@ -93,4 +93,4 @@ def serve_client(path):
 # ✅ Entry point
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
-    socketio.run(app, debug=True, host='0.0.0.0', port=5055)
+    socketio.run(app, debug=True, host='0.0.0.0', port=5000)
