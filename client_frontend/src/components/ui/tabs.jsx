@@ -1,6 +1,5 @@
 import React, { useState, cloneElement, Children } from 'react';
 
-// Tabs parent
 export function Tabs({ children, defaultValue }) {
   const [activeTab, setActiveTab] = useState(defaultValue);
   return (
@@ -12,7 +11,6 @@ export function Tabs({ children, defaultValue }) {
   );
 }
 
-// Tabs list (header row of triggers)
 export function TabsList({ children, activeTab, setActiveTab }) {
   return (
     <div className="flex space-x-2 border-b border-gray-300 mb-4">
@@ -23,7 +21,6 @@ export function TabsList({ children, activeTab, setActiveTab }) {
   );
 }
 
-// Tab trigger (each clickable button)
 export function TabsTrigger({ value, activeTab, setActiveTab, children }) {
   const isActive = activeTab === value;
   return (
@@ -40,7 +37,6 @@ export function TabsTrigger({ value, activeTab, setActiveTab, children }) {
   );
 }
 
-// Tab content (shows when matching activeTab)
 export function TabsContent({ value, activeTab, children }) {
   if (value !== activeTab) return null;
   return <div className="mt-4">{children}</div>;
