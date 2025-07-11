@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import heroDoctor from '../assets/doctor.png';
 import { FaHeartbeat, FaRobot, FaMapMarkedAlt, FaBars } from 'react-icons/fa';
+import heroDoctor from '../assets/doctor.png';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-white text-gray-900 font-sans">
+    <div className="min-h-screen bg-white text-gray-900 font-sans overflow-x-hidden">
       {/* Navbar */}
       <nav className="flex justify-between items-center px-4 py-4 shadow-md sticky top-0 bg-white z-50">
-        <div className="text-2xl font-bold text-blue-900">
+        <div className="text-2xl font-bold text-blue-900 leading-tight">
           ZEPUS <span className="text-sm block -mt-1 text-gray-600">CLINICS</span>
         </div>
         <div className="md:hidden">
@@ -36,17 +36,17 @@ export default function Home() {
 
       {/* Mobile Dropdown Menu */}
       {isMenuOpen && (
-        <div className="md:hidden px-4 py-2 bg-white border-b">
-          <Link to="/" className="block py-2" onClick={() => setIsMenuOpen(false)}>Home</Link>
-          <Link to="/new-doctors" className="block py-2" onClick={() => setIsMenuOpen(false)}>New Doctors</Link>
-          <Link to="/services" className="block py-2" onClick={() => setIsMenuOpen(false)}>Services</Link>
-          <Link to="/about" className="block py-2" onClick={() => setIsMenuOpen(false)}>About</Link>
-          <Link to="/login" className="block py-2" onClick={() => setIsMenuOpen(false)}>Log in</Link>
+        <div className="md:hidden px-4 py-2 bg-white border-b space-y-2">
+          <Link to="/" className="block" onClick={() => setIsMenuOpen(false)}>Home</Link>
+          <Link to="/new-doctors" className="block" onClick={() => setIsMenuOpen(false)}>New Doctors</Link>
+          <Link to="/services" className="block" onClick={() => setIsMenuOpen(false)}>Services</Link>
+          <Link to="/about" className="block" onClick={() => setIsMenuOpen(false)}>About</Link>
+          <Link to="/login" className="block" onClick={() => setIsMenuOpen(false)}>Log in</Link>
         </div>
       )}
 
       {/* Hero Section */}
-      <section className="flex flex-col-reverse md:flex-row items-center justify-between px-6 py-12 md:py-20 max-w-7xl mx-auto">
+      <section className="flex flex-col-reverse md:flex-row items-center justify-between px-6 py-10 max-w-7xl mx-auto min-h-[calc(100vh-80px)]">
         <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900 leading-tight">
             Your Health, <br /> Our Priority
@@ -85,26 +85,25 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Doctor Image */}
         <div className="w-full md:w-1/2 mb-10 md:mb-0 flex justify-center">
           <img
             src={heroDoctor}
             alt="Smiling Doctor"
-            className="w-80 h-auto object-cover rounded-2xl shadow-md"
+            className="w-64 md:w-72 lg:w-80 h-auto object-contain rounded-2xl shadow-md"
           />
         </div>
       </section>
 
-      {/* Footer Section */}
-      <footer className="bg-blue-900 text-white text-sm py-8 text-center mt-16 px-4">
-        <div className="mb-4 space-x-4">
-          <Link to="/about" className="hover:underline">About Us</Link>
-          <Link to="/privacy" className="hover:underline">Privacy Policy</Link>
-          <Link to="/terms" className="hover:underline">Terms</Link>
-          <a href="mailto:support@zepusclinics.com" className="hover:underline">Contact</a>
+      {/* Footer */}
+      <footer className="bg-gray-100 py-8 px-6 text-center text-sm text-gray-700">
+        <div className="flex flex-wrap justify-center gap-4 mb-4">
+          <Link to="/about" className="hover:text-blue-600">About Us</Link>
+          <Link to="/privacy" className="hover:text-blue-600">Privacy Policy</Link>
+          <Link to="/terms" className="hover:text-blue-600">Terms</Link>
+          <Link to="/contact" className="hover:text-blue-600">Contact</Link>
         </div>
-        <p className="text-xs text-gray-300 mt-2">
-          © 2025 ZEPUS Clinics. All rights reserved.
-        </p>
+        <p>© {new Date().getFullYear()} ZEPUS Clinics. All rights reserved.</p>
       </footer>
     </div>
   );
