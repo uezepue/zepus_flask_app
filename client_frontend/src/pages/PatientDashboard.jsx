@@ -67,7 +67,7 @@ export default function PatientDashboard() {
             <button role="tab" className={`tab ${activeTab === 'uploads' ? 'tab-active' : ''}`} onClick={() => setActiveTab('uploads')}>📷 Uploads</button>
           </div>
 
-          {/* Wallet Tab */}
+          {/* Tab Content (same as before) */}
           {activeTab === 'wallet' && (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="card bg-base-100 shadow">
@@ -91,7 +91,6 @@ export default function PatientDashboard() {
             </div>
           )}
 
-          {/* Appointments Tab */}
           {activeTab === 'appointments' && (
             <div>
               <h2 className="text-xl font-bold mb-4">📅 My Appointments</h2>
@@ -114,7 +113,6 @@ export default function PatientDashboard() {
             </div>
           )}
 
-          {/* Documents Tab */}
           {activeTab === 'documents' && (
             <div>
               <h2 className="text-xl font-bold mb-4">📄 Your Documents</h2>
@@ -126,7 +124,6 @@ export default function PatientDashboard() {
             </div>
           )}
 
-          {/* Messages Tab */}
           {activeTab === 'messages' && (
             <div>
               <h2 className="text-xl font-bold mb-4">📬 Messages from Doctors</h2>
@@ -134,7 +131,6 @@ export default function PatientDashboard() {
             </div>
           )}
 
-          {/* Transactions Tab */}
           {activeTab === 'transactions' && (
             <div>
               <h2 className="text-xl font-bold mb-4">💰 Transaction History</h2>
@@ -167,7 +163,6 @@ export default function PatientDashboard() {
             </div>
           )}
 
-          {/* Uploads Tab */}
           {activeTab === 'uploads' && (
             <div>
               <h2 className="text-xl font-bold mb-4">📷 Upload Photos</h2>

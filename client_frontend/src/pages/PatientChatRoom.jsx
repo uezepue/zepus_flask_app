@@ -83,28 +83,39 @@ export default function PatientChatRoom({ patientId }) {
   };
 
   return (
-    <div className="max-w-3xl mx-auto mt-8 bg-white p-6 rounded-lg shadow-md">
-      <div className="flex justify-between items-center mb-4">
-        <h2 className="text-xl font-bold text-blue-700">💬 Live Chat with Doctor</h2>
-        <Link to="/dashboard/patient" className="text-sm text-blue-600 hover:underline">← Back to Dashboard</Link>
+    <div className="max-w-4xl mx-auto mt-8 card bg-base-100 p-6 shadow-lg">
+      <div className="flex justify-between items-center border-b pb-4 mb-4">
+        <h2 className="text-xl font-bold text-primary">💬 Live Chat with Doctor</h2>
+        <Link to="/patient/dashboard" className="text-sm link link-primary">← Back to Dashboard</Link>
       </div>
 
-      {!connected && <p className="text-gray-500">🔌 Connecting to server...</p>}
+      {/* Connection Status */}
+      {!connected && <div className="alert alert-info mb-4">🔌 Connecting to server...</div>}
       {connected && inQueue && !doctorReady && (
-        <p className="text-yellow-700 mb-2">🕐 Please wait... You're in queue {queueLength !== null ? `(${queueLength} ahead)` : ''}</p>
+        <div className="alert alert-warning mb-4">
+          🕐 You're in queue {queueLength !== null ? `(${queueLength} ahead)` : ''}. Please wait...
+        </div>
       )}
       {doctorReady && (
-        <p className="text-green-700 mb-2">✅ A doctor is online. You may start chatting now.</p>
+        <div className="alert alert-success mb-4">
+          ✅ A doctor is online. You may begin chatting.
+        </div>
       )}
 
-      {/* Chat Box */}
-      <div className="h-80 overflow-y-auto border p-4 mb-4 rounded bg-gray-50">
+      {/* Chat Section */}
+      <div className="h-80 overflow-y-auto border border-gray-300 rounded p-3 bg-gray-50">
+        {messages.length === 0 && (
+          <p className="text-gray-400 text-center mt-16">No messages yet. Wait for the doctor to connect.</p>
+        )}
         {messages.map((msg, i) => (
           <div key={i} className={`mb-2 ${msg.sender === 'You' ? 'text-right' : 'text-left'}`}>
-            <div className={`inline-block px-3 py-2 rounded-lg text-sm
-              ${msg.sender === 'You' ? 'bg-blue-100 text-blue-900' :
-                msg.sender === 'Doctor' ? 'bg-green-100 text-green-900' :
-                'bg-gray-200 text-gray-800'}`}>
+            <div className={`inline-block px-3 py-2 rounded-lg text-sm max-w-[75%] break-words ${
+              msg.sender === 'You'
+                ? 'bg-blue-100 text-blue-900'
+                : msg.sender === 'Doctor'
+                ? 'bg-green-100 text-green-900'
+                : 'bg-gray-300 text-gray-800'
+            }`}>
               <strong>{msg.sender}:</strong> {msg.text}
             </div>
           </div>
@@ -113,26 +124,24 @@ export default function PatientChatRoom({ patientId }) {
       </div>
 
       {/* Message Input */}
-      <div className="flex gap-2 mb-4">
+      <div className="flex mt-4 gap-2">
         <input
           type="text"
           value={input}
           onChange={e => setInput(e.target.value)}
           onKeyDown={e => e.key === 'Enter' && sendMessage()}
           placeholder="Type your message..."
-          className="flex-grow p-2 border border-gray-300 rounded-md"
+          className="input input-bordered w-full"
         />
-        <button onClick={sendMessage} className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md">
-          Send
-        </button>
+        <button onClick={sendMessage} className="btn btn-primary">Send</button>
       </div>
 
-      {/* Video/Audio Section */}
-      <div>
+      {/* Video Chat Section */}
+      <div className="mt-8">
         <h3 className="text-lg font-semibold mb-2">🎥 Video & Audio</h3>
         <button
           onClick={startMedia}
-          className="mb-3 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md"
+          className="btn btn-success mb-4"
         >
           Start Camera
         </button>

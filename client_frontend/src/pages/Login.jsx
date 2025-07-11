@@ -4,11 +4,11 @@ import { useNavigate } from 'react-router-dom';
 export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
-  // ✅ Redirect logged-in users away from login page
   useEffect(() => {
     const role = localStorage.getItem('role');
     if (role === 'patient') navigate('/patient/dashboard');
@@ -25,7 +25,7 @@ export default function Login() {
       const res = await fetch('/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        credentials: 'include', // ✅ Enables session cookies
+        credentials: 'include',
         body: JSON.stringify({
           email: email.trim().toLowerCase(),
           password,
@@ -33,28 +33,20 @@ export default function Login() {
       });
 
       const data = await res.json();
-      console.log('LOGIN RESPONSE:', data); // ✅ Debug
 
       if (res.ok) {
         const { role, token, user } = data;
         const roleNormalized = role?.toLowerCase();
 
-        // ✅ Store auth info in localStorage
         localStorage.setItem('role', roleNormalized);
         if (token) localStorage.setItem('token', token);
         localStorage.setItem('user', JSON.stringify(user || { role: roleNormalized }));
 
-        // ✅ Redirect based on role
         setTimeout(() => {
-          if (roleNormalized === 'doctor') {
-            navigate('/doctor/dashboard');
-          } else if (roleNormalized === 'patient') {
-            navigate('/patient/dashboard');
-          } else if (roleNormalized === 'admin') {
-            navigate('/admin');
-          } else {
-            setError('Unauthorized role. Please login via the correct portal.');
-          }
+          if (roleNormalized === 'doctor') navigate('/doctor/dashboard');
+          else if (roleNormalized === 'patient') navigate('/patient/dashboard');
+          else if (roleNormalized === 'admin') navigate('/admin');
+          else setError('Unauthorized role. Please login via the correct portal.');
         }, 0);
       } else {
         setError(data?.message || 'Login failed. Check your credentials.');
@@ -68,61 +60,64 @@ export default function Login() {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-20 p-6 bg-white shadow rounded">
-      <h2 className="text-center text-2xl mb-4 font-semibold text-[#0a5275]">
+    <div className="max-w-md mx-auto mt-24 p-8 bg-base-100 rounded-lg shadow-xl">
+      <h2 className="text-3xl font-bold text-center text-primary mb-6">
         ZEPUS Clinics Login
       </h2>
 
-      {error && (
-        <div className="bg-red-100 text-red-800 p-2 rounded mb-3 text-sm">
-          {error}
-        </div>
-      )}
+      {error && <div className="alert alert-error mb-4 text-sm">{error}</div>}
 
-      <form onSubmit={handleLogin} className="space-y-4">
+      <form onSubmit={handleLogin} className="space-y-5">
         <div>
-          <label htmlFor="email" className="block font-medium">
-            Email Address
-          </label>
+          <label htmlFor="email" className="block font-medium mb-1">Email Address</label>
           <input
             type="email"
             id="email"
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full border border-gray-300 p-2 rounded"
-            placeholder="Enter your email"
+            placeholder="example@email.com"
+            className="input input-bordered w-full"
           />
         </div>
 
         <div>
-          <label htmlFor="password" className="block font-medium">
-            Password
-          </label>
+          <label htmlFor="password" className="block font-medium mb-1">Password</label>
           <input
-            type="password"
+            type={showPassword ? 'text' : 'password'}
             id="password"
             required
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full border border-gray-300 p-2 rounded"
-            placeholder="Enter your password"
+            placeholder="••••••••"
+            className="input input-bordered w-full"
           />
+          <label className="label cursor-pointer justify-end mt-1">
+            <span className="label-text mr-2">Show Password</span>
+            <input type="checkbox" className="checkbox checkbox-xs" onChange={() => setShowPassword(!showPassword)} />
+          </label>
         </div>
 
         <button
           type="submit"
           disabled={loading}
-          className={`w-full bg-[#0a5275] text-white py-2 rounded font-semibold hover:bg-[#083a56] ${loading ? 'opacity-60 cursor-not-allowed' : ''}`}
+          className={`btn btn-primary w-full ${loading ? 'btn-disabled' : ''}`}
         >
-          {loading ? 'Logging in...' : 'Login'}
+          {loading ? (
+            <span className="loading loading-spinner loading-sm"></span>
+          ) : (
+            'Login'
+          )}
         </button>
       </form>
 
-      <div className="mt-4 text-sm text-center text-gray-600">
-        Don't have an account?{' '}
-        <a href="/register/patient" className="text-blue-600 hover:underline">Register as Patient</a>{' '}|
-        {' '}<a href="/register/doctor" className="text-blue-600 hover:underline">Register as Doctor</a>
+      <div className="mt-5 text-sm text-center text-gray-600">
+        Don’t have an account?
+        <div className="flex justify-center gap-4 mt-2">
+          <a href="/register/patient" className="link link-primary">Register as Patient</a>
+          <span>|</span>
+          <a href="/register/doctor" className="link link-primary">Register as Doctor</a>
+        </div>
       </div>
     </div>
   );

@@ -1,19 +1,22 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense, lazy } from 'react';
+import { Link } from 'react-router-dom';
 import Header from './HomeSections/Header';
 import Hero from './HomeSections/Hero';
 import Services from './HomeSections/Services';
 import HowItWorks from './HomeSections/HowItWorks';
 import Stats from './HomeSections/Stats';
-import Blog from './HomeSections/Blog';
-import Testimonials from './HomeSections/Testimonials';
 import NewsletterForm from './HomeSections/NewsletterForm';
 import Footer from './HomeSections/Footer';
-import { Link } from 'react-router-dom';
+
+// Lazy loaded components
+const Blog = lazy(() => import('./HomeSections/Blog'));
+const Testimonials = lazy(() => import('./HomeSections/Testimonials'));
 
 export default function Home() {
   const [geoWarning, setGeoWarning] = useState(false);
 
   useEffect(() => {
+    // Geo detection
     const loadGeoDetection = async () => {
       try {
         const res = await fetch('https://ipapi.co/json');
@@ -27,6 +30,7 @@ export default function Home() {
       }
     };
 
+    // Google Translate
     const loadGoogleTranslate = () => {
       if (typeof window === 'undefined') return;
 
@@ -54,26 +58,47 @@ export default function Home() {
     loadGoogleTranslate();
   }, []);
 
+  const toggleDarkMode = () => {
+    document.documentElement.classList.toggle('dark');
+  };
+
   return (
-    <div className="font-sans text-gray-800">
+    <div className="font-sans text-gray-800 dark:text-gray-100 dark:bg-gray-900 transition-colors">
       {geoWarning && (
         <div className="bg-yellow-100 text-yellow-800 text-center py-2 px-4 text-sm">
           ⚠️ Your location appears outside our supported regions. Some features may be restricted.
         </div>
       )}
 
+      {/* Translate + Dark Mode Toggle */}
+      <div className="flex justify-end items-center gap-4 px-6 py-2 text-sm">
+        <div id="google_translate_element" />
+        <button onClick={toggleDarkMode} className="btn btn-xs btn-outline">
+          🌓 Toggle Theme
+        </button>
+      </div>
+
       <Header />
       <Hero />
       <Services />
       <HowItWorks />
       <Stats />
-      <Blog />
-      <Testimonials />
+
+      <Suspense fallback={<div className="text-center py-6">Loading blog section...</div>}>
+        <Blog />
+      </Suspense>
+
+      <Suspense fallback={<div className="text-center py-6">Loading testimonials...</div>}>
+        <Testimonials />
+      </Suspense>
+
       <NewsletterForm />
-      <div className="fixed bottom-4 right-4 bg-blue-700 text-white px-4 py-2 rounded shadow-lg hover:bg-blue-800 animate-pulse">
+      <Footer />
+
+      {/* Floating Chat Button */}
+      <div className="fixed bottom-4 right-4 z-50 bg-blue-700 text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-800 animate-pulse text-sm md:text-base">
         <Link to="/triage-bot">💬 Chat with Dr Zepus</Link>
       </div>
-      <Footer />
     </div>
   );
 }

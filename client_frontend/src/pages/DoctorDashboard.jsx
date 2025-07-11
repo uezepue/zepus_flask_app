@@ -7,6 +7,7 @@ export default function DoctorDashboard() {
   const [appointments, setAppointments] = useState([]);
   const [broadcast, setBroadcast] = useState(null);
   const [error, setError] = useState(null);
+  const [activeTab, setActiveTab] = useState('overview');
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -85,92 +86,86 @@ export default function DoctorDashboard() {
       {/* Tabs */}
       <div className="p-6">
         <div role="tablist" className="tabs tabs-boxed mb-4 flex-wrap">
-          {[
-            ['overview', '🏠 Overview'],
-            ['appointments', '📅 Appointments'],
-            ['broadcasts', '📣 Broadcasts'],
-            ['patients', '🧑‍🤝‍🧑 Patients'],
-            ['notes', '📝 Notes'],
-            ['prescriptions', '💊 Prescriptions'],
-            ['earnings', '💼 Earnings'],
-            ['settings', '⚙️ Settings'],
-          ].map(([value, label]) => (
-            <input key={value}
+          {[['overview', '🏠 Overview'], ['appointments', '📅 Appointments'], ['broadcasts', '📣 Broadcasts'], ['patients', '🧑‍🤝‍🧑 Patients'], ['notes', '📝 Notes'], ['prescriptions', '💊 Prescriptions'], ['earnings', '💼 Earnings'], ['settings', '⚙️ Settings']].map(([value, label]) => (
+            <input
+              key={value}
               type="radio"
               name="dashboard-tabs"
               role="tab"
-              className="tab"
+              className={`tab ${activeTab === value ? 'tab-active' : ''}`}
               aria-label={label}
-              checked={value === 'overview'}
-              onChange={() => {}}
+              checked={activeTab === value}
+              onChange={() => setActiveTab(value)}
             />
           ))}
         </div>
 
-        {/* Overview */}
-        <div className="card bg-base-100 shadow mb-6">
-          <div className="card-body">
-            <h2 className="card-title">👨‍⚕️ Doctor Profile</h2>
-            <p><strong>Specialty:</strong> {doctor.specialty || 'Not provided'}</p>
-            <p><strong>Status:</strong> {statusText}</p>
-            <p><strong>Verification:</strong> {doctor.is_verified ? '✅ Verified' : '❌ Not Verified'}</p>
-            <p><strong>Consultation Fee:</strong> ₦{doctor.consultation_fee?.toLocaleString() || '0.00'}</p>
-          </div>
-        </div>
-
-        {/* Appointments */}
-        <div className="card bg-base-100 shadow mb-6">
-          <div className="card-body">
-            <h2 className="card-title">📅 Today’s Appointments</h2>
-            {appointments.length > 0 ? (
-              <ul className="divide-y">
-                {appointments.map((appt, i) => (
-                  <li key={i} className="py-2">
-                    <div className="flex justify-between">
-                      <span>{appt.patient}</span>
-                      <span className="badge badge-outline">{appt.status}</span>
-                    </div>
-                    <div className="text-sm text-gray-500">{appt.appointment_type} • {appt.consultation_mode}</div>
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <p>No appointments today.</p>
-            )}
-          </div>
-        </div>
-
-        {/* Broadcast */}
-        <div className="card bg-base-100 shadow mb-6">
-          <div className="card-body">
-            <h2 className="card-title">📣 Latest Broadcast</h2>
-            {broadcast ? (
-              <>
-                <h3 className="text-lg font-semibold">{broadcast.title}</h3>
-                <p>{broadcast.body}</p>
-                <small className="text-gray-500">Posted on {new Date(broadcast.created_at).toLocaleDateString()}</small>
-              </>
-            ) : (
-              <p>No new broadcasts.</p>
-            )}
-          </div>
-        </div>
-
-        {/* Coming Soon Sections */}
-        {[
-          ['🧑‍🤝‍🧑 Patients', 'Your patient list, recent interactions, and referrals.'],
-          ['📝 Notes', 'Case notes, clinical summaries, and SOAP templates.'],
-          ['💊 Prescriptions', 'Drug templates, repeat prescriptions, and pharmacy linkage.'],
-          ['💼 Earnings', 'Consultation earnings, withdrawal requests, and ledger breakdown.'],
-          ['⚙️ Settings', 'Account preferences, password reset, availability settings.'],
-        ].map(([title, text], idx) => (
-          <div key={idx} className="card bg-base-100 shadow mb-4">
+        {activeTab === 'overview' && (
+          <div className="card bg-base-100 shadow mb-6">
             <div className="card-body">
-              <h2 className="card-title">{title}</h2>
-              <p className="text-gray-600">Coming soon: {text}</p>
+              <h2 className="card-title">👨‍⚕️ Doctor Profile</h2>
+              <p><strong>Specialty:</strong> {doctor.specialty || 'Not provided'}</p>
+              <p><strong>Status:</strong> {statusText}</p>
+              <p><strong>Verification:</strong> {doctor.is_verified ? '✅ Verified' : '❌ Not Verified'}</p>
+              <p><strong>Consultation Fee:</strong> ₦{doctor.consultation_fee?.toLocaleString() || '0.00'}</p>
             </div>
           </div>
-        ))}
+        )}
+
+        {activeTab === 'appointments' && (
+          <div className="card bg-base-100 shadow mb-6">
+            <div className="card-body">
+              <h2 className="card-title">📅 Today’s Appointments</h2>
+              {appointments.length > 0 ? (
+                <ul className="divide-y">
+                  {appointments.map((appt, i) => (
+                    <li key={i} className="py-2">
+                      <div className="flex justify-between">
+                        <span>{appt.patient}</span>
+                        <span className="badge badge-outline">{appt.status}</span>
+                      </div>
+                      <div className="text-sm text-gray-500">{appt.appointment_type} • {appt.consultation_mode}</div>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p>No appointments today.</p>
+              )}
+            </div>
+          </div>
+        )}
+
+        {activeTab === 'broadcasts' && (
+          <div className="card bg-base-100 shadow mb-6">
+            <div className="card-body">
+              <h2 className="card-title">📣 Latest Broadcast</h2>
+              {broadcast ? (
+                <>
+                  <h3 className="text-lg font-semibold">{broadcast.title}</h3>
+                  <p>{broadcast.body}</p>
+                  <small className="text-gray-500">Posted on {new Date(broadcast.created_at).toLocaleDateString()}</small>
+                </>
+              ) : (
+                <p>No new broadcasts.</p>
+              )}
+            </div>
+          </div>
+        )}
+
+        {['patients', 'notes', 'prescriptions', 'earnings', 'settings'].includes(activeTab) && (
+          <div className="card bg-base-100 shadow mb-6">
+            <div className="card-body">
+              <h2 className="card-title">
+                {activeTab === 'patients' && '🧑‍🤝‍🧑 Patients'}
+                {activeTab === 'notes' && '📝 Notes'}
+                {activeTab === 'prescriptions' && '💊 Prescriptions'}
+                {activeTab === 'earnings' && '💼 Earnings'}
+                {activeTab === 'settings' && '⚙️ Settings'}
+              </h2>
+              <p className="text-gray-600">Coming soon: Feature under development.</p>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

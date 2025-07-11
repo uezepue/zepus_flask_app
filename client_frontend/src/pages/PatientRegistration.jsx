@@ -74,19 +74,19 @@ export default function PatientRegistration() {
   return (
     <div className="max-w-3xl mx-auto mt-10 p-6">
       <div className="card bg-base-100 shadow-xl p-6">
-        <h2 className="text-2xl font-bold text-center text-primary mb-4">🧑‍⚕️ Register as a Patient</h2>
+        <h2 className="text-2xl font-bold text-center text-primary mb-4">🧑‍⚕️ Patient Registration</h2>
 
         {error && <div className="alert alert-error mb-4">{error}</div>}
         {success && <div className="alert alert-success mb-4">{success}</div>}
 
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit} className="grid gap-4">
           <div className="flex gap-4">
-            <input name="first_name" placeholder="First Name" required className="input input-bordered w-1/2" onChange={handleChange} />
-            <input name="last_name" placeholder="Last Name" required className="input input-bordered w-1/2" onChange={handleChange} />
+            <input name="first_name" value={formData.first_name} placeholder="First Name" required className="input input-bordered w-1/2" onChange={handleChange} />
+            <input name="last_name" value={formData.last_name} placeholder="Last Name" required className="input input-bordered w-1/2" onChange={handleChange} />
           </div>
 
           <div className="flex gap-4">
-            <input name="dob" type="date" required className="input input-bordered w-1/2" onChange={handleChange} />
+            <input name="dob" type="date" value={formData.dob} required className="input input-bordered w-1/2" onChange={handleChange} />
             <input name="age" value={formData.age} readOnly placeholder="Age" className="input input-disabled w-1/2" />
           </div>
 
@@ -97,17 +97,17 @@ export default function PatientRegistration() {
             <option>Other</option>
           </select>
 
-          <input name="phone" placeholder="Phone Number" required className="input input-bordered w-full" onChange={handleChange} />
-          <input name="email" type="email" placeholder="Email" required className="input input-bordered w-full" onChange={handleChange} />
+          <input name="phone" value={formData.phone} placeholder="Phone Number" required className="input input-bordered w-full" onChange={handleChange} />
+          <input name="email" value={formData.email} type="email" placeholder="Email" required className="input input-bordered w-full" onChange={handleChange} />
 
           <div className="flex gap-4">
-            <input name="password" type="password" placeholder="Password" required className="input input-bordered w-1/2" onChange={handleChange} />
-            <input name="confirmPassword" type="password" placeholder="Confirm Password" required className="input input-bordered w-1/2" onChange={handleChange} />
+            <input name="password" value={formData.password} type="password" placeholder="Password" required className="input input-bordered w-1/2" onChange={handleChange} />
+            <input name="confirmPassword" value={formData.confirmPassword} type="password" placeholder="Confirm Password" required className="input input-bordered w-1/2" onChange={handleChange} />
           </div>
 
-          <input name="address" placeholder="Residential Address" required className="input input-bordered w-full" onChange={handleChange} />
-          <input name="city" placeholder="City" required className="input input-bordered w-full" onChange={handleChange} />
-          <input name="occupation" placeholder="Occupation" className="input input-bordered w-full" onChange={handleChange} />
+          <input name="address" value={formData.address} placeholder="Residential Address" required className="input input-bordered w-full" onChange={handleChange} />
+          <input name="city" value={formData.city} placeholder="City" required className="input input-bordered w-full" onChange={handleChange} />
+          <input name="occupation" value={formData.occupation} placeholder="Occupation" className="input input-bordered w-full" onChange={handleChange} />
 
           <select name="marital_status" value={formData.marital_status} className="select select-bordered w-full" onChange={handleChange}>
             <option value="">Select Marital Status</option>
@@ -138,9 +138,9 @@ export default function PatientRegistration() {
             ))}
           </select>
 
-          <input name="tribe" placeholder="Tribe" className="input input-bordered w-full" onChange={handleChange} />
-          <input name="religion" placeholder="Religion" className="input input-bordered w-full" onChange={handleChange} />
-          <input name="race" placeholder="Race" className="input input-bordered w-full" onChange={handleChange} />
+          <input name="tribe" value={formData.tribe} placeholder="Tribe" className="input input-bordered w-full" onChange={handleChange} />
+          <input name="religion" value={formData.religion} placeholder="Religion" className="input input-bordered w-full" onChange={handleChange} />
+          <input name="race" value={formData.race} placeholder="Race" className="input input-bordered w-full" onChange={handleChange} />
 
           <button type="submit" disabled={loading} className={`btn btn-primary w-full ${loading ? 'loading' : ''}`}>
             {loading ? 'Registering...' : 'Register'}

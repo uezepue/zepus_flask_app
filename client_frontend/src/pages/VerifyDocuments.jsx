@@ -30,7 +30,7 @@ export default function VerifyDocuments() {
     setSuccess('');
 
     if (!confirm) {
-      setError('Please confirm that your documents are valid.');
+      setError('❌ Please confirm that your documents are valid.');
       return;
     }
 
@@ -62,13 +62,13 @@ export default function VerifyDocuments() {
   };
 
   return (
-    <div className="max-w-xl mx-auto mt-10 bg-white p-6 rounded shadow-md">
-      <h2 className="text-2xl font-semibold text-center text-blue-800 mb-6">🩺 Doctor Verification</h2>
+    <div className="max-w-2xl mx-auto mt-10 bg-base-100 p-8 rounded-xl shadow-xl">
+      <h2 className="text-2xl font-bold text-center text-primary mb-6">🩺 Doctor Document Verification</h2>
 
-      {error && <p className="text-red-600 mb-4 text-center">{error}</p>}
-      {success && <p className="text-green-600 mb-4 text-center">{success}</p>}
+      {error && <div className="alert alert-error mb-4">{error}</div>}
+      {success && <div className="alert alert-success mb-4">{success}</div>}
 
-      <form onSubmit={handleSubmit} encType="multipart/form-data" className="space-y-4">
+      <form onSubmit={handleSubmit} encType="multipart/form-data" className="space-y-5">
         <div>
           <label className="block font-medium mb-1">MDCN Folio Number</label>
           <input
@@ -78,45 +78,38 @@ export default function VerifyDocuments() {
             placeholder="Enter your MDCN folio number"
             value={info.folio_number}
             onChange={handleInfoChange}
-            className="w-full p-2 border border-gray-300 rounded"
+            className="input input-bordered w-full"
           />
         </div>
 
-        <div>
-          <label className="block font-medium mb-1">Medical License</label>
-          <input type="file" name="license" required onChange={handleFileChange} className="w-full" />
-        </div>
-
-        <div>
-          <label className="block font-medium mb-1">Government ID</label>
-          <input type="file" name="gov_id" required onChange={handleFileChange} className="w-full" />
-        </div>
-
-        <div>
-          <label className="block font-medium mb-1">Specialty Certificate</label>
-          <input type="file" name="specialty_cert" required onChange={handleFileChange} className="w-full" />
-        </div>
-
-        <div>
-          <label className="block font-medium mb-1">Passport Photo</label>
-          <input type="file" name="photo" required onChange={handleFileChange} className="w-full" />
-        </div>
-
-        <div>
-          <label className="block font-medium mb-1">Curriculum Vitae (CV)</label>
-          <input type="file" name="cv" required onChange={handleFileChange} className="w-full" />
-        </div>
+        {[
+          ['license', 'Medical License'],
+          ['gov_id', 'Government Issued ID'],
+          ['specialty_cert', 'Specialty Certificate'],
+          ['photo', 'Passport Photo'],
+          ['cv', 'Curriculum Vitae (CV)'],
+        ].map(([field, label]) => (
+          <div key={field}>
+            <label className="block font-medium mb-1">{label}</label>
+            <input type="file" name={field} required onChange={handleFileChange} className="file-input file-input-bordered w-full" />
+          </div>
+        ))}
 
         <div className="mt-4">
-          <label className="inline-flex items-center">
-            <input type="checkbox" checked={confirm} onChange={e => setConfirm(e.target.checked)} className="mr-2" />
-            I confirm that my uploaded documents are valid.
+          <label className="flex items-center space-x-2 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={confirm}
+              onChange={(e) => setConfirm(e.target.checked)}
+              className="checkbox checkbox-primary"
+            />
+            <span className="text-sm">I confirm that my uploaded documents are valid and truthful.</span>
           </label>
         </div>
 
         <button
           type="submit"
-          className="w-full bg-blue-700 hover:bg-blue-800 text-white py-2 px-4 rounded mt-4"
+          className={`btn btn-primary w-full ${success ? 'btn-success' : ''}`}
         >
           Submit Documents
         </button>

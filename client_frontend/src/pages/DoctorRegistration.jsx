@@ -73,16 +73,16 @@ export default function DoctorRegistration() {
   return (
     <div className="max-w-3xl mx-auto mt-10 p-6">
       <div className="card bg-base-100 shadow-xl p-6">
-        <h2 className="text-2xl font-bold text-center text-primary mb-4">👨‍⚕️ Register as a Doctor</h2>
+        <h2 className="text-2xl font-bold text-center text-primary mb-4">👨‍⚕️ Doctor Registration</h2>
 
         {error && <div className="alert alert-error mb-4">{error}</div>}
         {success && <div className="alert alert-success mb-4">{success}</div>}
 
         <form onSubmit={handleSubmit} className="space-y-4">
-          <input name="name" placeholder="Full Name" required className="input input-bordered w-full" onChange={handleChange} />
+          <input name="name" value={formData.name} placeholder="Full Name" required className="input input-bordered w-full" onChange={handleChange} />
 
           <div className="flex gap-4">
-            <input name="dob" type="date" required className="input input-bordered w-1/2" onChange={handleChange} />
+            <input name="dob" type="date" value={formData.dob} required className="input input-bordered w-1/2" onChange={handleChange} />
             <input name="age" value={formData.age} readOnly placeholder="Age" className="input input-disabled w-1/2" />
           </div>
 
@@ -93,19 +93,19 @@ export default function DoctorRegistration() {
             <option>Other</option>
           </select>
 
-          <input name="specialty" placeholder="Specialty" required className="input input-bordered w-full" onChange={handleChange} />
-          <input name="qualification" placeholder="Qualification (e.g. MBBS, FWACS)" required className="input input-bordered w-full" onChange={handleChange} />
-          <textarea name="bio" rows="3" placeholder="Short Bio" className="textarea textarea-bordered w-full" onChange={handleChange}></textarea>
-          <input name="phone" placeholder="Phone Number" required className="input input-bordered w-full" onChange={handleChange} />
-          <input name="email" type="email" placeholder="Email" required className="input input-bordered w-full" onChange={handleChange} />
+          <input name="specialty" value={formData.specialty} placeholder="Specialty" required className="input input-bordered w-full" onChange={handleChange} />
+          <input name="qualification" value={formData.qualification} placeholder="Qualification (e.g. MBBS, FWACS)" required className="input input-bordered w-full" onChange={handleChange} />
+          <textarea name="bio" value={formData.bio} rows="3" placeholder="Short Bio" className="textarea textarea-bordered w-full" onChange={handleChange}></textarea>
+          <input name="phone" value={formData.phone} placeholder="Phone Number" required className="input input-bordered w-full" onChange={handleChange} />
+          <input name="email" value={formData.email} type="email" placeholder="Email" required className="input input-bordered w-full" onChange={handleChange} />
 
           <div className="flex gap-4">
-            <input name="password" type="password" placeholder="Password" required className="input input-bordered w-1/2" onChange={handleChange} />
-            <input name="confirmPassword" type="password" placeholder="Confirm Password" required className="input input-bordered w-1/2" onChange={handleChange} />
+            <input name="password" value={formData.password} type="password" placeholder="Password" required className="input input-bordered w-1/2" onChange={handleChange} />
+            <input name="confirmPassword" value={formData.confirmPassword} type="password" placeholder="Confirm Password" required className="input input-bordered w-1/2" onChange={handleChange} />
           </div>
 
-          <input name="address_line" placeholder="Residential Address" required className="input input-bordered w-full" onChange={handleChange} />
-          <input name="city" placeholder="City" required className="input input-bordered w-full" onChange={handleChange} />
+          <input name="address_line" value={formData.address_line} placeholder="Residential Address" required className="input input-bordered w-full" onChange={handleChange} />
+          <input name="city" value={formData.city} placeholder="City" required className="input input-bordered w-full" onChange={handleChange} />
 
           <select name="state" required value={formData.state} className="select select-bordered w-full" onChange={handleChange}>
             <option value="">Select State</option>

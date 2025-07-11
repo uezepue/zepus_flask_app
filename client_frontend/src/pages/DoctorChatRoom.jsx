@@ -11,7 +11,7 @@ export default function DoctorChatRoom() {
   const [currentPatient, setCurrentPatient] = useState(null);
   const chatEndRef = useRef(null);
 
-  const doctor = JSON.parse(localStorage.getItem('user')); // ✅ Use logged-in doctor data
+  const doctor = JSON.parse(localStorage.getItem('user'));
   const doctorId = doctor?.id || 1;
 
   const scrollToBottom = () => {
@@ -70,28 +70,36 @@ export default function DoctorChatRoom() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto mt-8 bg-white p-6 rounded shadow-lg">
+    <div className="max-w-4xl mx-auto mt-8 card bg-base-100 p-6 shadow-lg">
       <div className="flex justify-between items-center border-b pb-4 mb-4">
-        <h2 className="text-xl font-bold text-blue-700">🩺 ZEPUS Clinics – Doctor Chatroom</h2>
-        <Link to="/doctor/dashboard" className="text-sm text-blue-600 hover:underline">← Back to Dashboard</Link>
+        <h2 className="text-xl font-bold text-primary">🩺 ZEPUS Clinics – Doctor Chatroom</h2>
+        <Link to="/doctor/dashboard" className="text-sm link link-primary">← Back to Dashboard</Link>
       </div>
 
-      <div className="flex justify-between mb-4">
-        <button onClick={getNextPatient} className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+      <div className="flex justify-between items-center mb-4">
+        <button
+          onClick={getNextPatient}
+          className="btn btn-success"
+        >
           📣 See Next Patient
         </button>
-        <span className="text-gray-700">
+        <span className="text-sm text-gray-600 font-medium">
           {currentPatient ? `Chatting with Patient ${currentPatient}` : 'No patient in session'}
         </span>
       </div>
 
-      <div className="h-96 overflow-y-auto border p-4 rounded bg-gray-50" id="chat-box">
+      <div className="h-96 overflow-y-auto border rounded bg-gray-50 p-3" id="chat-box">
+        {messages.length === 0 && (
+          <p className="text-gray-400 text-center mt-20">No messages yet. Request the next patient to start chatting.</p>
+        )}
         {messages.map((msg, i) => (
-          <div key={i} className={`mb-2 ${msg.sender === 'Dr. You' ? 'text-right' : 'text-left'}`}>
-            <div className={`inline-block px-3 py-2 rounded-lg max-w-sm break-words ${
-              msg.sender === 'Dr. You' ? 'bg-blue-100 text-blue-900' :
-              msg.sender === 'Patient' ? 'bg-green-100 text-green-900' :
-              'bg-gray-300 text-gray-800'
+          <div key={i} className={`mb-2 flex ${msg.sender === 'Dr. You' ? 'justify-end' : 'justify-start'}`}>
+            <div className={`px-3 py-2 rounded-lg max-w-[80%] break-words text-sm ${
+              msg.sender === 'Dr. You'
+                ? 'bg-blue-100 text-blue-900'
+                : msg.sender === 'Patient'
+                ? 'bg-green-100 text-green-900'
+                : 'bg-gray-300 text-gray-700'
             }`}>
               <strong>{msg.sender}:</strong> {msg.text}
             </div>
@@ -100,28 +108,22 @@ export default function DoctorChatRoom() {
         <div ref={chatEndRef} />
       </div>
 
-      {error && <p className="text-red-600 mt-2 text-sm">{error}</p>}
+      {error && <p className="text-error text-sm mt-2">{error}</p>}
 
       <div className="flex mt-4 gap-2">
         <input
           type="text"
           value={input}
           onChange={e => setInput(e.target.value)}
-          placeholder="Type your message..."
           onKeyDown={e => e.key === 'Enter' && sendMessage()}
-          className="flex-grow p-2 border border-gray-300 rounded-md"
+          placeholder="Type your message..."
+          className="input input-bordered w-full"
         />
-        <button
-          onClick={sendMessage}
-          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
-        >
-          Send
-        </button>
+        <button onClick={sendMessage} className="btn btn-primary">Send</button>
       </div>
 
-      <div className="mt-6 text-sm text-gray-600">
-        📞 Upcoming Features: Audio & Video Call buttons here.
-        {/* Future: Add <button>Video</button> and <button>Audio</button> */}
+      <div className="mt-6 text-sm text-gray-500 border-t pt-4">
+        📞 Audio/Video Call features coming soon.
       </div>
     </div>
   );
