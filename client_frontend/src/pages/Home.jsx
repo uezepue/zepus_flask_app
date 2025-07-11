@@ -1,6 +1,5 @@
 import React, { useState, Suspense, lazy } from 'react';
 import { Link } from 'react-router-dom';
-import heroDoctor from '../assets/doctor.png';
 import { FaHeartbeat, FaRobot, FaMapMarkerAlt } from 'react-icons/fa';
 
 // Lazy-loaded sections
@@ -27,8 +26,6 @@ export default function Home() {
           <div className="text-2xl font-bold text-blue-900">
             ZEPUS <span className="text-gray-700">CLINICS</span>
           </div>
-
-          {/* Desktop Links */}
           <div className="hidden md:flex space-x-6 text-sm md:text-base">
             <Link to="/" className="hover:text-blue-600">Home</Link>
             <Link to="/services" className="hover:text-blue-600">Services</Link>
@@ -39,26 +36,15 @@ export default function Home() {
               </button>
             </Link>
           </div>
-
-          {/* Mobile Toggle */}
-          <button
-            className="md:hidden text-2xl focus:outline-none"
-            onClick={() => setMobileOpen(!mobileOpen)}
-          >
-            ☰
-          </button>
+          <button className="md:hidden text-2xl" onClick={() => setMobileOpen(!mobileOpen)}>☰</button>
         </div>
-
-        {/* Mobile Menu */}
         {mobileOpen && (
           <div className="md:hidden px-6 pb-4 space-y-2 text-sm">
             <Link to="/" onClick={() => setMobileOpen(false)} className="block">Home</Link>
             <Link to="/services" onClick={() => setMobileOpen(false)} className="block">Services</Link>
             <Link to="/about" onClick={() => setMobileOpen(false)} className="block">About</Link>
             <Link to="/login" onClick={() => setMobileOpen(false)}>
-              <button className="bg-blue-600 text-white px-4 py-1.5 mt-2 rounded-full w-full">
-                Log in
-              </button>
+              <button className="bg-blue-600 text-white px-4 py-1.5 mt-2 rounded-full w-full">Log in</button>
             </Link>
           </div>
         )}
@@ -70,9 +56,7 @@ export default function Home() {
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900">
             Your Health, <br /> Our Priority
           </h1>
-          <p className="text-gray-600 text-lg">
-            Quality care for individuals and families.
-          </p>
+          <p className="text-gray-600 text-lg">Quality care for individuals and families.</p>
           <Link to="/get-started">
             <button className="bg-blue-600 text-white px-6 py-3 rounded-xl font-medium text-base hover:bg-blue-700">
               Get Started
@@ -108,7 +92,7 @@ export default function Home() {
         {/* Doctor Image */}
         <div className="w-full md:w-1/2 mb-10 md:mb-0 flex justify-center">
           <img
-            src={heroDoctor}
+            src="/doctor.png"
             alt="Smiling Doctor"
             className="w-80 h-auto object-cover rounded-2xl shadow-md"
           />
@@ -126,15 +110,13 @@ export default function Home() {
         <Footer />
       </Suspense>
 
-      {/* Floating Chat Button */}
+      {/* Floating Buttons */}
       <Link
         to="/triage-bot"
         className="fixed bottom-6 right-6 z-50 bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-700 text-sm md:text-base animate-pulse"
       >
         💬 Chat with Dr Zepus
       </Link>
-
-      {/* Back to Top Button */}
       <button
         onClick={scrollToTop}
         className="fixed bottom-6 left-6 z-50 bg-gray-200 text-gray-800 px-3 py-1.5 rounded-full shadow hover:bg-gray-300 text-xs"
