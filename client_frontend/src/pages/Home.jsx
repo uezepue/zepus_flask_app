@@ -47,6 +47,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="flex flex-col-reverse md:flex-row items-center justify-between px-4 py-12 md:py-20 max-w-7xl mx-auto">
+        {/* Text Content */}
         <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900 leading-tight">
             Your Health, <br /> Our Priority
@@ -85,16 +86,16 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Hero Image */}
-        <div className="w-full md:w-1/2 mb-10 md:mb-0 flex justify-center items-center">
+        {/* Hero Image with Gradient Overlay */}
+        <div className="relative w-full md:w-1/2 mb-10 md:mb-0 flex justify-center items-center">
           <img
             src={heroDoctor}
             alt="Smiling Doctor"
-            className="w-full max-w-md md:max-w-sm lg:max-w-md xl:max-w-lg h-auto object-contain rounded-2xl shadow-md"
-            style={{ maxHeight: '75vh' }} // ✅ prevents it from exceeding screen height
+            className="w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-contain rounded-2xl shadow-md"
+            style={{ maxHeight: '70vh' }}
           />
+          <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-white/80 via-white/50 to-transparent pointer-events-none" />
         </div>
-
       </section>
 
       {/* Footer */}
