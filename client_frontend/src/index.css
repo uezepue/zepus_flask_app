@@ -9,7 +9,7 @@
   }
 
   * {
-    @apply border-border outline-ring/50;
+    @apply border-gray-200 outline-blue-500/50;
   }
 
   h1, h2, h3 {
