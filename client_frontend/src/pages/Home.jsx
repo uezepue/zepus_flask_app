@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Mobile Dropdown Menu */}
+      {/* Mobile Dropdown */}
       {isMenuOpen && (
         <div className="md:hidden px-4 py-2 bg-white border-b space-y-2">
           <Link to="/" className="block" onClick={() => setIsMenuOpen(false)}>Home</Link>
@@ -45,10 +45,10 @@ export default function Home() {
         </div>
       )}
 
-      {/* Hero Section */}
-      <section className="flex flex-col-reverse md:flex-row items-center justify-between px-4 py-12 md:py-20 max-w-7xl mx-auto">
-        {/* Text Content */}
-        <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
+      {/* Hero Section (Grid Layout) */}
+      <section className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 px-4 py-12 md:py-20 max-w-7xl mx-auto">
+        {/* Text Block */}
+        <div className="space-y-6 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900 leading-tight">
             Your Health, <br /> Our Priority
           </h1>
@@ -61,6 +61,7 @@ export default function Home() {
             </button>
           </Link>
 
+          {/* Features */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
             <div className="flex items-start gap-3 bg-white shadow-md p-4 rounded-xl">
               <FaHeartbeat className="text-blue-600 text-xl mt-1" />
@@ -86,13 +87,12 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Hero Image with Gradient Overlay */}
-        <div className="relative w-full md:w-1/2 mb-10 md:mb-0 flex justify-center items-center">
+        {/* Image */}
+        <div className="flex justify-center items-center relative">
           <img
             src={heroDoctor}
             alt="Smiling Doctor"
-            className="w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-contain rounded-2xl shadow-md"
-            style={{ maxHeight: '70vh' }}
+            className="w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-contain rounded-2xl shadow-md max-h-[70vh]"
           />
           <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-white/80 via-white/50 to-transparent pointer-events-none" />
         </div>
