@@ -1,18 +1,13 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+
 import PublicLayout from './layouts/PublicLayout';
+import ProtectedRoute from './components/ProtectedRoute';
 
 import Home from './pages/Home';
 import Login from './pages/Login';
 import PatientRegistration from './pages/PatientRegistration';
 import DoctorRegistration from './pages/DoctorRegistration';
-import PatientDashboard from './pages/PatientDashboard';
-import DoctorDashboard from './pages/DoctorDashboard';
-import PatientChatRoom from './pages/PatientChatRoom';
-import DoctorChatRoom from './pages/DoctorChatRoom';
-import TriageBotRoom from './pages/TriageBotRoom';
-import VerifyDocuments from './pages/VerifyDocuments';
-import NotFound from './pages/NotFound';
 
 import Services from './pages/Services';
 import About from './pages/About';
@@ -21,19 +16,24 @@ import Terms from './pages/Terms';
 import Blog from './pages/Blog';
 import FAQs from './pages/FAQs';
 
-import ProtectedRoute from './components/ProtectedRoute';
+import PatientDashboard from './pages/PatientDashboard';
+import DoctorDashboard from './pages/DoctorDashboard';
+import PatientChatRoom from './pages/PatientChatRoom';
+import DoctorChatRoom from './pages/DoctorChatRoom';
+import TriageBotRoom from './pages/TriageBotRoom';
+import VerifyDocuments from './pages/VerifyDocuments';
+
+import NotFound from './pages/NotFound';
 
 export default function App() {
   return (
     <Routes>
-      {/* ✅ Public Standalone Pages */}
-      <Route path="/" element={<Home />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/register/patient" element={<PatientRegistration />} />
-      <Route path="/register/doctor" element={<DoctorRegistration />} />
-
-      {/* ✅ Public Pages with Shared Layout */}
+      {/* ✅ Public Pages using Shared Layout (TopNav + Footer) */}
       <Route element={<PublicLayout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register/patient" element={<PatientRegistration />} />
+        <Route path="/register/doctor" element={<DoctorRegistration />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/privacy" element={<Privacy />} />
@@ -94,7 +94,7 @@ export default function App() {
         }
       />
 
-      {/* ✅ Catch-All 404 */}
+      {/* ✅ Catch-All Not Found Page */}
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
