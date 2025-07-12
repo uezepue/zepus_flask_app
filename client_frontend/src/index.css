@@ -1,8 +1,9 @@
+@import "tw-animate-css";             /* ✅ Always place @import first */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* ✅ Base Layer for Tailwind/DaisyUI overrides */
+/* ✅ Base Layer for Tailwind + DaisyUI overrides */
 @layer base {
   html, body {
     @apply bg-base-100 text-base-content font-sans antialiased;
