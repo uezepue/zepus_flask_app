@@ -86,13 +86,15 @@ export default function Home() {
         </div>
 
         {/* Hero Image */}
-        <div className="w-full md:w-1/2 mb-10 md:mb-0 flex justify-center px-4">
+        <div className="w-full md:w-1/2 mb-10 md:mb-0 flex justify-center items-center">
           <img
             src={heroDoctor}
             alt="Smiling Doctor"
-            className="max-w-xs w-full h-auto object-contain rounded-2xl shadow-md"
+            className="w-full max-w-md md:max-w-sm lg:max-w-md xl:max-w-lg h-auto object-contain rounded-2xl shadow-md"
+            style={{ maxHeight: '75vh' }} // ✅ prevents it from exceeding screen height
           />
         </div>
+
       </section>
 
       {/* Footer */}
