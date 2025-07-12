@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import PublicLayout from './layouts/PublicLayout';
 
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -20,7 +21,6 @@ import Terms from './pages/Terms';
 import Blog from './pages/Blog';
 import FAQs from './pages/FAQs';
 
-import PublicLayout from './layouts/PublicLayout';
 import ProtectedRoute from './components/ProtectedRoute';
 
 export default function App() {
