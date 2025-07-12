@@ -9,7 +9,7 @@ import PatientDashboard from './pages/PatientDashboard';
 import DoctorDashboard from './pages/DoctorDashboard';
 import PatientChatRoom from './pages/PatientChatRoom';
 import DoctorChatRoom from './pages/DoctorChatRoom';
-import TriageBotRoom from './pages/TriageBotRoom'; // or TriageBotRoom if unchanged
+import TriageBotRoom from './pages/TriageBotRoom';
 import VerifyDocuments from './pages/VerifyDocuments';
 import NotFound from './pages/NotFound';
 
@@ -26,13 +26,13 @@ import ProtectedRoute from './components/ProtectedRoute';
 export default function App() {
   return (
     <Routes>
-      {/* Public Standalone Pages */}
+      {/* ✅ Public Standalone Pages */}
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register/patient" element={<PatientRegistration />} />
       <Route path="/register/doctor" element={<DoctorRegistration />} />
 
-      {/* Public Pages Wrapped in PublicLayout */}
+      {/* ✅ Public Pages with Shared Layout */}
       <Route element={<PublicLayout />}>
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
@@ -42,7 +42,7 @@ export default function App() {
         <Route path="/faqs" element={<FAQs />} />
       </Route>
 
-      {/* Protected Patient Routes */}
+      {/* ✅ Protected Patient Routes */}
       <Route
         path="/patient/dashboard"
         element={
@@ -68,7 +68,7 @@ export default function App() {
         }
       />
 
-      {/* Protected Doctor Routes */}
+      {/* ✅ Protected Doctor Routes */}
       <Route
         path="/doctor/dashboard"
         element={
@@ -94,7 +94,7 @@ export default function App() {
         }
       />
 
-      {/* 404 Fallback */}
+      {/* ✅ Catch-All 404 */}
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

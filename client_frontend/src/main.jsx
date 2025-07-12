@@ -3,16 +3,19 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
-import './index.css';        // ✅ Tailwind, DaisyUI, and custom CSS
-import 'aos/dist/aos.css';  // ✅ AOS animation styles
+// ✅ TailwindCSS + DaisyUI custom styles
+import './index.css';
+
+// ✅ AOS animation styles
+import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 function Main() {
   useEffect(() => {
     AOS.init({
-      once: true,
-      duration: 800,
-      offset: 50,
+      once: true,      // Only animate once
+      duration: 800,   // Animation duration in ms
+      offset: 50,      // Trigger point offset
     });
   }, []);
 
@@ -23,6 +26,7 @@ function Main() {
   );
 }
 
+// ✅ Safe hydration entry point
 try {
   const root = ReactDOM.createRoot(document.getElementById('root'));
   root.render(<Main />);
